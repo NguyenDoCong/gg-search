@@ -1,12 +1,16 @@
 """googlesearch is a Python library for searching Google, easily."""
-from time import sleep
-from bs4 import BeautifulSoup
+# from time import sleep
+# from bs4 import BeautifulSoup
 from requests import get
 from urllib.parse import unquote # to decode the url
 from user_agents import get_useragent
+import pprint
 
 
-def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region):
+def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region, cookies= {
+            'CONSENT': 'PENDING+987', # Bypasses the consent page
+            'SOCS': 'CAESHAgBEhIaAB',
+        }):
     resp = get(
         url="https://www.google.com/search",
         headers={
@@ -24,10 +28,7 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region)
         proxies=proxies,
         timeout=timeout,
         verify=ssl_verify,
-        cookies = {
-            'CONSENT': 'PENDING+987', # Bypasses the consent page
-            'SOCS': 'CAESHAgBEhIaAB',
-        }
+        cookies = cookies
     )
     resp.raise_for_status()
     return resp
@@ -51,16 +52,27 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
 
     start = start_num
     fetched_results = 0  # Keep track of the total fetched results
-    fetched_links = set() # to keep track of links that are already seen previously
+    # fetched_links = set() # to keep track of links that are already seen previously
+    resp = _req(term, num_results - start, lang, start, proxies, timeout, safe, ssl_verify, region)
+    if resp.status_code == 200:
+        g_cookies = resp.cookies.get_dict()
 
     while fetched_results < num_results:
-
         try:
-            resp = _req(term, num_results - start, lang, start, proxies, timeout, safe, ssl_verify, region)
-            with open("google.html", "w", encoding="utf-8") as f:
-                f.write(resp.text)
+            resp = _req(term, num_results - start, lang, start, proxies, timeout, safe, ssl_verify, region, cookies = g_cookies)
+            if resp.status_code == 200:
+                g_cookies = resp.cookies.get_dict()
+            # with open("google.html", "w", encoding="utf-8") as f:
+            #     f.write(resp.text)
+            pprint.pp(resp.text)
             return resp
         except Exception as e:
             print(f"Lỗi khi gửi request: {e}")
+            return None
+        
+if __name__ == "__main__":
+    for i in range(1000):
+        print("--------------------------------------------------", i)
+        search("chứng khoán hôm nay")
  
         
