@@ -1,11 +1,11 @@
 {
   "fingerprint": {
     "device_name": "Desktop Firefox",
-    "locale": "vi_VN",
+    "locale": "vi-VN",
     "timezone_id": "Europe/London",
-    "color_scheme": "light",
+    "color_scheme": "dark",
     "reduced_motion": "no-preference",
     "forced_colors": "none"
   },
-  "google_domain": "https://www.google.ca"
+  "google_domain": "https://www.google.com.au"
 }

@@ -1,4 +1,4 @@
-from playwright.async_api import async_playwright, Browser
+from playwright.async_api import async_playwright, Browser # Changed to async_api
 from typing import Optional, List, Dict, Any
 import os
 import json
@@ -8,17 +8,19 @@ import random
 import re
 from search_types import SearchResponse, FingerprintConfig, CommandOptions, SearchResult, SavedState, HtmlResponse
 from config import DEVICE_CONFIGS, TIMEZONE_LIST, GOOGLE_DOMAINS
+from bs4 import BeautifulSoup # Import BeautifulSoup
 
 # logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+
 class GoogleSearcher:
     """
-    Class chính để thực hiện Google Search (Async version)
+    Class chính để thực hiện Google Search
     
     Usage:
         s = GoogleSearcher()
-        res = await s.search("python programming", limit=5, locale="vi-VN")
+        res = await s.search("python programming", limit=5, locale="vi-VN") # Usage with await
     """
     DEVICE_CONFIGS = DEVICE_CONFIGS
     GOOGLE_DOMAINS = GOOGLE_DOMAINS
@@ -28,6 +30,7 @@ class GoogleSearcher:
         self.default_options = default_options or CommandOptions()
         self._browser: Optional[Browser] = None
         self._playwright = None
+        self._playwright_context = None # To store the async context manager
     
     def get_host_machine_config(self, user_locale: Optional[str] = None) -> FingerprintConfig:
         """Tạo cấu hình fingerprint dựa trên máy host"""
@@ -105,7 +108,7 @@ class GoogleSearcher:
             try:
                 fingerprint_file = state_file.replace(".json", "-fingerprint.json")
                 os.makedirs(os.path.dirname(fingerprint_file), exist_ok=True)
-                await context.storage_state(path=state_file)
+                await context.storage_state(path=state_file) # await added
                 with open(fingerprint_file, "w", encoding="utf-8") as f:
                     json.dump({
                         "fingerprint": saved_state.fingerprint.to_dict(),
@@ -152,9 +155,9 @@ class GoogleSearcher:
         if storage_state:
             context_options["storage_state"] = storage_state
         
-        context = await browser.new_context(**context_options)
+        context = await browser.new_context(**context_options) # await added
         
-        await context.add_init_script("""
+        await context.add_init_script(""" # await added
             Object.defineProperty(navigator, 'webdriver', { get: () => false });
             Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
             Object.defineProperty(navigator, 'languages', { get: () => ['vi-VN', 'en-US', 'en'] });
@@ -169,7 +172,7 @@ class GoogleSearcher:
             }
         """)
         
-        await context.add_init_script("""
+        await context.add_init_script(""" # await added
             Object.defineProperty(window.screen, 'width', { get: () => 1920 });
             Object.defineProperty(window.screen, 'height', { get: () => 1080 });
             Object.defineProperty(window.screen, 'colorDepth', { get: () => 24 });
@@ -178,7 +181,7 @@ class GoogleSearcher:
         
         return context
     
-    async def find_search_input(self, page):
+    async def find_search_input(self, page): # async added
         """Tìm input search trên trang Google"""
         selectors = [
             "textarea[name='q']",
@@ -192,7 +195,7 @@ class GoogleSearcher:
         
         for selector in selectors:
             try:
-                search_input = await page.query_selector(selector)
+                search_input = await page.query_selector(selector) # await added
                 if search_input:
                     logger.info(f"Found search input with selector: {selector}")
                     return search_input
@@ -201,35 +204,33 @@ class GoogleSearcher:
         
         return None
     
-    async def perform_search_input(self, page, query: str, timeout: int):
+    async def perform_search_input(self, page, query: str, timeout: int): # async added
         """Thực hiện nhập search query"""
-        search_input = await self.find_search_input(page)
+        search_input = await self.find_search_input(page) # await added
         if not search_input:
             raise Exception("Search input not found")
         
-        await search_input.click()
-        await page.wait_for_timeout(self.get_random_delay(100, 300))
-        await search_input.fill("")
-        await page.keyboard.type(query, delay=self.get_random_delay(10, 30))
-        await page.wait_for_timeout(self.get_random_delay(100, 300))
-        await page.keyboard.press("Enter")
-        await page.wait_for_load_state("networkidle", timeout=timeout)
+        await search_input.click() # await added
+        await page.wait_for_timeout(self.get_random_delay(100, 300)) # await added
+        await search_input.fill("") # await added
+        await page.keyboard.type(query, delay=self.get_random_delay(10, 30)) # await added
+        await page.wait_for_timeout(self.get_random_delay(100, 300)) # await added
+        await page.keyboard.press("Enter") # await added
+        await page.wait_for_load_state("networkidle", timeout=timeout) # await added
     
-    async def wait_for_search_results(self, page, timeout: int):
+    async def wait_for_search_results(self, page, timeout: int): # async added
         """Chờ kết quả search xuất hiện"""
         selectors = [
             "#search",
             "#rso",
             ".g",
             "[data-sokoban-container]",
-            "div[role='main']",
-            "div[data-header-feature] div",          
-            "div[data-sokoban-container] .tF2Cxc" 
+            "div[role='main']"
         ]
         
         for selector in selectors:
             try:
-                await page.wait_for_selector(selector, timeout=timeout // 2)
+                await page.wait_for_selector(selector, timeout=timeout // 2) # await added
                 logger.info(f"Found search results with selector: {selector}")
                 return True
             except:
@@ -237,10 +238,10 @@ class GoogleSearcher:
         
         return False
     
-    async def extract_search_results(self, page, limit: int) -> List[Dict[str, str]]:
+    async def extract_search_results(self, page, limit: int) -> List[Dict[str, str]]: # async added
         """Trích xuất kết quả search từ trang"""
-        await page.wait_for_timeout(self.get_random_delay(200, 500))
-        results = await page.evaluate("""
+        await page.wait_for_timeout(self.get_random_delay(200, 500)) # await added
+        results = await page.evaluate(""" # await added
             (maxResults) => {
                 const results = [];
                 const seenUrls = new Set();
@@ -365,7 +366,7 @@ class GoogleSearcher:
         html = re.sub(r'<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>', '', html, flags=re.IGNORECASE)
         return html
     
-    async def save_html_and_screenshot(self, page, html: str, query: str, output_path: Optional[str] = None) -> tuple:
+    async def save_html_and_screenshot(self, page, html: str, query: str, output_path: Optional[str] = None) -> tuple: # async added
         """Lưu HTML và screenshot"""
         if not output_path:
             output_dir = "./google-search-html"
@@ -381,17 +382,18 @@ class GoogleSearcher:
         
         screenshot_path = output_path.replace(".html", ".png")
         try:
-            await page.screenshot(path=screenshot_path, full_page=True)
+            await page.screenshot(path=screenshot_path, full_page=True) # await added
         except Exception as e:
             logger.warning(f"Failed to save screenshot: {e}")
             screenshot_path = None
         
         return output_path, screenshot_path
     
-    async def init_browser(self, headless: bool = True, timeout: int = 60000, proxy: Optional[Dict[str, str]] = None):
+    async def init_browser(self, headless: bool = True, timeout: int = 60000, proxy: Optional[Dict[str, str]] = None): # async added
         """Khởi tạo browser"""
         if not self._playwright:
-            self._playwright = await async_playwright().start()
+            self._playwright = async_playwright()  # Store the context manager
+            self._playwright_context = await self._playwright.__aenter__()  # Store the Playwright object (await added)
         
         if not self._browser:
             args = [
@@ -431,16 +433,16 @@ class GoogleSearcher:
             if proxy:
                 launch_options["proxy"] = proxy
             
-            self._browser = await self._playwright.chromium.launch(**launch_options)
+            self._browser = await self._playwright_context.chromium.launch(**launch_options) # await added
             logger.info("Browser initialized successfully")
         
         return self._browser
     
-    async def close_browser(self):
+    async def close_browser(self): # async added
         """Đóng browser"""
         if self._browser:
             try:
-                await self._browser.close()
+                await self._browser.close() # await added
                 logger.info("Browser closed successfully")
             except Exception as e:
                 logger.error(f"Failed to close browser: {e}")
@@ -448,118 +450,225 @@ class GoogleSearcher:
         
         if self._playwright:
             try:
-                await self._playwright.stop()
+                await self._playwright.__aexit__(None, None, None)  # Call __aexit__ on the async context manager (await added)
                 logger.info("Playwright context closed successfully")
             except Exception as e:
                 logger.error(f"Failed to close Playwright context: {e}")
             self._playwright = None
+            self._playwright_context = None
     
-    async def perform_search(self, query: str, options: CommandOptions, headless: bool) -> str:
+    async def perform_search(self, query: str, options: CommandOptions, headless: bool) -> SearchResponse: # async added
         """Thực hiện search và trả về kết quả"""
         saved_state = self.load_saved_state(options.state_file)
-        browser = await self.init_browser(headless, options.timeout, options.proxy)
+        browser = await self.init_browser(headless, options.timeout, options.proxy) # await added
         
         try:
             storage_state = options.state_file if os.path.exists(options.state_file) else None
-            context = await self.setup_browser_context(browser, saved_state, storage_state, options.locale)
-            page = await context.new_page()
+            context = await self.setup_browser_context(browser, saved_state, storage_state, options.locale) # await added
+            page = await context.new_page() # await added
             
             try:
                 selected_domain = saved_state.google_domain or random.choice(self.GOOGLE_DOMAINS)
                 saved_state.google_domain = selected_domain
                 
                 logger.info(f"Navigating to {selected_domain}")
-                await page.goto(selected_domain, timeout=options.timeout, wait_until="networkidle")
-                logger.info(f"Current page URL after navigation: {page.url}")
-
+                await page.goto(selected_domain, timeout=options.timeout, wait_until="networkidle") # await added
+                
                 if self.check_captcha_or_sorry(page):
                     if headless:
                         logger.warning("Detected CAPTCHA, retrying in headed mode")
-                        await page.close()
-                        await context.close()
-                        return await self.perform_search(query, options, False)
+                        await page.close() # await added
+                        await context.close() # await added
+                        return await self.perform_search(query, options, False) # await added
                     else:
                         logger.warning("CAPTCHA detected, please complete verification")
-                        await page.wait_for_url(
+                        await page.wait_for_url( # await added
                             lambda url: not any(p in url.lower() for p in ["sorry", "recaptcha", "captcha"]),
                             timeout=options.timeout * 2
                         )
                 
                 logger.info(f"Searching for: {query}")
-                await self.perform_search_input(page, query, options.timeout)
+                await self.perform_search_input(page, query, options.timeout) # await added
                 
                 if self.check_captcha_or_sorry(page):
                     if headless:
                         logger.warning("Detected CAPTCHA after search, retrying in headed mode")
-                        await page.close()
-                        await context.close()
-                        return await self.perform_search(query, options, False)
+                        await page.close() # await added
+                        await context.close() # await added
+                        return await self.perform_search(query, options, False) # await added
                     else:
                         logger.warning("CAPTCHA detected after search, please complete verification")
-                        await page.wait_for_url(
+                        await page.wait_for_url( # await added
                             lambda url: not any(p in url.lower() for p in ["sorry", "recaptcha", "captcha"]),
                             timeout=options.timeout * 2
                         )
                 
-                if not await self.wait_for_search_results(page, options.timeout):
-                    html_debug = await page.content()
-                    with open("debug_google_page.html", "w", encoding="utf-8") as f:
-                        f.write(html_debug)
+                if not await self.wait_for_search_results(page, options.timeout): # await added
                     raise Exception("Search results not found")
                 
-                full_html = await page.content()
-              
-                results_data = await self.extract_search_results(page, options.limit)
+                results_data = await self.extract_search_results(page, options.limit) # await added
                 results = results_data
                 
                 if not options.no_save_state:
-                    await self.save_browser_state(context, options.state_file, saved_state)
-                await self.save_html_and_screenshot(page, full_html, query)
-
-                await page.close()
-                await context.close()
+                    await self.save_browser_state(context, options.state_file, saved_state) # await added
+                
+                await page.close() # await added
+                await context.close() # await added
                 
                 logger.info(f"Found {len(results)} results")
-                return full_html
-                # return SearchResponse(query=query, results=results)
+                return results # Returning raw list of dicts for simplicity or convert to SearchResult objects if needed
             
             except Exception as e:
                 logger.error(f"Search error: {e}")
-                await page.close()
-                await context.close()
-                return SearchResponse(query=query, results=[
+                await page.close() # await added
+                await context.close() # await added
+                return [
                     SearchResult(title="Search Failed", link="", snippet=f"Error: {str(e)}")
-                ])
+                ]
         
         except Exception as e:
             logger.error(f"Browser setup error: {e}")
-            return SearchResponse(query=query, results=[
+            return [
                 SearchResult(title="Search Failed", link="", snippet=f"Browser setup error: {str(e)}")
-            ])
+            ]
     
-    async def search(self, query: str, limit: int = 10, locale: str = "vi_VN") -> SearchResponse:
+    async def perform_get_html(self, query: str, options: CommandOptions, headless: bool) -> HtmlResponse: # async added
+        """Lấy HTML của trang search"""
+        saved_state = self.load_saved_state(options.state_file)
+        browser = await self.init_browser(headless, options.timeout, options.proxy) # await added
+        
+        try:
+            storage_state = options.state_file if os.path.exists(options.state_file) else None
+            context = await self.setup_browser_context(browser, saved_state, storage_state, options.locale) # await added
+            page = await context.new_page() # await added
+            
+            try:
+                selected_domain = saved_state.google_domain or random.choice(self.GOOGLE_DOMAINS)
+                saved_state.google_domain = selected_domain
+                
+                logger.info(f"Navigating to {selected_domain}")
+                await page.goto(selected_domain, timeout=options.timeout, wait_until="networkidle") # await added
+                
+                if self.check_captcha_or_sorry(page):
+                    if headless:
+                        logger.warning("Detected CAPTCHA, retrying in headed mode")
+                        await page.close() # await added
+                        await context.close() # await added
+                        return await self.perform_get_html(query, options, False) # await added
+                    else:
+                        logger.warning("CAPTCHA detected, please complete verification")
+                        await page.wait_for_url( # await added
+                            lambda url: not any(p in url.lower() for p in ["sorry", "recaptcha", "captcha"]),
+                            timeout=options.timeout * 2
+                        )
+                
+                logger.info(f"Searching for: {query}")
+                await self.perform_search_input(page, query, options.timeout) # await added
+                
+                if self.check_captcha_or_sorry(page):
+                    if headless:
+                        logger.warning("Detected CAPTCHA after search, retrying in headed mode")
+                        await page.close() # await added
+                        await context.close() # await added
+                        return await self.perform_get_html(query, options, False) # await added
+                    else:
+                        logger.warning("CAPTCHA detected after search, please complete verification")
+                        await page.wait_for_url( # await added
+                            lambda url: not any(p in url.lower() for p in ["sorry", "recaptcha", "captcha"]),
+                            timeout=options.timeout * 2
+                        )
+                
+                await page.wait_for_timeout(1000)  # Ensure page stability # await added
+                await page.wait_for_load_state("networkidle", timeout=options.timeout) # await added
+                
+                final_url = page.url
+                full_html = await page.content() # await added
+                html = self.clean_html_content(full_html)
+                
+                saved_file_path = None
+                screenshot_path = None
+                if options.save_html:
+                    saved_file_path, screenshot_path = await self.save_html_and_screenshot( # await added
+                        page, full_html, query, options.output_path
+                    )
+                
+                if not options.no_save_state:
+                    await self.save_browser_state(context, options.state_file, saved_state) # await added
+                
+                await page.close() # await added
+                await context.close() # await added
+
+                # return full_html
+                
+                return HtmlResponse(
+                    query=query,
+                    html=html,
+                    url=final_url,
+                    saved_path=saved_file_path,
+                    screenshot_path=screenshot_path,
+                    original_html_length=len(full_html)
+                )
+            
+            except Exception as e:
+                logger.error(f"HTML retrieval error: {e}")
+                await page.close() # await added
+                await context.close() # await added
+                raise Exception(f"Failed to get HTML: {str(e)}")
+        
+        except Exception as e:
+            logger.error(f"Browser setup error: {e}")
+            raise Exception(f"Failed to setup browser: {str(e)}")
+    
+    async def search(self, query: str, limit: int = 10, locale: str = "vi_VN") -> SearchResponse: # async added
         """Public method để search"""
         options = CommandOptions(limit=limit, locale=locale)
         try:
-            
-            return await self.perform_search(query, options, True)
-        except Exception as e:
-            print('Lỗi', e)
-            return None
+            return await self.perform_search(query, options, True) # await added
         finally:
-            await self.close_browser()
+            await self.close_browser() # await added
+    
+    async def get_html(self, query: str, save_to_file: bool = False, locale: str = "vi-VN", 
+                 output_path: Optional[str] = None) -> HtmlResponse: # async added
+        """Public method để lấy HTML"""
+        rand = random.randint(1,10)
+        if rand==1:
+            os.remove("browser_state.json")
+
+        options = CommandOptions(save_html=save_to_file, locale=locale, output_path=output_path)
+        try:
+            return await self.perform_get_html(query, options, True) # await added
+        finally:
+            await self.close_browser() # await added
+
+import asyncio # Import asyncio to run async functions
 
 if __name__ == "__main__":
-    import asyncio
-    
-    async def main():
+    async def main(): # Define an async main function
         s = GoogleSearcher()
         import pprint
-        result = await s.get_html("VN Index hôm nay",save_to_file=True)
-        # with open("search.html", "w", encoding="utf-8") as f:
-        #     f.write(result)
-        # pprint.pp(result)
-        print(type(result))
-        await s.close_browser()
-    
-    asyncio.run(main())
+
+        # Get HTML content
+        html_response = await s.get_html("VN Index hôm nay",save_to_file=True)
+        # print(type(html_response))
+
+        # pprint.pp(html_response)
+
+        if html_response.html:
+            soup = BeautifulSoup(html_response.html, "html.parser")
+            print("Successfully parsed HTML with BeautifulSoup. Title:")
+            print(soup.title.string if soup.title else "No title found")
+            print(type(html_response.html))
+            # You can now perform further parsing with Beautiful Soup
+            # For example, find all links:
+            # for a_tag in soup.find_all('a'):
+            #     print(a_tag.get('href'))
+        else:
+            print("Failed to retrieve HTML.")
+        
+        # Example of search
+        # search_results = await s.search("vnindex hôm nay", limit=5, locale="vi_VN")
+        # pprint.pprint(search_results)
+
+        await s.close_browser() # Ensure browser is closed even if not explicitly in `finally` blocks of `search` or `get_html`
+
+    asyncio.run(main()) # Run the async main function
