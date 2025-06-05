@@ -6,7 +6,6 @@ from urllib.parse import unquote # to decode the url
 from user_agents import get_useragent
 import pprint
 
-
 def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region, cookies= {
             'CONSENT': 'PENDING+987', # Bypasses the consent page
             'SOCS': 'CAESHAgBEhIaAB',
@@ -49,11 +48,19 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
 
     # Proxy setup
     proxies = {"https": proxy, "http": proxy} if proxy and (proxy.startswith("https") or proxy.startswith("http") or proxy.startswith("socks5")) else None
-
+    # proxies = {
+    # 'http': 'socks5h://127.0.0.1:9050',
+    # 'https': 'socks5h://127.0.0.1:9050'
+    # }
     start = start_num
     fetched_results = 0  # Keep track of the total fetched results
     # fetched_links = set() # to keep track of links that are already seen previously
-    resp = _req(term, num_results - start, lang, start, proxies, timeout, safe, ssl_verify, region)
+    try:
+        resp = _req(term, num_results - start, lang, start, proxies, timeout, safe, ssl_verify, region)
+    except Exception as e:
+        print(f"Lỗi khi gửi request: {e}")
+        return None
+
     if resp.status_code == 200:
         g_cookies = resp.cookies.get_dict()
 
@@ -62,8 +69,8 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
             resp = _req(term, num_results - start, lang, start, proxies, timeout, safe, ssl_verify, region, cookies = g_cookies)
             if resp.status_code == 200:
                 g_cookies = resp.cookies.get_dict()
-            # with open("google.html", "w", encoding="utf-8") as f:
-            #     f.write(resp.text)
+            with open("google.html", "w", encoding="utf-8") as f:
+                f.write(resp.text)
             pprint.pp(resp.text)
             return resp
         except Exception as e:
@@ -73,6 +80,5 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
 if __name__ == "__main__":
     for i in range(1000):
         print("--------------------------------------------------", i)
-        search("chứng khoán hôm nay")
- 
+        search("giá vàng hôm nay")
         
