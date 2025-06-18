@@ -630,7 +630,7 @@ class GoogleSearcher:
     async def get_html(self, query: str, save_to_file: bool = False, locale: str = "vi-VN", 
                  output_path: Optional[str] = None) -> HtmlResponse: # async added
         """Public method để lấy HTML"""
-        rand = random.randint(1,10)
+        rand = random.randint(1,5)
         if rand==1:
             os.remove("browser_state.json")
 

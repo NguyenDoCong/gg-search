@@ -66,8 +66,8 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
             resp = _req(term, num_results - start, lang, start, proxies, timeout, safe, ssl_verify, region, cookies = g_cookies)
             if resp.status_code == 200:
                 g_cookies = resp.cookies.get_dict()
-            # with open("google.html", "w", encoding="utf-8") as f:
-            #     f.write(resp.text)
+            with open("google.html", "w", encoding="utf-8") as f:
+                f.write(resp.text)
             # pprint.pp(resp.text)
             return resp
         except Exception as e:
@@ -75,7 +75,7 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
             return None
         
 if __name__ == "__main__":
-    for i in range(1000):
+    for i in range(2):
         print("--------------------------------------------------", i)
         search("giá vàng hôm nay")
         

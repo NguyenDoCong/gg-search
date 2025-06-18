@@ -3,9 +3,9 @@
     "device_name": "Desktop Firefox",
     "locale": "vi-VN",
     "timezone_id": "Europe/London",
-    "color_scheme": "dark",
+    "color_scheme": "light",
     "reduced_motion": "no-preference",
     "forced_colors": "none"
   },
-  "google_domain": "https://www.google.com.au"
+  "google_domain": "https://www.google.com"
 }
