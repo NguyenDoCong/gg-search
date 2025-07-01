@@ -36,6 +36,8 @@ class CommandOptions:
     save_html: bool = False
     output_path: Optional[str] = None
     proxy: Optional[Dict[str, str]] = None
+    force_new_fingerprint: bool = False # <-- THÊM DÒNG NÀY
+
 
 @dataclass
 class FingerprintConfig:

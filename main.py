@@ -129,7 +129,7 @@ async def process_result(result, method="requests"):
             return None, None
 
         # print("---------------------------")
-        print(link)
+        # print(link)
         
         title = result.find("h3", class_="LC20lb MBeuO DKV0Md")
 
@@ -139,23 +139,24 @@ async def process_result(result, method="requests"):
         else:
             title_text = "Không có tiêu đề"
 
-        print(title_text)
+        # print(title_text)
 
         summary = result.find("div", class_="VwiC3b yXK7lf p4wth r025kc hJNv6b Hdw6tb")
         summary_text = summary.get_text(strip=True) if summary else "Không có tóm tắt"
 
-        print(summary_text)        
+        # print(summary_text)        
 
-    content = await get_content(real_url)
+    # content = await get_content(real_url)
+    content = ""
 
-    return title_text + '\n' + real_url, summary_text + '\n' + content
+    return title_text
 
 @cached(ttl=86400)  # Cache kết quả trong 1 giờ (3600 giây)
 async def search_response(query, method="requests"):
     if method=='requests':
         resp = search(query,5)
         if not resp or not hasattr(resp, "text"):
-            return {"error": "Phản hồi từ hàm search không hợp lệ"}
+            return {"error": "Phản hồi từ hàm search không hợp lệ", "method": method}
         soup = BeautifulSoup(resp.text, "html.parser")
         result_block = soup.find_all("table", class_='VeHcBf')
         if len(result_block)<1:
@@ -164,16 +165,16 @@ async def search_response(query, method="requests"):
         method = "requests"
         
     else:
-        s = GoogleSearcher()
+        s = GoogleSearcher(use_proxy_fingerprint=True)
         resp = await s.get_html(query, save_to_file=True)
         if not resp or not hasattr(resp, "html"):
             return {"error": "Phản hồi từ hàm search không hợp lệ"}
         soup = BeautifulSoup(resp.html, "html.parser")
         result_block = soup.find_all("div", class_="N54PNb BToiNc")
-        method = "fingerprint"
 
-    if not result_block:
-        return {"error": "Không tìm thấy kết quả trong HTML"}
+        # if not result_block:
+        #     return {"error": "Không tìm thấy kết quả trong HTML"}
+    # method = "fingerprint"
 
     tasks = [process_result(result, method=method) for result in result_block[:3]]
     # print(tasks)
@@ -182,16 +183,18 @@ async def search_response(query, method="requests"):
     # print(results)
     # Kết hợp tiêu đề và nội dung
     valid_results = [
-        (title, content)
+        (title)
         for r in results
-        if not isinstance(r, Exception) and r and isinstance(r, tuple) and len(r) == 2
-        for title, content in [r]
-        if title and content
+        if not isinstance(r, Exception) and r and isinstance(r, tuple) and len(r) == 1
+        for title in [r]
+        if title
     ]
 
-    result = {title: content for title, content in valid_results if title and content}
+    result = {"title":title for title in valid_results if title}
+    
+    # result = {title: content for title, content in valid_results if title and content}
     # print(result)
-    return result
+    return results
  
 
 @app.get("/")
@@ -205,30 +208,30 @@ async def query_result(query: str = None):
     #     method="requests"
     # else:
     #     method="fingerprint"
-    print("Query:", query)
-    result = await search_response(query,"fingerprint")
+    # print("Query:", query)
+    result = await search_response(query, method="fingerprint")
     # return result
     return JSONResponse(status_code=200, content=result)
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    # uvicorn.run(app, host="0.0.0.0", port=8000)
 
-    # # Test
-    # async def main_test():
-    #     async with lifespan(app): # Khởi tạo lifespan context để mở browser và context
-    #         print("Running test search...")
-    #         test_query = "giá cổ phiếu SHB"
-    #         # test_query = "chứng khoán hôm nay"
-    #         # result = await search_response(test_query, method="requests") # Thử với method "requests"
-    #         result = await search_response(test_query, method="fingerprint") # Thử với method "fingerprint"
-    #         print("\nTest Result:", result)
+    # Test
+    async def main_test():
+        async with lifespan(app): # Khởi tạo lifespan context để mở browser và context
+            print("Running test search...")
+            test_query = "Giá vàng hôm nay"
+            # test_query = "chứng khoán hôm nay"
+            # result = await search_response(test_query, method="requests") # Thử với method "requests"
+            result = await search_response(test_query, method="fingerprint") # Thử với method "fingerprint"
+            print("\nTest Result:", result)
 
-    #         # for title, content in result.items():
-    #         #     print(f"Title: {title.splitlines()[0]}")
-    #         #     print(f"URL: {title.splitlines()[1]}")
-    #         #     print(f"Summary and Content: {content}\n")
-    #         # print("Test finished.")
+            # for title, content in result.items():
+            #     print(f"Title: {title.splitlines()[0]}")
+            #     print(f"URL: {title.splitlines()[1]}")
+            #     print(f"Summary and Content: {content}\n")
+            # print("Test finished.")
 
-    # asyncio.run(main_test())
+    asyncio.run(main_test())
 
 
