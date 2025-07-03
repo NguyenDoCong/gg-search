@@ -11,6 +11,7 @@ from config import DEVICE_CONFIGS, TIMEZONE_LIST, GOOGLE_DOMAINS
 from bs4 import BeautifulSoup # Import BeautifulSoup
 from utils import CustomFingerprintGenerator
 from proxy_fingerprint_manager import ProxyFingerprintManager
+from tor_proxy_manager import TorFingerprintManager
 
 # logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -31,7 +32,9 @@ class GoogleSearcher:
     def __init__(self, default_options: Optional[CommandOptions] = None, use_proxy_fingerprint: bool = False):
         
         self.use_proxy_fingerprint = use_proxy_fingerprint  
-        self.session_manager = ProxyFingerprintManager() if use_proxy_fingerprint else None   
+        # self.session_manager = ProxyFingerprintManager() if use_proxy_fingerprint else None   
+        self.session_manager = TorFingerprintManager() if use_proxy_fingerprint else None   
+
         self.current_session = None
                            
         self.default_options = default_options or CommandOptions()
@@ -88,20 +91,6 @@ class GoogleSearcher:
             forced_colors=forced_colors
         )
     
-    # def generate_fingerprint(self, user_locale: Optional[str] = None) -> FingerprintConfig:
-    #     """Tạo fingerprint ngẫu nhiên từ generator"""
-    #     fingerprint_data = self._fingerprint_generator.generate_fingerprint(device_type="desktop", locale=user_locale)
-    #     fingerprint = fingerprint_data["fingerprint"]
-        
-    #     return FingerprintConfig(
-    #         device_name=fingerprint["device_name"],
-    #         locale=fingerprint["locale"],
-    #         timezone_id=fingerprint["timezone_id"],
-    #         color_scheme=fingerprint["color_scheme"],
-    #         reduced_motion=fingerprint["reduced_motion"],
-    #         forced_colors=fingerprint["forced_colors"]
-    #     )
-
     def get_random_delay(self, min_ms: int, max_ms: int) -> int:
         """Tạo delay ngẫu nhiên"""
         return random.randint(min_ms, max_ms)
@@ -113,8 +102,6 @@ class GoogleSearcher:
         
         if os.path.exists(state_file):  # Check if file exists and is not empty
 
-            print(f"Loading browser state from {state_file}")
-            logger.info(f"Found browser state file: {state_file}")
             if os.path.exists(fingerprint_file):
                 try:
                     with open(fingerprint_file, "r", encoding="utf-8") as f:
@@ -124,6 +111,9 @@ class GoogleSearcher:
                 except Exception as e:
                     logger.warning(f"Failed to load fingerprint file: {e}")
                     print(f"Failed to load fingerprint file: {e}")
+                    
+        # missing else?
+        # state_file not loaded?
         
         return saved_state
     
@@ -133,7 +123,7 @@ class GoogleSearcher:
             try:
                 fingerprint_file = state_file.replace(".json", "-fingerprint.json")
                 os.makedirs(os.path.dirname(fingerprint_file), exist_ok=True)
-                await context.storage_state(path=state_file) # await added
+                await context.storage_state(path=state_file) # save state
                 with open(fingerprint_file, "w", encoding="utf-8") as f:
                     json.dump({
                         "fingerprint": saved_state.fingerprint.to_dict(),
@@ -144,32 +134,28 @@ class GoogleSearcher:
                 logger.error(f"Failed to save state: {e}")
     
     async def setup_browser_context(self, browser: Browser, saved_state: SavedState, 
-                         storage_state: Optional[str]): # <-- THÊM force_new_fingerprint
+                         storage_state: Optional[str]): 
         """Thiết lập browser context với fingerprinting"""
-        # from playwright.async_api import async_playwright
-        # self._playwright_context = await async_playwright().start()
-        device_name = saved_state.fingerprint.device_name if saved_state.fingerprint else "Desktop Chrome"
+        device_name = "Desktop Chrome"
+        # device_name = saved_state.fingerprint.device_name if saved_state.fingerprint else "Desktop Chrome"
         device_config = self.DEVICE_CONFIGS.get(device_name, self.DEVICE_CONFIGS["Desktop Chrome"])
         context_options = device_config.copy()
         
         if self.use_proxy_fingerprint:
-            # session = await ProxyFingerprintManager.get_current_session()
-            # self.current_session = session
-            # fingerprint = session["fingerprint"]
-            # Đã switch sang fingerprint mode
-            # if self.session_manager is None:
-            #     from proxy_fingerprint_manager import ProxyFingerprintManager
-            #     self.session_manager = ProxyFingerprintManager()
-            if not self.session_manager: # Kiểm tra để đảm bảo nó không None nếu có lỗi khởi tạo
-                 raise Exception("ProxyFingerprintManager not initialized when use_proxy_fingerprint is True.")
 
-            context, session = await self.session_manager.setup_browser_context(
-                self._playwright_context, headless=True
-            )
+            if not self.session_manager: # Kiểm tra để đảm bảo nó không None nếu có lỗi khởi tạo
+                raise Exception("TorFingerprintManager not initialized when use_proxy_fingerprint is True.")
+
+            try:
+                context, session = await self.session_manager.setup_browser_context(
+                    self._playwright_context, headless=True
+                )
+            except Exception as e:
+                print(f"Lỗi tạo context:", str(e))
             
+            # check proxy
             proxy = session["proxy"]
             print(f"[🔍 Using proxy IP {proxy['ip']}:{proxy['port']} ]")
-
             page = await context.new_page()
             await page.goto("https://api.ipify.org?format=json")
             ip_text = await page.evaluate("() => document.body.innerText")
@@ -187,10 +173,11 @@ class GoogleSearcher:
                     "forced_colors": fingerprint.forced_colors
                 })
             saved_state.fingerprint = fingerprint   
+            saved_state.google_domain = session['google_domain']
         
         else:            
             
-            if not saved_state.fingerprint: # <-- THAY ĐỔI DÒNG NÀY
+            if not saved_state.fingerprint: 
                 fingerprint = self.get_host_machine_config()
                 context_options.update({
                     "locale": fingerprint.locale,
@@ -220,9 +207,9 @@ class GoogleSearcher:
         if storage_state:
             context_options["storage_state"] = storage_state
         
-        context = await browser.new_context(**context_options) # await added
+        context = await browser.new_context(**context_options) 
         
-        await context.add_init_script(""" # await added
+        await context.add_init_script(""" 
             Object.defineProperty(navigator, 'webdriver', { get: () => false });
             Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
             Object.defineProperty(navigator, 'languages', { get: () => ['vi-VN', 'en-US', 'en'] });
@@ -255,7 +242,9 @@ class GoogleSearcher:
             "input[title='Search']",
             "textarea[aria-label='Search']",
             "input[aria-label='Search']",
-            "textarea"
+            "textarea",
+            "input[name='search']",
+            
         ]
         
         for selector in selectors:
@@ -263,8 +252,11 @@ class GoogleSearcher:
                 search_input = await page.query_selector(selector) # await added
                 if search_input:
                     logger.info(f"Found search input with selector: {selector}")
+                    print(f"Found search input with selector: {selector}")                    
                     return search_input
             except:
+                print("Search input not found")                
+                logger.info("Search input not found")
                 continue
         
         return None
@@ -273,7 +265,10 @@ class GoogleSearcher:
         """Thực hiện nhập search query"""
         search_input = await self.find_search_input(page) # await added
         if not search_input:
-            raise Exception("Search input not found")
+            # return?
+            # raise Exception("Search input not found")
+            print("Search input not found")
+            return False
         
         await search_input.click() # await added
         await page.wait_for_timeout(self.get_random_delay(100, 300)) # await added
@@ -282,6 +277,8 @@ class GoogleSearcher:
         await page.wait_for_timeout(self.get_random_delay(100, 300)) # await added
         await page.keyboard.press("Enter") # await added
         await page.wait_for_load_state("networkidle", timeout=timeout) # await added
+        
+        return True
     
     async def wait_for_search_results(self, page, timeout: int): # async added
         """Chờ kết quả search xuất hiện"""
@@ -455,7 +452,7 @@ class GoogleSearcher:
         
         return output_path, screenshot_path
     
-    async def init_browser(self, headless: bool = True, timeout: int = 60000, proxy: Optional[Dict[str, str]] = None): # async added
+    async def init_browser(self, headless: bool = True, timeout: int = 60000, proxy: Optional[Dict[str, str]] = None, saved_state: Optional[SavedState]=None): # async added
         """Khởi tạo browser"""
         if not self._playwright:
             self._playwright = async_playwright()  # Store the context manager
@@ -496,11 +493,23 @@ class GoogleSearcher:
                 "args": args,
                 "ignore_default_args": ["--enable-automation"]
             }
+            
+            # Xác định trình duyệt cần khởi chạy dựa trên device_name
+            # browser_to_launch = self._playwright_context.chromium # Mặc định là Chromium
+            
+            # if saved_state.fingerprint and "Firefox" in saved_state.fingerprint.device_name:
+            #     browser_to_launch = self._playwright_context.firefox
+            # elif saved_state.fingerprint and "Safari" in saved_state.fingerprint.device_name:
+            #     browser_to_launch = self._playwright_context.webkit
+            #ProxyFingerprintManager?
             if proxy:
                 launch_options["proxy"] = proxy
             
             self._browser = await self._playwright_context.chromium.launch(**launch_options) # await added
             logger.info("Browser initialized successfully")
+            # self._browser = await browser_to_launch.launch(**launch_options)
+            # logger.info(f"Browser ({browser_to_launch.name}) initialized successfully")
+
         
         return self._browser
     
@@ -552,7 +561,7 @@ class GoogleSearcher:
             ]
             
         saved_state = self.load_saved_state(options.state_file)
-        browser = await self.init_browser(headless, options.timeout, options.proxy) # await added
+        browser = await self.init_browser(headless, options.timeout, options.proxy, saved_state=saved_state) # await added
         
         try:
             storage_state = options.state_file if os.path.exists(options.state_file) else None
@@ -642,6 +651,7 @@ class GoogleSearcher:
             logger.error(f"Max retries ({max_retries}) reached for HTML retrieval query: {query}. Stopping.")
             raise Exception("Max retries reached due to persistent CAPTCHA or error.")
 
+        # error loading file?
         saved_state = self.load_saved_state(options.state_file)
         browser = await self.init_browser(headless, options.timeout, options.proxy) # await added
         
@@ -672,14 +682,16 @@ class GoogleSearcher:
                 selected_domain = saved_state.google_domain or random.choice(self.GOOGLE_DOMAINS)
                 saved_state.google_domain = selected_domain
                 
+                selected_domain = "https://search.luxirty.com/"
+                
                 logger.info(f"Navigating to {selected_domain}")
                 await page.goto(selected_domain, timeout=options.timeout, wait_until="networkidle") # await added
                 
                 if self.check_captcha_or_sorry(page):
                     if headless:
                         logger.warning("Detected CAPTCHA, retrying in headed mode")
-                        self._delete_state_file(options.state_file) # Xóa tệp trạng thái
-                        if current_retry >=1: 
+                        # self._delete_state_file(options.state_file) # Xóa tệp trạng thái
+                        if current_retry >=0: 
                             self.use_proxy_fingerprint = True                                                                                                  
                         await page.close() # await added
                         await context.close() # await added
@@ -692,7 +704,10 @@ class GoogleSearcher:
                     #     )
                 
                 logger.info(f"Searching for: {query}")
-                await self.perform_search_input(page, query, options.timeout) # await added
+                find_search = await self.perform_search_input(page, query, options.timeout) # await added
+                if not find_search:
+                    not_found_search = SearchResponse(query=query, results=[])
+                    return not_found_search
                 
                 if self.check_captcha_or_sorry(page):
                     if headless:
@@ -715,14 +730,14 @@ class GoogleSearcher:
                 
                 final_url = page.url
                 # Robustly get page content, retry if navigating
-                max_retries = 5
-                for attempt in range(max_retries):
+                max_get_content_retries = 5
+                for attempt in range(max_get_content_retries):
                     try:
                         full_html = await page.content() # await added
                         break
                     except Exception as e:
-                        if "navigating and changing the content" in str(e) and attempt < max_retries - 1:
-                            logger.warning(f"Page is navigating, retrying content fetch ({attempt+1}/{max_retries})")
+                        if "navigating and changing the content" in str(e) and attempt < max_get_content_retries - 1:
+                            logger.warning(f"Page is navigating, retrying content fetch ({attempt+1}/{max_get_content_retries})")
                             await page.wait_for_timeout(500)
                             continue
                         else:
@@ -758,11 +773,14 @@ class GoogleSearcher:
                 logger.error(f"HTML retrieval error: {e}")
                 await page.close() # await added
                 await context.close() # await added
-                raise Exception(f"Failed to get HTML: {str(e)}")
+                return SearchResponse(query=query, results=[])
+                # raise Exception(f"Failed to get HTML: {str(e)}")
         
         except Exception as e:
-            logger.error(f"Browser setup error: {e}")
-            raise Exception(f"Failed to setup browser: {str(e)}")
+            logger.error(f"Browser setup error: {str(e)}")
+            # print(f"Browser setup error: {str(e)}")            
+            return SearchResponse(query=query, results=[])
+            # raise Exception(f"Failed to setup browser: {str(e)}")
     
     async def search(self, query: str, limit: int = 10, locale: str = "vi_VN") -> SearchResponse: # async added
         """Public method để search"""
@@ -775,11 +793,11 @@ class GoogleSearcher:
     async def get_html(self, query: str, save_to_file: bool = False, locale: str = "vi-VN", 
                  output_path: Optional[str] = None) -> HtmlResponse: # async added
         """Public method để lấy HTML"""
-        # rand = random.randint(1,2)
-        # if rand==1:
-        #     os.remove("browser_state.json")
+        # import uuid # Để tạo ID duy nhất
+        # thread_id = uuid.uuid4()
+        # state_file_name = f"./browser_state_thread_{thread_id}.json" 
 
-        options = CommandOptions(save_html=save_to_file, locale=locale, output_path=output_path)
+        options = CommandOptions(save_html=save_to_file, locale=locale, output_path=output_path, no_save_state=True)
         try:
             resp = await self.perform_get_html(query, options, True) # await added
             # if not resp or not hasattr(resp, "html"):

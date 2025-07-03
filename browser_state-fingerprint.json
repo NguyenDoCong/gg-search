@@ -1,11 +1,11 @@
 {
   "fingerprint": {
-    "device_name": "Desktop Opera",
+    "device_name": "Mobile Samsung Browser",
     "locale": "en-US",
-    "timezone_id": "America/New_York",
-    "color_scheme": "light",
-    "reduced_motion": "no-preference",
+    "timezone_id": "America/Chicago",
+    "color_scheme": "dark",
+    "reduced_motion": "reduce",
     "forced_colors": "none"
   },
-  "google_domain": "https://www.google.co.uk"
+  "google_domain": "https://www.google.us"
 }

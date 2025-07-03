@@ -13,7 +13,7 @@ class ProxyFingerprintManager:
     def get_random_session(self):
 
         proxy = random.choice(PROXIES)
-        print("proxy in use:", proxy)
+        # print("proxy in use:", proxy)
         locale = proxy["locale"]
         timezone_id = proxy["timezone_id"]
 
@@ -73,7 +73,7 @@ if __name__ == "__main__":
     import json
     manager = ProxyFingerprintManager()
     session = manager.get_current_session()
-    pretty_json_string = json.dumps(session['fingerprint'], indent=4)
+    pretty_json_string = json.dumps(session, indent=4)
 
     print("Current Session:", pretty_json_string)
     
