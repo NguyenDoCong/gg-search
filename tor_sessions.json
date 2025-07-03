@@ -1,0 +1,352 @@
+[
+  {
+    "proxy": {
+      "ip": "185.220.101.149",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Berlin",
+      "country": "DE"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Mobile Firefox Mobile",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "dark",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.com",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "192.42.116.199",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Lelystad",
+      "country": "NL"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Tablet Firefox Tablet",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "reduce",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.com",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "171.25.193.77",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Stockholm",
+      "country": "SE"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Mobile Opera Mobile",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.us",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "54.36.108.162",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Frankfurt am Main",
+      "country": "DE"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Mobile Safari Mobile",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.com",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "204.8.96.151",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Dallas",
+      "country": "US"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Tablet Chrome Tablet",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "reduce",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.com",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "2.58.56.35",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Lelystad",
+      "country": "NL"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Tablet Safari Tablet",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.us",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "45.84.107.55",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Stockholm",
+      "country": "SE"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Mobile Safari Mobile",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.com",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "23.129.64.148",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "San Jose",
+      "country": "US"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Desktop Safari",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "dark",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.us",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "109.70.100.3",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Vienna",
+      "country": "AT"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Tablet Edge Tablet",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "dark",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.us",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "193.36.132.21",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Kerkrade",
+      "country": "NL"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Tablet Chrome Tablet",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.us",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "192.42.116.211",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Lelystad",
+      "country": "NL"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Tablet Safari Tablet",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.com.hk",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "109.70.100.66",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Vienna",
+      "country": "AT"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Tablet Edge Tablet",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.co.kr",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "185.220.101.109",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Berlin",
+      "country": "DE"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Desktop Edge",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "no-preference",
+      "forced_colors": "active"
+    },
+    "google_domain": "https://www.google.com",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "80.67.167.81",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Paris",
+      "country": "FR"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Mobile Opera Mobile",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.com",
+    "retry_count": 0
+  }
+]

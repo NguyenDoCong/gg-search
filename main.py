@@ -131,7 +131,8 @@ async def process_result(result, method="requests"):
         # print("---------------------------")
         # print(link)
         
-        title = result.find("h3", class_="LC20lb MBeuO DKV0Md")
+        # title = result.find("h3", class_="LC20lb MBeuO DKV0Md")
+        title = result.find("a", class_="gs-title")       
 
         if title:
             title_text = title.get_text(strip=True)
@@ -141,13 +142,13 @@ async def process_result(result, method="requests"):
 
         # print(title_text)
 
-        summary = result.find("div", class_="VwiC3b yXK7lf p4wth r025kc hJNv6b Hdw6tb")
-        summary_text = summary.get_text(strip=True) if summary else "Không có tóm tắt"
+        # summary = result.find("div", class_="VwiC3b yXK7lf p4wth r025kc hJNv6b Hdw6tb")
+        # summary_text = summary.get_text(strip=True) if summary else "Không có tóm tắt"
 
         # print(summary_text)        
 
     # content = await get_content(real_url)
-    content = ""
+    # content = ""
 
     return title_text
 
@@ -170,7 +171,8 @@ async def search_response(query, method="requests"):
         if not resp or not hasattr(resp, "html"):
             return {"error": "Phản hồi từ hàm search không hợp lệ"}
         soup = BeautifulSoup(resp.html, "html.parser")
-        result_block = soup.find_all("div", class_="N54PNb BToiNc")
+        # result_block = soup.find_all("div", class_="N54PNb BToiNc")
+        result_block = soup.find_all("div", class_="gsc-webResult gsc-result")        
 
         # if not result_block:
         #     return {"error": "Không tìm thấy kết quả trong HTML"}

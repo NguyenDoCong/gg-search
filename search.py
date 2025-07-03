@@ -246,13 +246,17 @@ class GoogleSearcher:
             "input[name='search']",
             
         ]
-        
+                
+        # await page.wait_for_load_state('load')  
+        # await page.wait_for_timeout(5000) # await added
+                      
         for selector in selectors:
             try:
+                # await page.wait_for_selector(selector)
                 search_input = await page.query_selector(selector) # await added
                 if search_input:
-                    logger.info(f"Found search input with selector: {selector}")
-                    print(f"Found search input with selector: {selector}")                    
+                    # logger.info(f"Found search input with selector: {selector}")
+                    # print(f"Found search input with selector: {selector}")                    
                     return search_input
             except:
                 print("Search input not found")                
@@ -270,13 +274,16 @@ class GoogleSearcher:
             print("Search input not found")
             return False
         
-        await search_input.click() # await added
-        await page.wait_for_timeout(self.get_random_delay(100, 300)) # await added
-        await search_input.fill("") # await added
-        await page.keyboard.type(query, delay=self.get_random_delay(10, 30)) # await added
-        await page.wait_for_timeout(self.get_random_delay(100, 300)) # await added
-        await page.keyboard.press("Enter") # await added
-        await page.wait_for_load_state("networkidle", timeout=timeout) # await added
+        try:
+            await search_input.click() # await added
+            await page.wait_for_timeout(self.get_random_delay(100, 300)) # await added
+            await search_input.fill("") # await added
+            await page.keyboard.type(query, delay=self.get_random_delay(10, 30)) # await added
+            await page.wait_for_timeout(self.get_random_delay(100, 300)) # await added
+            await page.keyboard.press("Enter") # await added
+            await page.wait_for_load_state("networkidle", timeout=timeout) # await added
+        except Exception as e:
+            print("Lỗi tìm kiếm:", e)
         
         return True
     
@@ -706,6 +713,7 @@ class GoogleSearcher:
                 logger.info(f"Searching for: {query}")
                 find_search = await self.perform_search_input(page, query, options.timeout) # await added
                 if not find_search:
+                    print('Error searching Luxirty')
                     not_found_search = SearchResponse(query=query, results=[])
                     return not_found_search
                 
@@ -771,6 +779,7 @@ class GoogleSearcher:
             
             except Exception as e:
                 logger.error(f"HTML retrieval error: {e}")
+                print(f"HTML retrieval error: {e}")                
                 await page.close() # await added
                 await context.close() # await added
                 return SearchResponse(query=query, results=[])
@@ -778,7 +787,7 @@ class GoogleSearcher:
         
         except Exception as e:
             logger.error(f"Browser setup error: {str(e)}")
-            # print(f"Browser setup error: {str(e)}")            
+            print(f"Browser setup error: {str(e)}")            
             return SearchResponse(query=query, results=[])
             # raise Exception(f"Failed to setup browser: {str(e)}")
     
@@ -799,7 +808,7 @@ class GoogleSearcher:
 
         options = CommandOptions(save_html=save_to_file, locale=locale, output_path=output_path, no_save_state=True)
         try:
-            resp = await self.perform_get_html(query, options, True) # await added
+            resp = await self.perform_get_html(query, options, headless=True) # await added
             # if not resp or not hasattr(resp, "html"):
             #     return {"error": "Phản hồi từ hàm search không hợp lệ"}
             # soup = BeautifulSoup(resp.html, "html.parser")
