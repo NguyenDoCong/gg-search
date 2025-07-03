@@ -140,21 +140,22 @@ def generate_meaningful_queries(num_queries=5000):
     
     return list(queries)
 
-all_meaningful_queries = generate_meaningful_queries(num_queries=5000)
+# all_meaningful_queries = generate_meaningful_queries(num_queries=5000)
 
-print(f"Đã tạo {len(all_meaningful_queries)} truy vấn ý nghĩa hơn.")
+# print(f"Đã tạo {len(all_meaningful_queries)} truy vấn ý nghĩa hơn.")
 
-# In thử một vài truy vấn đầu tiên
-for i, q in enumerate(all_meaningful_queries[:20]):
-    print(f"{i+1}. {q}")
+# # In thử một vài truy vấn đầu tiên
+# for i, q in enumerate(all_meaningful_queries[:20]):
+#     print(f"{i+1}. {q}")
 
-# Lưu ra file
-with open("meaningful_test_queries.txt", "w", encoding="utf-8") as f:
-    for query in all_meaningful_queries:
-        f.write(query + "\n")
+# # Lưu ra file
+# with open("meaningful_test_queries.txt", "w", encoding="utf-8") as f:
+#     for query in all_meaningful_queries:
+#         f.write(query + "\n")
 
-print("Đã lưu các truy vấn ý nghĩa hơn vào file 'meaningful_test_queries.txt'")
+# print("Đã lưu các truy vấn ý nghĩa hơn vào file 'meaningful_test_queries.txt'")
 
 if __name__ == "__main__":
-    query = generate_meaningful_queries(num_queries=1)
-    print("Generated query:", query)
+    from search_keywords import keywords
+    random_keyword = random.choice(keywords)
+    print(random_keyword)

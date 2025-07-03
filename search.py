@@ -151,7 +151,7 @@ class GoogleSearcher:
                     self._playwright_context, headless=True
                 )
             except Exception as e:
-                print(f"Lỗi tạo context:", str(e))
+                print(f"Lỗi tạo context:", e)
             
             # check proxy
             proxy = session["proxy"]

@@ -216,24 +216,24 @@ async def query_result(query: str = None):
     return JSONResponse(status_code=200, content=result)
 
 if __name__ == "__main__":
-    # uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
 
     # Test
-    async def main_test():
-        async with lifespan(app): # Khởi tạo lifespan context để mở browser và context
-            print("Running test search...")
-            test_query = "Giá vàng hôm nay"
-            # test_query = "chứng khoán hôm nay"
-            # result = await search_response(test_query, method="requests") # Thử với method "requests"
-            result = await search_response(test_query, method="fingerprint") # Thử với method "fingerprint"
-            print("\nTest Result:", result)
+    # async def main_test():
+    #     async with lifespan(app): # Khởi tạo lifespan context để mở browser và context
+    #         print("Running test search...")
+    #         test_query = "Giá vàng hôm nay"
+    #         # test_query = "chứng khoán hôm nay"
+    #         # result = await search_response(test_query, method="requests") # Thử với method "requests"
+    #         result = await search_response(test_query, method="fingerprint") # Thử với method "fingerprint"
+    #         print("\nTest Result:", result)
 
-            # for title, content in result.items():
-            #     print(f"Title: {title.splitlines()[0]}")
-            #     print(f"URL: {title.splitlines()[1]}")
-            #     print(f"Summary and Content: {content}\n")
-            # print("Test finished.")
+    #         # for title, content in result.items():
+    #         #     print(f"Title: {title.splitlines()[0]}")
+    #         #     print(f"URL: {title.splitlines()[1]}")
+    #         #     print(f"Summary and Content: {content}\n")
+    #         # print("Test finished.")
 
-    asyncio.run(main_test())
+    # asyncio.run(main_test())
 
 

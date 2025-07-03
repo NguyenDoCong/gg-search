@@ -128,7 +128,10 @@ class TorFingerprintManager:
         return self.get_new_session()
 
     async def setup_browser_context(self, playwright, headless=True):
-        session = self.get_new_session()
+        try:
+            session = self.get_new_session()
+        except Exception as e:
+            print("Lỗi tạo session mới", e)
         browser = await playwright.chromium.launch(
             headless=headless,
             proxy=session["proxy_playwright"]

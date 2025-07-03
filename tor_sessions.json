@@ -348,5 +348,80 @@
     },
     "google_domain": "https://www.google.com",
     "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "185.42.170.203",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Oslo",
+      "country": "NO"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Desktop Opera",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "dark",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.us",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "45.80.158.27",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Warsaw",
+      "country": "PL"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Desktop Safari",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.us",
+    "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "109.71.252.182",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Frankfurt am Main",
+      "country": "DE"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Tablet Chrome Tablet",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.us",
+    "retry_count": 0
   }
 ]
