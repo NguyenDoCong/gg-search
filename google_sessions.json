@@ -1,0 +1,27 @@
+[
+  {
+    "proxy": {
+      "ip": "192.42.116.173",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "Lelystad",
+      "country": "NL"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Tablet Safari Tablet",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "dark",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.us",
+    "retry_count": 0
+  }
+]

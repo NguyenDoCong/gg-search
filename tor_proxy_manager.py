@@ -2,28 +2,58 @@
 import requests
 import json
 from utils import CustomFingerprintGenerator
-from playwright.async_api import async_playwright
+# from playwright.async_api import async_playwright
 from stem.control import Controller
 from stem import Signal
-from logging import Logger
+import logging
+import asyncio
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("app.log", encoding="utf-8"),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 class TorFingerprintManager:
     def __init__(self, proxy_port=9050, control_port=9051, password=None):
         self.generator = CustomFingerprintGenerator()
         self.session_pool = []
+        self.context_pool = {}  # <--- Thêm pool context theo IP
+        self.browser_pool = {} 
         self.current_session = None
         self.proxy_port = proxy_port
         self.control_port = control_port
         self.password = password
 
-    def rotate_ip(self):
-        with Controller.from_port(port=self.control_port) as controller:
-            if self.password:
-                controller.authenticate(password=self.password)
-            else:
-                controller.authenticate(password="1")
-            controller.signal(Signal.NEWNYM)
-            print("✅ Tor IP rotated.")
+    def mark_ip_used(self, ip):
+        session = self.get_session_by_ip(ip)
+        if session:
+            session["used_count"] = session.get("used_count", 0) + 1
+            if session["used_count"] >= 20:  
+                self.rotate_ip()
+                
+    def rotate_ip(self, current_retry:int =0):
+        max_retries = 5
+        for attempt in range(max_retries + 1):
+            try:
+                with Controller.from_port(port=self.control_port) as controller:
+                    # logger.info("🔄 Đã kết nối tới Tor control port")
+
+                    controller.authenticate(password=self.password or "1")
+                    controller.signal(Signal.NEWNYM)
+
+                    logger.info("✅ Tor IP rotated.")
+                    return  # success
+            except Exception as e:
+                logger.warning(f"❌ Lỗi khi xoay IP (attempt {attempt + 1}/{max_retries}): {e}")
+                asyncio.sleep(2)  # Thêm delay
+                
+                if attempt == max_retries:
+                    logger.error("🚫 Max retries reached. Không thể xoay IP.", exc_info=True)
             
     def get_session_by_ip(self, ip):
         print(f"Checking IP {ip} in session pool")
@@ -40,11 +70,11 @@ class TorFingerprintManager:
             print("Failed to loop through session_pool", e)
         return None                
 
-    def get_new_session(self):
+    def get_new_session(self, domain, current_retry: int = 0):
         try: 
             self.rotate_ip()  # 🔄 Đổi IP mỗi lần tạo session mới
         except Exception as e:
-            print(f"Lỗi xoay ip:", str(e))
+            print("Lỗi xoay ip:", e)
 
         locale = "en-US"
         timezone_id = "Europe/London"
@@ -64,18 +94,20 @@ class TorFingerprintManager:
             print("[!] Failed to fetch Tor IP info:", e)
             tor_ip = {}
             
-        ip_address = tor_ip.get("ip", "unknown")
+        # ip_address = tor_ip.get("ip", "unknown")
         
-        self.load_session_pool()
+        # self.load_session_pool(domain=domain)
+        
+        # # logger.info(f"Số lượng session hiện có: {len(self.session_pool)}")
 
-        # Nếu IP đã tồn tại trong session_pool → dùng lại
-        existing = self.get_session_by_ip(ip_address)
-        if existing:
-            print("♻️ Reusing existing session for IP:", ip_address)
-            Logger.info("♻️ Reusing existing session for IP:", ip_address)
+        # # Nếu IP đã tồn tại trong session_pool → dùng lại
+        # existing = self.get_session_by_ip(ip_address)
+        # if existing:
+        #     print("♻️ Reusing existing session for IP:", str(ip_address))
+        #     logger.info(f"♻️ Reusing existing session for IP: {ip_address}")
             
-            self.current_session = existing
-            return existing
+        #     self.current_session = existing
+        #     return existing
 
         ip_info = {
             "ip": tor_ip.get("ip", "unknown"),
@@ -99,14 +131,24 @@ class TorFingerprintManager:
         }
         self.session_pool.append(session)
         self.current_session = session
-        self.save_session_pool()
+        self.save_session_pool(domain=domain)
         return session
     
-    def save_session_pool(self, path="tor_sessions.json"):
+    def save_session_pool(self, path="luxirty_sessions.json", domain="luxirty"):
+        if domain == "luxirty":
+            path="luxirty_sessions.json"
+        else:
+            path="google_sessions.json"  
+                      
         with open(path, "w", encoding="utf-8") as f:
             json.dump(self.session_pool, f, indent=2)
 
-    def load_session_pool(self, path="tor_sessions.json"):
+    def load_session_pool(self, path="luxirty_sessions.json", domain="luxirty"):
+        if domain == "luxirty":
+            path="luxirty_sessions.json"
+        else:
+            path="google_sessions.json" 
+            
         try:
             with open(path, "r", encoding="utf-8") as f:
                 self.session_pool = json.load(f)
@@ -116,9 +158,9 @@ class TorFingerprintManager:
             print("❌ Không thể load session_pool:", e)
 
 
-    def get_current_session(self):
+    def get_current_session(self, domain):
         if self.current_session is None:
-            return self.get_new_session()
+            return self.get_new_session(domain=domain)
         return self.current_session
 
     def rotate_session_if_needed(self, was_blocked=False, max_retries=3):
@@ -127,11 +169,22 @@ class TorFingerprintManager:
             return self.current_session
         return self.get_new_session()
 
-    async def setup_browser_context(self, playwright, headless=True):
+    async def setup_browser_context(self, playwright, headless=True, domain="luxirty"):
         try:
-            session = self.get_new_session()
+            session = self.get_new_session(domain=domain)
         except Exception as e:
             print("Lỗi tạo session mới", e)
+            return None, None
+
+        # ip = session["proxy"]["ip"]       
+        
+        # Nếu đã có browser/context cho IP này thì dùng lại
+        # if ip in self.context_pool and ip in self.browser_pool:
+        #     context = self.context_pool[ip]
+        #     browser = self.browser_pool[ip]
+        #     logger.info(f"♻️ Reusing browser/context for IP: {ip}")
+        #     return context, session
+        
         browser = await playwright.chromium.launch(
             headless=headless,
             proxy=session["proxy_playwright"]
@@ -145,6 +198,10 @@ class TorFingerprintManager:
             reduced_motion=fingerprint["reduced_motion"],
             forced_colors=fingerprint["forced_colors"]
         )
+        # self.context_pool[ip] = context
+        # self.browser_pool[ip] = browser
+        # logger.info(f"Khởi tạo browser/context mới cho IP: {ip}")
+       
         return context, session
 
 if __name__ == "__main__":

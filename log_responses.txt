@@ -1,0 +1,201 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: test.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 40 max VUs, 10m30s max duration (incl. graceful stop):
+              * default: 40 iterations shared among 40 VUs (maxDuration: 10m0s, gracefulStop: 30s)
+
+
+running (00m01.0s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 40 VUs  00m01.0s/10m0s  00/40 shared iters
+
+running (00m02.0s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 40 VUs  00m02.0s/10m0s  00/40 shared iters
+
+running (00m03.0s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 40 VUs  00m03.0s/10m0s  00/40 shared iters
+
+running (00m04.0s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 40 VUs  00m04.0s/10m0s  00/40 shared iters
+
+running (00m04.3s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 40 VUs  00m04.3s/10m0s  00/40 shared iters
+
+running (00m05.0s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 40 VUs  00m05.0s/10m0s  00/40 shared iters
+
+running (00m06.0s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 40 VUs  00m06.0s/10m0s  00/40 shared iters
+time="2025-07-07T06:23:08Z" level=info msg="🔍 Keyword: luciano darderi" source=console
+time="2025-07-07T06:23:08Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:08Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:08Z" level=info msg="🔍 Keyword: derby" source=console
+time="2025-07-07T06:23:08Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:08Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:08Z" level=info msg="🔍 Keyword: solar incentives" source=console
+time="2025-07-07T06:23:08Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:08Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: trinity rodman" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: fever vs aces" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: diane parry" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: alex de minaur" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: mookie betts" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: nikoloz basilashvili" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: college football 26 release date" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: brandon nimmo" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: flavio cobolli" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+
+running (00m07.0s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 40 VUs  00m07.0s/10m0s  00/40 shared iters
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: beach" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: de'anthony melton" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: समाजवादी पार्टी" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: emma navarro" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: myrtle beach news" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: ariana madix" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: larry charles" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: kazakhstan" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: angel one share price" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: angel one share price" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: jack pinnington jones" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: mirra andreeva" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: diego costa" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+
+running (00m07.3s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 40 VUs  00m07.3s/10m0s  00/40 shared iters
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: lytham festival 2025" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: lana del rey london" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+
+running (00m08.0s), 28/40 VUs, 12 complete and 0 interrupted iterations
+default   [  30% ] 40 VUs  00m08.0s/10m0s  12/40 shared iters
+time="2025-07-07T06:23:10Z" level=info msg="🔍 Keyword: waspi women compensation" source=console
+time="2025-07-07T06:23:10Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:10Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:10Z" level=info msg="🔍 Keyword: tuskahoma fireworks explosion" source=console
+time="2025-07-07T06:23:10Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:10Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:10Z" level=info msg="🔍 Keyword: betfair" source=console
+time="2025-07-07T06:23:10Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:10Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:10Z" level=info msg="🔍 Keyword: भोजपुरी गाना" source=console
+time="2025-07-07T06:23:10Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:10Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+
+running (00m09.0s), 13/40 VUs, 27 complete and 0 interrupted iterations
+default   [  68% ] 40 VUs  00m09.0s/10m0s  27/40 shared iters
+time="2025-07-07T06:23:08Z" level=info msg="🔍 Keyword: police academy" source=console
+time="2025-07-07T06:23:08Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:08Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:08Z" level=info msg="🔍 Keyword: no tax on tips" source=console
+time="2025-07-07T06:23:08Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:08Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: elina svitolina" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: ecs t10 bulgaria 2025" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: fan" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: mcenroe" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: ryan godbey" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: mirra andreeva" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+time="2025-07-07T06:23:09Z" level=info msg="🔍 Keyword: cruz azul" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-07T06:23:09Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+
+running (00m07.5s), 09/40 VUs, 31 complete and 0 interrupted iterations
+default   [  78% ] 40 VUs  00m10.0s/10m0s  31/40 shared iters
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......................: 40      4.804967/s
+    checks_succeeded...................: 100.00% 40 out of 40
+    checks_failed......................: 0.00%   0 out of 40
+
+    ✓ status is 200
+
+    HTTP
+    http_req_duration.......................................................: avg=6.72s min=5.63s med=6.19s max=8.8s   p(90)=8.29s p(95)=8.32s 
+      { expected_response:true }............................................: avg=6.72s min=5.63s med=6.19s max=8.8s   p(90)=8.29s p(95)=8.32s 
+    http_req_failed.........................................................: 0.00%  0 out of 40
+    http_reqs...............................................................: 40     4.804967/s
+
+    EXECUTION
+    iteration_duration......................................................: avg=8.73s min=7.71s med=8.19s max=10.81s p(90)=10.3s p(95)=10.32s
+    iterations..............................................................: 40     4.804967/s
+    vus.....................................................................: 9      min=9       max=40
+    vus_max.................................................................: 40     min=40      max=40
+
+    NETWORK
+    data_received...........................................................: 7.4 kB 884 B/s
+    data_sent...............................................................: 6.9 kB 826 B/s
+
+
+
+
+running (00m08.3s), 00/40 VUs, 40 complete and 0 interrupted iterations
+default ✓ [ 100% ] 40 VUs  00m10.8s/10m0s  40/40 shared iters

@@ -423,5 +423,30 @@
     },
     "google_domain": "https://www.google.us",
     "retry_count": 0
+  },
+  {
+    "proxy": {
+      "ip": "unknown",
+      "port": "9050",
+      "user": null,
+      "pass": null,
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "city": "unknown",
+      "country": "unknown"
+    },
+    "proxy_playwright": {
+      "server": "socks5://127.0.0.1:9050"
+    },
+    "fingerprint": {
+      "device_name": "Desktop Safari",
+      "locale": "en-US",
+      "timezone_id": "Europe/London",
+      "color_scheme": "light",
+      "reduced_motion": "no-preference",
+      "forced_colors": "none"
+    },
+    "google_domain": "https://www.google.us",
+    "retry_count": 0
   }
 ]
