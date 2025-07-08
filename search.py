@@ -493,7 +493,9 @@ class GoogleSearcher:
         """Khởi tạo browser"""
         if not self._playwright:
             self._playwright = async_playwright()  # Store the context manager
-            self._playwright_context = await self._playwright.__aenter__()  # Store the Playwright object (await added)
+            # self._playwright_context = await self._playwright.__aenter__()  # Store the Playwright object (await added)
+        if not self._playwright_context:
+            self._playwright_context = await async_playwright().start()
         
         if not self._browser:
             args = [
@@ -539,9 +541,10 @@ class GoogleSearcher:
             # elif saved_state.fingerprint and "Safari" in saved_state.fingerprint.device_name:
             #     browser_to_launch = self._playwright_context.webkit
             #ProxyFingerprintManager?
-            if proxy:
-                launch_options["proxy"] = proxy
-            elif self.current_session and "proxy_playwright" in self.current_session:
+            # if proxy:
+            #     launch_options["proxy"] = proxy
+            # elif self.current_session and "proxy_playwright" in self.current_session:
+            if self.current_session and "proxy_playwright" in self.current_session:
                 launch_options["proxy"] = self.current_session["proxy_playwright"]
                 logger.info(f"[🔌 Dùng proxy Tor từ session: {self.current_session['proxy_playwright']}]")
             
@@ -736,7 +739,9 @@ class GoogleSearcher:
 
         # error loading file?
         saved_state = self.load_saved_state(options.state_file)
-        browser = await self.init_browser(headless, options.timeout) # await added
+        
+        # refactor
+        browser = await self.init_browser(headless, options.timeout)
         
         # def is_valid_json_file(path):
         #     if not os.path.exists(path) or os.path.getsize(path) == 0:
@@ -766,6 +771,7 @@ class GoogleSearcher:
                 selected_domain = "https://search.luxirty.com/"
                 saved_state.google_domain = selected_domain
                 
+            # refactor
             context = await self.setup_browser_context(browser, saved_state, storage_state, domain)
             
             page = await context.new_page()
@@ -795,7 +801,7 @@ class GoogleSearcher:
                     # self._playwright = None                                                                                            
                     await page.close() # await added
                     await context.close() # await added
-                    await self.close_browser()
+                    # await self.close_browser()
                     return await self.perform_get_html(query, options, headless, current_retry + 1)
                     # else:
                     #     logger.warning("CAPTCHA detected, please complete verification")
@@ -823,7 +829,7 @@ class GoogleSearcher:
                     # self._playwright = None                                                                                       
                     await page.close() # await added
                     await context.close() # await added
-                    await self.close_browser()
+                    # await self.close_browser()
                     return await self.perform_get_html(query, options, headless, current_retry + 1)
                     # else:
                     #     logger.warning("CAPTCHA detected after search, please complete verification")
@@ -864,7 +870,7 @@ class GoogleSearcher:
                     await self.save_browser_state(context, options.state_file, saved_state) # await added
                 
                 await page.close() # await added
-                await context.close() # await added
+                # await context.close() # await added
 
                 # return full_html
                 # self.session_manager.mark_ip_used(ip)

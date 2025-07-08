@@ -5,39 +5,39 @@ from search import GoogleSearcher
 from urllib.parse import urlparse, parse_qs
 import re
 from fastapi import FastAPI, Request
-from contextlib import asynccontextmanager
+# from contextlib import asynccontextmanager
 import uvicorn
 from fastapi.responses import JSONResponse
-from playwright.async_api import async_playwright, Browser, BrowserContext
+# from playwright.async_api import async_playwright, Browser, BrowserContext
 import asyncio
 from aiocache import cached
 
 # Global variables for browser and context
-browser: Browser = None
-context: BrowserContext = None
+# browser: Browser = None
+# context: BrowserContext = None
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    global browser, context, playwright_instance
-    playwright_instance = await async_playwright().start()
-    browser = await playwright_instance.chromium.launch(headless=True, args=["--disable-extensions", "--disable-gpu", "--no-sandbox"])
-    context = await browser.new_context(
-        java_script_enabled=False,
-        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        viewport={"width": 800, "height": 600}
-    )
-    yield
-    # Cleanup in reverse order
-    if context:
-        await context.close()
-    if browser:
-        await browser.close()
-    if playwright_instance:
-        await playwright_instance.stop()
+# @asynccontextmanager
+# async def lifespan(app: FastAPI):
+#     global browser, context, playwright_instance
+#     playwright_instance = await async_playwright().start()
+#     browser = await playwright_instance.chromium.launch(headless=True, args=["--disable-extensions", "--disable-gpu", "--no-sandbox"])
+#     context = await browser.new_context(
+#         java_script_enabled=False,
+#         user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+#         viewport={"width": 800, "height": 600}
+#     )
+#     yield
+#     # Cleanup in reverse order
+#     if context:
+#         await context.close()
+#     if browser:
+#         await browser.close()
+#     if playwright_instance:
+#         await playwright_instance.stop()
 
-app = FastAPI(lifespan=lifespan)
+# app = FastAPI(lifespan=lifespan)
 
-# app = FastAPI()
+app = FastAPI()
 
 async def get_content(link):
     try:
@@ -156,8 +156,13 @@ async def process_result(result, method="requests", domain="luxirty"):
 
     return title_text, summary_text + content
 
+searcher_instance = None
+search_count = 0
+
 @cached(ttl=86400)  # Cache kết quả trong 1 giờ (3600 giây)
 async def search_response(query, method="requests", domain="luxirty"):
+    global searcher_instance, search_count
+
     if method=='requests':
         resp = search(query,5)
         if not resp or not hasattr(resp, "text"):
@@ -170,8 +175,21 @@ async def search_response(query, method="requests", domain="luxirty"):
         method = "requests"
         
     else:
-        s = GoogleSearcher(use_proxy_fingerprint=True)
-        resp = await s.get_html(query, save_to_file=True, domain=domain)
+        # print("domain:", domain)
+        # s = GoogleSearcher(use_proxy_fingerprint=True)
+        # resp = await s.get_html(query, save_to_file=True, domain=domain)
+        
+        # Nếu chưa có hoặc đã đủ 400 lần → khởi tạo lại
+        if searcher_instance is None or search_count >= 400:
+            print("🔁 Khởi tạo lại GoogleSearcher mới...")
+            searcher_instance = GoogleSearcher(use_proxy_fingerprint=True)
+            search_count = 0
+        else:
+            print(f"✅ Dùng lại GoogleSearcher hiện tại (#{search_count})")
+
+        resp = await searcher_instance.get_html(query, save_to_file=True, domain=domain)
+        search_count += 1
+        
         if not resp or not hasattr(resp, "html"):
             return {"error": "Phản hồi từ hàm search không hợp lệ"}
         soup = BeautifulSoup(resp.html, "html.parser")
@@ -234,7 +252,7 @@ if __name__ == "__main__":
 
     # Test
     # async def main_test():
-    #     async with lifespan(app): # Khởi tạo lifespan context để mở browser và context
+    #     # async with lifespan(app): # Khởi tạo lifespan context để mở browser và context
     #         print("Running test search...")
     #         test_query = "Messi"
     #         # test_query = "chứng khoán hôm nay"
@@ -242,11 +260,11 @@ if __name__ == "__main__":
     #         # result = await query_result(test_query) # Thử với method "fingerprint"
     #         print("\nTest Result:", result)
 
-    #         # for title, content in result.items():
-    #         #     print(f"Title: {title.splitlines()[0]}")
-    #         #     print(f"URL: {title.splitlines()[1]}")
-    #         #     print(f"Summary and Content: {content}\n")
-    #         # print("Test finished.")
+    # #         # for title, content in result.items():
+    # #         #     print(f"Title: {title.splitlines()[0]}")
+    # #         #     print(f"URL: {title.splitlines()[1]}")
+    # #         #     print(f"Summary and Content: {content}\n")
+    # #         # print("Test finished.")
 
     # asyncio.run(main_test())
 

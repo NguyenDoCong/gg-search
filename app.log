@@ -255,3 +255,282 @@
 2025-07-08 02:40:43,621 - INFO - Playwright context closed successfully
 2025-07-08 02:40:45,053 - INFO - Browser closed successfully
 2025-07-08 02:40:45,069 - INFO - Playwright context closed successfully
+2025-07-08 04:19:44,513 - INFO - Browser initialized successfully
+2025-07-08 04:19:44,514 - INFO - luxirty
+2025-07-08 04:19:44,542 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2025-07-08 04:19:44,546 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:19:44,546 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2025-07-08 04:19:45,843 - INFO - Browser initialized successfully
+2025-07-08 04:19:45,843 - INFO - google
+2025-07-08 04:19:45,844 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2025-07-08 04:19:45,845 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:19:45,845 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2025-07-08 04:19:47,188 - INFO - Browser initialized successfully
+2025-07-08 04:19:47,188 - INFO - luxirty
+2025-07-08 04:19:47,190 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2025-07-08 04:19:47,190 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:19:47,190 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-08 04:19:48,877 - INFO - Browser initialized successfully
+2025-07-08 04:19:48,877 - INFO - luxirty
+2025-07-08 04:19:48,878 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2025-07-08 04:19:48,878 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:19:48,878 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2025-07-08 04:19:50,277 - INFO - Browser initialized successfully
+2025-07-08 04:19:50,277 - INFO - luxirty
+2025-07-08 04:19:50,279 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2025-07-08 04:19:50,280 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,280 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,281 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,282 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,283 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,283 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,283 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,283 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,283 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,283 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,283 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,283 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,283 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,283 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,283 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,283 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,284 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,285 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:50,285 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-08 04:19:52,787 - INFO - [🌍 IP seen by website]: {
+  "origin": "14.232.210.3"
+}
+
+2025-07-08 04:19:52,787 - INFO - Navigating to https://search.luxirty.com/
+2025-07-08 04:19:52,788 - INFO - [🌍 IP seen by website]: {
+  "origin": "14.232.210.3"
+}
+
+2025-07-08 04:19:52,788 - INFO - Navigating to https://search.luxirty.com/
+2025-07-08 04:19:52,789 - INFO - [🌍 IP seen by website]: {
+  "origin": "14.232.210.3"
+}
+
+2025-07-08 04:19:52,789 - INFO - Navigating to https://search.luxirty.com/
+2025-07-08 04:19:52,832 - INFO - [🌍 IP seen by website]: {
+  "origin": "14.232.210.3"
+}
+
+2025-07-08 04:19:52,832 - INFO - Navigating to https://www.google.us
+2025-07-08 04:19:53,606 - INFO - [🌍 IP seen by website]: {
+  "origin": "14.232.210.3"
+}
+
+2025-07-08 04:19:53,606 - INFO - Navigating to https://search.luxirty.com/
+2025-07-08 04:19:55,709 - INFO - Searching for: bhad bhabie
+2025-07-08 04:19:55,713 - INFO - Searching for: jason bateman
+2025-07-08 04:19:55,777 - INFO - Searching for: is lowes open on july 4th
+2025-07-08 04:19:55,787 - INFO - Searching for: zarah sultana
+2025-07-08 04:19:56,542 - INFO - Searching for: ice budget
+2025-07-08 04:19:56,617 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:19:56,637 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:19:56,789 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:19:57,178 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:19:57,351 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:19:59,124 - INFO - Browser closed successfully
+2025-07-08 04:19:59,139 - INFO - Playwright context closed successfully
+2025-07-08 04:19:59,196 - INFO - Browser closed successfully
+2025-07-08 04:19:59,210 - INFO - Playwright context closed successfully
+2025-07-08 04:19:59,239 - INFO - Browser closed successfully
+2025-07-08 04:19:59,253 - INFO - Playwright context closed successfully
+2025-07-08 04:19:59,856 - INFO - Browser closed successfully
+2025-07-08 04:19:59,875 - INFO - Playwright context closed successfully
+2025-07-08 04:20:00,113 - INFO - Browser closed successfully
+2025-07-08 04:20:00,179 - INFO - Playwright context closed successfully
+2025-07-08 04:34:23,859 - ERROR - Failed to close Playwright context: 'PipeTransport' object has no attribute '_output'
+2025-07-08 04:34:23,865 - ERROR - Failed to close Playwright context: 'PipeTransport' object has no attribute '_output'
+2025-07-08 04:34:24,198 - INFO - Browser initialized successfully
+2025-07-08 04:34:24,198 - INFO - luxirty
+2025-07-08 04:34:24,210 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2025-07-08 04:34:24,214 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:34:24,214 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-08 04:34:25,684 - INFO - Browser initialized successfully
+2025-07-08 04:34:25,684 - INFO - luxirty
+2025-07-08 04:34:25,686 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2025-07-08 04:34:25,686 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:34:25,686 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-08 04:34:25,687 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:34:27,433 - INFO - Browser initialized successfully
+2025-07-08 04:34:27,434 - INFO - luxirty
+2025-07-08 04:34:27,435 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2025-07-08 04:34:27,436 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:34:27,436 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-08 04:34:30,116 - INFO - [🌍 IP seen by website]: {
+  "origin": "14.232.210.3"
+}
+
+2025-07-08 04:34:30,116 - INFO - Navigating to https://search.luxirty.com/
+2025-07-08 04:34:30,117 - INFO - [🌍 IP seen by website]: {
+  "origin": "14.232.210.3"
+}
+
+2025-07-08 04:34:30,117 - INFO - Navigating to https://search.luxirty.com/
+2025-07-08 04:34:30,139 - INFO - [🌍 IP seen by website]: {
+  "origin": "14.232.210.3"
+}
+
+2025-07-08 04:34:30,139 - INFO - Navigating to https://search.luxirty.com/
+2025-07-08 04:34:33,053 - INFO - Searching for: monfils
+2025-07-08 04:34:33,057 - INFO - Searching for: jason bateman
+2025-07-08 04:34:33,077 - INFO - Searching for: bryan braman
+2025-07-08 04:34:33,860 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:34:33,963 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:34:33,983 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:34:36,348 - ERROR - HTML retrieval error: Page.wait_for_timeout: Target page, context or browser has been closed
+2025-07-08 04:34:36,353 - ERROR - Browser setup error: BrowserContext.close: Target page, context or browser has been closed
+2025-07-08 04:34:36,354 - INFO - Browser closed successfully
+2025-07-08 04:34:36,370 - INFO - Browser closed successfully
+2025-07-08 04:34:36,370 - INFO - Playwright context closed successfully
+2025-07-08 04:34:36,381 - INFO - Playwright context closed successfully
+2025-07-08 04:34:36,381 - ERROR - HTML retrieval error: Page.wait_for_timeout: Target page, context or browser has been closed
+2025-07-08 04:34:36,384 - ERROR - Browser setup error: BrowserContext.close: Target page, context or browser has been closed
+2025-07-08 04:55:41,312 - ERROR - Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-07-08 04:55:50,401 - INFO - Browser initialized successfully
+2025-07-08 04:55:50,401 - INFO - luxirty
+2025-07-08 04:55:50,414 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2025-07-08 04:55:50,425 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:55:50,425 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2025-07-08 04:55:51,768 - INFO - Browser initialized successfully
+2025-07-08 04:55:51,768 - INFO - google
+2025-07-08 04:55:51,770 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2025-07-08 04:55:51,771 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:55:51,771 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-08 04:55:51,771 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:55:53,378 - INFO - Browser initialized successfully
+2025-07-08 04:55:53,378 - INFO - luxirty
+2025-07-08 04:55:53,379 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2025-07-08 04:55:53,379 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:55:53,380 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-08 04:55:53,380 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:55:53,380 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:55:53,380 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:55:53,380 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:55:53,380 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:55:53,380 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:55:53,380 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:55:53,380 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:55:53,380 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:55:53,380 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:55:53,380 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-08 04:55:54,962 - INFO - Browser initialized successfully
+2025-07-08 04:55:54,962 - INFO - luxirty
+2025-07-08 04:55:54,964 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2025-07-08 04:55:54,964 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:55:54,964 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-08 04:55:56,543 - INFO - luxirty
+2025-07-08 04:55:56,545 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2025-07-08 04:55:56,545 - INFO - ✅ Tor IP rotated.
+2025-07-08 04:55:56,545 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-08 04:55:59,226 - INFO - [🌍 IP seen by website]: {
+  "origin": "14.232.210.3"
+}
+
+2025-07-08 04:55:59,226 - INFO - Navigating to https://search.luxirty.com/
+2025-07-08 04:55:59,326 - INFO - [🌍 IP seen by website]: {
+  "origin": "14.232.210.3"
+}
+
+2025-07-08 04:55:59,326 - INFO - Navigating to https://search.luxirty.com/
+2025-07-08 04:55:59,600 - INFO - [🌍 IP seen by website]: {
+  "origin": "118.70.178.28"
+}
+
+2025-07-08 04:55:59,600 - INFO - Navigating to https://search.luxirty.com/
+2025-07-08 04:55:59,666 - INFO - [🌍 IP seen by website]: {
+  "origin": "14.232.210.3"
+}
+
+2025-07-08 04:55:59,666 - INFO - Navigating to https://www.google.us
+2025-07-08 04:55:59,686 - INFO - [🌍 IP seen by website]: {
+  "origin": "14.232.210.3"
+}
+
+2025-07-08 04:55:59,686 - INFO - Navigating to https://search.luxirty.com/
+2025-07-08 04:56:02,127 - INFO - Searching for: colson montgomery
+2025-07-08 04:56:02,132 - INFO - Searching for: frank williams
+2025-07-08 04:56:02,479 - INFO - Searching for: uma thurman
+2025-07-08 04:56:02,502 - INFO - Searching for: weather las vegas
+2025-07-08 04:56:02,701 - INFO - Searching for: rachel mcadams
+2025-07-08 04:56:03,122 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:56:03,187 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:56:03,256 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:56:03,615 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:56:03,630 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-08 04:56:05,715 - WARNING - Failed to save screenshot: Page.screenshot: Target page, context or browser has been closed
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+2025-07-08 04:56:05,719 - INFO - Browser closed successfully
+2025-07-08 04:56:05,719 - ERROR - Failed to close Playwright context: 'PlaywrightContextManager' object has no attribute '_connection'
+2025-07-08 04:56:05,733 - INFO - Browser closed successfully

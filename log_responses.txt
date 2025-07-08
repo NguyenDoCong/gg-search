@@ -19,11 +19,14 @@ default   [   0% ] 5 VUs  00m01.0s/10m0s  0/5 shared iters
 running (00m02.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m02.0s/10m0s  0/5 shared iters
 
+running (00m02.4s), 5/5 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 5 VUs  00m02.4s/10m0s  0/5 shared iters
+
 running (00m03.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m03.0s/10m0s  0/5 shared iters
 
-running (00m03.2s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m03.2s/10m0s  0/5 shared iters
+running (00m03.8s), 5/5 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 5 VUs  00m03.8s/10m0s  0/5 shared iters
 
 running (00m04.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m04.0s/10m0s  0/5 shared iters
@@ -57,30 +60,30 @@ default   [   0% ] 5 VUs  00m13.0s/10m0s  0/5 shared iters
 
 running (00m14.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m14.0s/10m0s  0/5 shared iters
-time="2025-07-08T02:40:42Z" level=info msg="🔍 Keyword: videos" source=console
-time="2025-07-08T02:40:42Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T02:40:42Z" level=info msg="📩 Body: {\"TảiVideoMiễn Phí Từ KhoVideoClip - Pixabay\":\"Tìm và tảivideomiễn phí từ khovideoclip chất lượng HD & 4K phù hợp với bất kỳ dự án nào, kể cả dùng trong thương mại.\",\"Khovideomiễn phí · PexelsVideos\":" source=console
 
 running (00m15.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m15.0s/10m0s  0/5 shared iters
-time="2025-07-08T02:40:42Z" level=info msg="🔍 Keyword: djokovic age" source=console
-time="2025-07-08T02:40:42Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T02:40:42Z" level=info msg="📩 Body: {\"NovakDjokovic- Wikipedia\":\"Djokovicbegan his professional career in 2003. In 2008, atage20, he disrupted Roger Federer and Rafael Nadal's streak of 11 consecutive majors by winning his\u00a0...\",\"With No" source=console
-time="2025-07-08T02:40:42Z" level=info msg="🔍 Keyword: keith urban" source=console
-time="2025-07-08T02:40:42Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T02:40:42Z" level=info msg="📩 Body: {\"Keith Urban- Wikipedia\":\"26 October 1967) is an Australian and American country singer, songwriter and guitarist. Recognised with four Grammy Awards.\",\"Keith Urban– Wikipedia tiếng Việt\":\"KeithLione" source=console
+time="2025-07-08T04:56:05Z" level=info msg="🔍 Keyword: uma thurman" source=console
+time="2025-07-08T04:56:05Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T04:56:05Z" level=info msg="📩 Body: {\"Uma Thurman- Wikipedia\":\"UmaKarunaThurman(born April 29, 1970) is an American actress. She has performed in a variety of films, from romantic comedies and dramas to science fiction\u00a0...\",\"Uma Thurman" source=console
+time="2025-07-08T04:56:05Z" level=info msg="🔍 Keyword: frank williams" source=console
+time="2025-07-08T04:56:05Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T04:56:05Z" level=info msg="📩 Body: {\"Frank Williams(Formula One) - Wikipedia\":\"Sir Francis Owen GarbettWilliamsCBE (16 April 1942 – 28 November 2021) was a British businessman, motorsport executive and racing driver. From 1977 to 2020\u00a0" source=console
+time="2025-07-08T04:56:05Z" level=info msg="🔍 Keyword: colson montgomery" source=console
+time="2025-07-08T04:56:05Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T04:56:05Z" level=info msg="📩 Body: {\"Colson MontgomeryMinor & Fall Leagues Statistics | Baseball ...\":\"Colson MontgomeryMinor & Fall Leagues Statistics including batting, fielding, prospect rankings and more on Baseball-Reference.com.\"" source=console
 
-running (00m16.0s), 4/5 VUs, 1 complete and 0 interrupted iterations
-default   [  20% ] 5 VUs  00m16.0s/10m0s  1/5 shared iters
-time="2025-07-08T02:40:43Z" level=info msg="🔍 Keyword: 4th of july movies" source=console
-time="2025-07-08T02:40:43Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T02:40:43Z" level=info msg="📩 Body: {\"50MoviesYou Can WatchJuly 4thWeekend | Rotten Tomatoes\":\"4 ngày trước...For America's 249th trip around the sun, we expanded the list to include raucous comedy Wet Hot American Summer, the joyous ch" source=console
+running (00m16.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 5 VUs  00m16.0s/10m0s  0/5 shared iters
+time="2025-07-08T04:56:06Z" level=info msg="🔍 Keyword: weather las vegas" source=console
+time="2025-07-08T04:56:06Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T04:56:06Z" level=info msg="📩 Body: {\"10-DayWeatherForecast forLas Vegas, NV - TheWeatherChannel ...\":\"Clear skies. Low around 80F. Winds W at 10 to 20 mph. undefined. Heads-up. Receding Floodwaters Reveal Extent Of Texas Damage. Humidi" source=console
 
 running (00m17.0s), 2/5 VUs, 3 complete and 0 interrupted iterations
 default   [  60% ] 5 VUs  00m17.0s/10m0s  3/5 shared iters
-time="2025-07-08T02:40:45Z" level=info msg="🔍 Keyword: venus williams" source=console
-time="2025-07-08T02:40:45Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T02:40:45Z" level=info msg="📩 Body: {\"Venus Williams\":\"Tin tức, hình ảnh, video clip Venus Williams: Bà mẹ một con Naomi Osaka lập kế hoạch giành trọn bộ Grand Slam; Gucci bỏ lại thành phố phía sau;\u00a0...\"}" source=console
+time="2025-07-08T04:56:07Z" level=info msg="🔍 Keyword: rachel mcadams" source=console
+time="2025-07-08T04:56:07Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T04:56:07Z" level=info msg="📩 Body: {\"Rachel Mcadams (@rachelmcadams)\":\"61K followers· 4.6K+ following · 23 posts · @rachelmcadams: “Fanpage”\",\"Rachel McAdams Fan Page (@rachelmcadams1)\":\"⭐️10 YEARS OF @rachelmcadams1! ⭐️ — Rachel doesn" source=console
 
 running (00m18.0s), 1/5 VUs, 4 complete and 0 interrupted iterations
 default   [  80% ] 5 VUs  00m18.0s/10m0s  4/5 shared iters
@@ -88,30 +91,30 @@ default   [  80% ] 5 VUs  00m18.0s/10m0s  4/5 shared iters
 
   █ TOTAL RESULTS 
 
-    checks_total.......................: 5       0.268814/s
+    checks_total.......................: 5       0.27374/s
     checks_succeeded...................: 100.00% 5 out of 5
     checks_failed......................: 0.00%   0 out of 5
 
     ✓ status is 200
 
     HTTP
-    http_req_duration.......................................................: avg=15.8s min=14.9s med=15.22s max=17.59s p(90)=17.01s p(95)=17.3s
-      { expected_response:true }............................................: avg=15.8s min=14.9s med=15.22s max=17.59s p(90)=17.01s p(95)=17.3s
+    http_req_duration.......................................................: avg=16.1s min=15.65s med=15.74s max=17.26s p(90)=16.84s p(95)=17.05s
+      { expected_response:true }............................................: avg=16.1s min=15.65s med=15.74s max=17.26s p(90)=16.84s p(95)=17.05s
     http_req_failed.........................................................: 0.00%  0 out of 5
-    http_reqs...............................................................: 5      0.268814/s
+    http_reqs...............................................................: 5      0.27374/s
 
     EXECUTION
-    iteration_duration......................................................: avg=16.8s min=15.9s med=16.22s max=18.6s  p(90)=18.01s p(95)=18.3s
-    iterations..............................................................: 5      0.268814/s
+    iteration_duration......................................................: avg=17.1s min=16.65s med=16.74s max=18.26s p(90)=17.84s p(95)=18.05s
+    iterations..............................................................: 5      0.27374/s
     vus.....................................................................: 1      min=1      max=5
     vus_max.................................................................: 5      min=5      max=5
 
     NETWORK
-    data_received...........................................................: 3.3 kB 177 B/s
-    data_sent...............................................................: 766 B  41 B/s
+    data_received...........................................................: 3.6 kB 197 B/s
+    data_sent...............................................................: 778 B  43 B/s
 
 
 
 
-running (00m18.6s), 0/5 VUs, 5 complete and 0 interrupted iterations
-default ✓ [ 100% ] 5 VUs  00m18.6s/10m0s  5/5 shared iters
+running (00m18.3s), 0/5 VUs, 5 complete and 0 interrupted iterations
+default ✓ [ 100% ] 5 VUs  00m18.3s/10m0s  5/5 shared iters
