@@ -772,6 +772,7 @@ class GoogleSearcher:
             await page.goto("https://httpbin.org/ip")
             ip_text = await page.evaluate("() => document.body.innerText")
             logger.info(f"[🌍 IP seen by website]: {ip_text}")
+            print(f"[🌍 IP seen by website]: {ip_text}")            
 
             # ip = await self.get_public_ip(page)
             

@@ -4,7 +4,7 @@ from __init__ import search
 from search import GoogleSearcher
 from urllib.parse import urlparse, parse_qs
 import re
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from contextlib import asynccontextmanager
 import uvicorn
 from fastapi.responses import JSONResponse
@@ -142,8 +142,11 @@ async def process_result(result, method="requests", domain="luxirty"):
             title_text = "Không có tiêu đề"
 
         # print(title_text)
-
-        summary = result.find("div", class_="VwiC3b yXK7lf p4wth r025kc hJNv6b Hdw6tb")
+        if domain=="google":
+            summary = result.find("div", class_="VwiC3b yXK7lf p4wth r025kc hJNv6b Hdw6tb")
+        else:
+            summary = result.find("div", class_="gs-bidi-start-align gs-snippet")
+            
         summary_text = summary.get_text(strip=True) if summary else "Không có tóm tắt"
 
         # print(summary_text)        
@@ -207,38 +210,44 @@ async def root():
     return {"message": "Hello World"}
 
 @app.post("/search")
-async def query_result(query: str = None):
+async def query_result(req: Request):
+    body = await req.json()
+    query = body.get("query")
+    print("📥 Query nhận được:", query)
+    
     rand = random.randint(1,2)
     if rand==1:
         domain="google"
     else:
         domain="luxirty"
         
-    domain="google"
+    # domain="luxirty"
+        
+    # domain="google"
     # print("Query:", query)
     result = await search_response(query, method="fingerprint", domain = domain)
     # return result
     return JSONResponse(status_code=200, content=result)
 
 if __name__ == "__main__":
-    # uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
 
     # Test
-    async def main_test():
-        async with lifespan(app): # Khởi tạo lifespan context để mở browser và context
-            print("Running test search...")
-            test_query = "Messi"
-            # test_query = "chứng khoán hôm nay"
-            result = await search_response(test_query, domain="google") # Thử với method "requests"
-            # result = await query_result(test_query) # Thử với method "fingerprint"
-            print("\nTest Result:", result)
+    # async def main_test():
+    #     async with lifespan(app): # Khởi tạo lifespan context để mở browser và context
+    #         print("Running test search...")
+    #         test_query = "Messi"
+    #         # test_query = "chứng khoán hôm nay"
+    #         result = await search_response(test_query, domain="google") # Thử với method "requests"
+    #         # result = await query_result(test_query) # Thử với method "fingerprint"
+    #         print("\nTest Result:", result)
 
-            # for title, content in result.items():
-            #     print(f"Title: {title.splitlines()[0]}")
-            #     print(f"URL: {title.splitlines()[1]}")
-            #     print(f"Summary and Content: {content}\n")
-            # print("Test finished.")
+    #         # for title, content in result.items():
+    #         #     print(f"Title: {title.splitlines()[0]}")
+    #         #     print(f"URL: {title.splitlines()[1]}")
+    #         #     print(f"Summary and Content: {content}\n")
+    #         # print("Test finished.")
 
-    asyncio.run(main_test())
+    # asyncio.run(main_test())
 
 

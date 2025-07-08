@@ -1,23 +1,23 @@
 [
   {
     "proxy": {
-      "ip": "192.42.116.173",
+      "ip": "185.107.57.64",
       "port": "9050",
       "user": null,
       "pass": null,
       "locale": "en-US",
       "timezone_id": "Europe/London",
-      "city": "Lelystad",
+      "city": "Roosendaal",
       "country": "NL"
     },
     "proxy_playwright": {
       "server": "socks5://127.0.0.1:9050"
     },
     "fingerprint": {
-      "device_name": "Tablet Safari Tablet",
+      "device_name": "Tablet Firefox Tablet",
       "locale": "en-US",
       "timezone_id": "Europe/London",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "reduced_motion": "no-preference",
       "forced_colors": "none"
     },

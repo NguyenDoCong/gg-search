@@ -1,23 +1,25 @@
 import subprocess
 import json
-from search_keywords import keywords
 import random
 
-random_keyword = random.choice(keywords)
-print(random_keyword)
+keywords = []
+with open("keywords.txt", "r", encoding="utf-8") as file:
+    keywords = [line.strip() for line in file if line.strip()]
 
 # ✅ Tham số truyền vào
 url = "http://127.0.0.1:8000/search"
-payload = {
-    "query": random_keyword
-}
-vus = 20
-iterations = 5000
+vus = 5
+iterations = 5
+
+# ✅ Chuyển danh sách từ khóa sang JS array
+js_keywords = json.dumps(keywords)
 
 # ✅ Tạo nội dung file test.js bằng f-string
 js_script = f"""
 import http from 'k6/http';
 import {{ check, sleep }} from 'k6';
+
+const keywords = {js_keywords};
 
 export let options = {{
   vus: {vus},
@@ -25,9 +27,11 @@ export let options = {{
 }};
 
 export default function () {{
+  
   const url = '{url}';
-  const payload = JSON.stringify({json.dumps(payload)});
-
+  const keyword = keywords[Math.floor(Math.random() * keywords.length)];
+  const payload = JSON.stringify({{ query: keyword }});
+  
   const params = {{
     headers: {{
       'Content-Type': 'application/json',
@@ -36,8 +40,12 @@ export default function () {{
 
   const res = http.post(url, payload, params);
 
-  console.log(`Status: ${{res.status}}, Body: ${{res.body.substring(0, 100)}}`);
-
+  // Luôn log lại keyword + status + response
+  const bodyText = res && res.body ? res.body.substring(0, 200) : 'No body returned';
+  console.log(`🔍 Keyword: ${{keyword}}`);
+  console.log(`📦 Status: ${{res.status}}`);
+  console.log(`📩 Body: ${{bodyText}}`);
+  
   check(res, {{
     'status is 200': (r) => r.status === 200,
   }});
@@ -47,15 +55,12 @@ export default function () {{
 """
 
 # Ghi file test.js
-with open('test.js', 'w') as f:
+with open("test.js", "w", encoding="utf-8") as f:
     f.write(js_script)
 
-# Chạy k6 và lưu stdout
-print("🔄 Đang chạy K6 POST test...")
-result = subprocess.run(['k6', 'run', 'test.js'], capture_output=True, text=True)
+# Chạy K6 và ghi log
+print("🔄 Running k6 with random keyword per iteration...")
+with open("log_responses.txt", "w") as log_file:
+    subprocess.run(["k6", "run", "test.js"], stdout=log_file, stderr=subprocess.STDOUT)
 
-# Ghi log ra file log.txt
-with open('log.txt', 'w') as log_file:
-    log_file.write(result.stdout)
-
-print("✅ Kết thúc test. Log đã ghi vào file: log.txt")
+print("✅ Kết thúc test. Log đã ghi vào log_responses.txt")
