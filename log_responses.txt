@@ -19,17 +19,14 @@ default   [   0% ] 5 VUs  00m01.0s/10m0s  0/5 shared iters
 running (00m02.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m02.0s/10m0s  0/5 shared iters
 
-running (00m02.4s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m02.4s/10m0s  0/5 shared iters
-
 running (00m03.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m03.0s/10m0s  0/5 shared iters
 
-running (00m03.8s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m03.8s/10m0s  0/5 shared iters
-
 running (00m04.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m04.0s/10m0s  0/5 shared iters
+
+running (00m04.1s), 5/5 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 5 VUs  00m04.1s/10m0s  0/5 shared iters
 
 running (00m05.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m05.0s/10m0s  0/5 shared iters
@@ -40,81 +37,66 @@ default   [   0% ] 5 VUs  00m06.0s/10m0s  0/5 shared iters
 running (00m07.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m07.0s/10m0s  0/5 shared iters
 
+running (00m07.3s), 5/5 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 5 VUs  00m07.3s/10m0s  0/5 shared iters
+
 running (00m08.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m08.0s/10m0s  0/5 shared iters
 
 running (00m09.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m09.0s/10m0s  0/5 shared iters
+time="2025-07-08T07:46:00Z" level=info msg="🔍 Keyword: oisin murphy" source=console
+time="2025-07-08T07:46:00Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T07:46:00Z" level=info msg="📩 Body: {\"Oisin Murphy- Wikipedia\":\"Oisin Murphy(born 6 September 1995) is an Irish jockey based in the United Kingdom who competes in flat racing. He has won two British Classics and a number of\u00a0...\",\"Oisin " source=console
+time="2025-07-08T07:46:00Z" level=info msg="🔍 Keyword: dimitrov" source=console
+time="2025-07-08T07:46:00Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T07:46:00Z" level=info msg="📩 Body: {\"GrigorDimitrov– Wikipedia tiếng Việt\":\"Dimitrovlà tay vợt nam thành công nhất trong lịch sử Bulgaria: Người đầu tiên có mặt trong top 10 trên bảng xếp hạng đánh đơn ATP; người đầu tiên có được số\u00a0.." source=console
 
 running (00m10.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
 default   [   0% ] 5 VUs  00m10.0s/10m0s  0/5 shared iters
 
-running (00m11.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m11.0s/10m0s  0/5 shared iters
+running (00m11.0s), 3/5 VUs, 2 complete and 0 interrupted iterations
+default   [  40% ] 5 VUs  00m11.0s/10m0s  2/5 shared iters
+time="2025-07-08T07:46:01Z" level=info msg="🔍 Keyword: samir shah" source=console
+time="2025-07-08T07:46:01Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T07:46:01Z" level=info msg="📩 Body: {\"Dr Samir Shah CBE\":\"Dr Samir Shah CBE isChief Executive and Creative Director of Juniper, an independent television and radio production company.\",\"Samir Shah\":\"28 thg 4, 2025—Samir Shah, who is to " source=console
+time="2025-07-08T07:46:02Z" level=info msg="🔍 Keyword: world cup" source=console
+time="2025-07-08T07:46:02Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T07:46:02Z" level=info msg="📩 Body: {\"Giải vô địch bóng đá thế giới\":\"Giải vô địch bóng đá thế giới, hay còn gọi là Cúp bóng đá thế giới, tên chính thức là FIFA World Cup, thường được gọi đơn giản là World Cup, là giải đấu\u00a0...\",\"Giải vô" source=console
+time="2025-07-08T07:46:02Z" level=info msg="🔍 Keyword: interstellar object" source=console
+time="2025-07-08T07:46:02Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T07:46:02Z" level=info msg="📩 Body: {\"Interstellar object\":\"4 giờ trước—An interstellar object isan astronomical object in interstellar spacethat is not gravitationally bound to a star.\",\"New interstellar object 3I/ATLAS — Everything we" source=console
 
-running (00m12.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m12.0s/10m0s  0/5 shared iters
-
-running (00m13.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m13.0s/10m0s  0/5 shared iters
-
-running (00m14.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m14.0s/10m0s  0/5 shared iters
-
-running (00m15.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m15.0s/10m0s  0/5 shared iters
-time="2025-07-08T04:56:05Z" level=info msg="🔍 Keyword: uma thurman" source=console
-time="2025-07-08T04:56:05Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T04:56:05Z" level=info msg="📩 Body: {\"Uma Thurman- Wikipedia\":\"UmaKarunaThurman(born April 29, 1970) is an American actress. She has performed in a variety of films, from romantic comedies and dramas to science fiction\u00a0...\",\"Uma Thurman" source=console
-time="2025-07-08T04:56:05Z" level=info msg="🔍 Keyword: frank williams" source=console
-time="2025-07-08T04:56:05Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T04:56:05Z" level=info msg="📩 Body: {\"Frank Williams(Formula One) - Wikipedia\":\"Sir Francis Owen GarbettWilliamsCBE (16 April 1942 – 28 November 2021) was a British businessman, motorsport executive and racing driver. From 1977 to 2020\u00a0" source=console
-time="2025-07-08T04:56:05Z" level=info msg="🔍 Keyword: colson montgomery" source=console
-time="2025-07-08T04:56:05Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T04:56:05Z" level=info msg="📩 Body: {\"Colson MontgomeryMinor & Fall Leagues Statistics | Baseball ...\":\"Colson MontgomeryMinor & Fall Leagues Statistics including batting, fielding, prospect rankings and more on Baseball-Reference.com.\"" source=console
-
-running (00m16.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m16.0s/10m0s  0/5 shared iters
-time="2025-07-08T04:56:06Z" level=info msg="🔍 Keyword: weather las vegas" source=console
-time="2025-07-08T04:56:06Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T04:56:06Z" level=info msg="📩 Body: {\"10-DayWeatherForecast forLas Vegas, NV - TheWeatherChannel ...\":\"Clear skies. Low around 80F. Winds W at 10 to 20 mph. undefined. Heads-up. Receding Floodwaters Reveal Extent Of Texas Damage. Humidi" source=console
-
-running (00m17.0s), 2/5 VUs, 3 complete and 0 interrupted iterations
-default   [  60% ] 5 VUs  00m17.0s/10m0s  3/5 shared iters
-time="2025-07-08T04:56:07Z" level=info msg="🔍 Keyword: rachel mcadams" source=console
-time="2025-07-08T04:56:07Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T04:56:07Z" level=info msg="📩 Body: {\"Rachel Mcadams (@rachelmcadams)\":\"61K followers· 4.6K+ following · 23 posts · @rachelmcadams: “Fanpage”\",\"Rachel McAdams Fan Page (@rachelmcadams1)\":\"⭐️10 YEARS OF @rachelmcadams1! ⭐️ — Rachel doesn" source=console
-
-running (00m18.0s), 1/5 VUs, 4 complete and 0 interrupted iterations
-default   [  80% ] 5 VUs  00m18.0s/10m0s  4/5 shared iters
+running (00m12.0s), 3/5 VUs, 2 complete and 0 interrupted iterations
+default   [  40% ] 5 VUs  00m12.0s/10m0s  2/5 shared iters
 
 
   █ TOTAL RESULTS 
 
-    checks_total.......................: 5       0.27374/s
+    checks_total.......................: 5       0.396875/s
     checks_succeeded...................: 100.00% 5 out of 5
     checks_failed......................: 0.00%   0 out of 5
 
     ✓ status is 200
 
     HTTP
-    http_req_duration.......................................................: avg=16.1s min=15.65s med=15.74s max=17.26s p(90)=16.84s p(95)=17.05s
-      { expected_response:true }............................................: avg=16.1s min=15.65s med=15.74s max=17.26s p(90)=16.84s p(95)=17.05s
+    http_req_duration.......................................................: avg=10.64s min=9.44s  med=11.2s max=11.59s p(90)=11.51s p(95)=11.55s
+      { expected_response:true }............................................: avg=10.64s min=9.44s  med=11.2s max=11.59s p(90)=11.51s p(95)=11.55s
     http_req_failed.........................................................: 0.00%  0 out of 5
-    http_reqs...............................................................: 5      0.27374/s
+    http_reqs...............................................................: 5      0.396875/s
 
     EXECUTION
-    iteration_duration......................................................: avg=17.1s min=16.65s med=16.74s max=18.26s p(90)=17.84s p(95)=18.05s
-    iterations..............................................................: 5      0.27374/s
-    vus.....................................................................: 1      min=1      max=5
+    iteration_duration......................................................: avg=11.64s min=10.45s med=12.2s max=12.59s p(90)=12.51s p(95)=12.55s
+    iterations..............................................................: 5      0.396875/s
+    vus.....................................................................: 3      min=3      max=5
     vus_max.................................................................: 5      min=5      max=5
 
     NETWORK
-    data_received...........................................................: 3.6 kB 197 B/s
-    data_sent...............................................................: 778 B  43 B/s
+    data_received...........................................................: 3.8 kB 299 B/s
+    data_sent...............................................................: 763 B  61 B/s
 
 
 
 
-running (00m18.3s), 0/5 VUs, 5 complete and 0 interrupted iterations
-default ✓ [ 100% ] 5 VUs  00m18.3s/10m0s  5/5 shared iters
+running (00m12.6s), 0/5 VUs, 5 complete and 0 interrupted iterations
+default ✓ [ 100% ] 5 VUs  00m12.6s/10m0s  5/5 shared iters

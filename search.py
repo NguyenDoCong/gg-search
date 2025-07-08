@@ -36,6 +36,9 @@ class GoogleSearcher:
     TIMEZONE_LIST = TIMEZONE_LIST
     
     def __init__(self, default_options: Optional[CommandOptions] = None, use_proxy_fingerprint: bool = False):
+        import asyncio
+
+        self._browser_lock = asyncio.Lock()
         
         self.use_proxy_fingerprint = use_proxy_fingerprint  
         # self.session_manager = ProxyFingerprintManager() if use_proxy_fingerprint else None   
@@ -47,6 +50,7 @@ class GoogleSearcher:
         self._browser: Optional[Browser] = None
         self._playwright = None
         self._playwright_context = None # To store the async context manager
+        self._request_count = 0  # Đếm số lần get_html
     
     def get_host_machine_config(self, user_locale: Optional[str] = None) -> FingerprintConfig:
         """Tạo cấu hình fingerprint dựa trên máy host"""
@@ -151,13 +155,15 @@ class GoogleSearcher:
 
             if not self.session_manager: # Kiểm tra để đảm bảo nó không None nếu có lỗi khởi tạo
                 # raise Exception("TorFingerprintManager not initialized when use_proxy_fingerprint is True.")
-                return context_options #tạm
+                logger.info("TorFingerprintManager not initialized when use_proxy_fingerprint is True.")
+                print("TorFingerprintManager not initialized when use_proxy_fingerprint is True.")
+                # return context_options #tạm
             try:
-                context, session = await self.session_manager.setup_browser_context(
+                session = await self.session_manager.setup_browser_context(
                     self._playwright_context, headless=True, domain = domain
                 )
             except Exception as e:
-                logger.info("Lỗi tạo context:", e)
+                logger.info("Lỗi lấy context từ Tor Manager:", e)
                 return context_options #tạm
             # check proxy
             # proxy = session["proxy"]
@@ -491,70 +497,68 @@ class GoogleSearcher:
     
     async def init_browser(self, headless: bool = True, timeout: int = 60000, proxy: Optional[Dict[str, str]] = None, saved_state: Optional[SavedState]=None): # async added
         """Khởi tạo browser"""
-        if not self._playwright:
-            self._playwright = async_playwright()  # Store the context manager
-            # self._playwright_context = await self._playwright.__aenter__()  # Store the Playwright object (await added)
-        if not self._playwright_context:
-            self._playwright_context = await async_playwright().start()
-        
-        if not self._browser:
-            args = [
-                "--disable-blink-features=AutomationControlled",
-                "--disable-features=IsolateOrigins,site-per-process",
-                "--disable-site-isolation-trials",
-                "--disable-web-security",
-                "--disable-dev-shm-usage",
-                "--disable-accelerated-2d-canvas",
-                "--no-first-run",
-                "--no-zygote",
-                "--disable-gpu",
-                "--hide-scrollbars",
-                "--mute-audio",
-                "--disable-background-networking",
-                "--disable-background-timer-throttling",
-                "--disable-backgrounding-occluded-windows",
-                "--disable-breakpad",
-                "--disable-component-extensions-with-background-pages",
-                "--disable-extensions",
-                "--disable-features=TranslateUI",
-                "--disable-ipc-flooding-protection",
-                "--disable-renderer-backgrounding",
-                "--enable-features=NetworkService,NetworkServiceInProcess",
-                "--force-color-profile=srgb",
-                "--metrics-recording-only"
-            ]
-            if os.name != "nt":  # Avoid --no-sandbox on Windows unless necessary
-                args.extend(["--no-sandbox", "--disable-setuid-sandbox"])
+        async with self._browser_lock:
             
-            launch_options = {
-                "headless": headless,
-                "timeout": timeout * 2,
-                "args": args,
-                "ignore_default_args": ["--enable-automation"]
-            }
-            
-            # Xác định trình duyệt cần khởi chạy dựa trên device_name
-            # browser_to_launch = self._playwright_context.chromium # Mặc định là Chromium
-            
-            # if saved_state.fingerprint and "Firefox" in saved_state.fingerprint.device_name:
-            #     browser_to_launch = self._playwright_context.firefox
-            # elif saved_state.fingerprint and "Safari" in saved_state.fingerprint.device_name:
-            #     browser_to_launch = self._playwright_context.webkit
-            #ProxyFingerprintManager?
-            # if proxy:
-            #     launch_options["proxy"] = proxy
-            # elif self.current_session and "proxy_playwright" in self.current_session:
-            if self.current_session and "proxy_playwright" in self.current_session:
-                launch_options["proxy"] = self.current_session["proxy_playwright"]
-                logger.info(f"[🔌 Dùng proxy Tor từ session: {self.current_session['proxy_playwright']}]")
-            
-            self._browser = await self._playwright_context.chromium.launch(**launch_options) # await added
-            logger.info("Browser initialized successfully")
-            # self._browser = await browser_to_launch.launch(**launch_options)
-            # logger.info(f"Browser ({browser_to_launch.name}) initialized successfully")
+            if self._request_count >= 400:
+                logger.info("🔄 Đã đạt 400 requests – khởi tạo lại browser.")
+                await self.close_browser()
+                self._request_count = 0
 
-        
-        return self._browser
+            if not self._playwright:
+                self._playwright = async_playwright()  # Store the context manager
+                # self._playwright_context = await self._playwright.__aenter__()  # Store the Playwright object (await added)
+            if not self._playwright_context:
+                self._playwright_context = await async_playwright().start()
+            
+            if not self._browser:
+                args = [
+                    "--disable-blink-features=AutomationControlled",
+                    "--disable-features=IsolateOrigins,site-per-process",
+                    "--disable-site-isolation-trials",
+                    "--disable-web-security",
+                    "--disable-dev-shm-usage",
+                    "--disable-accelerated-2d-canvas",
+                    "--no-first-run",
+                    "--no-zygote",
+                    "--disable-gpu",
+                    "--hide-scrollbars",
+                    "--mute-audio",
+                    "--disable-background-networking",
+                    "--disable-background-timer-throttling",
+                    "--disable-backgrounding-occluded-windows",
+                    "--disable-breakpad",
+                    "--disable-component-extensions-with-background-pages",
+                    "--disable-extensions",
+                    "--disable-features=TranslateUI",
+                    "--disable-ipc-flooding-protection",
+                    "--disable-renderer-backgrounding",
+                    "--enable-features=NetworkService,NetworkServiceInProcess",
+                    "--force-color-profile=srgb",
+                    "--metrics-recording-only"
+                ]
+                if os.name != "nt":  # Avoid --no-sandbox on Windows unless necessary
+                    args.extend(["--no-sandbox", "--disable-setuid-sandbox"])
+                
+                launch_options = {
+                    "headless": headless,
+                    "timeout": timeout * 2,
+                    "args": args,
+                    "ignore_default_args": ["--enable-automation"]
+                }
+                
+                #ProxyFingerprintManager?
+                # if proxy:
+                #     launch_options["proxy"] = proxy
+                # elif self.current_session and "proxy_playwright" in self.current_session:
+                
+                if self.current_session and "proxy_playwright" in self.current_session:
+                    launch_options["proxy"] = self.current_session["proxy_playwright"]
+                    logger.info(f"[🔌 Dùng proxy Tor từ session: {self.current_session['proxy_playwright']}]")
+                
+                self._browser = await self._playwright_context.chromium.launch(**launch_options) # await added
+                logger.info("Browser initialized successfully")
+            
+            return self._browser
     
     async def close_browser(self): # async added
         """Đóng browser"""
@@ -937,7 +941,9 @@ class GoogleSearcher:
 
             return resp
         finally:
-            await self.close_browser() # await added
+            self._request_count += 1
+            
+            # await self.close_browser() # await added
 
 
 if __name__ == "__main__":

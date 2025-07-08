@@ -171,10 +171,11 @@ class TorFingerprintManager:
 
     async def setup_browser_context(self, playwright, headless=True, domain="luxirty"):
         try:
-            session = self.get_new_session(domain=domain)
+            session = self.get_current_session(domain=domain)
         except Exception as e:
             print("Lỗi tạo session mới", e)
             return None, None
+        
 
         # ip = session["proxy"]["ip"]       
         
@@ -185,24 +186,24 @@ class TorFingerprintManager:
         #     logger.info(f"♻️ Reusing browser/context for IP: {ip}")
         #     return context, session
         
-        browser = await playwright.chromium.launch(
-            headless=headless,
-            proxy=session["proxy_playwright"]
-        )
+        # browser = await playwright.chromium.launch(
+        #     headless=headless,
+        #     proxy=session["proxy_playwright"]
+        # )
 
-        fingerprint = session["fingerprint"]
-        context = await browser.new_context(
-            locale=fingerprint["locale"],
-            timezone_id=fingerprint["timezone_id"],
-            color_scheme=fingerprint["color_scheme"],
-            reduced_motion=fingerprint["reduced_motion"],
-            forced_colors=fingerprint["forced_colors"]
-        )
+        # fingerprint = session["fingerprint"]
+        # context = await playwright.new_context(
+        #     locale=fingerprint["locale"],
+        #     timezone_id=fingerprint["timezone_id"],
+        #     color_scheme=fingerprint["color_scheme"],
+        #     reduced_motion=fingerprint["reduced_motion"],
+        #     forced_colors=fingerprint["forced_colors"]
+        # )
         # self.context_pool[ip] = context
         # self.browser_pool[ip] = browser
         # logger.info(f"Khởi tạo browser/context mới cho IP: {ip}")
        
-        return context, session
+        return session
 
 if __name__ == "__main__":
     manager = TorFingerprintManager()
