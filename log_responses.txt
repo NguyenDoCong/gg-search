@@ -9,94 +9,259 @@
         script: test.js
         output: -
 
-     scenarios: (100.00%) 1 scenario, 5 max VUs, 10m30s max duration (incl. graceful stop):
-              * default: 5 iterations shared among 5 VUs (maxDuration: 10m0s, gracefulStop: 30s)
+     scenarios: (100.00%) 1 scenario, 20 max VUs, 10m30s max duration (incl. graceful stop):
+              * default: 20 iterations shared among 20 VUs (maxDuration: 10m0s, gracefulStop: 30s)
 
 
-running (00m01.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m01.0s/10m0s  0/5 shared iters
+running (00m01.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m01.0s/10m0s  00/20 shared iters
 
-running (00m02.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m02.0s/10m0s  0/5 shared iters
+running (00m02.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m02.0s/10m0s  00/20 shared iters
 
-running (00m03.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m03.0s/10m0s  0/5 shared iters
+running (00m03.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m03.0s/10m0s  00/20 shared iters
 
-running (00m04.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m04.0s/10m0s  0/5 shared iters
+running (00m03.1s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m03.1s/10m0s  00/20 shared iters
 
-running (00m04.1s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m04.1s/10m0s  0/5 shared iters
+running (00m04.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m04.0s/10m0s  00/20 shared iters
 
-running (00m05.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m05.0s/10m0s  0/5 shared iters
+running (00m05.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m05.0s/10m0s  00/20 shared iters
 
-running (00m06.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m06.0s/10m0s  0/5 shared iters
+running (00m06.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m06.0s/10m0s  00/20 shared iters
 
-running (00m07.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m07.0s/10m0s  0/5 shared iters
+running (00m07.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m07.0s/10m0s  00/20 shared iters
 
-running (00m07.3s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m07.3s/10m0s  0/5 shared iters
+running (00m08.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m08.0s/10m0s  00/20 shared iters
 
-running (00m08.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m08.0s/10m0s  0/5 shared iters
+running (00m09.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m09.0s/10m0s  00/20 shared iters
 
-running (00m09.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m09.0s/10m0s  0/5 shared iters
-time="2025-07-08T07:46:00Z" level=info msg="🔍 Keyword: oisin murphy" source=console
-time="2025-07-08T07:46:00Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T07:46:00Z" level=info msg="📩 Body: {\"Oisin Murphy- Wikipedia\":\"Oisin Murphy(born 6 September 1995) is an Irish jockey based in the United Kingdom who competes in flat racing. He has won two British Classics and a number of\u00a0...\",\"Oisin " source=console
-time="2025-07-08T07:46:00Z" level=info msg="🔍 Keyword: dimitrov" source=console
-time="2025-07-08T07:46:00Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T07:46:00Z" level=info msg="📩 Body: {\"GrigorDimitrov– Wikipedia tiếng Việt\":\"Dimitrovlà tay vợt nam thành công nhất trong lịch sử Bulgaria: Người đầu tiên có mặt trong top 10 trên bảng xếp hạng đánh đơn ATP; người đầu tiên có được số\u00a0.." source=console
+running (00m10.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m10.0s/10m0s  00/20 shared iters
 
-running (00m10.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 5 VUs  00m10.0s/10m0s  0/5 shared iters
+running (00m11.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m11.0s/10m0s  00/20 shared iters
+time="2025-07-08T09:41:42Z" level=info msg="🔍 Keyword: north berwick" source=console
+time="2025-07-08T09:41:42Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:42Z" level=info msg="📩 Body: {\"North BerwickGolf Club: Visitor Home\":\"TheNorth BerwickGolf Club, atNorth Berwick, East Lothian, was founded in 1832. It is the 13th oldest golf club in the world and only St Andrews hosts a\u00a0...\",\"N" source=console
 
-running (00m11.0s), 3/5 VUs, 2 complete and 0 interrupted iterations
-default   [  40% ] 5 VUs  00m11.0s/10m0s  2/5 shared iters
-time="2025-07-08T07:46:01Z" level=info msg="🔍 Keyword: samir shah" source=console
-time="2025-07-08T07:46:01Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T07:46:01Z" level=info msg="📩 Body: {\"Dr Samir Shah CBE\":\"Dr Samir Shah CBE isChief Executive and Creative Director of Juniper, an independent television and radio production company.\",\"Samir Shah\":\"28 thg 4, 2025—Samir Shah, who is to " source=console
-time="2025-07-08T07:46:02Z" level=info msg="🔍 Keyword: world cup" source=console
-time="2025-07-08T07:46:02Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T07:46:02Z" level=info msg="📩 Body: {\"Giải vô địch bóng đá thế giới\":\"Giải vô địch bóng đá thế giới, hay còn gọi là Cúp bóng đá thế giới, tên chính thức là FIFA World Cup, thường được gọi đơn giản là World Cup, là giải đấu\u00a0...\",\"Giải vô" source=console
-time="2025-07-08T07:46:02Z" level=info msg="🔍 Keyword: interstellar object" source=console
-time="2025-07-08T07:46:02Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-08T07:46:02Z" level=info msg="📩 Body: {\"Interstellar object\":\"4 giờ trước—An interstellar object isan astronomical object in interstellar spacethat is not gravitationally bound to a star.\",\"New interstellar object 3I/ATLAS — Everything we" source=console
+running (00m12.0s), 20/20 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 20 VUs  00m12.0s/10m0s  00/20 shared iters
+time="2025-07-08T09:41:43Z" level=info msg="🔍 Keyword: jack quaid" source=console
+time="2025-07-08T09:41:43Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:43Z" level=info msg="📩 Body: {\"Jack Quaid- Wikipedia\":\"is an American actor. The son of actors Meg Ryan and DennisQuaid, he made his acting debut with a minor role in the dystopian film The Hunger Games (2012).\",\"Jack Quaid– Wiki" source=console
+time="2025-07-08T09:41:43Z" level=info msg="🔍 Keyword: myrtle beach weather" source=console
+time="2025-07-08T09:41:43Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:43Z" level=info msg="📩 Body: {\"10-DayWeatherForecast forMyrtle Beach, SC - TheWeather...\":\"10 DayWeather-Myrtle Beach, SC. As of 11:00 pm EDT. Tonight. --/78°. 5%. Mon 07 | Night. 78°. 5%. SSW 8 mph. Partly cloudy skies. Low 78F." source=console
+time="2025-07-08T09:41:43Z" level=info msg="🔍 Keyword: ssc cgl" source=console
+time="2025-07-08T09:41:43Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:43Z" level=info msg="📩 Body: {\"Home | Staff Selection Commission | GoI\":\"Important: Please visitSSC'snew portal at https://ssc.gov.in for application forms, notifications, results, and other important updates. Chairman's\u00a0...\",\"Co" source=console
 
-running (00m12.0s), 3/5 VUs, 2 complete and 0 interrupted iterations
-default   [  40% ] 5 VUs  00m12.0s/10m0s  2/5 shared iters
+running (00m13.0s), 19/20 VUs, 1 complete and 0 interrupted iterations
+default   [   5% ] 20 VUs  00m13.0s/10m0s  01/20 shared iters
+time="2025-07-08T09:41:44Z" level=info msg="🔍 Keyword: fourth of july fireworks near me" source=console
+time="2025-07-08T09:41:44Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:44Z" level=info msg="📩 Body: {\"Independence Day(United States) - Wikipedia\":\"Independence Day(United States) ; The day in 1776 that the Declaration of Independence was adopted by the Second Continental Congress in Philadelphia ·F" source=console
+time="2025-07-08T09:41:44Z" level=info msg="🔍 Keyword: india vs england, 2nd test scorecard" source=console
+time="2025-07-08T09:41:44Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:44Z" level=info msg="📩 Body: {\"INDvs ENGCricketScorecard,2nd Testat Visakhapatnam ...\":\"INDvs ENG·England: 100 runs in 22.1 overs (134 balls), Extras 5 · Z Crawley: 50 off 83 balls (7 x 4, 1 x 6) · Drinks:England- 132/3 in 28.2 o" source=console
+
+running (00m14.0s), 16/20 VUs, 4 complete and 0 interrupted iterations
+default   [  20% ] 20 VUs  00m14.0s/10m0s  04/20 shared iters
+
+running (00m15.0s), 14/20 VUs, 6 complete and 0 interrupted iterations
+default   [  30% ] 20 VUs  00m15.0s/10m0s  06/20 shared iters
+time="2025-07-08T09:41:45Z" level=info msg="🔍 Keyword: la" source=console
+time="2025-07-08T09:41:45Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:45Z" level=info msg="📩 Body: {\"la – Wiktionary tiếng Việt\":\"la.Phát ra tiếng to do hoảng sợ hay bực tức. Nghe tiếng la ở phía đầu chợ. Hơi tí là ông ta la tướng lên. (Địa phương ) Nói. Chị Hai chỉ la hôm nay chỉ\u00a0...\",\"Lã. Officia" source=console
+time="2025-07-08T09:41:46Z" level=info msg="🔍 Keyword: rugby league on tv" source=console
+time="2025-07-08T09:41:46Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:46Z" level=info msg="📩 Body: {\"Rugby League TV Listings: rugbyleagueontv.com | Super ...\":\"TV Listings for UK Televised Rugby League Matchesand Internet Commentary Links to Listen to Rugby League Games Online.\",\"Rugby League - Wa" source=console
+time="2025-07-08T09:41:46Z" level=info msg="🔍 Keyword: diego costa" source=console
+time="2025-07-08T09:41:46Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:46Z" level=info msg="📩 Body: {\"Tag \\\"Diego Costa\\\"\":\"TPO -Tiền đạo của Atletico Madrid, Diego Costađã phải trả giá rất đắt vì lớn tiếng thóa mạ trọng tài chính trong trận đấu với Barcelona vừa qua. HLV Diego\u00a0...\",\"Diego Costa - F" source=console
+
+running (00m16.0s), 14/20 VUs, 6 complete and 0 interrupted iterations
+default   [  30% ] 20 VUs  00m16.0s/10m0s  06/20 shared iters
+time="2025-07-08T09:41:46Z" level=info msg="🔍 Keyword: ryanair flights cancelled france" source=console
+time="2025-07-08T09:41:46Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:46Z" level=info msg="📩 Body: {\"Ryanair cancels flights for 30000 passengers due to ...\":\"5 ngày trước—Two French unions were staging the two-day strike over working conditions, leading to a quarter offlightsbeingcancelledat the m" source=console
+
+running (00m17.0s), 11/20 VUs, 9 complete and 0 interrupted iterations
+default   [  45% ] 20 VUs  00m17.0s/10m0s  09/20 shared iters
+
+running (00m18.0s), 10/20 VUs, 10 complete and 0 interrupted iterations
+default   [  50% ] 20 VUs  00m18.0s/10m0s  10/20 shared iters
+
+running (00m19.0s), 10/20 VUs, 10 complete and 0 interrupted iterations
+default   [  50% ] 20 VUs  00m19.0s/10m0s  10/20 shared iters
+time="2025-07-08T09:41:49Z" level=info msg="🔍 Keyword: amelia earhart" source=console
+time="2025-07-08T09:41:49Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:49Z" level=info msg="📩 Body: {\"error\":\"Không tìm thấy kết quả trong HTML\"}" source=console
+time="2025-07-08T09:41:50Z" level=info msg="🔍 Keyword: bbc news" source=console
+time="2025-07-08T09:41:50Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:50Z" level=info msg="📩 Body: {\"Breaking news, video and the latest top stories from the ...\":\"VisitBBC Newsfor the latest news, breaking news, video, audio and analysis. BBC News provides trusted World, U.S. and U.K. news as well" source=console
+time="2025-07-08T09:41:50Z" level=info msg="🔍 Keyword: idea" source=console
+time="2025-07-08T09:41:50Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:50Z" level=info msg="📩 Body: {\"IDEA | Định nghĩa trong Từ điển tiếng Anh Cambridge\":\"idea noun (SUGGESTION) ...a suggestion or plan for doing something: have an idea I've had an idea - why don't we go to the coast? good idea \\\"Le" source=console
+time="2025-07-08T09:41:50Z" level=info msg="🔍 Keyword: bdl share price" source=console
+time="2025-07-08T09:41:50Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:50Z" level=info msg="📩 Body: {\"Bharat Dynamics Ltd. - Share/Stock Price\":\"Open.1,989.00· Previous Close. 1,965.30 · UC Limit. 2,161.80 · LC Limit. 1,768.80 · Volume. 3,762,094 · VWAP. 1,991.95 · Mkt Cap (Rs. Cr.) 72,491 · 20D Avg" source=console
+time="2025-07-08T09:41:50Z" level=info msg="🔍 Keyword: ny lottery" source=console
+time="2025-07-08T09:41:50Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:50Z" level=info msg="📩 Body: {\"New York Lottery Results | NYLottery.org\":\"You'll findresults for all the NY Lotto gamesincluding Win 4, Numbers, Quick Draw, Pick 10, Take 5 and, of course, not forgetting the state's very own New\u00a0" source=console
+time="2025-07-08T09:41:50Z" level=info msg="🔍 Keyword: iga świątek" source=console
+time="2025-07-08T09:41:50Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:41:50Z" level=info msg="📩 Body: {\"Iga Świątek – Wikipedia tiếng Việt\":\"Iga Natalia Świątek(phát âm tiếng Ba Lan: [ˈiɡa ˈɕfjɔntɛk]; sinh ngày 31 tháng 5 năm 2001) là một vận động viên quần vợt người Ba Lan. Cô đã giành được 22 danh\u00a0." source=console
+
+running (00m20.0s), 10/20 VUs, 10 complete and 0 interrupted iterations
+default   [  50% ] 20 VUs  00m20.0s/10m0s  10/20 shared iters
+
+running (00m21.0s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m21.0s/10m0s  16/20 shared iters
+
+running (00m22.0s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m22.0s/10m0s  16/20 shared iters
+
+running (00m23.0s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m23.0s/10m0s  16/20 shared iters
+
+running (00m24.0s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m24.0s/10m0s  16/20 shared iters
+
+running (00m25.0s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m25.0s/10m0s  16/20 shared iters
+
+running (00m26.0s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m26.0s/10m0s  16/20 shared iters
+
+running (00m27.0s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m27.0s/10m0s  16/20 shared iters
+
+running (00m28.0s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m28.0s/10m0s  16/20 shared iters
+
+running (00m29.0s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m29.0s/10m0s  16/20 shared iters
+
+running (00m30.0s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m30.0s/10m0s  16/20 shared iters
+
+running (00m31.0s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m31.0s/10m0s  16/20 shared iters
+
+running (00m32.0s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m32.0s/10m0s  16/20 shared iters
+
+running (00m31.3s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m33.0s/10m0s  16/20 shared iters
+
+running (00m32.3s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m34.0s/10m0s  16/20 shared iters
+
+running (00m33.3s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m35.0s/10m0s  16/20 shared iters
+
+running (00m34.3s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m36.0s/10m0s  16/20 shared iters
+
+running (00m35.3s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m37.0s/10m0s  16/20 shared iters
+
+running (00m36.3s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m38.0s/10m0s  16/20 shared iters
+
+running (00m37.3s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m39.0s/10m0s  16/20 shared iters
+
+running (00m38.3s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m40.0s/10m0s  16/20 shared iters
+
+running (00m39.3s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m41.0s/10m0s  16/20 shared iters
+
+running (00m40.3s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m42.0s/10m0s  16/20 shared iters
+
+running (00m41.3s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m43.0s/10m0s  16/20 shared iters
+time="2025-07-08T09:42:12Z" level=info msg="🔍 Keyword: clash royale" source=console
+time="2025-07-08T09:42:12Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:42:12Z" level=info msg="📩 Body: {\"error\":\"Không tìm thấy kết quả trong HTML\"}" source=console
+time="2025-07-08T09:42:12Z" level=info msg="🔍 Keyword: dolehide" source=console
+time="2025-07-08T09:42:12Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:42:12Z" level=info msg="📩 Body: {\"error\":\"Không tìm thấy kết quả trong HTML\"}" source=console
+
+running (00m42.3s), 04/20 VUs, 16 complete and 0 interrupted iterations
+default   [  80% ] 20 VUs  00m44.0s/10m0s  16/20 shared iters
+
+running (00m43.3s), 02/20 VUs, 18 complete and 0 interrupted iterations
+default   [  90% ] 20 VUs  00m45.0s/10m0s  18/20 shared iters
+
+running (00m44.3s), 02/20 VUs, 18 complete and 0 interrupted iterations
+default   [  90% ] 20 VUs  00m46.0s/10m0s  18/20 shared iters
+
+running (00m45.3s), 02/20 VUs, 18 complete and 0 interrupted iterations
+default   [  90% ] 20 VUs  00m47.0s/10m0s  18/20 shared iters
+
+running (00m46.3s), 02/20 VUs, 18 complete and 0 interrupted iterations
+default   [  90% ] 20 VUs  00m48.0s/10m0s  18/20 shared iters
+
+running (00m47.3s), 02/20 VUs, 18 complete and 0 interrupted iterations
+default   [  90% ] 20 VUs  00m49.0s/10m0s  18/20 shared iters
+
+running (00m48.3s), 02/20 VUs, 18 complete and 0 interrupted iterations
+default   [  90% ] 20 VUs  00m50.0s/10m0s  18/20 shared iters
+
+running (00m49.3s), 02/20 VUs, 18 complete and 0 interrupted iterations
+default   [  90% ] 20 VUs  00m51.0s/10m0s  18/20 shared iters
+time="2025-07-08T09:42:20Z" level=info msg="🔍 Keyword: ssc cgl" source=console
+time="2025-07-08T09:42:20Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:42:20Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+
+running (00m50.3s), 02/20 VUs, 18 complete and 0 interrupted iterations
+default   [  90% ] 20 VUs  00m52.0s/10m0s  18/20 shared iters
+time="2025-07-08T09:42:21Z" level=info msg="🔍 Keyword: elanga" source=console
+time="2025-07-08T09:42:21Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-08T09:42:21Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\"}" source=console
+
+running (00m51.3s), 01/20 VUs, 19 complete and 0 interrupted iterations
+default   [  95% ] 20 VUs  00m53.0s/10m0s  19/20 shared iters
 
 
   █ TOTAL RESULTS 
 
-    checks_total.......................: 5       0.396875/s
-    checks_succeeded...................: 100.00% 5 out of 5
-    checks_failed......................: 0.00%   0 out of 5
+    checks_total.......................: 20      0.38619/s
+    checks_succeeded...................: 100.00% 20 out of 20
+    checks_failed......................: 0.00%   0 out of 20
 
     ✓ status is 200
 
     HTTP
-    http_req_duration.......................................................: avg=10.64s min=9.44s  med=11.2s max=11.59s p(90)=11.51s p(95)=11.55s
-      { expected_response:true }............................................: avg=10.64s min=9.44s  med=11.2s max=11.59s p(90)=11.51s p(95)=11.55s
-    http_req_failed.........................................................: 0.00%  0 out of 5
-    http_reqs...............................................................: 5      0.396875/s
+    http_req_duration.......................................................: avg=21.92s min=11.18s med=17.52s max=50.78s p(90)=42.73s p(95)=49.39s
+      { expected_response:true }............................................: avg=21.92s min=11.18s med=17.52s max=50.78s p(90)=42.73s p(95)=49.39s
+    http_req_failed.........................................................: 0.00%  0 out of 20
+    http_reqs...............................................................: 20     0.38619/s
 
     EXECUTION
-    iteration_duration......................................................: avg=11.64s min=10.45s med=12.2s max=12.59s p(90)=12.51s p(95)=12.55s
-    iterations..............................................................: 5      0.396875/s
-    vus.....................................................................: 3      min=3      max=5
-    vus_max.................................................................: 5      min=5      max=5
+    iteration_duration......................................................: avg=23.26s min=12.19s med=18.52s max=53.49s p(90)=45.44s p(95)=52.1s 
+    iterations..............................................................: 20     0.38619/s
+    vus.....................................................................: 1      min=1       max=20
+    vus_max.................................................................: 20     min=20      max=20
 
     NETWORK
-    data_received...........................................................: 3.8 kB 299 B/s
-    data_sent...............................................................: 763 B  61 B/s
+    data_received...........................................................: 12 kB  228 B/s
+    data_sent...............................................................: 3.1 kB 60 B/s
 
 
 
 
-running (00m12.6s), 0/5 VUs, 5 complete and 0 interrupted iterations
-default ✓ [ 100% ] 5 VUs  00m12.6s/10m0s  5/5 shared iters
+running (00m51.8s), 00/20 VUs, 20 complete and 0 interrupted iterations
+default ✓ [ 100% ] 20 VUs  00m53.5s/10m0s  20/20 shared iters

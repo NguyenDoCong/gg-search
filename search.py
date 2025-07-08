@@ -39,6 +39,8 @@ class GoogleSearcher:
         import asyncio
 
         self._browser_lock = asyncio.Lock()
+
+        self._context_lock = asyncio.Lock()        
         
         self.use_proxy_fingerprint = use_proxy_fingerprint  
         # self.session_manager = ProxyFingerprintManager() if use_proxy_fingerprint else None   
@@ -144,7 +146,7 @@ class GoogleSearcher:
                 logger.error(f"Failed to save state: {e}")
     
     async def setup_browser_context(self, browser: Browser, saved_state: SavedState, 
-                         storage_state: Optional[str], domain = "luxirty"): 
+                         storage_state: Optional[str]): 
         """Thiết lập browser context với fingerprinting"""
         device_name = "Desktop Chrome"
         # device_name = saved_state.fingerprint.device_name if saved_state.fingerprint else "Desktop Chrome"
@@ -159,9 +161,10 @@ class GoogleSearcher:
                 print("TorFingerprintManager not initialized when use_proxy_fingerprint is True.")
                 # return context_options #tạm
             try:
-                session = await self.session_manager.setup_browser_context(
-                    self._playwright_context, headless=True, domain = domain
-                )
+                async with self._context_lock:
+                    session = await self.session_manager.setup_browser_context(
+                        self._playwright_context, headless=True
+                    )
             except Exception as e:
                 logger.info("Lỗi lấy context từ Tor Manager:", e)
                 return context_options #tạm
@@ -204,6 +207,7 @@ class GoogleSearcher:
                     "reduced_motion": saved_state.fingerprint.reduced_motion,
                     "forced_colors": saved_state.fingerprint.forced_colors
                 })
+        
         context_options.update({
             "permissions": ["geolocation", "notifications"],
             "accept_downloads": True,
@@ -215,7 +219,8 @@ class GoogleSearcher:
         if storage_state:
             context_options["storage_state"] = storage_state
         
-        context = await browser.new_context(**context_options) 
+        async with self._context_lock:
+            context = await browser.new_context(**context_options) 
         
         await context.add_init_script(""" 
             Object.defineProperty(navigator, 'webdriver', { get: () => false });
@@ -455,7 +460,15 @@ class GoogleSearcher:
                     "recaptcha-wrapper",
                     "recaptcha/api2"
                 ]
-                return any(sig.lower() in content.lower() for sig in captcha_signatures)    
+                # return any(sig.lower() in content.lower() for sig in captcha_signatures)    
+                detected = any(sig.lower() in content.lower() for sig in captcha_signatures)
+                if detected and self.use_proxy_fingerprint and self.session_manager:
+                    logger.warning("🚨 CAPTCHA detected – creating new session.")
+                    # domain = page.url.split("/")[2]
+                    self.session_manager.get_new_session()
+                    # self.session_manager.get_new_session(domain="luxirty")  # hoặc truyền domain nếu có
+                return detected
+                
             except Exception as e:
                 if "navigating and changing the content" in str(e) and attempt < max_retries - 1:
                     logger.warning(f"🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần {attempt+1}/{max_retries})")
@@ -776,7 +789,7 @@ class GoogleSearcher:
                 saved_state.google_domain = selected_domain
                 
             # refactor
-            context = await self.setup_browser_context(browser, saved_state, storage_state, domain)
+            context = await self.setup_browser_context(browser, saved_state, storage_state)
             
             page = await context.new_page()
             await page.goto("https://httpbin.org/ip")
@@ -946,35 +959,35 @@ class GoogleSearcher:
             # await self.close_browser() # await added
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     
-    async def main(): # Define an async main function
-        s = GoogleSearcher()
-        import pprint
-        import asyncio # Import asyncio to run async functions
+    # async def main(): # Define an async main function
+    #     s = GoogleSearcher()
+    #     import pprint
+    #     import asyncio # Import asyncio to run async functions
 
-        # Get HTML content
-        html_response = await s.get_html("VN Index hôm nay",save_to_file=True)
-        # print(type(html_response))
+    #     # Get HTML content
+    #     html_response = await s.get_html("VN Index hôm nay",save_to_file=True)
+    #     # print(type(html_response))
 
-        # pprint.pp(html_response)
+    #     # pprint.pp(html_response)
 
-        if html_response.html:
-            soup = BeautifulSoup(html_response.html, "html.parser")
-            print("Successfully parsed HTML with BeautifulSoup. Title:")
-            print(soup.title.string if soup.title else "No title found")
-            print(type(html_response.html))
-            # You can now perform further parsing with Beautiful Soup
-            # For example, find all links:
-            # for a_tag in soup.find_all('a'):
-            #     print(a_tag.get('href'))
-        else:
-            print("Failed to retrieve HTML.")
+    #     if html_response.html:
+    #         soup = BeautifulSoup(html_response.html, "html.parser")
+    #         print("Successfully parsed HTML with BeautifulSoup. Title:")
+    #         print(soup.title.string if soup.title else "No title found")
+    #         print(type(html_response.html))
+    #         # You can now perform further parsing with Beautiful Soup
+    #         # For example, find all links:
+    #         # for a_tag in soup.find_all('a'):
+    #         #     print(a_tag.get('href'))
+    #     else:
+    #         print("Failed to retrieve HTML.")
         
-        # Example of search
-        # search_results = await s.search("vnindex hôm nay", limit=5, locale="vi_VN")
-        # pprint.pprint(search_results)
+    #     # Example of search
+    #     # search_results = await s.search("vnindex hôm nay", limit=5, locale="vi_VN")
+    #     # pprint.pprint(search_results)
 
-        await s.close_browser() # Ensure browser is closed even if not explicitly in `finally` blocks of `search` or `get_html`
+    #     await s.close_browser() # Ensure browser is closed even if not explicitly in `finally` blocks of `search` or `get_html`
 
-    asyncio.run(main()) # Run the async main function
+    # asyncio.run(main()) # Run the async main function

@@ -158,6 +158,7 @@ async def process_result(result, method="requests", domain="luxirty"):
 
 searcher_instance = None
 search_count = 0
+search_lock = asyncio.Lock()
 
 @cached(ttl=86400)  # Cache kết quả trong 1 giờ (3600 giây)
 async def search_response(query, method="requests", domain="luxirty"):
@@ -180,12 +181,14 @@ async def search_response(query, method="requests", domain="luxirty"):
         # resp = await s.get_html(query, save_to_file=True, domain=domain)
         
         # Nếu chưa có hoặc đã đủ 400 lần → khởi tạo lại
-        if searcher_instance is None or search_count >= 400:
-            print("🔁 Khởi tạo lại GoogleSearcher mới...")
-            searcher_instance = GoogleSearcher(use_proxy_fingerprint=True)
-            search_count = 0
-        else:
-            print(f"✅ Dùng lại GoogleSearcher hiện tại (#{search_count})")
+        async with search_lock:
+
+            if searcher_instance is None or search_count >= 400:
+                print("🔁 Khởi tạo lại GoogleSearcher mới...")
+                searcher_instance = GoogleSearcher(use_proxy_fingerprint=True)
+                search_count = 0
+            else:
+                print(f"✅ Dùng lại GoogleSearcher hiện tại (#{search_count})")
 
         resp = await searcher_instance.get_html(query, save_to_file=True, domain=domain)
         search_count += 1

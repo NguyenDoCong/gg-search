@@ -70,7 +70,8 @@ class TorFingerprintManager:
             print("Failed to loop through session_pool", e)
         return None                
 
-    def get_new_session(self, domain, current_retry: int = 0):
+    def get_new_session(self, current_retry: int = 0):
+        
         try: 
             self.rotate_ip()  # 🔄 Đổi IP mỗi lần tạo session mới
         except Exception as e:
@@ -129,9 +130,12 @@ class TorFingerprintManager:
             "google_domain": fingerprint_data["google_domain"],
             "retry_count": 0
         }
+        
+        session["used_count"] = 0  # đếm số lần session này được sử dụng
+
         self.session_pool.append(session)
         self.current_session = session
-        self.save_session_pool(domain=domain)
+        # self.save_session_pool(domain=domain)
         return session
     
     def save_session_pool(self, path="luxirty_sessions.json", domain="luxirty"):
@@ -158,9 +162,15 @@ class TorFingerprintManager:
             print("❌ Không thể load session_pool:", e)
 
 
-    def get_current_session(self, domain):
+    def get_current_session(self):
         if self.current_session is None:
-            return self.get_new_session(domain=domain)
+            return self.get_new_session()
+        
+        self.current_session["used_count"] += 1
+        if self.current_session["used_count"] >= 100:
+            logger.info("🔁 Session đã dùng đủ 100 lần – tạo session mới.")
+            return self.get_new_session()
+                
         return self.current_session
 
     def rotate_session_if_needed(self, was_blocked=False, max_retries=3):
@@ -169,9 +179,9 @@ class TorFingerprintManager:
             return self.current_session
         return self.get_new_session()
 
-    async def setup_browser_context(self, playwright, headless=True, domain="luxirty"):
+    async def setup_browser_context(self, playwright, headless=True):
         try:
-            session = self.get_current_session(domain=domain)
+            session = self.get_current_session()
         except Exception as e:
             print("Lỗi tạo session mới", e)
             return None, None

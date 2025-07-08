@@ -8,8 +8,8 @@ with open("keywords.txt", "r", encoding="utf-8") as file:
 
 # ✅ Tham số truyền vào
 url = "http://127.0.0.1:8000/search"
-vus = 5
-iterations = 5
+vus = 20  
+iterations = 20
 
 # ✅ Chuyển danh sách từ khóa sang JS array
 js_keywords = json.dumps(keywords)
