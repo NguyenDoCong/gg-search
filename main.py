@@ -1,3 +1,4 @@
+from contextlib import asynccontextmanager
 import random
 from bs4 import BeautifulSoup
 from __init__ import search
@@ -11,33 +12,34 @@ from fastapi.responses import JSONResponse
 # from playwright.async_api import async_playwright, Browser, BrowserContext
 import asyncio
 from aiocache import cached
+from async_batcher.batcher import Batcher
+from dataclasses import dataclass
+from typing import List, Tuple
 
-# Global variables for browser and context
-# browser: Browser = None
-# context: BrowserContext = None
+searcher_instance = None
+luxirty_instance = None
+google_instance = None
+# search_count = 0
+# search_lock = asyncio.Lock()
 
-# @asynccontextmanager
-# async def lifespan(app: FastAPI):
-#     global browser, context, playwright_instance
-#     playwright_instance = await async_playwright().start()
-#     browser = await playwright_instance.chromium.launch(headless=True, args=["--disable-extensions", "--disable-gpu", "--no-sandbox"])
-#     context = await browser.new_context(
-#         java_script_enabled=False,
-#         user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-#         viewport={"width": 800, "height": 600}
-#     )
-#     yield
-#     # Cleanup in reverse order
-#     if context:
-#         await context.close()
-#     if browser:
-#         await browser.close()
-#     if playwright_instance:
-#         await playwright_instance.stop()
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    app.state.luxirty_instance = GoogleSearcher(use_proxy_fingerprint=True)
+    app.state.google_instance = GoogleSearcher(use_proxy_fingerprint=True)
+    
+    # ✅ Gọi init_browser() sau khi khởi tạo
+    await app.state.luxirty_instance.init_browser()
+    await app.state.google_instance.init_browser()    
+    
+    loop = asyncio.get_running_loop()
+    task = asyncio.create_task(batcher.start(loop))
+    yield
+    task.cancel()
+    await asyncio.gather(task, return_exceptions=True)
 
-# app = FastAPI(lifespan=lifespan)
+app = FastAPI(lifespan=lifespan)
 
-app = FastAPI()
+# app = FastAPI()
 
 async def get_content(link):
     try:
@@ -156,13 +158,10 @@ async def process_result(result, method="requests", domain="luxirty"):
 
     return title_text, summary_text + content
 
-searcher_instance = None
-search_count = 0
-search_lock = asyncio.Lock()
 
-@cached(ttl=86400)  # Cache kết quả trong 1 giờ (3600 giây)
-async def search_response(query, method="requests", domain="luxirty"):
-    global searcher_instance, search_count
+# @cached(ttl=86400)  # Cache kết quả trong 1 giờ (3600 giây)
+async def search_response(query, request: Request, method="fingerprint"):
+    global luxirty_instance, google_instance, search_count
 
     if method=='requests':
         resp = search(query,5)
@@ -181,17 +180,31 @@ async def search_response(query, method="requests", domain="luxirty"):
         # resp = await s.get_html(query, save_to_file=True, domain=domain)
         
         # Nếu chưa có hoặc đã đủ 400 lần → khởi tạo lại
-        async with search_lock:
+        # async with search_lock:
 
-            if searcher_instance is None or search_count >= 400:
-                print("🔁 Khởi tạo lại GoogleSearcher mới...")
-                searcher_instance = GoogleSearcher(use_proxy_fingerprint=True)
-                search_count = 0
-            else:
-                print(f"✅ Dùng lại GoogleSearcher hiện tại (#{search_count})")
+        #     if searcher_instance is None or search_count >= 400:
+        #         print("🔁 Khởi tạo lại GoogleSearcher mới...")
+        #         searcher_instance = GoogleSearcher(use_proxy_fingerprint=True)
+        #         search_count = 0
+        #     else:
+        #         print(f"✅ Dùng lại GoogleSearcher hiện tại (#{search_count})")
+        rand = random.randint(1,2)
+        if rand==1:
+            domain="google"
+        else:
+            domain="luxirty"
+        
+        if domain == "luxirty":
+            if not app.state.luxirty_instance._browser:
+                await app.state.luxirty_instance.init_browser()
 
-        resp = await searcher_instance.get_html(query, save_to_file=True, domain=domain)
-        search_count += 1
+            resp = await request.app.state.luxirty_instance.get_html(query, save_to_file=True, domain=domain)
+        else:
+            if not app.state.google_instance._browser:
+                await app.state.google_instance.init_browser()
+            resp = await request.app.state.google_instance.get_html(query, save_to_file=True, domain=domain)
+
+        # search_count += 1
         
         if not resp or not hasattr(resp, "html"):
             return {"error": "Phản hồi từ hàm search không hợp lệ"}
@@ -224,6 +237,32 @@ async def search_response(query, method="requests", domain="luxirty"):
     result = {title: content for title, content in results if title and content}
     # print(result)
     return result
+
+async def batch_search_fn(batch_inputs: List[Tuple[str, Request, str]]) -> List[dict]:
+    results = []
+    for query, request, method in batch_inputs:
+        result = await search_response(query, request, method)
+        results.append(result)
+    return results
+
+# --------------Configs and dependencies--------------
+
+@dataclass
+class Config:
+	port: int = 8080
+	max_batch_size: int = 20
+
+config = Config(
+    port=8080,
+    max_batch_size=20
+)
+ 
+# --------------Batcher Setup--------------
+
+batcher = Batcher(
+	batch_prediction_fn=batch_search_fn, 
+	max_batch_size=config.max_batch_size
+)
  
 
 @app.get("/")
@@ -235,25 +274,31 @@ async def query_result(req: Request):
     body = await req.json()
     query = body.get("query")
     print("📥 Query nhận được:", query)
-    
-    rand = random.randint(1,2)
-    if rand==1:
-        domain="google"
-    else:
-        domain="luxirty"
         
     # domain="luxirty"
         
     # domain="google"
     # print("Query:", query)
-    result = await search_response(query, method="fingerprint", domain = domain)
+    # result = await search_response(query, method="fingerprint", domain = domain)
+    result = await batcher.predict((query, req, "fingerprint"))  # truyền đủ thông tin
+
     # return result
     return JSONResponse(status_code=200, content=result)
+
+# @app.post("/translate", status_code=201)
+# async def translate(req: TranslationRequest):
+# 	translated_text = await batcher.predict(req.text)
+# 	return JSONResponse({"translation": translated_text})
+
+
+
+# app = FastAPI(lifespan=lifespan)
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
 
     # Test
+    
     # async def main_test():
     #     # async with lifespan(app): # Khởi tạo lifespan context để mở browser và context
     #         print("Running test search...")

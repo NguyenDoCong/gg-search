@@ -463,8 +463,8 @@ class GoogleSearcher:
                 # return any(sig.lower() in content.lower() for sig in captcha_signatures)    
                 detected = any(sig.lower() in content.lower() for sig in captcha_signatures)
                 if detected and self.use_proxy_fingerprint and self.session_manager:
-                    logger.warning("🚨 CAPTCHA detected – creating new session.")
-                    # domain = page.url.split("/")[2]
+                    domain = page.url.split("/")[2]                    
+                    logger.warning(f"🚨 CAPTCHA detected on {domain} – creating new session.")
                     self.session_manager.get_new_session()
                     # self.session_manager.get_new_session(domain="luxirty")  # hoặc truyền domain nếu có
                 return detected
@@ -749,6 +749,9 @@ class GoogleSearcher:
         #     os.makedirs(os.path.dirname(options.state_file), exist_ok=True)
         max_retries = 3  # Đặt giới hạn số lần thử lại, bạn có thể điều chỉnh số này
 
+        print("Domain:", domain)
+        logger.info(f"Domain: {domain}")
+        
         if current_retry > max_retries:
             logger.error(f"Max retries ({max_retries}) reached for HTML retrieval query: {query}. Stopping.")
             # raise Exception("Max retries reached due to persistent CAPTCHA or error.")
@@ -758,7 +761,8 @@ class GoogleSearcher:
         saved_state = self.load_saved_state(options.state_file)
         
         # refactor
-        browser = await self.init_browser(headless, options.timeout)
+        # browser = await self.init_browser(headless, options.timeout)
+        browser =self._browser
         
         # def is_valid_json_file(path):
         #     if not os.path.exists(path) or os.path.getsize(path) == 0:
@@ -780,7 +784,7 @@ class GoogleSearcher:
             #         os.remove(options.state_file)
             # if is_valid_json_file(options.state_file):
             #     storage_state = options.state_file
-            logger.info(domain)
+            # logger.info(domain)
             if domain == "google":
                 selected_domain = saved_state.google_domain or random.choice(self.GOOGLE_DOMAINS)
                 saved_state.google_domain = selected_domain
@@ -811,6 +815,7 @@ class GoogleSearcher:
                     # logger.warning(f"🚧 CAPTCHA phát hiện với IP: {ip} – query: {query}")
                     # self.log_blocked_ip(ip)
                     # self.session_manager.rotate_ip()  # <-- Xoay IP ngay khi bị CAPTCHA
+                    logger.warning("⚠️ CAPTCHA detected in perform_get_html (handled externally).")
 
                     # self._delete_state_file(options.state_file) # Xóa tệp trạng thái
                     # if current_retry >=0: 

@@ -1,854 +1,375 @@
-2025-07-08 09:36:30,486 - INFO - Browser initialized successfully
-2025-07-08 09:36:30,486 - INFO - Browser initialized successfully
-2025-07-08 09:36:30,486 - INFO - luxirty
-2025-07-08 09:36:30,487 - INFO - google
-2025-07-08 09:36:30,487 - INFO - Browser initialized successfully
-2025-07-08 09:36:30,487 - INFO - google
-2025-07-08 09:36:30,509 - INFO - Browser initialized successfully
-2025-07-08 09:36:30,509 - INFO - luxirty
-2025-07-08 09:36:30,512 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
-2025-07-08 09:36:30,512 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0005)
-2025-07-08 09:36:30,516 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:36:30,517 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:36:30,521 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:36:30,531 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:36:30,532 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:36:30,542 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:36:30,543 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:36:30,544 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:36:30,560 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:36:30,560 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,561 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,562 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,562 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,562 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,562 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,562 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,562 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,562 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,562 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,562 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,562 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,562 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,562 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,563 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:36:30,585 - INFO - Browser initialized successfully
-2025-07-08 09:36:30,585 - INFO - luxirty
-2025-07-08 09:36:30,594 - INFO - Browser initialized successfully
-2025-07-08 09:36:30,595 - INFO - luxirty
-2025-07-08 09:36:30,610 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
-2025-07-08 09:36:30,613 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:36:30,614 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
-2025-07-08 09:36:30,618 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:36:30,618 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:36:30,618 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
-2025-07-08 09:36:30,621 - INFO - Browser initialized successfully
-2025-07-08 09:36:30,622 - INFO - luxirty
-2025-07-08 09:36:30,642 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:36:30,642 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:36:30,643 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
-2025-07-08 09:36:30,658 - INFO - Browser initialized successfully
-2025-07-08 09:36:30,658 - INFO - google
-2025-07-08 09:36:30,677 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:36:30,678 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:36:30,678 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
-2025-07-08 09:36:32,868 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,868 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,868 - INFO - google
-2025-07-08 09:36:32,868 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,868 - INFO - luxirty
-2025-07-08 09:36:32,868 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,869 - INFO - google
-2025-07-08 09:36:32,869 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,869 - INFO - luxirty
-2025-07-08 09:36:32,869 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,869 - INFO - google
-2025-07-08 09:36:32,869 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,869 - INFO - google
-2025-07-08 09:36:32,869 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,869 - INFO - google
-2025-07-08 09:36:32,869 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,870 - INFO - luxirty
-2025-07-08 09:36:32,870 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,870 - INFO - luxirty
-2025-07-08 09:36:32,870 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,870 - INFO - luxirty
-2025-07-08 09:36:32,870 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,870 - INFO - luxirty
-2025-07-08 09:36:32,870 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,871 - INFO - google
-2025-07-08 09:36:32,871 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,871 - INFO - luxirty
-2025-07-08 09:36:32,871 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,872 - INFO - luxirty
-2025-07-08 09:36:32,872 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,872 - INFO - google
-2025-07-08 09:36:32,872 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,872 - INFO - luxirty
-2025-07-08 09:36:32,872 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,873 - INFO - luxirty
-2025-07-08 09:36:32,873 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,873 - INFO - google
-2025-07-08 09:36:32,873 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,873 - INFO - google
-2025-07-08 09:36:32,873 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,873 - INFO - google
-2025-07-08 09:36:32,874 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,874 - INFO - luxirty
-2025-07-08 09:36:32,874 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,874 - INFO - luxirty
-2025-07-08 09:36:32,874 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,874 - INFO - google
-2025-07-08 09:36:32,874 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:32,875 - INFO - luxirty
-2025-07-08 09:36:32,875 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,727 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,728 - INFO - luxirty
-2025-07-08 09:36:33,728 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,728 - INFO - luxirty
-2025-07-08 09:36:33,728 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,771 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,772 - INFO - luxirty
-2025-07-08 09:36:33,772 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,772 - INFO - luxirty
-2025-07-08 09:36:33,773 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,773 - INFO - luxirty
-2025-07-08 09:36:33,773 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,774 - INFO - google
-2025-07-08 09:36:33,774 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,920 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,920 - INFO - google
-2025-07-08 09:36:33,921 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,921 - INFO - google
-2025-07-08 09:36:33,921 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,921 - INFO - google
-2025-07-08 09:36:33,921 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,922 - INFO - luxirty
-2025-07-08 09:36:33,922 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,947 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,947 - INFO - luxirty
-2025-07-08 09:36:33,947 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,948 - INFO - google
-2025-07-08 09:36:33,948 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,948 - INFO - luxirty
-2025-07-08 09:36:33,948 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,949 - INFO - google
-2025-07-08 09:36:33,949 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,949 - INFO - luxirty
-2025-07-08 09:36:33,949 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,949 - INFO - luxirty
-2025-07-08 09:36:33,949 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,949 - INFO - google
-2025-07-08 09:36:33,949 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,950 - INFO - google
-2025-07-08 09:36:33,950 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,950 - INFO - google
-2025-07-08 09:36:33,950 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,950 - INFO - google
-2025-07-08 09:36:33,950 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,951 - INFO - luxirty
-2025-07-08 09:36:33,951 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,951 - INFO - luxirty
-2025-07-08 09:36:33,951 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,960 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,961 - INFO - google
-2025-07-08 09:36:33,961 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,961 - INFO - google
-2025-07-08 09:36:33,961 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,961 - INFO - google
-2025-07-08 09:36:33,961 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,962 - INFO - luxirty
-2025-07-08 09:36:33,962 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,962 - INFO - google
-2025-07-08 09:36:33,962 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,962 - INFO - luxirty
-2025-07-08 09:36:33,962 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,962 - INFO - luxirty
-2025-07-08 09:36:33,962 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,963 - INFO - google
-2025-07-08 09:36:33,963 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,963 - INFO - luxirty
-2025-07-08 09:36:33,963 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,963 - INFO - luxirty
-2025-07-08 09:36:33,963 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,964 - INFO - luxirty
-2025-07-08 09:36:33,964 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,964 - INFO - luxirty
-2025-07-08 09:36:33,964 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,964 - INFO - luxirty
-2025-07-08 09:36:33,964 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:33,965 - INFO - luxirty
-2025-07-08 09:36:33,965 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,088 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,089 - INFO - luxirty
-2025-07-08 09:36:34,089 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,090 - INFO - google
-2025-07-08 09:36:34,090 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,090 - INFO - google
-2025-07-08 09:36:34,090 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,091 - INFO - google
-2025-07-08 09:36:34,091 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,091 - INFO - luxirty
-2025-07-08 09:36:34,091 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,092 - INFO - google
-2025-07-08 09:36:34,092 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,092 - INFO - google
-2025-07-08 09:36:34,092 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,092 - INFO - luxirty
-2025-07-08 09:36:34,092 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,093 - INFO - google
-2025-07-08 09:36:34,093 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,093 - INFO - google
-2025-07-08 09:36:34,093 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,093 - INFO - google
-2025-07-08 09:36:34,093 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:36:34,093 - INFO - google
-2025-07-08 09:36:34,093 - ERROR - Browser setup error: cannot access local variable 'context' where it is not associated with a value
-2025-07-08 09:41:31,080 - INFO - Browser initialized successfully
-2025-07-08 09:41:31,080 - INFO - google
-2025-07-08 09:41:31,090 - INFO - Browser initialized successfully
-2025-07-08 09:41:31,090 - INFO - luxirty
-2025-07-08 09:41:31,093 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:41:31,098 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:41:31,098 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:41:31,098 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:31,116 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:41:31,116 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:41:31,116 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,116 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,116 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,117 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,118 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,118 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,118 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,118 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,118 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,118 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,118 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,118 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,118 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,118 - INFO - Error while receiving a control message (SocketClosed): empty socket content
-2025-07-08 09:41:31,127 - INFO - Browser initialized successfully
-2025-07-08 09:41:31,127 - INFO - luxirty
-2025-07-08 09:41:31,141 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:41:31,142 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:41:31,142 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
-2025-07-08 09:41:33,453 - INFO - luxirty
-2025-07-08 09:41:33,453 - INFO - google
-2025-07-08 09:41:33,453 - INFO - luxirty
-2025-07-08 09:41:33,453 - INFO - google
-2025-07-08 09:41:33,453 - INFO - google
-2025-07-08 09:41:33,453 - INFO - luxirty
-2025-07-08 09:41:33,453 - INFO - google
-2025-07-08 09:41:33,453 - INFO - luxirty
-2025-07-08 09:41:34,412 - INFO - google
-2025-07-08 09:41:34,413 - INFO - google
-2025-07-08 09:41:34,413 - INFO - luxirty
-2025-07-08 09:41:34,413 - INFO - luxirty
-2025-07-08 09:41:34,413 - INFO - luxirty
-2025-07-08 09:41:34,413 - INFO - luxirty
-2025-07-08 09:41:34,413 - INFO - luxirty
-2025-07-08 09:41:34,413 - INFO - google
-2025-07-08 09:41:34,413 - INFO - google
-2025-07-08 09:41:34,470 - INFO - [🌍 IP seen by website]: {
+2025-07-09 10:32:40,799 - INFO - Domain: luxirty
+2025-07-09 10:32:40,799 - INFO - Domain: luxirty
+2025-07-09 10:32:40,800 - INFO - Domain: google
+2025-07-09 10:32:40,801 - INFO - Domain: luxirty
+2025-07-09 10:32:46,495 - INFO - Browser initialized successfully
+2025-07-09 10:32:46,496 - INFO - luxirty
+2025-07-09 10:32:46,498 - INFO - Browser initialized successfully
+2025-07-09 10:32:46,498 - INFO - luxirty
+2025-07-09 10:32:46,501 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2025-07-09 10:32:46,503 - INFO - Browser initialized successfully
+2025-07-09 10:32:46,503 - INFO - luxirty
+2025-07-09 10:32:46,509 - INFO - ✅ Tor IP rotated.
+2025-07-09 10:32:46,510 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-09 10:32:46,511 - INFO - Browser initialized successfully
+2025-07-09 10:32:46,511 - INFO - google
+2025-07-09 10:32:46,514 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2025-07-09 10:32:46,515 - INFO - ✅ Tor IP rotated.
+2025-07-09 10:32:46,516 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-09 10:32:46,517 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2025-07-09 10:32:46,518 - INFO - ✅ Tor IP rotated.
+2025-07-09 10:32:46,518 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2025-07-09 10:32:46,519 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2025-07-09 10:32:46,520 - INFO - ✅ Tor IP rotated.
+2025-07-09 10:32:46,520 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-09 10:32:46,521 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-09 10:32:46,521 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-09 10:32:46,521 - INFO - Error while receiving a control message (SocketClosed): empty socket content
+2025-07-09 10:32:43,485 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:41:34,471 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:34,473 - INFO - [🌍 IP seen by website]: {
+2025-07-09 10:32:43,485 - INFO - Navigating to https://search.luxirty.com/
+2025-07-09 10:32:43,658 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:41:34,473 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:34,498 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:41:34,499 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:34,577 - INFO - [🌍 IP seen by website]: {
+2025-07-09 10:32:43,658 - INFO - Navigating to https://search.luxirty.com/
+2025-07-09 10:32:43,699 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:41:34,577 - INFO - Navigating to https://www.google.com
-2025-07-08 09:41:34,636 - INFO - [🌍 IP seen by website]: {
+2025-07-09 10:32:43,699 - INFO - Navigating to https://www.google.co.uk
+2025-07-09 10:32:43,798 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:41:34,637 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:34,789 - INFO - [🌍 IP seen by website]: {
+2025-07-09 10:32:43,798 - INFO - Navigating to https://search.luxirty.com/
+2025-07-09 10:32:46,433 - INFO - Searching for: noaa hurricane
+2025-07-09 10:32:46,449 - INFO - Searching for: talksport
+2025-07-09 10:32:46,675 - INFO - Searching for: anglian water
+2025-07-09 10:32:46,727 - INFO - Searching for: where to watch fireworks near me
+2025-07-09 10:32:47,327 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 10:32:47,442 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 10:32:47,703 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 10:32:48,304 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 10:32:50,040 - INFO - Domain: luxirty
+2025-07-09 10:32:50,040 - INFO - luxirty
+2025-07-09 10:32:50,209 - INFO - Domain: google
+2025-07-09 10:32:50,439 - INFO - Browser initialized successfully
+2025-07-09 10:32:50,439 - INFO - google
+2025-07-09 10:32:50,441 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2025-07-09 10:32:50,442 - INFO - ✅ Tor IP rotated.
+2025-07-09 10:32:50,442 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-09 10:32:50,442 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-09 10:32:50,442 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-09 10:32:51,034 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:41:34,789 - INFO - Navigating to https://www.google.co.uk
-2025-07-08 09:41:34,796 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:41:34,796 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:34,866 - INFO - [🌍 IP seen by website]: {
+2025-07-09 10:32:51,034 - INFO - Navigating to https://search.luxirty.com/
+2025-07-09 10:32:52,718 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:41:34,866 - INFO - Navigating to https://www.google.com
-2025-07-08 09:41:35,462 - INFO - [🌍 IP seen by website]: {
+2025-07-09 10:32:52,718 - INFO - Navigating to https://www.google.com
+2025-07-09 10:32:53,848 - INFO - Searching for: trinidad
+2025-07-09 10:32:54,588 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 10:32:55,579 - INFO - Searching for: magic johnson
+2025-07-09 10:32:56,465 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 10:32:57,204 - INFO - Domain: luxirty
+2025-07-09 10:32:57,204 - INFO - luxirty
+2025-07-09 10:32:58,208 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:41:35,462 - INFO - Navigating to https://www.google.com.vn
-2025-07-08 09:41:35,532 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:41:35,533 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:35,553 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:41:35,553 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:35,561 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:41:35,561 - INFO - Navigating to https://www.google.co.uk
-2025-07-08 09:41:35,565 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:41:35,565 - INFO - Navigating to https://www.google.com.au
-2025-07-08 09:41:35,629 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:41:35,629 - INFO - Navigating to https://www.google.com
-2025-07-08 09:41:35,648 - INFO - [🌍 IP seen by website]: {
+2025-07-09 10:32:58,208 - INFO - Navigating to https://search.luxirty.com/
+2025-07-09 10:33:00,166 - INFO - Domain: google
+2025-07-09 10:33:00,167 - INFO - google
+2025-07-09 10:33:01,013 - INFO - Searching for: crizac ipo gmp today
+2025-07-09 10:33:02,118 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 10:33:03,251 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:41:35,649 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:35,774 - INFO - [🌍 IP seen by website]: {
+2025-07-09 10:33:03,251 - INFO - Navigating to https://www.google.ca
+2025-07-09 10:33:04,803 - INFO - Domain: google
+2025-07-09 10:33:05,037 - INFO - Browser initialized successfully
+2025-07-09 10:33:05,037 - INFO - google
+2025-07-09 10:33:05,038 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2025-07-09 10:33:05,042 - INFO - ✅ Tor IP rotated.
+2025-07-09 10:33:05,043 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-09 10:33:06,906 - INFO - Searching for: daria kasatkina
+2025-07-09 10:33:07,487 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:41:35,777 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:35,867 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:41:35,867 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:35,927 - INFO - [🌍 IP seen by website]: {
+2025-07-09 10:33:07,487 - INFO - Navigating to https://www.google.com
+2025-07-09 10:33:07,665 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 10:33:10,453 - INFO - Searching for: ice budget
+2025-07-09 10:33:11,354 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 10:33:12,164 - INFO - Domain: google
+2025-07-09 10:33:12,164 - INFO - google
+2025-07-09 10:33:13,141 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:41:35,927 - INFO - Navigating to https://www.google.co.uk
-2025-07-08 09:41:35,968 - INFO - [🌍 IP seen by website]: {
+2025-07-09 10:33:13,141 - INFO - Navigating to https://www.google.ca
+2025-07-09 10:33:13,246 - INFO - Searching for: shoaib bashir
+2025-07-09 10:33:14,108 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 10:57:27,435 - INFO - Browser initialized successfully
+2025-07-09 10:57:27,438 - INFO - Browser initialized successfully
+2025-07-09 10:57:27,438 - INFO - Browser initialized successfully
+2025-07-09 10:57:27,457 - INFO - Browser initialized successfully
+2025-07-09 10:57:27,502 - INFO - Browser initialized successfully
+2025-07-09 10:57:27,505 - INFO - Browser initialized successfully
+2025-07-09 10:57:27,547 - INFO - Browser initialized successfully
+2025-07-09 10:57:27,662 - INFO - Browser initialized successfully
+2025-07-09 10:57:27,989 - INFO - Browser initialized successfully
+2025-07-09 10:57:27,990 - INFO - Setting the event loop.
+2025-07-09 10:57:28,035 - INFO - Browser initialized successfully
+2025-07-09 10:57:28,035 - INFO - Setting the event loop.
+2025-07-09 10:57:28,062 - INFO - Browser initialized successfully
+2025-07-09 10:57:28,062 - INFO - Setting the event loop.
+2025-07-09 10:57:28,075 - INFO - Browser initialized successfully
+2025-07-09 10:57:28,076 - INFO - Setting the event loop.
+2025-07-09 10:57:28,111 - INFO - Browser initialized successfully
+2025-07-09 10:57:28,111 - INFO - Setting the event loop.
+2025-07-09 10:57:28,131 - INFO - Browser initialized successfully
+2025-07-09 10:57:28,132 - INFO - Setting the event loop.
+2025-07-09 10:57:28,188 - INFO - Browser initialized successfully
+2025-07-09 10:57:28,188 - INFO - Setting the event loop.
+2025-07-09 10:57:28,192 - INFO - Browser initialized successfully
+2025-07-09 10:57:28,192 - INFO - Setting the event loop.
+2025-07-09 10:57:34,062 - ERROR - Error processing batch: cannot access local variable 'resp' where it is not associated with a value
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/batcher.py", line 41, in process_batch
+    predictions = await self.batch_prediction_fn(input_contexts)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/main.py", line 244, in batch_search_fn
+    result = await search_response(query, request, method)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/main.py", line 209, in search_response
+    if not resp or not hasattr(resp, "html"):
+           ^^^^
+UnboundLocalError: cannot access local variable 'resp' where it is not associated with a value
+2025-07-09 10:57:34,062 - ERROR - Error processing batch: cannot access local variable 'resp' where it is not associated with a value
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/batcher.py", line 41, in process_batch
+    predictions = await self.batch_prediction_fn(input_contexts)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/main.py", line 244, in batch_search_fn
+    result = await search_response(query, request, method)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/main.py", line 209, in search_response
+    if not resp or not hasattr(resp, "html"):
+           ^^^^
+UnboundLocalError: cannot access local variable 'resp' where it is not associated with a value
+2025-07-09 10:57:34,062 - ERROR - Error processing batch: cannot access local variable 'resp' where it is not associated with a value
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/batcher.py", line 41, in process_batch
+    predictions = await self.batch_prediction_fn(input_contexts)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/main.py", line 244, in batch_search_fn
+    result = await search_response(query, request, method)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/main.py", line 209, in search_response
+    if not resp or not hasattr(resp, "html"):
+           ^^^^
+UnboundLocalError: cannot access local variable 'resp' where it is not associated with a value
+2025-07-09 10:57:34,065 - ERROR - Error processing batch: cannot access local variable 'resp' where it is not associated with a value
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/batcher.py", line 41, in process_batch
+    predictions = await self.batch_prediction_fn(input_contexts)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/main.py", line 244, in batch_search_fn
+    result = await search_response(query, request, method)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/main.py", line 209, in search_response
+    if not resp or not hasattr(resp, "html"):
+           ^^^^
+UnboundLocalError: cannot access local variable 'resp' where it is not associated with a value
+2025-07-09 10:57:34,067 - ERROR - Error processing batch: cannot access local variable 'resp' where it is not associated with a value
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/batcher.py", line 41, in process_batch
+    predictions = await self.batch_prediction_fn(input_contexts)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/main.py", line 244, in batch_search_fn
+    result = await search_response(query, request, method)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/main.py", line 209, in search_response
+    if not resp or not hasattr(resp, "html"):
+           ^^^^
+UnboundLocalError: cannot access local variable 'resp' where it is not associated with a value
+2025-07-09 11:03:06,826 - INFO - Browser initialized successfully
+2025-07-09 11:03:06,828 - INFO - Browser initialized successfully
+2025-07-09 11:03:06,837 - INFO - Browser initialized successfully
+2025-07-09 11:03:06,843 - INFO - Browser initialized successfully
+2025-07-09 11:03:06,852 - INFO - Browser initialized successfully
+2025-07-09 11:03:06,871 - INFO - Browser initialized successfully
+2025-07-09 11:03:06,887 - INFO - Browser initialized successfully
+2025-07-09 11:03:06,896 - INFO - Browser initialized successfully
+2025-07-09 11:03:07,419 - INFO - Browser initialized successfully
+2025-07-09 11:03:07,420 - INFO - Setting the event loop.
+2025-07-09 11:03:07,440 - INFO - Browser initialized successfully
+2025-07-09 11:03:07,440 - INFO - Setting the event loop.
+2025-07-09 11:03:07,482 - INFO - Browser initialized successfully
+2025-07-09 11:03:07,482 - INFO - Setting the event loop.
+2025-07-09 11:03:07,494 - INFO - Browser initialized successfully
+2025-07-09 11:03:07,495 - INFO - Setting the event loop.
+2025-07-09 11:03:07,498 - INFO - Browser initialized successfully
+2025-07-09 11:03:07,499 - INFO - Setting the event loop.
+2025-07-09 11:03:07,514 - INFO - Browser initialized successfully
+2025-07-09 11:03:07,515 - INFO - Setting the event loop.
+2025-07-09 11:03:07,567 - INFO - Browser initialized successfully
+2025-07-09 11:03:07,569 - INFO - Setting the event loop.
+2025-07-09 11:03:07,570 - INFO - Browser initialized successfully
+2025-07-09 11:03:07,570 - INFO - Setting the event loop.
+2025-07-09 11:03:10,941 - INFO - Domain: luxirty
+2025-07-09 11:03:10,941 - INFO - Domain: google
+2025-07-09 11:03:10,941 - ERROR - Browser setup error: name 'browser' is not defined
+2025-07-09 11:03:10,941 - ERROR - Browser setup error: name 'browser' is not defined
+2025-07-09 11:03:10,941 - INFO - Domain: luxirty
+2025-07-09 11:03:10,941 - ERROR - Browser setup error: name 'browser' is not defined
+2025-07-09 11:03:10,941 - INFO - Domain: luxirty
+2025-07-09 11:03:10,941 - ERROR - Browser setup error: name 'browser' is not defined
+2025-07-09 11:03:10,942 - INFO - Domain: luxirty
+2025-07-09 11:03:10,942 - ERROR - Browser setup error: name 'browser' is not defined
+2025-07-09 11:03:10,942 - INFO - Domain: luxirty
+2025-07-09 11:03:10,942 - ERROR - Browser setup error: name 'browser' is not defined
+2025-07-09 11:03:10,942 - INFO - Domain: google
+2025-07-09 11:03:10,942 - ERROR - Browser setup error: name 'browser' is not defined
+2025-07-09 11:03:10,942 - INFO - Domain: luxirty
+2025-07-09 11:03:10,942 - ERROR - Browser setup error: name 'browser' is not defined
+2025-07-09 11:03:10,942 - INFO - Domain: google
+2025-07-09 11:03:10,942 - INFO - Domain: luxirty
+2025-07-09 11:03:10,943 - ERROR - Browser setup error: name 'browser' is not defined
+2025-07-09 11:03:10,943 - ERROR - Browser setup error: name 'browser' is not defined
+2025-07-09 11:05:25,214 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,226 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,236 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,250 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,284 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,299 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,335 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,375 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,725 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,725 - INFO - Setting the event loop.
+2025-07-09 11:05:25,751 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,752 - INFO - Setting the event loop.
+2025-07-09 11:05:25,804 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,805 - INFO - Setting the event loop.
+2025-07-09 11:05:25,809 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,810 - INFO - Setting the event loop.
+2025-07-09 11:05:25,825 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,825 - INFO - Setting the event loop.
+2025-07-09 11:05:25,826 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,826 - INFO - Setting the event loop.
+2025-07-09 11:05:25,842 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,843 - INFO - Browser initialized successfully
+2025-07-09 11:05:25,846 - INFO - Setting the event loop.
+2025-07-09 11:05:25,847 - INFO - Setting the event loop.
+2025-07-09 11:05:29,014 - INFO - Domain: google
+2025-07-09 11:05:29,014 - INFO - Domain: luxirty
+2025-07-09 11:05:29,015 - INFO - Domain: luxirty
+2025-07-09 11:05:29,015 - INFO - Domain: google
+2025-07-09 11:05:29,018 - INFO - Domain: luxirty
+2025-07-09 11:05:29,019 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2025-07-09 11:05:29,019 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0005)
+2025-07-09 11:05:29,019 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2025-07-09 11:05:29,019 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2025-07-09 11:05:29,022 - INFO - ✅ Tor IP rotated.
+2025-07-09 11:05:29,022 - INFO - ✅ Tor IP rotated.
+2025-07-09 11:05:29,023 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-09 11:05:29,023 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-09 11:05:29,023 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-09 11:05:29,023 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-09 11:05:29,023 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2025-07-09 11:05:29,023 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2025-07-09 11:05:29,024 - INFO - ✅ Tor IP rotated.
+2025-07-09 11:05:29,024 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-09 11:05:29,064 - INFO - ✅ Tor IP rotated.
+2025-07-09 11:05:29,065 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-09 11:05:29,074 - INFO - ✅ Tor IP rotated.
+2025-07-09 11:05:29,075 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-09 11:05:31,217 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:41:35,969 - INFO - Navigating to https://www.google.com.au
-2025-07-08 09:41:36,681 - INFO - [🌍 IP seen by website]: 502 Bad Gateway
-2025-07-08 09:41:36,681 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:37,715 - INFO - Searching for: north berwick
-2025-07-08 09:41:37,722 - INFO - Searching for: india vs england, 2nd test scorecard
-2025-07-08 09:41:37,902 - INFO - Searching for: myrtle beach weather
-2025-07-08 09:41:38,051 - INFO - Searching for: ssc cgl
-2025-07-08 09:41:38,137 - INFO - Searching for: fourth of july fireworks near me
-2025-07-08 09:41:38,290 - INFO - Searching for: ryanair flights cancelled france
-2025-07-08 09:41:38,551 - INFO - Searching for: diego costa
-2025-07-08 09:41:38,658 - INFO - Searching for: jack quaid
-2025-07-08 09:41:38,693 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:38,941 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:38,970 - INFO - Searching for: la
-2025-07-08 09:41:38,984 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:39,137 - INFO - Searching for: clash royale
-2025-07-08 09:41:39,261 - INFO - Searching for: dolehide
-2025-07-08 09:41:39,289 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:39,352 - INFO - Searching for: elanga
-2025-07-08 09:41:39,391 - INFO - Searching for: rugby league on tv
-2025-07-08 09:41:39,529 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:39,557 - INFO - Searching for: iga świątek
-2025-07-08 09:41:39,589 - INFO - Searching for: bdl share price
-2025-07-08 09:41:39,683 - INFO - Searching for: amelia earhart
-2025-07-08 09:41:39,765 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:39,870 - INFO - Searching for: idea
-2025-07-08 09:41:39,896 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:39,916 - INFO - Searching for: ssc cgl
-2025-07-08 09:41:39,917 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:39,950 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:39,951 - INFO - Searching for: ny lottery
-2025-07-08 09:41:40,197 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:40,265 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:40,307 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:40,747 - INFO - Searching for: bbc news
-2025-07-08 09:41:41,050 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:41,058 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:41,082 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:41,166 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:41,305 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:42,386 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:44,160 - WARNING - 🚨 CAPTCHA detected – creating new session.
-2025-07-08 09:41:44,207 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:41:44,208 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:41:44,209 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:41:45,291 - WARNING - ❌ Failed to check captcha content: Timeout 5000ms exceeded.
-=========================== logs ===========================
-"domcontentloaded" event fired
-"load" event fired
-============================================================
-2025-07-08 09:41:45,361 - WARNING - 🚨 CAPTCHA detected – creating new session.
-2025-07-08 09:41:45,416 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0005)
-2025-07-08 09:41:45,417 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:41:45,417 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:41:45,417 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:45,417 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:46,647 - WARNING - ❌ Failed to check captcha content: Timeout 5000ms exceeded.
-=========================== logs ===========================
-"domcontentloaded" event fired
-============================================================
-2025-07-08 09:41:46,649 - WARNING - 🚨 CAPTCHA detected – creating new session.
-2025-07-08 09:41:46,652 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:41:46,652 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:41:46,652 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
-2025-07-08 09:41:48,070 - WARNING - ❌ Failed to check captcha content: Timeout 5000ms exceeded.
-=========================== logs ===========================
-"domcontentloaded" event fired
-"load" event fired
-============================================================
-2025-07-08 09:41:48,113 - WARNING - 🚨 CAPTCHA detected – creating new session.
-2025-07-08 09:41:48,115 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:41:48,115 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,115 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,116 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,117 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,118 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,119 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,120 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,121 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,121 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,121 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,121 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,121 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,121 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:48,121 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:41:49,351 - INFO - luxirty
-2025-07-08 09:41:49,427 - INFO - luxirty
-2025-07-08 09:41:49,474 - INFO - luxirty
-2025-07-08 09:41:49,501 - INFO - luxirty
-2025-07-08 09:41:50,815 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:41:50,815 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:50,831 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:41:50,831 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:51,145 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:41:51,145 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:51,404 - INFO - [🌍 IP seen by website]: {
+2025-07-09 11:05:31,217 - INFO - Navigating to https://search.luxirty.com/
+2025-07-09 11:05:31,471 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:41:51,404 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:41:53,660 - INFO - Searching for: elanga
-2025-07-08 09:41:53,685 - INFO - Searching for: dolehide
-2025-07-08 09:41:53,970 - INFO - Searching for: clash royale
-2025-07-08 09:41:54,268 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:54,326 - INFO - Searching for: ssc cgl
-2025-07-08 09:41:54,448 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:54,794 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:55,074 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:41:55,904 - WARNING - 🚨 CAPTCHA detected – creating new session.
-2025-07-08 09:41:55,906 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
-2025-07-08 09:41:55,906 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:41:55,906 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
-2025-07-08 09:41:57,304 - WARNING - 🚨 CAPTCHA detected – creating new session.
-2025-07-08 09:41:57,306 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
-2025-07-08 09:41:57,306 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:41:57,307 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:41:58,740 - WARNING - 🚨 CAPTCHA detected – creating new session.
-2025-07-08 09:41:58,745 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0004)
-2025-07-08 09:41:58,746 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:41:58,746 - INFO - Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
-2025-07-08 09:42:00,249 - WARNING - 🚨 CAPTCHA detected – creating new session.
-2025-07-08 09:42:00,250 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:42:00,252 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,253 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:00,254 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:01,558 - INFO - luxirty
-2025-07-08 09:42:01,579 - INFO - luxirty
-2025-07-08 09:42:01,582 - INFO - luxirty
-2025-07-08 09:42:01,585 - INFO - luxirty
-2025-07-08 09:42:02,449 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:42:02,449 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:42:02,451 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:42:02,451 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:42:02,477 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
-}
-
-2025-07-08 09:42:02,477 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:42:02,835 - INFO - [🌍 IP seen by website]: {
+2025-07-09 11:05:31,471 - INFO - Navigating to https://www.google.com.au
+2025-07-09 11:05:32,006 - INFO - [🌍 IP seen by website]: {
   "origin": "118.70.178.28"
 }
 
-2025-07-08 09:42:02,835 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:42:03,528 - INFO - Searching for: elanga
-2025-07-08 09:42:03,585 - INFO - Searching for: clash royale
-2025-07-08 09:42:03,659 - INFO - Searching for: dolehide
-2025-07-08 09:42:04,131 - INFO - Searching for: ssc cgl
-2025-07-08 09:42:04,264 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:42:04,458 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:42:04,534 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:42:04,850 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:42:05,908 - WARNING - 🚨 CAPTCHA detected – creating new session.
-2025-07-08 09:42:05,910 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
-2025-07-08 09:42:05,910 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:42:05,910 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:42:05,910 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:05,911 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:05,911 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:10,305 - WARNING - ❌ Failed to check captcha content: Timeout 5000ms exceeded.
-2025-07-08 09:42:10,307 - WARNING - ❌ Failed to check captcha content: Timeout 5000ms exceeded.
-2025-07-08 09:42:10,318 - WARNING - 🚨 CAPTCHA detected – creating new session.
-2025-07-08 09:42:10,319 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
-2025-07-08 09:42:10,320 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:42:10,320 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:42:12,633 - INFO - luxirty
-2025-07-08 09:42:12,647 - INFO - luxirty
-2025-07-08 09:42:13,555 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
+2025-07-09 11:05:32,006 - INFO - Navigating to https://search.luxirty.com/
+2025-07-09 11:05:32,270 - INFO - [🌍 IP seen by website]: {
+  "origin": "118.70.178.28"
 }
 
-2025-07-08 09:42:13,555 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:42:14,932 - INFO - [🌍 IP seen by website]: {
-  "origin": "14.232.210.3"
+2025-07-09 11:05:32,270 - INFO - Navigating to https://www.google.com.vn
+2025-07-09 11:05:33,161 - INFO - [🌍 IP seen by website]: {
+  "origin": "118.70.178.28"
 }
 
-2025-07-08 09:42:14,932 - INFO - Navigating to https://search.luxirty.com/
-2025-07-08 09:42:16,374 - INFO - Searching for: ssc cgl
-2025-07-08 09:42:17,347 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:42:17,709 - INFO - Searching for: elanga
-2025-07-08 09:42:18,625 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
-2025-07-08 09:42:19,017 - WARNING - 🚨 CAPTCHA detected – creating new session.
-2025-07-08 09:42:19,018 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:42:19,019 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:42:19,019 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:42:19,019 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:19,019 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:19,019 - INFO - Error while receiving a control message (SocketClosed): received exception "peek of closed file"
-2025-07-08 09:42:20,143 - ERROR - Max retries (3) reached for HTML retrieval query: ssc cgl. Stopping.
-2025-07-08 09:42:20,219 - WARNING - 🚨 CAPTCHA detected – creating new session.
-2025-07-08 09:42:20,220 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0001)
-2025-07-08 09:42:20,220 - INFO - ✅ Tor IP rotated.
-2025-07-08 09:42:20,221 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
-2025-07-08 09:42:21,606 - ERROR - Max retries (3) reached for HTML retrieval query: elanga. Stopping.
+2025-07-09 11:05:33,161 - INFO - Navigating to https://search.luxirty.com/
+2025-07-09 11:05:34,061 - INFO - Searching for: anglian water
+2025-07-09 11:05:34,374 - INFO - Searching for: air
+2025-07-09 11:05:34,754 - INFO - Searching for: a'ja wilson
+2025-07-09 11:05:34,893 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 11:05:35,000 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 11:05:35,209 - INFO - Searching for: shoaib bashir
+2025-07-09 11:05:35,640 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 11:05:35,912 - INFO - Searching for: wesley bryan
+2025-07-09 11:05:36,224 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 11:05:36,681 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 11:05:37,201 - INFO - Domain: luxirty
+2025-07-09 11:05:38,134 - INFO - Domain: google
+2025-07-09 11:05:38,136 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2025-07-09 11:05:38,136 - INFO - ✅ Tor IP rotated.
+2025-07-09 11:05:38,136 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-09 11:05:38,373 - INFO - Domain: luxirty
+2025-07-09 11:05:38,374 - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2025-07-09 11:05:38,374 - INFO - ✅ Tor IP rotated.
+2025-07-09 11:05:38,375 - INFO - Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2025-07-09 11:05:39,603 - INFO - [🌍 IP seen by website]: {
+  "origin": "118.70.178.28"
+}
+
+2025-07-09 11:05:39,603 - INFO - Navigating to https://search.luxirty.com/
+2025-07-09 11:05:40,007 - INFO - [🌍 IP seen by website]: {
+  "origin": "118.70.178.28"
+}
+
+2025-07-09 11:05:40,007 - INFO - Navigating to https://www.google.ca
+2025-07-09 11:05:41,083 - INFO - [🌍 IP seen by website]: {
+  "origin": "118.70.178.28"
+}
+
+2025-07-09 11:05:41,083 - INFO - Navigating to https://search.luxirty.com/
+2025-07-09 11:05:42,356 - INFO - Searching for: रक्षाबंधन कब है
+2025-07-09 11:05:43,004 - INFO - Searching for: skysports
+2025-07-09 11:05:43,443 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 11:05:43,614 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 11:05:43,942 - INFO - Searching for: 4th of july parade near me
+2025-07-09 11:05:44,988 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 11:05:46,062 - INFO - Domain: luxirty
+2025-07-09 11:05:47,114 - INFO - Domain: luxirty
+2025-07-09 11:05:47,401 - INFO - [🌍 IP seen by website]: {
+  "origin": "118.70.178.28"
+}
+
+2025-07-09 11:05:47,401 - INFO - Navigating to https://search.luxirty.com/
+2025-07-09 11:05:47,975 - INFO - [🌍 IP seen by website]: {
+  "origin": "118.70.178.28"
+}
+
+2025-07-09 11:05:47,976 - INFO - Navigating to https://search.luxirty.com/
+2025-07-09 11:05:50,087 - INFO - Searching for: santiago gimenez
+2025-07-09 11:05:50,751 - INFO - Searching for: christopher nolan
+2025-07-09 11:05:50,910 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
+2025-07-09 11:05:51,785 - WARNING - 🚧 CAPTCHA check bị gián đoạn vì trang đang chuyển tiếp (lần 1/3)
