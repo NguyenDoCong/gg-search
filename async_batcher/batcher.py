@@ -14,12 +14,12 @@ log = logging.getLogger(__name__)
 class Batcher:
 	def __init__(
 		self, 
-		batch_prediction_fn: Callable[[List[Any]], List[Any]], 
+		batch_search_fn: Callable[[List[Any]], List[Any]], 
 		event_loop: Optional[AbstractEventLoop] = None, 
 		max_batch_size: int = 1,
 		max_queue_size: int = 100
 	) -> None:
-		self.batch_prediction_fn = batch_prediction_fn
+		self.batch_search_fn = batch_search_fn
 		self.event_loop = event_loop
 		self.max_batch_size = max_batch_size
 		self.wait_time = 5
@@ -38,10 +38,10 @@ class Batcher:
 		try:
 			jobs_future, input_contexts = zip(*batch)
 
-			predictions = await self.batch_prediction_fn(input_contexts)
+			results = await self.batch_search_fn(input_contexts)
 
-			for idx, prediction in enumerate(predictions):
-				jobs_future[idx].set_result(prediction)
+			for idx, result in enumerate(results):
+				jobs_future[idx].set_result(result)
 		except Exception as e:
 			log.exception(f"Error processing batch: {e}")
 

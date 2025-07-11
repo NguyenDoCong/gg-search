@@ -1,17 +1,15 @@
-from playwright.async_api import async_playwright, Browser # Changed to async_api
-from typing import Optional, List, Dict, Any
+from playwright.async_api import async_playwright, Browser, BrowserContext # Changed to async_api
+from typing import Optional, List, Dict, Tuple
 import os
 import json
 import logging
 from datetime import datetime
 import random
 import re
-from search_types import SearchResponse, FingerprintConfig, CommandOptions, SearchResult, SavedState, HtmlResponse
+from search_types import SearchResponse, FingerprintConfig, CommandOptions, SavedState, HtmlResponse
 from config import DEVICE_CONFIGS, TIMEZONE_LIST, GOOGLE_DOMAINS
-from bs4 import BeautifulSoup # Import BeautifulSoup
-from utils import CustomFingerprintGenerator
-from proxy_fingerprint_manager import ProxyFingerprintManager
-from tor_proxy_manager import TorFingerprintManager
+from proxy.tor_proxy_manager import TorFingerprintManager
+import asyncio
 
 logging.basicConfig(
     level=logging.INFO,
@@ -53,6 +51,9 @@ class GoogleSearcher:
         self._playwright = None
         self._playwright_context = None # To store the async context manager
         self._request_count = 0  # Đếm số lần get_html
+        self._context = None
+        
+        self._browser_contexts: Dict[str, Tuple[BrowserContext, int]] = {}
     
     def get_host_machine_config(self, user_locale: Optional[str] = None) -> FingerprintConfig:
         """Tạo cấu hình fingerprint dựa trên máy host"""
@@ -146,7 +147,7 @@ class GoogleSearcher:
                 logger.error(f"Failed to save state: {e}")
     
     async def setup_browser_context(self, browser: Browser, saved_state: SavedState, 
-                         storage_state: Optional[str]): 
+                         storage_state: Optional[str], proxy_port=None, control_port=None): 
         """Thiết lập browser context với fingerprinting"""
         device_name = "Desktop Chrome"
         # device_name = saved_state.fingerprint.device_name if saved_state.fingerprint else "Desktop Chrome"
@@ -163,7 +164,7 @@ class GoogleSearcher:
             try:
                 async with self._context_lock:
                     session = await self.session_manager.setup_browser_context(
-                        self._playwright_context, headless=True
+                        self._playwright_context, headless=True, proxy_port=proxy_port, control_port= control_port
                     )
             except Exception as e:
                 logger.info("Lỗi lấy context từ Tor Manager:", e)
@@ -243,7 +244,7 @@ class GoogleSearcher:
             Object.defineProperty(window.screen, 'colorDepth', { get: () => 24 });
             Object.defineProperty(window.screen, 'pixelDepth', { get: () => 24 });
         """)
-        
+                
         return context
     
     async def find_search_input(self, page): # async added
@@ -743,12 +744,15 @@ class GoogleSearcher:
             logger.error(f"❌ Lỗi khi ghi IP bị chặn: {e}")
     
     
-    async def perform_get_html(self, query: str, options: CommandOptions, headless: bool, current_retry: int = 0, domain="luxirty") -> SearchResponse:
+    async def perform_get_html(self, query: str, options: CommandOptions = None, headless: bool = True, current_retry: int = 0, domain="luxirty") -> SearchResponse:
         """Lấy HTML của trang search"""
         # if not os.path.exists(options.state_file):
         #     os.makedirs(os.path.dirname(options.state_file), exist_ok=True)
         max_retries = 3  # Đặt giới hạn số lần thử lại, bạn có thể điều chỉnh số này
 
+        if not options:
+            options = CommandOptions(save_html=False, output_path=None, no_save_state=True)
+            
         print("Domain:", domain)
         logger.info(f"Domain: {domain}")
         
@@ -762,7 +766,7 @@ class GoogleSearcher:
         
         # refactor
         # browser = await self.init_browser(headless, options.timeout)
-        browser =self._browser
+        # browser = self._browser
         
         # def is_valid_json_file(path):
         #     if not os.path.exists(path) or os.path.getsize(path) == 0:
@@ -775,7 +779,7 @@ class GoogleSearcher:
         #         return False
         
         try:
-            storage_state = options.state_file if os.path.exists(options.state_file) else None
+            # storage_state = options.state_file if os.path.exists(options.state_file) else None
             
             # Only use storage_state if file exists and is not empty
             # storage_state = None
@@ -785,6 +789,7 @@ class GoogleSearcher:
             # if is_valid_json_file(options.state_file):
             #     storage_state = options.state_file
             # logger.info(domain)
+            
             if domain == "google":
                 selected_domain = saved_state.google_domain or random.choice(self.GOOGLE_DOMAINS)
                 saved_state.google_domain = selected_domain
@@ -793,7 +798,18 @@ class GoogleSearcher:
                 saved_state.google_domain = selected_domain
                 
             # refactor
-            context = await self.setup_browser_context(browser, saved_state, storage_state)
+            # context = await self.setup_browser_context(browser, saved_state, storage_state)
+            
+            # Lấy tất cả các key của dictionary
+            keys = list(self._browser_contexts.keys())
+
+            # Chọn ngẫu nhiên một key từ danh sách
+            random_key = random.choice(keys)
+
+            # Lấy phần tử tương ứng với key được chọn
+            context, count = self._browser_contexts[random_key]
+
+            # context = await self._create_context(domain=domain)
             
             page = await context.new_page()
             await page.goto("https://httpbin.org/ip")
@@ -804,9 +820,9 @@ class GoogleSearcher:
             # ip = await self.get_public_ip(page)
             
             try:            
-                print(f"Navigating to {selected_domain}")                
-                logger.info(f"Navigating to {selected_domain}")
-                await page.goto(selected_domain, timeout=options.timeout, wait_until="networkidle")
+                print(f"Navigating to {saved_state.google_domain}")                
+                logger.info(f"Navigating to {saved_state.google_domain}")
+                await page.goto(saved_state.google_domain, timeout=options.timeout, wait_until="networkidle")
                 await page.wait_for_timeout(1500)  # chờ thêm 1.5 giây
 
                 if await self.check_captcha_or_sorry(page):
@@ -939,30 +955,102 @@ class GoogleSearcher:
 
         options = CommandOptions(save_html=save_to_file, output_path=output_path, no_save_state=True)
         try:
-            resp = await self.perform_get_html(query, options, headless=True, domain=domain) # await added
-            # if not resp or not hasattr(resp, "html"):
-            #     return {"error": "Phản hồi từ hàm search không hợp lệ"}
-            # soup = BeautifulSoup(resp.html, "html.parser")
-            # result_block = soup.find_all("div", class_="N54PNb BToiNc")
-
-            # if not result_block:
-            #     if os.path.exists("./browser_state.json"):
-            #         os.remove("./browser_state.json")
-
-            #     # os.remove("./browser_state.json")
-            #     # os.makedirs(os.path.dirname(options.state_file), exist_ok=True)
-            #     resp = await self.perform_get_html(query, options, True) # await added
-            #     # if not resp or not hasattr(resp, "html"):
-            #     #     return {"error": "Phản hồi từ hàm search không hợp lệ"}
-            #     soup = BeautifulSoup(resp.html, "html.parser")
-            #     result_block = soup.find_all("div", class_="N54PNb BToiNc")
+            resp = await self.perform_get_html(query, options, headless=True, domain=domain) # await adde
 
             return resp
         finally:
             self._request_count += 1
             
             # await self.close_browser() # await added
+            
+    async def _create_context(self, domain, proxy_port=None, control_port=None):
+        options = CommandOptions(save_html=True, no_save_state=True)
+            
+        saved_state = self.load_saved_state(options.state_file)
+        storage_state = options.state_file if os.path.exists(options.state_file) else None
+        
+        browser = self._browser
+        
+        storage_state = options.state_file if os.path.exists(options.state_file) else None
+            
 
+        if domain == "google":
+            selected_domain = saved_state.google_domain or random.choice(self.GOOGLE_DOMAINS)
+            saved_state.google_domain = selected_domain
+        else:
+            selected_domain = "https://search.luxirty.com/"
+            saved_state.google_domain = selected_domain      
+              
+        context = await self.setup_browser_context(browser, saved_state, storage_state, proxy_port=proxy_port, control_port=control_port) 
+        self._context = context
+        
+        return context
+    
+    async def _create_contexts(self, domain):
+        # count = 0
+        BASE_PORT = 9050
+        if domain == "google":
+            BASE_PORT = 9060            
+            
+        # while len(self._browser_contexts) < 5:
+        async def task(count):
+            proxy_port = BASE_PORT + count * 2
+            control_port = proxy_port + 1
+            
+            context = await self._create_context(domain, proxy_port, control_port)
+            key = domain + str(count)
+            self._browser_contexts[key]=(context,0)
+            logger.info(f"Context {key} created")
+            # count+=1    
+
+        tasks = [task(count) for count in range(5)]
+        await asyncio.gather(*tasks, return_exceptions=True)
+                    
+
+    async def get_content(self, link):
+        page = None
+        
+        try:
+            # options = CommandOptions(save_html=True, no_save_state=True)
+            
+            # saved_state = self.load_saved_state(options.state_file)
+            # storage_state = options.state_file if os.path.exists(options.state_file) else None
+            
+            # browser = self._browser
+            context = self._context
+            # context = await self.setup_browser_context(browser, saved_state, storage_state)
+            
+            page = await context.new_page()
+
+            async def block_resources(route):
+                if route.request.resource_type in ["image", "font", "stylesheet", "media"]:
+                    await route.abort()
+                else:
+                    await route.continue_()
+
+            await page.route("**/*", block_resources)
+            await page.goto(link, wait_until="domcontentloaded", timeout=30000)
+
+            # Lấy toàn bộ nội dung text của body
+            body_text = await page.inner_text("body")
+            body_text = body_text.replace('\n', ' ').replace('\t', ' ')
+            content = re.sub(r'\s{2,}', ' ', body_text)
+
+            # print(content)
+
+            await page.close()
+
+
+                # print(content)
+        except Exception as e:
+            print("The error is: ", e)
+            content = "Lỗi khi lấy nội dung"
+            await page.close()
+
+        finally:
+            if page:
+                await page.close()
+        return content
 
 # if __name__ == "__main__":
     

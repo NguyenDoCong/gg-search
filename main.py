@@ -3,8 +3,6 @@ import random
 from bs4 import BeautifulSoup
 from __init__ import search
 from search import GoogleSearcher
-from urllib.parse import urlparse, parse_qs
-import re
 from fastapi import FastAPI, Request
 # from contextlib import asynccontextmanager
 import uvicorn
@@ -15,10 +13,7 @@ from aiocache import cached
 from async_batcher.batcher import Batcher
 from dataclasses import dataclass
 from typing import List, Tuple
-
-searcher_instance = None
-luxirty_instance = None
-google_instance = None
+from async_batcher.utils.data_handling import process_result
 # search_count = 0
 # search_lock = asyncio.Lock()
 
@@ -29,7 +24,9 @@ async def lifespan(app: FastAPI):
     
     # ✅ Gọi init_browser() sau khi khởi tạo
     await app.state.luxirty_instance.init_browser()
-    await app.state.google_instance.init_browser()    
+    await app.state.google_instance.init_browser()   
+    await app.state.luxirty_instance._create_contexts(domain="luxirty")
+    await app.state.google_instance._create_contexts(domain="google")
     
     loop = asyncio.get_running_loop()
     task = asyncio.create_task(batcher.start(loop))
@@ -39,129 +36,9 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
-# app = FastAPI()
-
-async def get_content(link):
-    try:
-        global context
-        
-        page = await context.new_page()        
-
-        async def block_resources(route):
-            if route.request.resource_type in ["image", "font", "stylesheet", "media"]:
-                await route.abort()
-            else:
-                await route.continue_()
-
-        await page.route("**/*", block_resources)
-        await page.goto(link, wait_until="domcontentloaded", timeout=30000)
-
-        # Lấy toàn bộ nội dung text của body
-        body_text = await page.inner_text("body")
-        body_text = body_text.replace('\n', ' ').replace('\t', ' ')
-        content = re.sub(r'\s{2,}', ' ', body_text)
-
-        # print(content)
-
-        await page.close()
-
-
-            # print(content)
-    except Exception as e:
-        print("The error is: ", e)
-        content = "Lỗi khi lấy nội dung"
-        await page.close()
-
-    finally:
-        if page:
-            await page.close()
-    return content
-
-async def process_result(result, method="requests", domain="luxirty"):
-
-    if method=="requests":
-        link = result.a.get('href')
-        if not link:
-            return None, None
-
-        # Phân tích cú pháp URL
-        parsed_url = urlparse(link)
-        # Trích xuất tham số truy vấn
-        query_params = parse_qs(parsed_url.query)
-        # Lấy giá trị thực sự của URL
-        real_url = query_params.get('q', [None])[0]
-
-        if not real_url:
-            return None, None
-
-        # print("---------------------------")
-        # print(link)
-        
-        title = result.find("span", class_="CVA68e qXLe6d")
-
-        # title = result.find("span", class_="CVA68e qXLe6d fuLhoc ZWRArf")
-        # title = result.find("h3", class_="LC20lb MBeuO DKV0Md")
-
-        if title:
-            title_text = title.get_text(strip=True)
-
-        else:
-            title_text = "Không có tiêu đề"
-
-        # print(title_text)
-
-        summary = result.find("span", class_="qXLe6d FrIlee")
-        # summary = result.find("div", class_="VwiC3b yXK7lf p4wth r025kc hJNv6b Hdw6tb")
-        summary_text = summary.get_text(strip=True) if summary else "Không có tóm tắt"
-
-        # print(summary_text)
-
-    else:
-        print("Processing")
-        link = result.find("a")
-        if not link:
-            print("Link not found")
-            return None, None
-
-        # Lấy giá trị thực sự của URL
-        real_url = link.get('href')
-
-        if not real_url:
-            print("URL not found")
-            return None, None
-
-        # print("---------------------------")
-        # print(link)
-        if domain=="google":
-            title = result.find("h3", class_="LC20lb MBeuO DKV0Md")
-        else:
-            title = result.find("a", class_="gs-title")       
-
-        if title:
-            title_text = title.get_text(strip=True)
-
-        else:
-            title_text = "Không có tiêu đề"
-
-        # print(title_text)
-        if domain=="google":
-            summary = result.find("div", class_="VwiC3b yXK7lf p4wth r025kc hJNv6b Hdw6tb")
-        else:
-            summary = result.find("div", class_="gs-bidi-start-align gs-snippet")
-            
-        summary_text = summary.get_text(strip=True) if summary else "Không có tóm tắt"
-
-        # print(summary_text)        
-
-    # content = await get_content(real_url)
-    content = ""
-
-    return title_text, summary_text + content
-
-
 # @cached(ttl=86400)  # Cache kết quả trong 1 giờ (3600 giây)
 async def search_response(query, request: Request, method="fingerprint"):
-    global luxirty_instance, google_instance, search_count
+    # global luxirty_instance, google_instance, search_count
 
     if method=='requests':
         resp = search(query,5)
@@ -194,14 +71,21 @@ async def search_response(query, request: Request, method="fingerprint"):
         else:
             domain="luxirty"
         
+        searcher = None
+        
         if domain == "luxirty":
-            if not app.state.luxirty_instance._browser:
-                await app.state.luxirty_instance.init_browser()
-
+            # if not app.state.luxirty_instance._browser:
+            #     await app.state.luxirty_instance.init_browser()
+                
+            # searcher = app.state.luxirty_instance
+            
             resp = await request.app.state.luxirty_instance.get_html(query, save_to_file=True, domain=domain)
         else:
-            if not app.state.google_instance._browser:
-                await app.state.google_instance.init_browser()
+            # if not app.state.google_instance._browser:
+            #     await app.state.google_instance.init_browser()
+                
+            # searcher = app.state.google_instance
+                
             resp = await request.app.state.google_instance.get_html(query, save_to_file=True, domain=domain)
 
         # search_count += 1
@@ -211,6 +95,9 @@ async def search_response(query, request: Request, method="fingerprint"):
         soup = BeautifulSoup(resp.html, "html.parser")
         if domain == "google":
             result_block = soup.find_all("div", class_="N54PNb BToiNc")
+            if not result_block:
+                result_block = soup.find_all("div", class_="wHYlTd Ww4FFb vt6azd tF2Cxc asEBEc")                
+
         else:
             result_block = soup.find_all("div", class_="gsc-webResult gsc-result")   
 
@@ -218,7 +105,7 @@ async def search_response(query, request: Request, method="fingerprint"):
             return {"error": "Không tìm thấy kết quả trong HTML"}
     # method = "fingerprint"
 
-    tasks = [process_result(result, method=method, domain=domain) for result in result_block[:3]]
+    tasks = [process_result(result, method=method, domain=domain, searcher=searcher) for result in result_block[:3]]
     # print(tasks)
     results = await asyncio.gather(*tasks, return_exceptions=True)
 
@@ -239,11 +126,12 @@ async def search_response(query, request: Request, method="fingerprint"):
     return result
 
 async def batch_search_fn(batch_inputs: List[Tuple[str, Request, str]]) -> List[dict]:
-    results = []
-    for query, request, method in batch_inputs:
-        result = await search_response(query, request, method)
-        results.append(result)
-    return results
+
+    tasks = [
+        search_response(query, request, method)
+        for query, request, method in batch_inputs
+    ]
+    return await asyncio.gather(*tasks, return_exceptions=True)
 
 # --------------Configs and dependencies--------------
 
@@ -260,7 +148,7 @@ config = Config(
 # --------------Batcher Setup--------------
 
 batcher = Batcher(
-	batch_prediction_fn=batch_search_fn, 
+	batch_search_fn=batch_search_fn, 
 	max_batch_size=config.max_batch_size
 )
  
@@ -284,15 +172,6 @@ async def query_result(req: Request):
 
     # return result
     return JSONResponse(status_code=200, content=result)
-
-# @app.post("/translate", status_code=201)
-# async def translate(req: TranslationRequest):
-# 	translated_text = await batcher.predict(req.text)
-# 	return JSONResponse({"translation": translated_text})
-
-
-
-# app = FastAPI(lifespan=lifespan)
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
