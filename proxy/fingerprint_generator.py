@@ -112,7 +112,8 @@ class CustomFingerprintGenerator:
         ]
 
         # Display preferences
-        self.color_schemes = ["light", "dark", "no-preference"]
+        # self.color_schemes = ["light", "dark", "no-preference"]
+        self.color_schemes = ["light", "light", "light"]        
         self.reduced_motions = ["no-preference", "reduce"]
         self.forced_colors = ["none", "active"]
 
@@ -148,14 +149,16 @@ class CustomFingerprintGenerator:
         Returns:
             Device name string
         """
-        if device_type is None:
-            device_type = random.choice(["desktop", "mobile", "tablet"])
+        # if device_type is None:
+        #     device_type = random.choice(["desktop", "mobile", "tablet"])
 
-        if browser is None:
-            browser = random.choice(self.devices[device_type]["browsers"])
+        # if browser is None:
+        #     browser = random.choice(self.devices[device_type]["browsers"])
 
-        # Format: "Device_Type Browser"
-        device_name = f"{device_type.title()} {browser}"
+        # # Format: "Device_Type Browser"
+        # device_name = f"{device_type.title()} {browser}"
+        
+        device_name = "Desktop Chrome"
 
         return device_name
 

@@ -9,103 +9,58 @@
         script: test/test.js
         output: -
 
-     scenarios: (100.00%) 1 scenario, 10 max VUs, 10m30s max duration (incl. graceful stop):
-              * default: 10 iterations shared among 10 VUs (maxDuration: 10m0s, gracefulStop: 30s)
+     scenarios: (100.00%) 1 scenario, 1 max VUs, 10m30s max duration (incl. graceful stop):
+              * default: 1 iterations shared among 1 VUs (maxDuration: 10m0s, gracefulStop: 30s)
 
 
-running (00m01.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 10 VUs  00m01.0s/10m0s  00/10 shared iters
+running (00m01.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 1 VUs  00m01.0s/10m0s  0/1 shared iters
 
-running (00m02.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 10 VUs  00m02.0s/10m0s  00/10 shared iters
+running (00m02.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 1 VUs  00m02.0s/10m0s  0/1 shared iters
 
-running (00m03.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 10 VUs  00m03.0s/10m0s  00/10 shared iters
+running (00m03.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 1 VUs  00m03.0s/10m0s  0/1 shared iters
 
-running (00m04.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 10 VUs  00m04.0s/10m0s  00/10 shared iters
+running (00m04.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 1 VUs  00m04.0s/10m0s  0/1 shared iters
 
-running (00m05.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 10 VUs  00m05.0s/10m0s  00/10 shared iters
+running (00m05.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 1 VUs  00m05.0s/10m0s  0/1 shared iters
+time="2025-07-17T03:52:35Z" level=info msg="🔍 Keyword: btc" source=console
+time="2025-07-17T03:52:35Z" level=info msg="📦 Status: 500" source=console
+time="2025-07-17T03:52:35Z" level=info msg="📩 Body: {\"error\":\"cannot access local variable 'result_block' where it is not associated with a value\"}" source=console
 
-running (00m06.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 10 VUs  00m06.0s/10m0s  00/10 shared iters
-
-running (00m07.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 10 VUs  00m07.0s/10m0s  00/10 shared iters
-
-running (00m08.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 10 VUs  00m08.0s/10m0s  00/10 shared iters
-
-running (00m09.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 10 VUs  00m09.0s/10m0s  00/10 shared iters
-
-running (00m10.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 10 VUs  00m10.0s/10m0s  00/10 shared iters
-
-running (00m11.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 10 VUs  00m11.0s/10m0s  00/10 shared iters
-time="2025-07-11T09:54:43Z" level=info msg="🔍 Keyword: jane seymour" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📩 Body: {\"Jane Seymour– Wikipedia tiếng Việt\":\"Jane Seymour(tiếng Pháp: Jeanne Seymour; tiếng Tây Ban Nha: Juana Seymour; khoảng 1508 – 24 tháng 10, năm 1537), là Vương hậu của Vương quốc Anh với tư cách là\u00a0." source=console
-time="2025-07-11T09:54:43Z" level=info msg="🔍 Keyword: madre fire map" source=console
-time="2025-07-11T09:54:43Z" level=info msg="🔍 Keyword: china dalai lama" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📩 Body: {\"14thDalai Lama- Wikipedia\":\"The 14thDalai Lamawas born to a farming family in Taktser (Hongya village), in the traditional Tibetan region of Amdo, at the time a Chinese frontier district\u00a0...\",\"Tibet" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📩 Body: {\"Madre Fire | CAL FIRE - CA.gov\":\"2 thg 7, 2025—Evacuation Orders. Immediate threat to life. This is a lawful order to LEAVE NOW. The area is lawfully closed to public access.\",\"Madre Fire Map\":\"The " source=console
-time="2025-07-11T09:54:43Z" level=info msg="🔍 Keyword: oasis heaton park" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📩 Body: {\"Oasis at Heaton Park: Gallagher brothers return home for ...\":\"2 giờ trước—More than 80,000 people are expected at Heaton Parkfor the first of five Oasis show back in the city where it all started. " source=console
-time="2025-07-11T09:54:43Z" level=info msg="🔍 Keyword: why do we celebrate 4th of july" source=console
-time="2025-07-11T09:54:43Z" level=info msg="🔍 Keyword: hp" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📩 Body: {\"Laptop Computers, Desktops, Printers and more | HP® Việt ...\":\"Máy tính · Máy tính xách tay · Máy bàn · Gaming· Laptop doanh nghiệp · Máy bàn doanh nghiệp · Máy trạm. Tìm hiểu · Mua ngay. Monitors a" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📩 Body: {\"Independence Day (United States) - Wikipedia\":\"Independence Day, known colloquially as theFourthofJuly, is a federal holiday in the United States which commemorates the adoption of the Declaration o" source=console
-time="2025-07-11T09:54:43Z" level=info msg="🔍 Keyword: mirra andreeva" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📩 Body: {\"MirraAleksandrovnaAndreeva– Wikipedia tiếng Việt\":\"Cô có thứ hạng đánh đơn cao nhất là vị trí số 15 thế giới và thứ hạng đánh đôi cao nhất là vị trí số 51, theo bảng xếp hạng WTA, cả hai đều đạt đượ" source=console
-time="2025-07-11T09:54:43Z" level=info msg="🔍 Keyword: firework show" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📩 Body: {\"Spectacular nightlyfireworksilluminate Phú Quốc's Sunset Town\":\"7 thg 3, 2024...Sunset Town in Phú Quốc has become a nightly destination for artisticfirework displays, featuring more than 100 harmon" source=console
-time="2025-07-11T09:54:43Z" level=info msg="🔍 Keyword: edwin diaz" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📩 Body: {\"Edwin Díaz\":\"Edwin Orlando Díaz Laboy(sinh ngày 22 tháng 3 năm 1994) là một cầu thủ bóng chày chuyên nghiệp người Puerto Rico cho đội New York Mets của Major League\u00a0...EdwinOrlandoDíazLaboy (born Ma" source=console
-time="2025-07-11T09:54:43Z" level=info msg="🔍 Keyword: jannik sinner" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📦 Status: 200" source=console
-time="2025-07-11T09:54:43Z" level=info msg="📩 Body: {\"Jannik Sinner– Wikipedia tiếng Việt\":\"Jannik Sinner(sinh ngày 16 tháng 8 năm 2001) là một vận động viên quần vợt chuyên nghiệp người Ý. Anh có thứ hạng cao nhất là vị trí số 1 trên thế giới ở Hiệp\u00a0." source=console
-
-running (00m12.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 10 VUs  00m12.0s/10m0s  00/10 shared iters
+running (00m06.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 1 VUs  00m06.0s/10m0s  0/1 shared iters
 
 
   █ TOTAL RESULTS 
 
-    checks_total.......................: 10      0.79091/s
-    checks_succeeded...................: 100.00% 10 out of 10
-    checks_failed......................: 0.00%   0 out of 10
+    checks_total.......................: 1       0.15852/s
+    checks_succeeded...................: 0.00%   0 out of 1
+    checks_failed......................: 100.00% 1 out of 1
 
-    ✓ status is 200
+    ✗ status is 200
+      ↳  0% — ✓ 0 / ✗ 1
 
     HTTP
-    http_req_duration.......................................................: avg=11.64s min=11.63s med=11.64s max=11.64s p(90)=11.64s p(95)=11.64s
-      { expected_response:true }............................................: avg=11.64s min=11.63s med=11.64s max=11.64s p(90)=11.64s p(95)=11.64s
-    http_req_failed.........................................................: 0.00%  0 out of 10
-    http_reqs...............................................................: 10     0.79091/s
+    http_req_duration......................: avg=5.3s min=5.3s med=5.3s max=5.3s p(90)=5.3s p(95)=5.3s
+    http_req_failed........................: 100.00% 1 out of 1
+    http_reqs..............................: 1       0.15852/s
 
     EXECUTION
-    iteration_duration......................................................: avg=12.64s min=12.64s med=12.64s max=12.64s p(90)=12.64s p(95)=12.64s
-    iterations..............................................................: 10     0.79091/s
-    vus.....................................................................: 10     min=10      max=10
-    vus_max.................................................................: 10     min=10      max=10
+    iteration_duration.....................: avg=6.3s min=6.3s med=6.3s max=6.3s p(90)=6.3s p(95)=6.3s
+    iterations.............................: 1       0.15852/s
+    vus....................................: 1       min=1      max=1
+    vus_max................................: 1       min=1      max=1
 
     NETWORK
-    data_received...........................................................: 8.0 kB 630 B/s
-    data_sent...............................................................: 1.6 kB 123 B/s
+    data_received..........................: 239 B   38 B/s
+    data_sent..............................: 159 B   25 B/s
 
 
 
 
-running (00m12.6s), 00/10 VUs, 10 complete and 0 interrupted iterations
-default ✓ [ 100% ] 10 VUs  00m12.6s/10m0s  10/10 shared iters
+running (00m06.3s), 0/1 VUs, 1 complete and 0 interrupted iterations
+default ✓ [ 100% ] 1 VUs  00m06.3s/10m0s  1/1 shared iters

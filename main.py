@@ -16,17 +16,40 @@ from typing import List, Tuple
 from async_batcher.utils.data_handling import process_result
 # search_count = 0
 # search_lock = asyncio.Lock()
+from proxy.proxy_pool import ProxyPool
+from itertools import cycle
+
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("app.log", encoding="utf-8"),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    app.state.luxirty_instance = GoogleSearcher(use_proxy_fingerprint=True)
-    app.state.google_instance = GoogleSearcher(use_proxy_fingerprint=True)
+    # app.state.luxirty_instance = GoogleSearcher(use_proxy_fingerprint=True)
+    # app.state.search_instance = GoogleSearcher(use_proxy_fingerprint=True)
     
-    # ✅ Gọi init_browser() sau khi khởi tạo
-    await app.state.luxirty_instance.init_browser()
-    await app.state.google_instance.init_browser()   
-    await app.state.luxirty_instance._create_contexts(domain="luxirty")
-    await app.state.google_instance._create_contexts(domain="google")
+    # # ✅ Gọi init_browser() sau khi khởi tạo
+    # await app.state.search_instance.init_browser()
+    # # await app.state.google_instance.init_browser()   
+    # await app.state.search_instance._create_context()
+    # # await app.state.google_instance._create_contexts(domain="google")
+
+    proxy_ports = list(range(9050, 9130, 2))  # 9050 → 9088
+    proxy_pool = ProxyPool()
+
+    if not proxy_pool.redis.exists("tor:proxy_list"):
+        proxy_pool.init_proxies(proxy_ports)
+        logger.info(f"[INIT] ✅ Đã khởi tạo {len(proxy_ports)} proxy Tor vào Redis.")
+    else:
+        logger.info("[INIT] ♻️ Proxy list đã tồn tại trong Redis.")
     
     loop = asyncio.get_running_loop()
     task = asyncio.create_task(batcher.start(loop))
@@ -37,99 +60,117 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 
 # @cached(ttl=86400)  # Cache kết quả trong 1 giờ (3600 giây)
-async def search_response(query, request: Request, method="fingerprint"):
+async def search_response(query, request: Request, method="fingerprint", endpoint="luxirty"):
     # global luxirty_instance, google_instance, search_count
-
+    proxy_pool = ProxyPool()
+    proxy = proxy_pool.get_next_proxy()
+    
     if method=='requests':
-        resp = search(query,5)
+        logger.info(f"[REQUESTS] Đang dùng proxy: {proxy}")
+
+        resp = search(query, 5, proxy=proxy, endpoint=endpoint)
         if not resp or not hasattr(resp, "text"):
+            logger.error("Phản hồi từ hàm search không hợp lệ")
             return {"error": "Phản hồi từ hàm search không hợp lệ", "method": method}
         soup = BeautifulSoup(resp.text, "html.parser")
-        result_block = soup.find_all("table", class_='VeHcBf')
+        if not soup:
+            logger.error("Không thể phân tích cú pháp HTML")
+            
+        if endpoint == "mullvad leta":
+            result_block = soup.find_all("article", class_='svelte-fmlk7p') 
+        elif endpoint == "gprivate":
+            result_block = soup.find_all("div", class_='gsc-webResult gsc-result') 
+        # if len(result_block)<1:
+        #     result_block = soup.find_all("div", class_="ezO2md")
         if len(result_block)<1:
-            result_block = soup.find_all("div", class_="ezO2md")
-        # result_block = soup.find_all("div", class_="N54PNb BToiNc")
-        method = "requests"
+            # print("Không tìm thấy kết quả trong HTML")
+            logger.error("Không tìm thấy kết quả trong HTML")
         
     else:
+        # rand = random.randint(0,1)
+        # if rand==1:
+        #     domain="google"
+        # else:
+        #     domain="luxirty" 
+        domain="searxng"
+                   
         # print("domain:", domain)
         # s = GoogleSearcher(use_proxy_fingerprint=True)
         # resp = await s.get_html(query, save_to_file=True, domain=domain)
         
-        # Nếu chưa có hoặc đã đủ 400 lần → khởi tạo lại
-        # async with search_lock:
-
-        #     if searcher_instance is None or search_count >= 400:
-        #         print("🔁 Khởi tạo lại GoogleSearcher mới...")
-        #         searcher_instance = GoogleSearcher(use_proxy_fingerprint=True)
-        #         search_count = 0
-        #     else:
-        #         print(f"✅ Dùng lại GoogleSearcher hiện tại (#{search_count})")
-        rand = random.randint(1,2)
-        if rand==1:
-            domain="google"
-        else:
-            domain="luxirty"
+        # searcher = None
         
-        searcher = None
-        
-        if domain == "luxirty":
-            # if not app.state.luxirty_instance._browser:
-            #     await app.state.luxirty_instance.init_browser()
-                
-            # searcher = app.state.luxirty_instance
-            
-            resp = await request.app.state.luxirty_instance.get_html(query, save_to_file=True, domain=domain)
-        else:
-            # if not app.state.google_instance._browser:
-            #     await app.state.google_instance.init_browser()
-                
-            # searcher = app.state.google_instance
-                
-            resp = await request.app.state.google_instance.get_html(query, save_to_file=True, domain=domain)
+        # if domain == "luxirty":
+        # if not app.state.search_instance._browser:
+        #     await app.state.search_instance.init_browser()
 
-        # search_count += 1
+        # if not app.state.search_instance._context:
+        #     await app.state.search_instance._create_context()
+                
+        # searcher = app.state.luxirty_instance
+        
+        resp = await request.app.state.search_instance.get_html(query, save_to_file=True, domain=domain)
+        # else:
+        #     # if not app.state.google_instance._browser:
+        #     #     await app.state.google_instance.init_browser()
+                
+        #     # searcher = app.state.google_instance
+                
+        #     resp = await request.app.state.google_instance.get_html(query, save_to_file=True, domain=domain)
         
         if not resp or not hasattr(resp, "html"):
             return {"error": "Phản hồi từ hàm search không hợp lệ"}
         soup = BeautifulSoup(resp.html, "html.parser")
-        if domain == "google":
-            result_block = soup.find_all("div", class_="N54PNb BToiNc")
-            if not result_block:
-                result_block = soup.find_all("div", class_="wHYlTd Ww4FFb vt6azd tF2Cxc asEBEc")                
+        # if domain == "google":
+        #     result_block = soup.find_all("div", class_="N54PNb BToiNc")
+        #     if not result_block:
+        #         result_block = soup.find_all("div", class_="wHYlTd Ww4FFb vt6azd tF2Cxc asEBEc")                
 
-        else:
-            result_block = soup.find_all("div", class_="gsc-webResult gsc-result")   
+        # else:
+        #     result_block = soup.find_all("div", class_="gsc-webResult gsc-result")   
+
+        result_block = soup.find_all("article", class_="result result-default category-general")   
 
         if not result_block:
+            logger.error("Không tìm thấy kết quả trong HTML")
             return {"error": "Không tìm thấy kết quả trong HTML"}
     # method = "fingerprint"
+    logger.info(f"Processing {len(result_block)} results using method: {method}")
 
-    tasks = [process_result(result, method=method, domain=domain, searcher=searcher) for result in result_block[:3]]
+    tasks = [process_result(result, method=method, endpoint=endpoint) for result in result_block[:3]]
     # print(tasks)
-    results = await asyncio.gather(*tasks, return_exceptions=True)
+    try:
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+        for i, r in enumerate(results):
+            if isinstance(r, Exception):
+                logger.error(f"[Task {i}] Lỗi khi xử lý: {type(r).__name__} - {r}")
+    except Exception as e:
+        logger.exception("Lỗi khi chạy asyncio.gather:")
+        return {"error": str(e)}
 
-    # print(results)
-    # Kết hợp tiêu đề và nội dung
-    # valid_results = [
-    #     (title)
-    #     for r in results
-    #     if not isinstance(r, Exception) and r and isinstance(r, tuple) and len(r) == 1
-    #     for title in [r]
-    #     if title
-    # ]
+    # Lọc bỏ exception trước khi unpack
+    valid_results = [
+        (title, content)
+        for r in results
+        if not isinstance(r, Exception)
+        and isinstance(r, tuple)
+        and len(r) == 2
+        for title, content in [r]
+        if title and content
+    ]
 
-    # result = {"title":title for title in valid_results if title}
+    # Gộp lại thành dict
+    result = {title: content for title, content in valid_results}
     
-    result = {title: content for title, content in results if title and content}
+    # result = {title: content for title, content in results if title and content}
     # print(result)
     return result
 
-async def batch_search_fn(batch_inputs: List[Tuple[str, Request, str]]) -> List[dict]:
+async def batch_search_fn(batch_inputs: List[Tuple[str, Request, str, str]]) -> List[dict]:
 
     tasks = [
-        search_response(query, request, method)
-        for query, request, method in batch_inputs
+        search_response(query, request, method, endpoint)
+        for query, request, method, endpoint in batch_inputs
     ]
     return await asyncio.gather(*tasks, return_exceptions=True)
 
@@ -168,10 +209,20 @@ async def query_result(req: Request):
     # domain="google"
     # print("Query:", query)
     # result = await search_response(query, method="fingerprint", domain = domain)
-    result = await batcher.predict((query, req, "fingerprint"))  # truyền đủ thông tin
+    endpoint = "startpage"
+    try:
+        result = await batcher.predict((query, req, "requests", endpoint))
 
-    # return result
-    return JSONResponse(status_code=200, content=result)
+        if isinstance(result, Exception):
+            logger.error(f"Lỗi từ batcher.predict: {type(result).__name__} - {result}")
+            return JSONResponse(status_code=500, content={"error": str(result)})
+
+        return JSONResponse(status_code=200, content=result)
+
+    except Exception as e:
+        logger.exception("Lỗi trong query_result:")        
+        return JSONResponse(status_code=500, content={"error": str(e)})
+
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
@@ -183,7 +234,7 @@ if __name__ == "__main__":
     #         print("Running test search...")
     #         test_query = "Messi"
     #         # test_query = "chứng khoán hôm nay"
-    #         result = await search_response(test_query, domain="google") # Thử với method "requests"
+    #         result = await search_response(test_query) # Thử với method "requests"
     #         # result = await query_result(test_query) # Thử với method "fingerprint"
     #         print("\nTest Result:", result)
 

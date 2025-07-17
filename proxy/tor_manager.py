@@ -6,7 +6,7 @@ from pathlib import Path
 from stem.control import Controller
 from stem import Signal
 
-NUM_INSTANCES = 10
+NUM_INSTANCES = 40
 BASE_PORT = 9050
 BASE_DIR = Path.home() / "multi_tor"
 TOR_BIN = "tor"

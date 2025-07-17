@@ -8,6 +8,8 @@ from stem import Signal
 import logging
 import asyncio
 import random
+import threading
+from collections import deque
 
 logging.basicConfig(
     level=logging.INFO,
@@ -25,44 +27,72 @@ class TorFingerprintManager:
         self.session_pool = []
         # self.context_pool = {}  # <--- Thêm pool context theo IP
         # self.browser_pool = {} 
+        # self.proxy_ports = [9050, 9052, 9054, 9056, 9058, 9060, 9062, 9064, 9066, 9068]
+
+        self.proxy_ports_available = deque([9050, 9052, 9054, 9056, 9058, 9060, 9062, 9064, 9066, 9068])
+        random.shuffle(self.proxy_ports_available) # Trộn ngẫu nhiên để chia đều hơn khi khởi đầu
+
+        # Sử dụng Lock cho các môi trường đa luồng (threading)
+        self.port_lock = threading.Lock()
+        # Hoặc asyncio.Semaphore cho môi trường asyncio (nếu bạn sử dụng async/await)
+        # self.port_semaphore = asyncio.Semaphore(len(self.proxy_ports_available))
+
         self.current_session = None
-        self.proxy_ports = [9050, 9052, 9054, 9056, 9058, 9060, 9062, 9064, 9066, 9068]
-        self.proxy_port = proxy_port
-        # self.proxy_port = random.choice(self.proxy_ports)
-        self.control_port = self.proxy_port + 1            
         self.password = password
 
-    # def mark_ip_used(self, ip):
-    #     session = self.get_session_by_ip(ip)
-    #     if session:
-    #         session["used_count"] = session.get("used_count", 0) + 1
-    #         if session["used_count"] >= 20:  
-    #             self.rotate_ip()
+        # Ghi lại port đang được sử dụng bởi session hiện tại để xoay IP đúng
+        self.current_proxy_port = None
+        self.current_control_port = None
+
+    def get_available_port(self):
+        with self.port_lock: # Đảm bảo chỉ một luồng có thể truy cập Queue tại một thời điểm
+            if not self.proxy_ports_available:
+                logger.error("Không còn proxy port nào khả dụng!")
+                raise Exception("No available proxy ports.")
+            port = self.proxy_ports_available.popleft() # Lấy một port từ đầu hàng đợi
+            # Đưa port này về cuối hàng đợi để sử dụng lại sau này (Round-robin)
+            self.proxy_ports_available.append(port)
+            logger.info(f"Port được cấp phát: {port}")
+            return port
+
                 
     def rotate_ip(self, control_port):
+        import time
         max_retries = 5
-        if not control_port:
-            control_port = self.control_port
+        
+        # Đảm bảo control_port là của instance Tor mà bạn đang xoay
+        control_port_to_rotate = self.current_control_port 
+        if control_port_to_rotate is None:
+            # Nếu chưa có session nào, hoặc đây là lần xoay đầu tiên của một instance
+            # có thể cần một cách khác để xác định control_port
+            # Hiện tại, giả định rotate_ip luôn được gọi sau khi có session và port được gán
+            logger.warning("rotate_ip được gọi khi current_control_port là None. Có thể gây lỗi.")
+            return
+        
+        # if not control_port:
+        #     control_port = self.control_port
         for attempt in range(max_retries + 1):
             try:
-                with Controller.from_port(port=control_port) as controller:
+                with Controller.from_port(port=control_port_to_rotate) as controller:
+                
+                # with Controller.from_port(port=control_port) as controller:
                     # logger.info("🔄 Đã kết nối tới Tor control port")
 
                     controller.authenticate(password=self.password or "1")
                     controller.signal(Signal.NEWNYM)
-                    asyncio.sleep(5)
+                    time.sleep(5)
 
-                    logger.info("✅ Tor IP rotated.")
+                    logger.info(f"✅ Tor IP rotated for control port {control_port_to_rotate}.")
                     return  # success
             except Exception as e:
                 logger.warning(f"❌ Lỗi khi xoay IP (attempt {attempt + 1}/{max_retries}): {e}")
                 asyncio.sleep(2)  # Thêm delay
                 
                 if attempt == max_retries:
-                    logger.error("🚫 Max retries reached. Không thể xoay IP.", exc_info=True)
+                    logger.warning("🚫 Max retries reached. Không thể xoay IP.", exc_info=True)
                     
             
-    # def get_session_by_ip(self, ip):
+    def get_session_by_ip(self, ip):
         print(f"Checking IP {ip} in session pool")
         try:
             # print("Looping through session_pool", len(self.session_pool))
@@ -78,42 +108,50 @@ class TorFingerprintManager:
         return None                
 
     def get_new_session(self, proxy_port, control_port):
+        import time
         
-        # if control_port:
-        #     control_port = control_port
-        # else:
-        #     control_port = self.control_port
-            
-        if not proxy_port:            
-            proxy_port = self.proxy_port            
-            
-        try: 
-            self.rotate_ip(control_port)  # 🔄 Đổi IP mỗi lần tạo session mới
-        except Exception as e:
-            print("Lỗi xoay ip:", e)
-
-        locale = "en-US"
-        timezone_id = "Europe/London"
-
-        fingerprint_data = self.generator.generate_fingerprint(locale=locale)
-        fingerprint = fingerprint_data["fingerprint"]
-        fingerprint["locale"] = locale
-        fingerprint["timezone_id"] = timezone_id
-        
-        # Detect external IP info
         try:
-            tor_ip = requests.get("https://ipinfo.io/json", proxies={
-                "http": f"socks5h://127.0.0.1:{proxy_port}",
-                "https": f"socks5h://127.0.0.1:{proxy_port}"
-            }, timeout=10).json()
+            proxy_port = self.get_available_port()
+            control_port = proxy_port + 1
         except Exception as e:
-            print("[!] Failed to fetch Tor IP info:", e)
-            tor_ip = {}
-            
-        ip_address = tor_ip.get("ip", "unknown")
+            logger.error(f"Không thể lấy port khả dụng: {e}")
+            return None # Hoặc raise một ngoại lệ
         
-        print(f"IP từ proxy_port {proxy_port} và ControlPort {control_port} là {ip_address}")
-        logger.info(f"IP từ proxy_port {proxy_port} và ControlPort {control_port} là {ip_address}")
+        # control_port = proxy_port + 1                    
+            
+        # if not proxy_port:            
+        #     proxy_port = self.proxy_port            
+            
+        try:
+            self.rotate_ip(control_port)
+        except Exception as e:
+            logger.error(f"Lỗi xoay IP trên port {control_port}: {e}")
+        
+        # Wait for new IP to apply
+        new_ip = None
+        for _ in range(10):
+            try:
+                tor_ip = requests.get("https://ipinfo.io/json", proxies={
+                    "http": f"socks5h://127.0.0.1:{proxy_port}",
+                    "https": f"socks5h://127.0.0.1:{proxy_port}"
+                }, timeout=5).json()
+                new_ip = tor_ip.get("ip")
+                if new_ip and new_ip != getattr(self, "last_known_ip", None):
+                    break
+            except Exception as e:
+                pass
+            time.sleep(1)
+
+        if not new_ip:
+            logger.warning(f"Không thể xác định IP mới từ proxy_port {proxy_port}")
+            new_ip = "unknown"
+    
+        self.last_known_ip = new_ip        
+            
+        # ip_address = tor_ip.get("ip", "unknown")
+        
+        # print(f"IP từ proxy_port {proxy_port} và ControlPort {control_port} là {ip_address}")
+        # logger.info(f"IP từ proxy_port {proxy_port} và ControlPort {control_port} là {ip_address}")
         
         # self.load_session_pool(domain=domain)
         
@@ -127,9 +165,17 @@ class TorFingerprintManager:
             
         #     self.current_session = existing
         #     return existing
+        locale = "en-US"
+        timezone_id = "Europe/London"
+
+        fingerprint_data = self.generator.generate_fingerprint(locale=locale)
+        fingerprint = fingerprint_data["fingerprint"]
+        # fingerprint["locale"] = locale
+        # fingerprint["timezone_id"] = timezone_id
 
         ip_info = {
-            "ip": tor_ip.get("ip", "unknown"),
+            # "ip": tor_ip.get("ip", "unknown"),
+            "ip": new_ip, 
             "port": str(proxy_port),
             "user": None,
             "pass": None,
@@ -149,7 +195,7 @@ class TorFingerprintManager:
             "retry_count": 0
         }
         
-        session["used_count"] = 0  # đếm số lần session này được sử dụng
+        # session["used_count"] = 0  # đếm số lần session này được sử dụng
 
         # self.session_pool.append(session)
         # self.current_session = session
@@ -184,10 +230,10 @@ class TorFingerprintManager:
         if self.current_session is None:
             return self.get_new_session(proxy_port=proxy_port, control_port= control_port)
         
-        self.current_session["used_count"] += 1
-        if self.current_session["used_count"] >= 100:
-            logger.info("🔁 Session đã dùng đủ 100 lần – tạo session mới.")
-            return self.get_new_session()
+        # self.current_session["used_count"] += 1
+        # if self.current_session["used_count"] >= 100:
+        #     logger.info("🔁 Session đã dùng đủ 100 lần – tạo session mới.")
+        #     return self.get_new_session()
                 
         return self.current_session
 
@@ -199,7 +245,8 @@ class TorFingerprintManager:
 
     async def setup_browser_context(self, playwright, headless=True, proxy_port=None, control_port=None):
         try:
-            session = self.get_current_session(proxy_port=proxy_port, control_port= control_port)
+            # proxy_port = self.get_next_port()
+            session = self.get_new_session(proxy_port=proxy_port, control_port= control_port)
         except Exception as e:
             print("Lỗi tạo session mới", e)
             return None

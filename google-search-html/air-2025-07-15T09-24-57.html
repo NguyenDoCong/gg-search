@@ -1,0 +1,501 @@
+<!DOCTYPE html><html class="theme-auto center-alignment-no js" lang="en-EN"><head>
+  <meta charset="UTF-8">
+  <meta name="description" content="SearXNG — a privacy-respecting, open metasearch engine">
+  <meta name="keywords" content="SearXNG, search, search engine, metasearch, meta search">
+  <meta name="generator" content="searxng/2025.6.20+72230b85e">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noarchive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <title>SearXNG</title>
+<link rel="alternate" type="application/rss+xml" title="Searx search: air" href="https://copp.gg/search?q=air&amp;categories=general&amp;pageno=1&amp;time_range=&amp;language=vi-VN&amp;safesearch=0&amp;format=rss">  <link rel="stylesheet" href="/static/themes/simple/css/searxng.min.css?1eb67ef98dcc32ffc7dfdd3f9825a258cad9a51f" type="text/css" media="screen">
+  <link rel="stylesheet" href="/clientkpf42kfq7ofptgfr.css" type="text/css">
+  <!--[if gte IE 9]>-->
+  <script src="/static/themes/simple/js/searxng.head.min.js?0b8b374060fdad4a9caaaf41deca5ac05cc9b05d" client_settings="eyJhdXRvY29tcGxldGUiOiAiZHVja2R1Y2tnbyIsICJhdXRvY29tcGxldGVfbWluIjogNCwgIm1ldGhvZCI6ICJQT1NUIiwgImluZmluaXRlX3Njcm9sbCI6IGZhbHNlLCAidHJhbnNsYXRpb25zIjogeyJub19pdGVtX2ZvdW5kIjogIk5vIGl0ZW0gZm91bmQiLCAiU291cmNlIjogIlNvdXJjZSIsICJlcnJvcl9sb2FkaW5nX25leHRfcGFnZSI6ICJFcnJvciBsb2FkaW5nIHRoZSBuZXh0IHBhZ2UifSwgInNlYXJjaF9vbl9jYXRlZ29yeV9zZWxlY3QiOiB0cnVlLCAiaG90a2V5cyI6ICJkZWZhdWx0IiwgInVybF9mb3JtYXR0aW5nIjogInByZXR0eSIsICJ0aGVtZV9zdGF0aWNfcGF0aCI6ICIvc3RhdGljL3RoZW1lcy9zaW1wbGUiLCAicmVzdWx0c19vbl9uZXdfdGFiIjogZmFsc2UsICJmYXZpY29uX3Jlc29sdmVyIjogIiIsICJhZHZhbmNlZF9zZWFyY2giOiBmYWxzZSwgInF1ZXJ5X2luX3RpdGxlIjogZmFsc2UsICJzYWZlc2VhcmNoIjogIjAiLCAidGhlbWUiOiAic2ltcGxlIiwgImRvaV9yZXNvbHZlciI6ICJodHRwczovL29hZG9pLm9yZy8ifQ=="></script>
+  <!--<![endif]-->
+  <link title="SearXNG" type="application/opensearchdescription+xml" rel="search" href="/opensearch.xml?method=POST&amp;autocomplete=duckduckgo">
+  <link rel="icon" href="/static/themes/simple/img/favicon.png?60321eeb6e2f478f0e5704529308c594d5924246" sizes="any">
+  <link rel="icon" href="/static/themes/simple/img/favicon.svg?ee99f2c4793c32451062177672c8ab309dbef940" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/static/themes/simple/img/favicon.png?60321eeb6e2f478f0e5704529308c594d5924246">
+</head>
+<body class="results_endpoint">
+  <main id="main_results" class="">
+
+    <nav id="links_on_top"><a href="/info/en/about" class="link_on_top_about"><svg viewBox="0 0 512 512" aria-hidden="true" class="sxng-icon-set-big"><path d="M248 64C146.39 64 64 146.39 64 248s82.39 184 184 184 184-82.39 184-184S349.61 64 248 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M220 220h32v116"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M208 340h88"></path><path d="M248 130a26 26 0 1026 26 26 26 0 00-26-26z" fill="currentColor" stroke="currentColor" stroke-miterlimit="10" stroke-width="1"></path></svg><span>About</span></a><a href="/preferences" class="link_on_top_preferences"><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-big" aria-hidden="true"><path d="M262.29 192.31a64 64 0 1 0 57.4 57.4 64.13 64.13 0 0 0-57.4-57.4M416.39 256a154 154 0 0 1-1.53 20.79l45.21 35.46a10.81 10.81 0 0 1 2.45 13.75l-42.77 74a10.81 10.81 0 0 1-13.14 4.59l-44.9-18.08a16.11 16.11 0 0 0-15.17 1.75A164.5 164.5 0 0 1 325 400.8a15.94 15.94 0 0 0-8.82 12.14l-6.73 47.89a11.08 11.08 0 0 1-10.68 9.17h-85.54a11.11 11.11 0 0 1-10.69-8.87l-6.72-47.82a16.07 16.07 0 0 0-9-12.22 155 155 0 0 1-21.46-12.57 16 16 0 0 0-15.11-1.71l-44.89 18.07a10.81 10.81 0 0 1-13.14-4.58l-42.77-74a10.8 10.8 0 0 1 2.45-13.75l38.21-30a16.05 16.05 0 0 0 6-14.08c-.36-4.17-.58-8.33-.58-12.5s.21-8.27.58-12.35a16 16 0 0 0-6.07-13.94l-38.19-30A10.81 10.81 0 0 1 49.48 186l42.77-74a10.81 10.81 0 0 1 13.14-4.59l44.9 18.08a16.11 16.11 0 0 0 15.17-1.75A164.5 164.5 0 0 1 187 111.2a15.94 15.94 0 0 0 8.82-12.14l6.73-47.89A11.08 11.08 0 0 1 213.23 42h85.54a11.11 11.11 0 0 1 10.69 8.87l6.72 47.82a16.07 16.07 0 0 0 9 12.22 155 155 0 0 1 21.46 12.57 16 16 0 0 0 15.11 1.71l44.89-18.07a10.81 10.81 0 0 1 13.14 4.58l42.77 74a10.8 10.8 0 0 1-2.45 13.75l-38.21 30a16.05 16.05 0 0 0-6.05 14.08c.33 4.14.55 8.3.55 12.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path></svg><span>Preferences</span></a></nav>
+<form id="search" method="POST" action="/search" role="search">
+  <div id="search_header">
+    <a id="search_logo" href="/" tabindex="0" title="Display the front page">
+      <span hidden="">SearXNG</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="92mm" height="92mm" viewBox="0 0 92 92"><g transform="translate(-40.921 -17.417)"><circle cx="75.921" cy="53.903" r="30" fill="none" fill-opacity="1" stroke="#3050ff" stroke-width="10" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"></circle><path d="M67.515 37.915a18 18 0 0 1 21.051 3.313 18 18 0 0 1 3.138 21.078" fill="none" fill-opacity="1" stroke="#3050ff" stroke-width="5" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"></path><rect width="18.846" height="39.963" x="3.706" y="122.09" ry="0" transform="rotate(-46.235)" opacity="1" fill="#3050ff" fill-opacity="1" stroke="none" stroke-width="8" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"></rect></g></svg>    </a>
+    <div id="search_view">
+      <div class="search_box">
+        <input id="q" name="q" type="text" placeholder="Search for..." tabindex="1" autocomplete="off" autocapitalize="none" spellcheck="false" autocorrect="off" dir="auto" value="air">
+        <button id="clear_search" type="reset" aria-label="clear" class="hide_if_nojs"><span><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-big" aria-hidden="true"><path d="M368 368 144 144M368 144 144 368" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path></svg></span><span class="show_if_nojs">clear</span></button>
+        <button id="send_search" type="submit" name="category_general" aria-label="search"><span class="hide_if_nojs"><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-big" aria-hidden="true"><path d="M221.09 64a157.09 157.09 0 1 0 157.09 157.09A157.1 157.1 0 0 0 221.09 64Z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></path><path d="M338.29 338.29 448 448" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32px"></path></svg></span><span class="show_if_nojs">search</span></button>
+        <div class="autocomplete hide_if_nojs"><ul></ul></div>
+      </div>
+    </div>
+<div id="categories" class="search_categories"><div id="categories_container">
+<button type="submit" name="category_general" class="category category_button selected"><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-big" aria-hidden="true"><path d="M221.09 64a157.09 157.09 0 1 0 157.09 157.09A157.1 157.1 0 0 0 221.09 64Z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></path><path d="M338.29 338.29 448 448" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32px"></path></svg><div class="category_name">general</div></button>
+<button type="submit" name="category_images" class="category category_button "><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-big" aria-hidden="true"><rect width="416" height="352" x="48" y="80" rx="48" ry="48" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32px"></rect><circle cx="336" cy="176" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><path d="m304 335.79-90.66-90.49a32 32 0 0 0-43.87-1.3L48 352M224 432l123.34-123.34a32 32 0 0 1 43.11-2L464 368" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path></svg><div class="category_name">images</div></button>
+<button type="submit" name="category_videos" class="category category_button "><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-big" aria-hidden="true"><path d="M112 111v290c0 17.44 17 28.52 31 20.16l247.9-148.37c12.12-7.25 12.12-26.33 0-33.58L143 90.84c-14-8.36-31 2.72-31 20.16Z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></path></svg><div class="category_name">videos</div></button>
+<button type="submit" name="category_news" class="category category_button "><svg viewBox="0 0 512 512" aria-hidden="true" class="sxng-icon-set-big"><path d="M368 415.86V72a24.07 24.07 0 00-24-24H72a24.07 24.07 0 00-24 24v352a40.12 40.12 0 0040 40h328" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"></path><path d="M416 464h0a48 48 0 01-48-48V128h72a24 24 0 0124 24v264a48 48 0 01-48 48z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"></path><path d="M240 128h64M240 192h64M112 256h192M112 320h192M112 384h192" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path><path d="M176 208h-64a16 16 0 01-16-16v-64a16 16 0 0116-16h64a16 16 0 0116 16v64a16 16 0 01-16 16z" fill="currentColor" stroke="currentColor" stroke-linejoin="round" stroke-width="1"></path></svg><div class="category_name">news</div></button>
+<button type="submit" name="category_map" class="category category_button "><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-big" aria-hidden="true"><path d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path><circle cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></circle></svg><div class="category_name">map</div></button>
+<button type="submit" name="category_music" class="category category_button "><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-big" aria-hidden="true"><path d="M192 218v-6c0-14.84 10-27 24.24-30.59l174.59-46.68A20 20 0 0 1 416 154v22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path><path d="M416 295.94v80c0 13.91-8.93 25.59-22 30l-22 8c-25.9 8.72-52-10.42-52-38h0a33.37 33.37 0 0 1 23-32l51-18.15c13.07-4.4 22-15.94 22-29.85V58a10 10 0 0 0-12.6-9.61L204 102a16.48 16.48 0 0 0-12 16v226c0 13.91-8.93 25.6-22 30l-52 18c-13.88 4.68-22 17.22-22 32h0c0 27.58 26.52 46.55 52 38l22-8c13.07-4.4 22-16.08 22-30v-80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path></svg><div class="category_name">music</div></button>
+<button type="submit" name="category_it" class="category category_button "><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-big" aria-hidden="true"><path d="m434.8 137.65-149.36-68.1c-16.19-7.4-42.69-7.4-58.88 0L77.3 137.65c-17.6 8-17.6 21.09 0 29.09l148 67.5c16.89 7.7 44.69 7.7 61.58 0l148-67.5c17.52-8 17.52-21.1-.08-29.09M160 308.52l-82.7 37.11c-17.6 8-17.6 21.1 0 29.1l148 67.5c16.89 7.69 44.69 7.69 61.58 0l148-67.5c17.6-8 17.6-21.1 0-29.1l-79.94-38.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path><path d="m160 204.48-82.8 37.16c-17.6 8-17.6 21.1 0 29.1l148 67.49c16.89 7.7 44.69 7.7 61.58 0l148-67.49c17.7-8 17.7-21.1.1-29.1L352 204.48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path></svg><div class="category_name">it</div></button>
+<button type="submit" name="category_science" class="category category_button "><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-big" aria-hidden="true"><path d="M32 192 256 64l224 128-224 128z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path><path d="M112 240v128l144 80 144-80V240M480 368V192M256 320v128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path></svg><div class="category_name">science</div></button>
+<button type="submit" name="category_files" class="category category_button "><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-big" aria-hidden="true"><path d="M384 80H128c-26 0-43 14-48 40L48 272v112a48.14 48.14 0 0 0 48 48h320a48.14 48.14 0 0 0 48-48V272l-32-152c-5-27-23-40-48-40Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32px"></path><path d="M48 272h144M320 272h144M192 272a64 64 0 0 0 128 0M144 144h224M128 208h256" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path></svg><div class="category_name">files</div></button>
+<button type="submit" name="category_social media" class="category category_button "><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-big" aria-hidden="true"><path d="M402 168c-2.93 40.67-33.1 72-66 72s-63.12-31.32-66-72c-3-42.31 26.37-72 66-72s69 30.46 66 72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path><path d="M336 304c-65.17 0-127.84 32.37-143.54 95.41-2.08 8.34 3.15 16.59 11.72 16.59h263.65c8.57 0 13.77-8.25 11.72-16.59C463.85 335.36 401.18 304 336 304Z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></path><path d="M200 185.94c-2.34 32.48-26.72 58.06-53 58.06s-50.7-25.57-53-58.06C91.61 152.15 115.34 128 147 128s55.39 24.77 53 57.94" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"></path><path d="M206 306c-18.05-8.27-37.93-11.45-59-11.45-52 0-102.1 25.85-114.65 76.2-1.65 6.66 2.53 13.25 9.37 13.25H154" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32px"></path></svg><div class="category_name">social media</div></button><input name="categories" id="selected-categories" type="hidden">
+</div></div>  </div>
+  <div class="search_filters">
+<select class="language" id="language" name="language" aria-label="Search language"><option value="all">Default language [all]</option><option value="auto">Auto-detect (vi-VN)</option><option value="af">
+            Afrikaans [af] 🌐</option><option value="ca">
+            Català [ca] 🌐</option><option value="cy">
+            Cymraeg [cy] 🌐</option><option value="da">
+            Dansk [da] 🌐</option><option value="da-DK">
+            Dansk-Danmark [da-DK] 🇩🇰</option><option value="de">
+            Deutsch [de] 🌐</option><option value="de-AT">
+            Deutsch-Österreich [de-AT] 🇦🇹</option><option value="de-BE">
+            Deutsch-Belgien [de-BE] 🇧🇪</option><option value="de-CH">
+            Deutsch-Schweiz [de-CH] 🇨🇭</option><option value="de-DE">
+            Deutsch-Deutschland [de-DE] 🇩🇪</option><option value="et">
+            Eesti [et] 🌐</option><option value="et-EE">
+            Eesti-Eesti [et-EE] 🇪🇪</option><option value="en">
+            English [en] 🌐</option><option value="en-AU">
+            English-Australia [en-AU] 🇦🇺</option><option value="en-CA">
+            English-Canada [en-CA] 🇨🇦</option><option value="en-GB">
+            English-United Kingdom [en-GB] 🇬🇧</option><option value="en-IE">
+            English-Ireland [en-IE] 🇮🇪</option><option value="en-IN">
+            English-India [en-IN] 🇮🇳</option><option value="en-NZ">
+            English-New Zealand [en-NZ] 🇳🇿</option><option value="en-PH">
+            English-Philippines [en-PH] 🇵🇭</option><option value="en-PK">
+            English-Pakistan [en-PK] 🇵🇰</option><option value="en-SG">
+            English-Singapore [en-SG] 🇸🇬</option><option value="en-US">
+            English-United States [en-US] 🇺🇸</option><option value="en-ZA">
+            English-South Africa [en-ZA] 🇿🇦</option><option value="es">
+            Español [es] 🌐</option><option value="es-AR">
+            Español-Argentina [es-AR] 🇦🇷</option><option value="es-CL">
+            Español-Chile [es-CL] 🇨🇱</option><option value="es-CO">
+            Español-Colombia [es-CO] 🇨🇴</option><option value="es-ES">
+            Español-España [es-ES] 🇪🇸</option><option value="es-MX">
+            Español-México [es-MX] 🇲🇽</option><option value="es-PE">
+            Español-Perú [es-PE] 🇵🇪</option><option value="eu">
+            Euskara [eu] 🌐</option><option value="fr">
+            Français [fr] 🌐</option><option value="fr-BE">
+            Français-Belgique [fr-BE] 🇧🇪</option><option value="fr-CA">
+            Français-Canada [fr-CA] 🇨🇦</option><option value="fr-CH">
+            Français-Suisse [fr-CH] 🇨🇭</option><option value="fr-FR">
+            Français-France [fr-FR] 🇫🇷</option><option value="ga">
+            Gaeilge [ga] 🌐</option><option value="gl">
+            Galego [gl] 🌐</option><option value="gd">
+            Gàidhlig [gd] 🌐</option><option value="hr">
+            Hrvatski [hr] 🌐</option><option value="id">
+            Indonesia [id] 🌐</option><option value="id-ID">
+            Indonesia-Indonesia [id-ID] 🇮🇩</option><option value="it">
+            Italiano [it] 🌐</option><option value="it-CH">
+            Italiano-Svizzera [it-CH] 🇨🇭</option><option value="it-IT">
+            Italiano-Italia [it-IT] 🇮🇹</option><option value="lv">
+            Latviešu [lv] 🌐</option><option value="lt">
+            Lietuvių [lt] 🌐</option><option value="hu">
+            Magyar [hu] 🌐</option><option value="hu-HU">
+            Magyar-Magyarország [hu-HU] 🇭🇺</option><option value="nl">
+            Nederlands [nl] 🌐</option><option value="nl-BE">
+            Nederlands-België [nl-BE] 🇧🇪</option><option value="nl-NL">
+            Nederlands-Nederland [nl-NL] 🇳🇱</option><option value="nb">
+            Norsk Bokmål [nb] 🌐</option><option value="nb-NO">
+            Norsk Bokmål-Norge [nb-NO] 🇳🇴</option><option value="pl">
+            Polski [pl] 🌐</option><option value="pl-PL">
+            Polski-Polska [pl-PL] 🇵🇱</option><option value="pt">
+            Português [pt] 🌐</option><option value="pt-BR">
+            Português-Brasil [pt-BR] 🇧🇷</option><option value="pt-PT">
+            Português-Portugal [pt-PT] 🇵🇹</option><option value="ro">
+            Română [ro] 🌐</option><option value="ro-RO">
+            Română-România [ro-RO] 🇷🇴</option><option value="sq">
+            Shqip [sq] 🌐</option><option value="sk">
+            Slovenčina [sk] 🌐</option><option value="sl">
+            Slovenščina [sl] 🌐</option><option value="fi">
+            Suomi [fi] 🌐</option><option value="fi-FI">
+            Suomi-Suomi [fi-FI] 🇫🇮</option><option value="sv">
+            Svenska [sv] 🌐</option><option value="sv-SE">
+            Svenska-Sverige [sv-SE] 🇸🇪</option><option value="vi">
+            Tiếng Việt [vi] 🌐</option><option value="vi-VN" selected="selected">
+            Tiếng Việt-Việt Nam [vi-VN] 🇻🇳</option><option value="tr">
+            Türkçe [tr] 🌐</option><option value="tr-TR">
+            Türkçe-Türkiye [tr-TR] 🇹🇷</option><option value="is">
+            Íslenska [is] 🌐</option><option value="cs">
+            Čeština [cs] 🌐</option><option value="cs-CZ">
+            Čeština-Česko [cs-CZ] 🇨🇿</option><option value="el">
+            Ελληνικά [el] 🌐</option><option value="el-GR">
+            Ελληνικά-Ελλάδα [el-GR] 🇬🇷</option><option value="be">
+            Беларуская [be] 🌐</option><option value="bg">
+            Български [bg] 🌐</option><option value="bg-BG">
+            Български-България [bg-BG] 🇧🇬</option><option value="ru">
+            Русский [ru] 🌐</option><option value="ru-RU">
+            Русский-Россия [ru-RU] 🇷🇺</option><option value="uk">
+            Українська [uk] 🌐</option><option value="he">
+            עברית [he] 🇮🇱</option><option value="ur">
+            اردو [ur] 🌐</option><option value="ar">
+            العربية [ar] 🌐</option><option value="ar-SA">
+            العربية-المملكة العربية السعودية [ar-SA] 🇸🇦</option><option value="fa">
+            فارسی [fa] 🌐</option><option value="mr">
+            मराठी [mr] 🌐</option><option value="hi">
+            हिन्दी [hi] 🌐</option><option value="ta">
+            தமிழ் [ta] 🌐</option><option value="te">
+            తెలుగు [te] 🌐</option><option value="kn">
+            ಕನ್ನಡ [kn] 🌐</option><option value="ml">
+            മലയാളം [ml] 🌐</option><option value="th">
+            ไทย [th] 🌐</option><option value="th-TH">
+            ไทย-ไทย [th-TH] 🇹🇭</option><option value="zh">
+            中文 [zh] 🌐</option><option value="zh-CN">
+            中文-中国 [zh-CN] 🇨🇳</option><option value="zh-HK">
+            中文-中國香港特別行政區 [zh-HK] 🇭🇰</option><option value="zh-TW">
+            中文-台灣 [zh-TW] 🇹🇼</option><option value="ja">
+            日本語 [ja] 🌐</option><option value="ja-JP">
+            日本語-日本 [ja-JP] 🇯🇵</option><option value="ko">
+            한국어 [ko] 🌐</option><option value="ko-KR">
+            한국어-대한민국 [ko-KR] 🇰🇷</option></select><select name="time_range" id="time_range" class="time_range" aria-label="Time range"><option id="time-range-anytime" value="" selected="">Anytime</option><option id="time-range-day" value="day">Last day</option><option id="time-range-week" value="week">Last week</option><option id="time-range-month" value="month">Last month</option><option id="time-range-year" value="year">Last year</option></select><select name="safesearch" id="safesearch" class="safesearch" aria-label="SafeSearch">
+    <option value="2" aria-label="Strict">SafeSearch: Strict</option>
+    <option value="1" aria-label="Moderate">SafeSearch: Moderate</option>
+    <option value="0" selected="selected" aria-label="None">SafeSearch: None</option>
+</select>  </div>
+  <input type="hidden" name="theme" value="simple">
+</form>
+
+<div id="results" class="only_template_default">
+    <div id="sidebar"><div id="infoboxes">
+            <details open="" class="sidebar-collapsible">
+              <summary class="title">Info</summary><aside class="infobox" aria-label="Air">
+  <h2 class="title"><bdi>Air</bdi></h2><img src="/image_proxy?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fvi%2F3%2F3b%2FAir_original_game_cover.jpg&amp;h=7b23f4e62b7544c6972dda9bc887bccd211831af8ad962dafbc13a1ec88196ea" title="Air" alt="Air"><p><bdi>AIR là một visual novel do hãng phần mềm Key phát triển, công ty này cũng cho ra đời hai tác phẩm nổi tiếng khác là Kanon và CLANNAD. Lúc đầu nó là một trò chơi dành cho người lớn phát hành vào ngày 8 tháng 9 năm 2000 dưới dạng CD-ROM trên hệ máy tính cá nhân (PC). Các phiên bản sau của AIR được cắt bỏ mọi cảnh gợi cảm và phát hành trên các hệ máy PC, Dreamcast và PlayStation 2. Phiên bản PC dành cho người lớn được tái phát hành tương thích với Windows 2000/XP với tên AIR Standard Edition vào ngày 8 tháng 4 năm 2005. Các phiên bản sử dụng trên các hệ PlayStation Portable, SoftBank 3G và FOMA cũng ra mắt trong năm 2007. Key tiếp tục tái phát hành AIR tương thích với hệ điều hành Windows Vista vào tháng 7 năm 2009 và phiên bản AIR Memorial Edition tương thích với hệ điều hành Windows 7 vào tháng 5 năm 2010, hai bản dành cho Vista/7 đã được đánh giá là dành cho mọi lứa tuổi.</bdi></p><div class="urls">
+      <ul><li class="url"><bdi><a href="https://vi.wikipedia.org/wiki/Air" rel="noreferrer">Wikipedia</a></bdi></li></ul>
+    </div></aside><aside class="infobox" aria-label="không khí">
+  <h2 class="title"><bdi>không khí</bdi></h2><img src="/image_proxy?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F96%2FSmogNY.jpg%2F500px-SmogNY.jpg&amp;h=fb95665c85d6bea903109f70a26e0b8d639646032231566a9d2ca9da31f7c369" title="không khí" alt="không khí"><p><bdi>homogeneous mixture of the gaseous substances nitrogen, oxygen, and smaller amounts of other substances; gas mixture present in the Earth's atmosphere</bdi></p><div class="urls">
+      <ul><li class="url"><bdi><a href="https://vi.wikipedia.org/wiki/Kh%C3%B4ng_kh%C3%AD" rel="noreferrer">Wikipedia (vi)</a></bdi></li><li class="url"><bdi><a href="https://en.wikipedia.org/wiki/Air" rel="noreferrer">Wikipedia (en)</a></bdi></li><li class="url"><bdi><a href="http://www.wikidata.org/entity/Q7391292" rel="noreferrer">Wikidata</a></bdi></li></ul>
+    </div></aside></details>
+          </div><div id="suggestions" role="complementary" aria-labelledby="suggestions-title">
+  <details class="sidebar-collapsible">
+    <summary class="title" id="suggestions-title">Suggestions</summary>
+    <div class="wrapper"><form method="POST" action="/search">
+          <input type="hidden" name="q" value="Vietjet"><input type="hidden" name="category_general" value="1"><input type="hidden" name="language" value="vi-VN">
+          <input type="hidden" name="time_range" value="">
+          <input type="hidden" name="safesearch" value="0">
+          <input type="hidden" name="theme" value="simple"><input type="submit" class="suggestion" role="link" value="• Vietjet">
+        </form><form method="POST" action="/search">
+          <input type="hidden" name="q" value="Bamboo air"><input type="hidden" name="category_general" value="1"><input type="hidden" name="language" value="vi-VN">
+          <input type="hidden" name="time_range" value="">
+          <input type="hidden" name="safesearch" value="0">
+          <input type="hidden" name="theme" value="simple"><input type="submit" class="suggestion" role="link" value="• Bamboo air">
+        </form><form method="POST" action="/search">
+          <input type="hidden" name="q" value="vietjetair.com check in online"><input type="hidden" name="category_general" value="1"><input type="hidden" name="language" value="vi-VN">
+          <input type="hidden" name="time_range" value="">
+          <input type="hidden" name="safesearch" value="0">
+          <input type="hidden" name="theme" value="simple"><input type="submit" class="suggestion" role="link" value="• vietjetair.com check in online">
+        </form><form method="POST" action="/search">
+          <input type="hidden" name="q" value="Vietnamairline"><input type="hidden" name="category_general" value="1"><input type="hidden" name="language" value="vi-VN">
+          <input type="hidden" name="time_range" value="">
+          <input type="hidden" name="safesearch" value="0">
+          <input type="hidden" name="theme" value="simple"><input type="submit" class="suggestion" role="link" value="• Vietnamairline">
+        </form><form method="POST" action="/search">
+          <input type="hidden" name="q" value="Vietjet dịch vụ khách hàng"><input type="hidden" name="category_general" value="1"><input type="hidden" name="language" value="vi-VN">
+          <input type="hidden" name="time_range" value="">
+          <input type="hidden" name="safesearch" value="0">
+          <input type="hidden" name="theme" value="simple"><input type="submit" class="suggestion" role="link" value="• Vietjet dịch vụ khách hàng">
+        </form><form method="POST" action="/search">
+          <input type="hidden" name="q" value="air max - apple"><input type="hidden" name="category_general" value="1"><input type="hidden" name="language" value="vi-VN">
+          <input type="hidden" name="time_range" value="">
+          <input type="hidden" name="safesearch" value="0">
+          <input type="hidden" name="theme" value="simple"><input type="submit" class="suggestion" role="link" value="• air max - apple">
+        </form><form method="POST" action="/search">
+          <input type="hidden" name="q" value="Nike Air Max đến"><input type="hidden" name="category_general" value="1"><input type="hidden" name="language" value="vi-VN">
+          <input type="hidden" name="time_range" value="">
+          <input type="hidden" name="safesearch" value="0">
+          <input type="hidden" name="theme" value="simple"><input type="submit" class="suggestion" role="link" value="• Nike Air Max đến">
+        </form><form method="POST" action="/search">
+          <input type="hidden" name="q" value="Nike Air Max 90"><input type="hidden" name="category_general" value="1"><input type="hidden" name="language" value="vi-VN">
+          <input type="hidden" name="time_range" value="">
+          <input type="hidden" name="safesearch" value="0">
+          <input type="hidden" name="theme" value="simple"><input type="submit" class="suggestion" role="link" value="• Nike Air Max 90">
+        </form></div>
+  </details>
+</div><div id="engines_msg">
+  <details class="sidebar-collapsible">
+    <summary class="title" id="engines_msg-title">Response time: 0.9 seconds</summary>
+    <table class="engine-stats" id="engines_msg-table"><tbody><tr>
+        <td class="engine-name">
+          <a href="/stats?engine=brave" title="View error logs and submit a bug report">brave</a>
+        </td>
+        <td class="response-error">Suspended: too many requests</td>
+      </tr><tr>
+        <td class="engine-name"><a href="/stats?engine=duckduckgo">duckduckgo</a></td>
+        <td class="response-time">
+          <div class="bar-chart-value">0.9</div>
+          <div class="bar-chart-graph" aria-labelledby="duckduckgo_time" aria-hidden="true">
+            <div class="bar-chart-bar bar100"></div>
+          </div>
+        </td>
+      </tr><tr>
+        <td class="engine-name"><a href="/stats?engine=wikidata">wikidata</a></td>
+        <td class="response-time">
+          <div class="bar-chart-value">0.6</div>
+          <div class="bar-chart-graph" aria-labelledby="wikidata_time" aria-hidden="true">
+            <div class="bar-chart-bar bar66"></div>
+          </div>
+        </td>
+      </tr><tr>
+        <td class="engine-name"><a href="/stats?engine=wikipedia">wikipedia</a></td>
+        <td class="response-time">
+          <div class="bar-chart-value">0.5</div>
+          <div class="bar-chart-graph" aria-labelledby="wikipedia_time" aria-hidden="true">
+            <div class="bar-chart-bar bar58"></div>
+          </div>
+        </td>
+      </tr><tr>
+        <td class="engine-name"><a href="/stats?engine=google">google</a></td>
+        <td class="response-time">
+          <div class="bar-chart-value">0.5</div>
+          <div class="bar-chart-graph" aria-labelledby="google_time" aria-hidden="true">
+            <div class="bar-chart-bar bar57"></div>
+          </div>
+        </td>
+      </tr></tbody></table>
+  </details>
+</div><div id="search_url" role="complementary" aria-labelledby="search_url-title">
+  <details class="sidebar-collapsible">
+    <summary class="title" id="search_url-title">Search URL</summary>
+    <button id="copy_url" type="submit" data-copied-text="Copied" style="display: block;">Copy</button>
+    <div class="selectable_url">
+      <pre>https://copp.gg/search?q=air&amp;language=vi-VN&amp;time_range=&amp;safesearch=0&amp;categories=general</pre>
+    </div>
+  </details>
+</div><div id="sidebar-end-collapsible"></div>
+    </div><div id="urls" role="main">
+
+<article class="result result-default category-general"><a href="https://www.vietjetair.com/" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.vietjetair.com</span></span><span class="url_o2"><span class="url_i2"></span></span>  </div></a><h3><a href="https://www.vietjetair.com/" rel="noreferrer">Vietjet <span class="highlight">Air</span> | Enjoy flying | Official website</a></h3>  <p class="content">
+    To Da Nang · Book flight · Buy luggage, meal, seat · Priority Check-in · DutyFree · Travel Insurance · Sky Holidays. Enjoy flying. tag background hafl arrow.
+  </p><div class="engines">
+<span>google</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.vietjetair.com/" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://www.airbnb.com/" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.airbnb.com</span></span><span class="url_o2"><span class="url_i2"></span></span>  </div></a><h3><a href="https://www.airbnb.com/" rel="noreferrer">Airbnb | Vacation rentals, cabins, beach houses, &amp; more</a></h3>  <p class="content">
+    Get an Airbnb for every kind of trip → 8 million vacation rentals → 2 million Guest Favorites → 220+ countries and regions worldwide
+  </p><div class="engines">
+<span>duckduckgo</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.airbnb.com/" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://www.airasia.com/" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.airasia.com</span></span><span class="url_o2"><span class="url_i2"></span></span>  </div></a><h3><a href="https://www.airasia.com/" rel="noreferrer">AirAsia MOVE | Discover deals on flights, hotels, rides &amp; more</a></h3>  <p class="content">
+    Download AirAsia MOVE today and get only the best deals on flights, hotels, ride and more! Completing your travel, all in one app.
+  </p><div class="engines">
+<span>duckduckgo</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.airasia.com/" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://dictionary.cambridge.org/vi/dictionary/english/air" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://dictionary.cambridge.org</span></span><span class="url_o2"><span class="url_i2"> › vi › dictionary › english › air</span></span>  </div></a><h3><a href="https://dictionary.cambridge.org/vi/dictionary/english/air" rel="noreferrer"><span class="highlight">AIR</span> | Định nghĩa trong Từ điển tiếng Anh Cambridge</a></h3>  <p class="content">
+    <span class="highlight">AIR</span> ý nghĩa, định nghĩa, <span class="highlight">AIR</span> là gì: 1. the mixture of gases that surrounds the earth and that we breathe: 2. the space above the…. Tìm hiểu thêm.
+  </p><div class="engines">
+<span>duckduckgo</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://dictionary.cambridge.org/vi/dictionary/english/air" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="http://tratu.soha.vn/dict/en_vn/Air" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">http://tratu.soha.vn</span></span><span class="url_o2"><span class="url_i2"> › dict › en_vn › Air</span></span>  </div></a><h3><a href="http://tratu.soha.vn/dict/en_vn/Air" rel="noreferrer">Nghĩa của từ <span class="highlight">Air</span> - Từ điển Anh - Việt</a></h3>  <p class="content">
+    Danh từ · Không khí, bầu không khí; không gian, không trung · (hàng không) máy bay; hàng không · Làn gió nhẹ · (âm nhạc) khúc ca, khúc nhạc, điệu ca, điệu nhạc ...
+  </p><div class="engines">
+<span>google</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/http://tratu.soha.vn/dict/en_vn/Air" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://www.britannica.com/science/air" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.britannica.com</span></span><span class="url_o2"><span class="url_i2"> › science › air</span></span>  </div></a><h3><a href="https://www.britannica.com/science/air" rel="noreferrer"><span class="highlight">Air</span> | Composition, Oxygen, Nitrogen | Britannica</a></h3>  <p class="content">
+    <span class="highlight">Air</span>, mixture of gases comprising the Earth's atmosphere. The mixture contains a group of gases of nearly constant concentrations and a group with concentrations that are variable in both space and time.
+  </p><div class="engines">
+<span>duckduckgo</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.britannica.com/science/air" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://www.apple.com/vn/ipad-air/" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.apple.com</span></span><span class="url_o2"><span class="url_i2"> › vn › ipad-air</span></span>  </div></a><h3><a href="https://www.apple.com/vn/ipad-air/" rel="noreferrer">iPad <span class="highlight">Air</span></a></h3>  <p class="content">
+    iPad <span class="highlight">Air</span> sở hữu màn hình Liquid Retina 11 inch hoặc 13 inch, chip M3, camera trước 12MP Center Stage, được thiết kế cho Apple Intelligence và hỗ trợ Apple ...
+  </p><div class="engines">
+<span>google</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.apple.com/vn/ipad-air/" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://simple.wikipedia.org/wiki/Air" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://simple.wikipedia.org</span></span><span class="url_o2"><span class="url_i2"> › wiki › Air</span></span>  </div></a><h3><a href="https://simple.wikipedia.org/wiki/Air" rel="noreferrer"><span class="highlight">Air</span> - Simple English Wikipedia, the free encyclopedia</a></h3>  <p class="content">
+    <span class="highlight">Air</span> A fan moves <span class="highlight">air</span>. <span class="highlight">Air</span> is the Earth 's atmosphere. <span class="highlight">Air</span> is a mixture of many gases and tiny dust particles. It is the clear gas in which living things live and breathe. It has an indefinite shape and volume. It has mass and weight, because it is matter. The weight of <span class="highlight">air</span> creates atmospheric pressure. There is no <span class="highlight">air</span> in outer space.
+  </p><div class="engines">
+<span>duckduckgo</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://simple.wikipedia.org/wiki/Air" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://www.merriam-webster.com/dictionary/air" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.merriam-webster.com</span></span><span class="url_o2"><span class="url_i2"> › dictionary › air</span></span>  </div></a><h3><a href="https://www.merriam-webster.com/dictionary/air" rel="noreferrer"><span class="highlight">AIR</span> Definition &amp; Meaning - Merriam-Webster</a></h3>  <p class="content">
+    Learn the various meanings and uses of the word <span class="highlight">air</span> as a noun and a verb, with synonyms, examples, and etymology. Find out how <span class="highlight">air</span> can refer to the gas mixture, the atmosphere, the melody, the broadcast, and more.
+  </p><div class="engines">
+<span>duckduckgo</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.merriam-webster.com/dictionary/air" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://www.dyson.vn/en-VN/products/air-purifiers" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.dyson.vn</span></span><span class="url_o2"><span class="url_i2"> › en-VN › products › air-purifiers</span></span>  </div></a><a href="https://www.dyson.vn/en-VN/products/air-purifiers" rel="noreferrer"><img class="thumbnail" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwMEBQYIAQL/xAA9EAABAwMCAgcFBQUJAAAAAAABAAIDBAURBiESMQcTQVFxgbEUIkJhkRYmc6GyCEN0weEXJDI2RFJTVGL/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAgMBBP/EAB8RAQEAAgEEAwAAAAAAAAAAAAABAhExEhMhQQMEMv/aAAwDAQACEQMRAD8AmyedkIBfnJ5ADJK+IKyKZ3C3IJ5ZGx8CNlUmibNGWPGQflnH1VKkpupBc/BkdzIOduwZO/1QXKIiAiIgIiICIiAiIgIij/XPSnbdMSz0dHTS3OvgGZ2QnEdPkgDrH74OTyx44QSAi56/tt1hNN/dbPbixx9xns8zyQc43DxnkeXcVvWk+lmG4TspdS2qossz5OqZUSNd1Dn4zwlxA4XHuP1QSWqc80dPBJNM8MjjaXvceTQNyVUVneaf2u0V1NjPXU8jPq0hII21B0j10sr47SxtNAP3rwC8jv32H8u9aNW68uEspzeKyTf4H4HkvRJRXCKWgqXmOTBY/sPcs1T2KzOtrYKKqFFOHBxmbGJC/HMHtx4EFen5N4SdETjJeawlHrq4xSDF3rWb/G8kLd7B0j18UrGXVrauA/vGABwHyxsf596wj7BZI7W+CvqjX1DnFwnfE2IsB7B8vEkrB9bQW6GOjppOskHutHMp8e8/3DKScV0VTTx1NPFUQPD4pWB7HDkQRkFVFYWCm9jsdBTEYMVPG0+PCFfrzVTUOlTUsmltG1dbSvDKyUinpnf7Xuz7w+YAcfJc02C7V9F7a+lkhElUWMknqGdYQeLiB3yMkjmQe/Y7qbv2jYZH6QoJGAmOO4N48dmWPwT6eahqutVLRaRgq43S9dVvYcPOAQAc4bgY3JHM5AB7cLl4dlkvlWOoK6UT2+eipGOihNO0hrg6JrWvjDdnb4bJIMnPP5K1u99q6uCoilpoGvnLhJKziBLDKZeHGeH/ABknOM9meebmeOOW+uqog0R1lJHUYacgOcG8Y8nh4VKqpA4HZcxu5K5db8Jw6CdUzX3TEtvrpHSVdrc2Pjccl0TgeDJ7xhw8AFI5kL9oQD/6PL+qhP8AZ5oXtr79I5p6kRwNPcSS8+fL81OHIbKhzX0nW2Sy6nqYccMEjusYAMAg75VGyXNjIuGQNcMfEMrZOk1lDdtVyx1rpZOoJja0ucA0Z5DB5L6suldIug46ts7QG5PDUTD0K0n2ZPTvata1erpG6ItjDW7fCMLzo4tTr3qukh4cxNfxyfJo5rZ7vpXR/UcdGKh23xVEx9SqPRxHQ2jVsDKN0sfXOEbgHuPECRscnkl+zL6O1Ynkcl6iLNxidV2Km1LYKy0VZ4Y6iPAeBuxw3a4eBAK5Tv1muOmnVtovEZinZKxzG59yQe977O8HbfyO4XYSx17sVqv9J7LeaGGrhzkNlbu097TzafmEcrlTTlTRztigqRMyWCN7GysAI4C7iGRz2JP1WeitUtZI2Gimgqqh5DY4IS4vkJPYCBy5nPIKXouh3SENSZoIKuPIwWNqXFuPPf8ANbVY9N2iwRllpoY4C4YdJu57h83HJP1U9OuKno1xVjoHTLNLWFlI7hdVyu66pe3kXkYwPkAAPLPatkKIVS0A65x9sa78Z3qr22sL6J7WNy4t2Vhrg/fGu/Hd6lZSx56oeCx4u23pQqmmGnDZW8Jy7bzKtNKlv2yoCP8AsM9Qr+95APbssZpI/fC3/wAQz9QS3d2TxHQSIi2YiIiAiIgLwr1Cg591v/nGv/Hd6lZOyEdUM9yxets/bC4ZH+od6lZCyuxE3Hcsa2Ly7Y47lj9Jn732/wDiGeoV7dnEtdkdix+lCftfbxg59oZ6hI66GREWzAREQEREBERBF2tNK3ervUtbb4IKuFxyY3SdXID3DOx8cjwWMoqa7UXuVGkrg7H/ABdQ4frUv8Aydu1OBvcouEq5nYh+sgutX7tPpG4tz2yCFo/Wr3SGmb5BfaesraKGjp2OBIdMHvPgG7fmpT4G9ycIyNkmEhc7VUIiK0P/2Q==" title="Air Purifiers" loading="lazy"></a><h3><a href="https://www.dyson.vn/en-VN/products/air-purifiers" rel="noreferrer"><span class="highlight">Air</span> Purifiers</a></h3>  <p class="content">
+    Shop our full range of <span class="highlight">air</span> purifiers and powerful fans and heaters. The Dyson Big+Quiet Formaldehyde BP03 <span class="highlight">air</span> purifier purifies <span class="highlight">air</span> in a home.
+  </p><div class="engines">
+<span>google</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.dyson.vn/en-VN/products/air-purifiers" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://www.nike.com/vn/w/air-max-shoes-a6d8hzy7ok" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.nike.com</span></span><span class="url_o2"><span class="url_i2"> › vn › w › air-max-shoes-a6d8hzy7ok</span></span>  </div></a><a href="https://www.nike.com/vn/w/air-max-shoes-a6d8hzy7ok" rel="noreferrer"><img class="thumbnail" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAABAUHBgMC/8QANhAAAQMDAwEFBAgHAAAAAAAAAQACAwQFEQYSITETQVFhkRQycaEHFSIjQlKxwSQ1YoGSouH/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAwIBBP/EACERAQEBAAIBAwUAAAAAAAAAAAABAgMRITFBURITIjJh/9oADAMBAAIRAxEAPwDaEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBEQ8DJ6DkoCLk779IVhtdMX0tVFcqjftFPSShxJ7+egwuKun0jX2tlbJbhHbKbaBse1sr3HxyR8OFXPDvX8Zu5Gt1dXTUUJnrJ44Ih1fI4NHzVHaNaWi8Xb6toXSvkIcWyFmGOx1xzn5LDLjVVFxre1uFwqKqQnnt5Djk/gznaOvTjyXT/RrBR2jUbrlc6uQQdhtgJGWse7qXkdBjOD05OcYGbfZ485vnup/Xq34jbkVbdL7b7bbJbhLVQOiYwuYGyA9oe5rfEk8BcFpfWNzhuVFT32qExrpAwxho+7J7xjuBwFDPHbLVLqS9NPREU2hV9yvdrtX8wr4IDjOxzvtf4jk+isAsB1NpDUBvlU6jmglnMsj3RTExvc0u94Z4c0/mB+ODwtYmbfyrl79mjV30l2qMOFvp56t2OCR2bT65PyXA36/Xy/TyOq7pJT0jhhtHTZYzb55wXfE+ncqWWz6hiJJslYB+Vjmyn/QnKj+y3kcOs92Yc55ppW/svXmcU/VG3funMpaenYXMGXAck8k/3USSpYCXOwWj1Xw203acjs7LXud0H8LKcfJQY4pZKx1OG4nY4tex+WlhzyCOufL5rmtSetdkur1IkCvY4OaIOnuucOAozLrWNqAYqrBz7rAMH/is4bHLU1XsjezMrGiSaWocGQUzD+J/cM9w5JV9JoKit8EdRcNQ00cc/LHsh3b+M5GHcjHgMKedzvw3rNniuWbfakSH7iAyd7wzletrY+4XFodLuneQHHOC0Z7vD9uvVdm7Q+mqClhqq+/vbBMMxvYG/bGM5HByFKrdL6DtsNPLW11a9tQ0vikZK07mjGXcNxgZCpycs1OspY47PVrFI90lJA9/vOjaT8cL1UK0yNNIyFpaRC1rWuHAczA2u9PmCpq8b0Cr7rSsrYeyqLc2qaOW5kDXNOMZaerT5jBVgiDga+m1HRFgtNrqZomcGOsmjn3Dyfua8HzJcvikvl9Y3Fw0Pc2PB5NLLHI0+pC0FEHIRXyRzQX6a1BEfA0rT+jlR6mhdd2sdTaRurq9pBirH07I3RYP5t2SP6ehWlogx+ss1dNRy0lTpe+lslR7SainfDvL9u3BbuwQB08P18q+x0dVaqGgfp3V0PsYcGS+zNkJDjl2cSePh0WyotTWo50yWvtdmq7Xb6H6p1XE6hi7KOQW55LmnGd3dyRnj9FJkoLfc6GitcWh7vJHSM2RT149nbjv3FpLjk89PRaiifXr5Ooh2ymdTwkyP3yPxuOzYGgDAa0ZOAB5+PipiIsuiIiAiIgIiICIiAiIgIiIP//Z29" title="Air Max Shoes" loading="lazy"></a><h3><a href="https://www.nike.com/vn/w/air-max-shoes-a6d8hzy7ok" rel="noreferrer"><span class="highlight">Air</span> Max Shoes</a></h3>  <p class="content">
+    <span class="highlight">Air</span> Max Shoes ; Nike <span class="highlight">Air</span> Max Dn8 · Nike <span class="highlight">Air</span> Max Dn8 Men's Shoes ; Nike <span class="highlight">Air</span> Max Dn8 · Nike <span class="highlight">Air</span> Max Dn8 Women's Shoes ; Paris Saint-Germain <span class="highlight">Air</span> Max Dn8 Premium.
+  </p><div class="engines">
+<span>google</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.nike.com/vn/w/air-max-shoes-a6d8hzy7ok" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://www.electrolux.vn/en-vn/appliances/air-purifiers/?srsltid=AfmBOooKxSvzRqxv2SdE1no3x4BACljnh1zq17zSL_fsdl8XXoEdGF_f" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.electrolux.vn</span></span><span class="url_o2"><span class="url_i2"> › en-vn › appliances › air-purifiers</span></span>  </div></a><a href="https://www.electrolux.vn/en-vn/appliances/air-purifiers/?srsltid=AfmBOooKxSvzRqxv2SdE1no3x4BACljnh1zq17zSL_fsdl8XXoEdGF_f" rel="noreferrer"><img class="thumbnail" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAFBgIDBAEHAP/EADwQAAEDAgMEBgcFCQEAAAAAAAEAAgMEEQUSITFBYXEGIjJRgZETIzOxwdHwFSRykqEUFkJDRFJUg9IH/8QAGAEBAQEBAQAAAAAAAAAAAAAAAQIAAwT/xAAbEQEBAQEAAwEAAAAAAAAAAAAAARECEiFBMf/aAAwDAQACEQMRAD8A9AqNkvgh9R7D64IhUbJfBDak+o+uC1LCDqea0QlYyesea0RO2Lj9WIRlaWFY4itTCrgaGlTBVIKmCkLQVRJVBnZaSQbHW1lZmQ6SqglrZoGOvJE0F47ro69K5mranEoooy+UZWt1JLgoCvY4AhpseKC4nMzIWOI1uLFLVNjElCx1M7X0biBy3LnOtvt0vGTXpFRsm8ELqTaD64IjUO0l8EIrHfd/rgvTY87C53XPNaIHXICHvf6wrVSP9az8QXm+uvxs+0KSE2lqI2nuvr5LrMewz/MjPIE/BbcUOr77O4pIrmgzOJAOvcu05c9O8GJUU1vRVcDidgDxdamSMdo17XHboQUgRHK3bYI/0ZPrpvwBbG0yApAraXFqnpXPLhTLNjzNkle7KwEhlge86bgU+AoTNMYQWt0u4k8TdTZq+bn4Xf3XxWecy1eMRi+uSOAut4lw9ynL0MilIdLiExeBYkMAui5rXX1K4a119qnxivPqi9S/SXkgVfOBTgXuTsHkiM8ck17vIB2huiqbh7AeyDxK7dVykL9qx8pMT8rNwygrZSCtEzPWaZh/AO9G2UbRuCujphcG2gK5eK9RxM6vSbW+1fzTbiLwS8A6jaEo1ntXc11c30fZRbA6gwSylrw27RtCDxnRFcEYJJJR3NCKYN/aTx/Ob+VLdbKa3EapvpWQxQkAOEj+sS0OPVBAHaR00oKwtwkioqpC5pbM8OA7rMa34fqjCVq7EqKkflNa8nfZ7/msLuklGD7d5/2O+aYMQ6FU1a8vfO9vBrQsR/8AOqI/1c/kEZDtekiJSEYGxWWXRolKAj710t/QKXgqqmcRNLW2LyNeCCW8RmqGSSPFNFJm1Lo3ZXO07j80r1VZLnd9wqfOP/pHarEo35g9rmnhqN6DyyNkGdhu07CrSzsqKt4GSlYzjLKPc2/vR/oqJvTVBnlY4losGMsBrzJS4a+INu0Od4WR3ohUGaeoJAADG7+KKYaF8bLl1y6kviBZQXSVHMswySvhcqAVNXVCBlm2Mh3dyQlU1DYRZushHkh733zEm5KodISSSbk7VW6Q23LMVax3XPL5rNE77szl8VfjEFVBO90UD3wbbt61vj70EdiYhjERhkLm7stlQVh3VP4imToZO1ktTmcBdjdp4lJzTUy6RxEAnaRb3ojh8M0BuZOsduqm9KkemenZYWcPNcMrf7h5pLjrKhp1ffxWuPEH6Zip1WGn0gvtCj6QIAzEQT2lb+28VtBuq6gwx3YxzyTYZWkoO+R7ySWSk77sPyRl7i1pIUrZdBuVADzG3Yk/IVEyWBu1/wCUo87bbgq5NG3BsToswJnZbYfFpVMrad+j4xfixMIFxqTe21dubHVDFGSjpCbhrR4LMaKC5t7k6tNy6+42C7sa4oJCfTRg6E+SrMLBoH68k9P7JUXAWRpIpY0HQ/oV3kQnYtGXxXGgWQz/2Q==" title="Air Purifiers | Home Care" loading="lazy"></a><h3><a href="https://www.electrolux.vn/en-vn/appliances/air-purifiers/?srsltid=AfmBOooKxSvzRqxv2SdE1no3x4BACljnh1zq17zSL_fsdl8XXoEdGF_f" rel="noreferrer"><span class="highlight">Air</span> Purifiers | Home Care</a></h3>  <p class="content">
+    Electrolux offers <span class="highlight">Air</span> Purifiers with the most powerful performance and modern technology, bringing fresh <span class="highlight">air</span> to your home.
+  </p><div class="engines">
+<span>google</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.electrolux.vn/en-vn/appliances/air-purifiers/?srsltid=AfmBOooKxSvzRqxv2SdE1no3x4BACljnh1zq17zSL_fsdl8XXoEdGF_f" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://airproce.net/" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://airproce.net</span></span><span class="url_o2"><span class="url_i2"></span></span>  </div></a><a href="https://airproce.net/" rel="noreferrer"><img class="thumbnail" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADcAXAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQIDBQcEBgj/xAAzEAACAQMDAgQFAgUFAAAAAAABAgMABBEFEiEGMRNBUWEUIjJxgZGxQnLB0eEHJCVisv/EABkBAQEBAQEBAAAAAAAAAAAAAAABAwQCBf/EACIRAAMAAgECBwAAAAAAAAAAAAABAgMRIRJBBBMxMqHR8f/aAAwDAQACEQMRAD8A22koozVAUZpKKAQ0hoNIaAQmo2NOJriv76O0XGGkmYZWJMZx6nPAHuaJbJVKVtk7GonNZ/rHVV8ZM2OpInmBFAZIyP5ygB+4zVp0/wBTXN4Vt9SgQXDcxyQ/TL9gex/ftweDpWO4SdLSM4zY7epfJ6R2rnY5NOMiyRpIh3RuMqw7EVCzc14NS013UJtNs1mgtzKWlVGO1mWNTnLsFBJA7cDzHYc1Vt1DeLPARFYzWsllJeGWGZj8kewOFyo5y/GfTnFXOow29xCkd1NLCDINjRXDRMW7AAqQT9q5orDSYfh2RYwsdu9vGGkJBjdl3A5PJLBeTzk+9QFNc9V3do0UN3bWcM0ngvvadvCSORJWGTtzkGIjtjkHio3648COT4nT2jlNilxboGJ8WRiQI+w74BBxnbk4GKuINE0e0kjZFJkikVlMtw8jAhWRV+Yn5QHYBe3zUyy03Qo1e3t/CfEKxbWl3FEXeq4yeMB3UEfaoC0s5jc2cE5AUyxK5UeWRmpSa4jptm4hIDbYkWNdshAKrwAcHn81Jb20VqpWLfg4+ty371QPnlWGJ5ZPojUsfxWL9ddQzzajcxGdkggysyg4WV8ZYNjuqjCgHjOfatd1Y/7CQHsWjB+29a+fdVcLqbyXfCjUC0xPkPGy2fbtmu7waS6r7o+f4vd5Jjt9/nyDwa3PD8Q1vIVxlVebEmPZfLjy7+1XfQWrG+vRZTMWEiloyTyCP8ftVtcSxJblnZVCjczE8Aeteb/00gN91pFPED4W+aceyEED/wBCpeWn1S3tGk4YTVStNGqaZeMmpXWnzY2zxfFR/wDWQNtlx6AnY33ZvWutjzzVW8LN1jaFBxHp9w7fZ5Y9v67G/Su53G41xI7D1F3Zw3aqJ1LBDuXDEYPbPHnXNJounyW8cD2wMcYITk5XLBjg/cCrDcKTcPWgK59DsHVw8Jbe29iXOSeec/k0j6Dp0gYSQFtzbiS55PP9zVlvFJvFAMhhSCFIYl2xxqFUegFIQac0ijzqNrmId2oCG6gFxbywOSFkQqSO4z5/jvWKdZaTJHqN1M0aiOZsyr3CSH6h/KxywP8AUEVtL31uvcn8CvN9Q6bY6ud8d3JZzkbd5gLowPqK2wZnirfqjnzYPM01w0YmdPupVS18S7kjJ+WDxCVz6AZ8q03oTSrfpuwmu9QljiuZ1+dywAgiHPf27k/aq2+6d1fSo/8AjbnTroH+GJGj/UKnP61xdP6HrWsXzS9RXhskQhlgkjYq2OR2G3j0J9+auXLNcQtHrHFL3M0HQ3E3x+tyxmOW+2pbRMuGjt0BEYI8iSzOR5bseVMeNs1JFNDHH4aOzY/jYHLe/IpDOmfqFYo1PVUUUVCiYpMUUUAwrmmNGPSiigGGJfQUwxL6CiigGGJfQUxo1HkKSiqCKRB6VztGM9qKKA//2Q==" title="Airproce professional air purifier" loading="lazy"></a><h3><a href="https://airproce.net/" rel="noreferrer">Airproce professional <span class="highlight">air</span> purifier</a></h3>  <p class="content">
+    As a leading brand of high-end environmental household appliances, AirProce covers R&amp;D, manufacture, sales and after-sales service.
+  </p><div class="engines">
+<span>google</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://airproce.net/" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://vn.airliquide.com/" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://vn.airliquide.com</span></span><span class="url_o2"><span class="url_i2"></span></span>  </div></a><a href="https://vn.airliquide.com/" rel="noreferrer"><img class="thumbnail" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAeFBMVEX///8ANJsAMJoAI5YAKpgALpnf4+8AMpoAHpUAJpc8VKcAGJQAAJAAGpQAKJcADZI2UKXz8/jQ1OZKWqmgp864vNlpdbUAE5Pq6/Rterf5+vx1g7tPX6sxSKJkcLPDyOAdOp1baK8rQ6CXoMqKlcSvttZ/ib6ortI4A6DzAAAD60lEQVRoge1ZaZOqOhAds5BEdhRBEEVH8f//w4smwYQ16FC33rtzqvyi7aHTe5qvr198BktgEfKCwhr0sgh5AEgNHCxCvgarGuCX/P9BnoUFJy/C7EeJ0zjfYOfJXbM7eJPH6c8wh9uAUgTIqgEBiNJgG35MHe18qBK/HgD9XfQZ9cFFXWIJ5B7ep0/3Dh6mfgA7+zeNf2PeOPUDHru9QZ2dE9XUAEE7salbfzztOCQ5zw5N68Je/8fUKap7ZFmpZUW368G3kfJgdplZ4iMKGmrIznFLuWhPXgIrQGf5NaKkoYbffT7LbpdGZkXmsL+4Eb0OWvQO2Bu6p1Ae2d2MmTOrGp8DaBiSWSHCgfjfE6KnRg1cmJEfxWkBO03KpheZwexowh0ngts2ibCwkOxJPC2dMm5H4hlGr9SdsGmz70XO+6b+D4mwu7efEo0cLmmblwzLFjHjTOlz4JHC+rQIoxo9LeIuvIQP49yRy+0HOqkTVSWkrkthWXUUPAuzu+Oq77iY3fb8KfBFp6t7nB+0YtRyuWHQbow75Adsjw/Z2dbKLLZbZbaSUTDWV7eQH0/XzGKdXoeYFqhCqRXcjpAHfDTRp2QLgTb3o3lo7HvUe2QVKSTd52eot5FipFpGBsJI/Yopj1fNcseBTuppxeTCT0eHa0D+PBxYq9+d7H7uOqRUzwiXonyQfPN8PLuq3617DC7Mripx4nYBmyHuEJOORpE/xK2Xn4yXDYKHgjHkAlR1SjU2cVWK4IrnkdMmT4v1EzwQSan+Xg5apbZBqQieeUyBgHMVMlItCjjEz+pzYc8QKqEFnjyioKINOdNmK9UnER3mrg2oGP3K1F8I7CfHZ2NytQp+/31ycDAmNzLL2w5V4mrIoYuGosRHSUQGkqgh/yD9w6n0X7RwyZKrtZN5JdcbLrmyWWjtxKxZlJPNYk6bA3hmm5vRoDGe26CHRgvUsYynN/9Ujhb3EfLQ71UgO7qa8sA+6kNRbjIUDY9zax/xNCEE+eu3xrnGMd1ciPJ6EK0BV3ln3BSj8dQgKuW8Ph3SxwjdEw53kQpTI/Rr+B9zTesvMs0mh/9Fry1NBTe/cMlbq8k9d+ZVUXIbXRVnXnJLyW12yZ1zPY+p5MaF4UpHWSwcxuwY7ucvFtRVzuhKBL2zElHZCYPXPqXCbfla5sxdFcGmiBMIz7FeDbLTDitrKAxnrhfTQl2gQbFAqxHdq41DtQVaMXu3mO16Vn9uktjQ08ovScxisIWYaRNaPzxmlDtdpPly69avyUWx/cGi+Em/3Ir7gQWX808s91pBIHy9EPkhlTX8V98T/ZIPYNGXrYu+Jl70Bfe/hD/dnEBvs5qNywAAAABJRU5ErkJggg==" title="Air Liquide Vietnam" loading="lazy"></a><h3><a href="https://vn.airliquide.com/" rel="noreferrer"><span class="highlight">Air</span> Liquide Vietnam</a></h3>  <p class="content">
+    <span class="highlight">Air</span> Liquide has been present in Vietnam for more than 25 years and is one of the leading industrial gas suppliers with strategically located production units.
+  </p><div class="engines">
+<span>google</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://vn.airliquide.com/" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://www.ifm.com/vn/en/product/SD8000" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.ifm.com</span></span><span class="url_o2"><span class="url_i2"> › vn › en › product › SD8000</span></span>  </div></a><a href="https://www.ifm.com/vn/en/product/SD8000" rel="noreferrer"><img class="thumbnail" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAYDBQcCAf/EADMQAAEDAwEGAwUJAQAAAAAAAAEAAgMEBRFRBhIhMUFhE3GRByIysdEUIzNCgaHB4fAV/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAEEAgUD/8QAHhEBAAIBBAMAAAAAAAAAAAAAAAECAwQRElEhMUH/2gAMAwEAAhEDEQA/AO4oiICIiAiIgIiICIsNVUw0kXiVEgY3kM9ToB1KDMiiRXGmllbGx5JJxwBwD3UtAREQEREBERARFprjdiSYqI4Gd10+7njowfmP7eaCVcbnHR5jaPEnxkRg4wNXHoFpBFLWONZXTbkQHGQ8OGjB0HfmVkEENJF9oryQCd5sROXPOrj1K9U1HU3mRs9bvRUY/DiBwXf139MKKxU7ZbtLFDRsNPb4JGuc4DBfg5x+unrorSvEUTIY2xxMaxjRgNaMAL2qgiKubYXSpt8VPHTEN8be3nDmMY5ac1xkvFKzaX0xY5yXikfXvaXay2WCnkfUzsMjeG4HZOdOHXsuXt9ot8rq53/IM4klflsT2h4x5dB/u6iXzZ6orahstTdJvvjvNbLGHAN7YIx6cVt7ZR0VqhbFQtd4nN8pPF/n27clltqK+/vTbTSWnx877Wyi2ou8EERuUVHJKcmRse83GmOasVuvtNWUktTIDA2IgP3znidNVzmWoZCx0tRIGsbxLnFbLYqd14NVLBDuxRSBrJZOQOOJxrxGEwZMlrefS6rDipTx7XOaaa4AshyyLq3OHO0zoFgrKultrBHG0S1JIAGMnPTgPkP7UWWrET/sNqYZql/xScz5507rZ2mzsoj49Q7xqt3OQ8m56N+vMrY81Ht9pknlFXdfekPFsJ4hvn9OXmt6iKgiIgKh+1WrgpKSh+0VMlKJXPYydjSSx2AenkfRXxUX2yW2S4bHOfBE+WSlqGTAMGSBxaf2cub1i0bS7x3mluUOe07m1VY2rNzFdUkYfKZMucPLKnVdwgt8XiVDvfd8MY+J3+1XO663VFHG19TGAD0yCR5rcbOWmrvGHtJZTs4SVMmSGjQant8llnTcrcplujW8aca12SnzXC/1rIY2F7ifchafdYNSf5K6Psha6yntzrVQyh+/KZamox7jSQBga8By69umTZTZlskAbTMfT0HDfnd+JUHsdO/LTqugUtNDSQthp4xHG0cGhaq1iI2hhvabTvKPbLbT26HchGXu+OR3xPPf6KaiLpwIiICIiCFebpSWa3S11fKIoIh7zj35Kq1W0Vg2gt5fS17a52cNiheWlh7tOPUhbH2jWCfaXZGtt1IWipO7LCHHAc5jg4NJ6ZxjPdcN2T2a2gh2jjiZb6yCVu8JN+Itxw1PDnjjnkiw6My0bPQ290txgbXVUhLXRyHIYdMDzHdb7Z3ZVphidXUzKejjH3FAxuABq8fx66LYbNbKw2oNqKsiesHEH8sfl37/ACVkUiCZ3fGtDQAAAAMYC+oiqCIiAiIgIiICIiAiIgIiICIiAiIgIiIP/9k=" title="SD8000 - Compressed air meter" loading="lazy"></a><h3><a href="https://www.ifm.com/vn/en/product/SD8000" rel="noreferrer">SD8000 - Compressed <span class="highlight">air</span> meter</a></h3>  <p class="content">
+    SDR11DGXFPKG/US-100 · Precise measurement of flow, consumption and medium temperature · High accuracy, repeatability and measurement dynamics · For detecting ...
+  </p><div class="engines">
+<span>google</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.ifm.com/vn/en/product/SD8000" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://www.thefreedictionary.com/air" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.thefreedictionary.com</span></span><span class="url_o2"><span class="url_i2"> › air</span></span>  </div></a><h3><a href="https://www.thefreedictionary.com/air" rel="noreferrer"><span class="highlight">Air</span> - definition of <span class="highlight">air</span> by The Free Dictionary</a></h3>  <p class="content">
+    1. Of or relating to the <span class="highlight">air</span> or the movement of <span class="highlight">air</span>: an <span class="highlight">air</span> tube. 2. Existing or living in the <span class="highlight">air</span>; aerial. 3. Powered by compressed <span class="highlight">air</span>: an <span class="highlight">air</span> horn. 4. Containing or inflated by <span class="highlight">air</span>.
+  </p><div class="engines">
+<span>duckduckgo</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.thefreedictionary.com/air" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://education.nationalgeographic.org/resource/air/" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://education.nationalgeographic.org</span></span><span class="url_o2"><span class="url_i2"> › resource › air</span></span>  </div></a><h3><a href="https://education.nationalgeographic.org/resource/air/" rel="noreferrer"><span class="highlight">Air</span> - National Geographic Society</a></h3>  <p class="content">
+    Learn about the composition, properties, and effects of <span class="highlight">air</span>, the invisible mixture of gases that surrounds Earth. Explore how <span class="highlight">air</span> supports life, affects climate, and is used for various purposes.
+  </p><div class="engines">
+<span>duckduckgo</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://education.nationalgeographic.org/resource/air/" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://www.koreanair.com/?hl=en" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.koreanair.com</span></span><span class="url_o2"><span class="url_i2"></span></span>  </div></a><h3><a href="https://www.koreanair.com/?hl=en" rel="noreferrer">Book your flight ticket with Korea's No.1 airline - Korean <span class="highlight">Air</span></a></h3>  <p class="content">
+    Find your Korean <span class="highlight">Air</span> flights to over 100 cities worldwide. Enjoy unassailable service with amazing comfort at best ticket deals and airfares.
+  </p><div class="engines">
+<span>duckduckgo</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.koreanair.com/?hl=en" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>
+<article class="result result-default category-general"><a href="https://www.definitions.net/definition/air" class="url_header" rel="noreferrer"><div class="url_wrapper"><span class="url_o1"><span class="url_i1">https://www.definitions.net</span></span><span class="url_o2"><span class="url_i2"> › definition › air</span></span>  </div></a><h3><a href="https://www.definitions.net/definition/air" rel="noreferrer">What does <span class="highlight">air</span> mean? - Definitions for <span class="highlight">air</span></a></h3>  <p class="content">
+    Definition of <span class="highlight">air</span> in the Definitions.net dictionary. Meaning of <span class="highlight">air</span>. What does <span class="highlight">air</span> mean? Information and translations of <span class="highlight">air</span> in the most comprehensive dictionary definitions resource on the web.
+  </p><div class="engines">
+<span>duckduckgo</span>  <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32px"></circle></svg><a href="https://web.archive.org/web/https://www.definitions.net/definition/air" class="cache_link" rel="noreferrer">cached</a>
+</div><div class="break"></div></article>    </div>
+    <div id="backToTop">
+      <a href="#" aria-label="Back to top"><svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><path d="m112 328 144-144 144 144" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48px"></path></svg></a>
+    </div>
+    <nav id="pagination" role="navigation">
+<form method="POST" action="/search" class="next_page">
+              <div class="right">
+                <input type="hidden" name="q" value="air">
+                <input type="hidden" name="category_general" value="1">
+                <input type="hidden" name="pageno" value="2">
+                <input type="hidden" name="language" value="vi-VN">
+                <input type="hidden" name="time_range" value="">
+                <input type="hidden" name="safesearch" value="0">
+                <input type="hidden" name="theme" value="simple">
+<button role="link" type="submit">Next page <svg viewBox="0 0 512 512" class="ionicon sxng-icon-set-small" aria-hidden="true"><path d="m184 112 144 144-144 144" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48px"></path></svg></button>
+              </div>
+          </form>
+        <div class="numbered_pagination">
+            <form method="POST" action="/search" class="page_number">
+                <input type="hidden" name="q" value="air">
+                <input type="hidden" name="category_general" value="1">
+                <input type="hidden" name="pageno" value="1">
+                <input type="hidden" name="language" value="vi-VN">
+                <input type="hidden" name="time_range" value="">
+                <input type="hidden" name="safesearch" value="0">
+                <input type="hidden" name="theme" value="simple">
+                <input role="link" class="page_number_current" type="button" value="1">
+            </form>
+            <form method="POST" action="/search" class="page_number">
+                <input type="hidden" name="q" value="air">
+                <input type="hidden" name="category_general" value="1">
+                <input type="hidden" name="pageno" value="2">
+                <input type="hidden" name="language" value="vi-VN">
+                <input type="hidden" name="time_range" value="">
+                <input type="hidden" name="safesearch" value="0">
+                <input type="hidden" name="theme" value="simple">
+                <input role="link" class="page_number" type="submit" value="2">
+            </form>
+            <form method="POST" action="/search" class="page_number">
+                <input type="hidden" name="q" value="air">
+                <input type="hidden" name="category_general" value="1">
+                <input type="hidden" name="pageno" value="3">
+                <input type="hidden" name="language" value="vi-VN">
+                <input type="hidden" name="time_range" value="">
+                <input type="hidden" name="safesearch" value="0">
+                <input type="hidden" name="theme" value="simple">
+                <input role="link" class="page_number" type="submit" value="3">
+            </form>
+            <form method="POST" action="/search" class="page_number">
+                <input type="hidden" name="q" value="air">
+                <input type="hidden" name="category_general" value="1">
+                <input type="hidden" name="pageno" value="4">
+                <input type="hidden" name="language" value="vi-VN">
+                <input type="hidden" name="time_range" value="">
+                <input type="hidden" name="safesearch" value="0">
+                <input type="hidden" name="theme" value="simple">
+                <input role="link" class="page_number" type="submit" value="4">
+            </form>
+            <form method="POST" action="/search" class="page_number">
+                <input type="hidden" name="q" value="air">
+                <input type="hidden" name="category_general" value="1">
+                <input type="hidden" name="pageno" value="5">
+                <input type="hidden" name="language" value="vi-VN">
+                <input type="hidden" name="time_range" value="">
+                <input type="hidden" name="safesearch" value="0">
+                <input type="hidden" name="theme" value="simple">
+                <input role="link" class="page_number" type="submit" value="5">
+            </form>
+            <form method="POST" action="/search" class="page_number">
+                <input type="hidden" name="q" value="air">
+                <input type="hidden" name="category_general" value="1">
+                <input type="hidden" name="pageno" value="6">
+                <input type="hidden" name="language" value="vi-VN">
+                <input type="hidden" name="time_range" value="">
+                <input type="hidden" name="safesearch" value="0">
+                <input type="hidden" name="theme" value="simple">
+                <input role="link" class="page_number" type="submit" value="6">
+            </form>
+            <form method="POST" action="/search" class="page_number">
+                <input type="hidden" name="q" value="air">
+                <input type="hidden" name="category_general" value="1">
+                <input type="hidden" name="pageno" value="7">
+                <input type="hidden" name="language" value="vi-VN">
+                <input type="hidden" name="time_range" value="">
+                <input type="hidden" name="safesearch" value="0">
+                <input type="hidden" name="theme" value="simple">
+                <input role="link" class="page_number" type="submit" value="7">
+            </form>
+            <form method="POST" action="/search" class="page_number">
+                <input type="hidden" name="q" value="air">
+                <input type="hidden" name="category_general" value="1">
+                <input type="hidden" name="pageno" value="8">
+                <input type="hidden" name="language" value="vi-VN">
+                <input type="hidden" name="time_range" value="">
+                <input type="hidden" name="safesearch" value="0">
+                <input type="hidden" name="theme" value="simple">
+                <input role="link" class="page_number" type="submit" value="8">
+            </form>
+            <form method="POST" action="/search" class="page_number">
+                <input type="hidden" name="q" value="air">
+                <input type="hidden" name="category_general" value="1">
+                <input type="hidden" name="pageno" value="9">
+                <input type="hidden" name="language" value="vi-VN">
+                <input type="hidden" name="time_range" value="">
+                <input type="hidden" name="safesearch" value="0">
+                <input type="hidden" name="theme" value="simple">
+                <input role="link" class="page_number" type="submit" value="9">
+            </form>
+            <form method="POST" action="/search" class="page_number">
+                <input type="hidden" name="q" value="air">
+                <input type="hidden" name="category_general" value="1">
+                <input type="hidden" name="pageno" value="10">
+                <input type="hidden" name="language" value="vi-VN">
+                <input type="hidden" name="time_range" value="">
+                <input type="hidden" name="safesearch" value="0">
+                <input type="hidden" name="theme" value="simple">
+                <input role="link" class="page_number" type="submit" value="10">
+            </form>
+        </div>
+    </nav>
+</div>
+  </main>
+  <footer>
+    <p>
+    Powered by <a href="/info/en/about">SearXNG</a> - 2025.6.20+72230b85e — a privacy-respecting, open metasearch engine<br>
+        <a href="https://github.com/coppcam/searxng">Source code</a>
+        | <a href="https://github.com/searxng/searxng/issues">Issue tracker</a>
+| <a href="/stats">Engine stats</a>        | <a href="https://searx.space">Public instances</a>
+    </p>
+  </footer>
+  <!--[if gte IE 9]>-->
+  <script src="/static/themes/simple/js/searxng.min.js?1f7145e30497a5869ae3128961596b9cd2011c77"></script>
+  <!--<![endif]-->
+
+</body></html>

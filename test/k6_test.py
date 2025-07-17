@@ -7,8 +7,9 @@ with open("test/keywords.txt", "r", encoding="utf-8") as file:
 
 # ✅ Tham số truyền vào
 url = "http://127.0.0.1:8000/search"
-vus = 10
-iterations = 10
+vus = 1
+# duration = '60s'
+iterations = 1
 
 # ✅ Chuyển danh sách từ khóa sang JS array
 js_keywords = json.dumps(keywords)
@@ -34,6 +35,7 @@ export default function () {{
   const params = {{
     headers: {{
       'Content-Type': 'application/json',
+      timeout: '120s',
     }},
   }};
 

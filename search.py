@@ -33,7 +33,7 @@ class GoogleSearcher:
     GOOGLE_DOMAINS = GOOGLE_DOMAINS
     TIMEZONE_LIST = TIMEZONE_LIST
     
-    def __init__(self, default_options: Optional[CommandOptions] = None, use_proxy_fingerprint: bool = False):
+    def __init__(self, default_options: Optional[CommandOptions] = None, use_proxy_fingerprint: bool = True):
         import asyncio
 
         self._browser_lock = asyncio.Lock()
@@ -53,6 +53,7 @@ class GoogleSearcher:
         self._request_count = 0  # Đếm số lần get_html
         self._context = None
         
+        self._browsers: Dict[str, Tuple[Browser, int]] = {}        
         self._browser_contexts: Dict[str, Tuple[BrowserContext, int]] = {}
     
     def get_host_machine_config(self, user_locale: Optional[str] = None) -> FingerprintConfig:
@@ -83,6 +84,7 @@ class GoogleSearcher:
         
         hour = datetime.now().hour
         color_scheme = "dark" if hour >= 19 or hour < 7 else "light"
+        color_scheme = "light"
         reduced_motion = "no-preference"
         forced_colors = "none"
         
@@ -176,6 +178,11 @@ class GoogleSearcher:
             self.current_session = session
             fingerprint_dict = session["fingerprint"]
             fingerprint = FingerprintConfig(**fingerprint_dict)
+            
+            # ⚠️ Thêm proxy IP vào context
+            proxy_playwright = session.get("proxy_playwright")
+            if proxy_playwright:
+                context_options["proxy"] = proxy_playwright
 
             context_options.update({
                     "locale": fingerprint.locale,
@@ -244,6 +251,41 @@ class GoogleSearcher:
             Object.defineProperty(window.screen, 'colorDepth', { get: () => 24 });
             Object.defineProperty(window.screen, 'pixelDepth', { get: () => 24 });
         """)
+        
+        await context.add_init_script("""
+            Object.defineProperty(window, 'RTCPeerConnection', {
+            get: () => undefined
+            });
+            """)
+        
+        await context.add_init_script("""
+            window.navigator.permissions.query = (parameters) => (
+                parameters.name === 'notifications' ?
+                Promise.resolve({ state: Notification.permission }) :
+                window.navigator.permissions.query(parameters)
+            );
+            """)
+        
+        # await context.add_init_script(f"""
+        #     const originalDate = Date;
+        #     class FakeDate extends Date {{
+        #         constructor(...args) {{
+        #         if (args.length === 0) {{
+        #             super();
+        #             const offset = new Date().getTimezoneOffset() * 60000;
+        #             const proxyTime = new Date(Date.now() - offset);  // local UTC time
+        #             return proxyTime;
+        #         }}
+        #         return new originalDate(...args);
+        #         }}
+        #     }}
+        #     Date = FakeDate;
+
+        #     // Force Intl.DateTimeFormat to match proxy timezone
+        #     Intl.DateTimeFormat = function(locale, options = {{"timeZone": "{fingerprint.timezone_id}"}}) {{
+        #         return new Intl.DateTimeFormat(locale, options);
+        #     }};
+        #     """)
                 
         return context
     
@@ -264,6 +306,24 @@ class GoogleSearcher:
                 
         # await page.wait_for_load_state('load')  
         # await page.wait_for_timeout(5000) # await added
+        
+        async def click_cookies_button(page):
+            try:
+                # element = await page.locator(".HOq4He .wX2YHc") # await added
+                # if element:
+                    
+                # await page.wait_for_selector(".QS5gu .sy4vM", timeout=5000)
+                # await page.click(".QS5gu .sy4vM")
+                # await page.click('//*[@id="W0wltc"]/div')
+                await page.click('#L2AGLb')
+                await page.wait_for_timeout(self.get_random_delay(100, 300))
+                
+            except Exception as e:
+                logger.warning(f"Cookies button not found: {e}")
+                print(f"Cookies button not found: {e}")
+                      
+        # page.on("popup", click_cookies_button)
+        # await click_cookies_button(page) # await added
                       
         for selector in selectors:
             try:
@@ -286,7 +346,7 @@ class GoogleSearcher:
         if not search_input:
             # raise Exception("Search input not found")
             print("Search input not found")
-            
+            logger.error("Search input not found")
             return False
         
         try:
@@ -299,7 +359,7 @@ class GoogleSearcher:
             await page.wait_for_load_state("networkidle", timeout=timeout) # await added
         except Exception as e:
             print("Lỗi tìm kiếm:", e)
-        
+            logger.error(f"Error performing search input: {e}")
         return True
     
     async def wait_for_search_results(self, page, timeout: int): # async added
@@ -466,7 +526,7 @@ class GoogleSearcher:
                 if detected and self.use_proxy_fingerprint and self.session_manager:
                     domain = page.url.split("/")[2]                    
                     logger.warning(f"🚨 CAPTCHA detected on {domain} – creating new session.")
-                    self.session_manager.get_new_session()
+                    # self.session_manager.get_new_session()
                     # self.session_manager.get_new_session(domain="luxirty")  # hoặc truyền domain nếu có
                 return detected
                 
@@ -743,7 +803,17 @@ class GoogleSearcher:
         except Exception as e:
             logger.error(f"❌ Lỗi khi ghi IP bị chặn: {e}")
     
-    
+    async def get_domains(self, page) -> List[str]:
+        try:
+            urls = await page.locator('td.column-url a:first-of-type').evaluate_all(
+                    "(elements) => elements.map(el => el.href)"
+                )
+            logger.info(f"urls: {urls}  ")
+            return [url for url in urls if url and url.startswith("http") and "github" not in url]
+        except Exception as e:
+            logger.error(f"Error getting domains: {e}")
+            return []  # Trả về rỗng nếu gặp lỗi
+
     async def perform_get_html(self, query: str, options: CommandOptions = None, headless: bool = True, current_retry: int = 0, domain="luxirty") -> SearchResponse:
         """Lấy HTML của trang search"""
         # if not os.path.exists(options.state_file):
@@ -753,8 +823,8 @@ class GoogleSearcher:
         if not options:
             options = CommandOptions(save_html=False, output_path=None, no_save_state=True)
             
-        print("Domain:", domain)
-        logger.info(f"Domain: {domain}")
+        # print("Domain:", domain)
+        # logger.info(f"Domain: {domain}")
         
         if current_retry > max_retries:
             logger.error(f"Max retries ({max_retries}) reached for HTML retrieval query: {query}. Stopping.")
@@ -768,114 +838,125 @@ class GoogleSearcher:
         # browser = await self.init_browser(headless, options.timeout)
         # browser = self._browser
         
-        # def is_valid_json_file(path):
-        #     if not os.path.exists(path) or os.path.getsize(path) == 0:
-        #         return False
-        #     try:
-        #         with open(path, "r", encoding="utf-8") as f:
-        #             json.load(f)
-        #         return True
-        #     except Exception:
-        #         return False
-        
         try:
             # storage_state = options.state_file if os.path.exists(options.state_file) else None
             
-            # Only use storage_state if file exists and is not empty
-            # storage_state = None
-            # if not is_valid_json_file(options.state_file):
-            #     if os.path.exists(options.state_file):
-            #         os.remove(options.state_file)
-            # if is_valid_json_file(options.state_file):
-            #     storage_state = options.state_file
-            # logger.info(domain)
-            
-            if domain == "google":
-                selected_domain = saved_state.google_domain or random.choice(self.GOOGLE_DOMAINS)
-                saved_state.google_domain = selected_domain
-            else:
-                selected_domain = "https://search.luxirty.com/"
-                saved_state.google_domain = selected_domain
-                
+            # if domain == "google":
+            #     selected_domain = saved_state.google_domain or random.choice(self.GOOGLE_DOMAINS)
+            #     saved_state.google_domain = selected_domain
+            # else:
+            #     selected_domain = "https://search.luxirty.com/"
+            #     saved_state.google_domain = selected_domain
+
+            domains = []
+            with open("domains.txt", "r", encoding="utf-8") as file:
+                domains = [line.strip() for line in file if line.strip()]
+         
+            selected_domain = random.choice(domains) if domains else "https://searx.stream/"  
+            saved_state.google_domain = selected_domain  
+             
             # refactor
             # context = await self.setup_browser_context(browser, saved_state, storage_state)
             
-            # Lấy tất cả các key của dictionary
-            keys = list(self._browser_contexts.keys())
+            # # Lấy tất cả các key của dictionary
+            # keys = list(self._browser_contexts.keys())
 
-            # Chọn ngẫu nhiên một key từ danh sách
-            random_key = random.choice(keys)
+            # # Chọn ngẫu nhiên một key từ danh sách
+            # random_key = random.choice(keys)
 
-            # Lấy phần tử tương ứng với key được chọn
-            context, count = self._browser_contexts[random_key]
+            # # Lấy phần tử tương ứng với key được chọn
+            # context, count = self._browser_contexts[random_key]
+            
+            # logger.info(f"Using context: {random_key} with count: {count}")
 
-            # context = await self._create_context(domain=domain)
+            context = self._context
             
             page = await context.new_page()
             await page.goto("https://httpbin.org/ip")
             ip_text = await page.evaluate("() => document.body.innerText")
             logger.info(f"[🌍 IP seen by website]: {ip_text}")
-            print(f"[🌍 IP seen by website]: {ip_text}")            
+            print(f"[🌍 IP seen by website]: {ip_text}") 
+            
+            # try:
+            #     await page.goto("https://searx.space/#")
+            #     await page.wait_for_timeout(1000)  # Cho trang ổn định một chút
+            #     await page.wait_for_load_state("networkidle", timeout=options.timeout)
+            #     domains = await self.get_domains(page)
+            #     # logger.info(f"Available domains: {domains}")
+            #     # return domains
+            # except Exception as e:
+            #     logger.error(f"Error loading page or fetching domains: {e}")
 
             # ip = await self.get_public_ip(page)
             
             try:            
-                print(f"Navigating to {saved_state.google_domain}")                
-                logger.info(f"Navigating to {saved_state.google_domain}")
-                await page.goto(saved_state.google_domain, timeout=options.timeout, wait_until="networkidle")
-                await page.wait_for_timeout(1500)  # chờ thêm 1.5 giây
+                print(f"Navigating to {selected_domain}")                
+                logger.info(f"Navigating to {selected_domain}")
+                
+                await page.goto(selected_domain, timeout=options.timeout, wait_until="networkidle")
+                await page.wait_for_timeout(1000)  # chờ thêm 1.5 giây
 
-                if await self.check_captcha_or_sorry(page):
-                    # if headless:
-                    # ip = await self.get_public_ip(context)
-                    # logger.warning(f"🚧 CAPTCHA phát hiện với IP: {ip} – query: {query}")
-                    # self.log_blocked_ip(ip)
-                    # self.session_manager.rotate_ip()  # <-- Xoay IP ngay khi bị CAPTCHA
-                    logger.warning("⚠️ CAPTCHA detected in perform_get_html (handled externally).")
+                # if await self.check_captcha_or_sorry(page):
+                #     # if headless:
+                #     # ip = await self.get_public_ip(context)
+                #     # logger.warning(f"🚧 CAPTCHA phát hiện với IP: {ip} – query: {query}")
+                #     # self.log_blocked_ip(ip)
+                #     # self.session_manager.rotate_ip()  # <-- Xoay IP ngay khi bị CAPTCHA
+                #     logger.warning("⚠️ CAPTCHA detected in perform_get_html (handled externally).")
 
-                    # self._delete_state_file(options.state_file) # Xóa tệp trạng thái
-                    # if current_retry >=0: 
-                    #     self.use_proxy_fingerprint = True      
-                    # self._playwright = None                                                                                            
-                    await page.close() # await added
-                    await context.close() # await added
-                    # await self.close_browser()
-                    return await self.perform_get_html(query, options, headless, current_retry + 1)
-                    # else:
-                    #     logger.warning("CAPTCHA detected, please complete verification")
-                    #     await page.wait_for_url( # await added
-                    #         lambda url: not any(p in url.lower() for p in ["sorry", "recaptcha", "captcha"]),
-                    #         timeout=options.timeout * 2
-                    #     )
+                #     # self._delete_state_file(options.state_file) # Xóa tệp trạng thái
+                #     # if current_retry >=0: 
+                #     #     self.use_proxy_fingerprint = True      
+                #     # self._playwright = None     
+                                                                                                           
+                #     # await page.close() # await added
+                #     # await context.close() # await added
+                    
+                #     # await self.close_browser()
+                #     # return await self.perform_get_html(query, options, headless, current_retry + 1)
+                #     # else:
+                #     #     logger.warning("CAPTCHA detected, please complete verification")
+                #     #     await page.wait_for_url( # await added
+                #     #         lambda url: not any(p in url.lower() for p in ["sorry", "recaptcha", "captcha"]),
+                #     #         timeout=options.timeout * 2
+                #     #     )
                 
                 logger.info(f"Searching for: {query}")
                 find_search = await self.perform_search_input(page, query, options.timeout) # await added
                 if not find_search:
                     print('Error searching Luxirty')
+                    logger.error(f"Error searching {selected_domain}")
                     not_found_search = SearchResponse(query=query, results=[])
                     return not_found_search
                 
-                if await self.check_captcha_or_sorry(page):
-                    # if headless:
-                    # ip = await self.get_public_ip(context)
-                    # logger.warning(f"🚧 CAPTCHA phát hiện với IP: {ip} – query: {query}")
-                    # self.log_blocked_ip(ip)
+                # if await self.check_captcha_or_sorry(page):
+                #     # if headless:
+                #     # ip = await self.get_public_ip(context)
+                #     # logger.warning(f"🚧 CAPTCHA phát hiện với IP: {ip} – query: {query}")
+                #     # self.log_blocked_ip(ip)
 
-                    self._delete_state_file(options.state_file) # Xóa tệp trạng thái
-                    # if current_retry >=0: 
-                    #     self.use_proxy_fingerprint = True           
-                    # self._playwright = None                                                                                       
-                    await page.close() # await added
-                    await context.close() # await added
-                    # await self.close_browser()
-                    return await self.perform_get_html(query, options, headless, current_retry + 1)
-                    # else:
-                    #     logger.warning("CAPTCHA detected after search, please complete verification")
-                    #     await page.wait_for_url( # await added
-                    #         lambda url: not any(p in url.lower() for p in ["sorry", "recaptcha", "captcha"]),
-                    #         timeout=options.timeout * 2
-                    #     )
-                
+                #     self._delete_state_file(options.state_file) # Xóa tệp trạng thái
+                #     # if current_retry >=0: 
+                #     #     self.use_proxy_fingerprint = True           
+                #     # self._playwright = None        
+                                                                                                   
+                #     # await page.close() # await added
+                #     # await context.close() # await added
+                    
+                #     # await self.close_browser()
+                #     # return await self.perform_get_html(query, options, headless, current_retry + 1)
+                #     # else:
+                #     #     logger.warning("CAPTCHA detected after search, please complete verification")
+                #     #     await page.wait_for_url( # await added
+                #     #         lambda url: not any(p in url.lower() for p in ["sorry", "recaptcha", "captcha"]),
+                #     #         timeout=options.timeout * 2
+                #     #     )
+
+                await page.wait_for_timeout(1000)  # Ensure page stability # await added
+                await page.wait_for_load_state("networkidle", timeout=options.timeout) # await added
+
+                await page.select_option("#language", value="vi-VN")
+
                 await page.wait_for_timeout(1000)  # Ensure page stability # await added
                 await page.wait_for_load_state("networkidle", timeout=options.timeout) # await added
                 
@@ -895,7 +976,7 @@ class GoogleSearcher:
                         else:
                             raise
 
-                html = self.clean_html_content(full_html)
+                # html = self.clean_html_content(full_html)
                 
                 saved_file_path = None
                 screenshot_path = None
@@ -906,6 +987,10 @@ class GoogleSearcher:
                 
                 if not options.no_save_state:
                     await self.save_browser_state(context, options.state_file, saved_state) # await added
+                    
+                # await asyncio.sleep(300)  # Ensure all operations are complete before closing
+                await page.wait_for_timeout(1000)  # Ensure page stability # await added
+                await page.wait_for_load_state("networkidle", timeout=options.timeout) # await added
                 
                 await page.close() # await added
                 # await context.close() # await added
@@ -915,7 +1000,7 @@ class GoogleSearcher:
                 
                 return HtmlResponse(
                     query=query,
-                    html=html,
+                    html=full_html,
                     url=final_url,
                     saved_path=saved_file_path,
                     screenshot_path=screenshot_path,
@@ -963,7 +1048,7 @@ class GoogleSearcher:
             
             # await self.close_browser() # await added
             
-    async def _create_context(self, domain, proxy_port=None, control_port=None):
+    async def _create_context(self, proxy_port=None, control_port=None):
         options = CommandOptions(save_html=True, no_save_state=True)
             
         saved_state = self.load_saved_state(options.state_file)
@@ -971,16 +1056,15 @@ class GoogleSearcher:
         
         browser = self._browser
         
-        storage_state = options.state_file if os.path.exists(options.state_file) else None
-            
+        storage_state = options.state_file if os.path.exists(options.state_file) else None            
 
-        if domain == "google":
-            selected_domain = saved_state.google_domain or random.choice(self.GOOGLE_DOMAINS)
-            saved_state.google_domain = selected_domain
-        else:
-            selected_domain = "https://search.luxirty.com/"
-            saved_state.google_domain = selected_domain      
-              
+        # if domain == "google":
+        #     selected_domain = saved_state.google_domain or random.choice(self.GOOGLE_DOMAINS)
+        #     saved_state.google_domain = selected_domain
+        # else:
+        #     selected_domain = "https://search.luxirty.com/"
+        #     saved_state.google_domain = selected_domain       
+
         context = await self.setup_browser_context(browser, saved_state, storage_state, proxy_port=proxy_port, control_port=control_port) 
         self._context = context
         
