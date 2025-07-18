@@ -45,6 +45,10 @@ async def process_result(result, method="requests", endpoint="luxirty"):
             elif endpoint == "gprivate":
                 title = result.findAll('a', id=lambda x: x and x.startswith('linktitle')) 
 
+            elif endpoint == "yahoo":
+                title = result.find("h3", class_="title fc-2015C2-imp pt-6 ivmt-6 mxw-100p")
+
+
             # title = result.find("span", class_="CVA68e qXLe6d fuLhoc ZWRArf")
 
             if title:
@@ -59,6 +63,9 @@ async def process_result(result, method="requests", endpoint="luxirty"):
                 summary = result.find("p", class_="result__body") 
             elif endpoint == "gprivate":       
                 summary = result.find("div", class_="gs-bidi-start-align gs-snippet") 
+            elif endpoint == "yahoo":
+                summary = result.find("p", class_="fc-dustygray fz-14 lh-22 ls-02 mah-44 ov-h d-box fbox-ov fbox-lc2")
+       
             summary_text = summary.get_text(strip=True) if summary else "Không có tóm tắt"
 
             # print(summary_text)

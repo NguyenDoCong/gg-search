@@ -546,14 +546,15 @@ class GoogleSearcher:
         html = re.sub(r'<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>', '', html, flags=re.IGNORECASE)
         return html
     
-    async def save_html_and_screenshot(self, page, html: str, query: str, output_path: Optional[str] = None) -> tuple: # async added
+    async def save_html_and_screenshot(self, page, html: str, query: str, domain, output_path: Optional[str] = None) -> tuple: # async added
         """Lưu HTML và screenshot"""
         if not output_path:
             output_dir = "./google-search-html"
             os.makedirs(output_dir, exist_ok=True)
             timestamp = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
             sanitized_query = re.sub(r'[^a-zA-Z0-9]', '_', query)[:50]
-            output_path = f"{output_dir}/{sanitized_query}-{timestamp}.html"
+            domain = domain.replace("https://", "").replace("http://", "").replace("/", "_").replace(".", "_")
+            output_path = f"{output_dir}/{domain}-{sanitized_query}-{timestamp}.html"
         
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         
@@ -982,7 +983,7 @@ class GoogleSearcher:
                 screenshot_path = None
                 if options.save_html:
                     saved_file_path, screenshot_path = await self.save_html_and_screenshot( # await added
-                        page, full_html, query, options.output_path
+                        page, full_html, query, final_url, options.output_path
                     )
                 
                 if not options.no_save_state:
@@ -1011,7 +1012,7 @@ class GoogleSearcher:
                 logger.error(f"HTML retrieval error: {e}")
                 print(f"HTML retrieval error: {e}")                
                 await page.close() # await added
-                await context.close() # await added
+                # await context.close() # await added
                 return SearchResponse(query=query, results=[])
                 # raise Exception(f"Failed to get HTML: {str(e)}")
         

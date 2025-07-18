@@ -1,7 +1,7 @@
 from contextlib import asynccontextmanager
 import random
 from bs4 import BeautifulSoup
-from __init__ import search
+from __init__ import search, asearch
 from search import GoogleSearcher
 from fastapi import FastAPI, Request
 # from contextlib import asynccontextmanager
@@ -17,8 +17,8 @@ from async_batcher.utils.data_handling import process_result
 # search_count = 0
 # search_lock = asyncio.Lock()
 from proxy.proxy_pool import ProxyPool
-from itertools import cycle
-
+import re
+import json
 import logging
 
 logging.basicConfig(
@@ -34,12 +34,12 @@ logger = logging.getLogger(__name__)
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # app.state.luxirty_instance = GoogleSearcher(use_proxy_fingerprint=True)
-    # app.state.search_instance = GoogleSearcher(use_proxy_fingerprint=True)
+    app.state.search_instance = GoogleSearcher(use_proxy_fingerprint=True)
     
-    # # ✅ Gọi init_browser() sau khi khởi tạo
-    # await app.state.search_instance.init_browser()
+    # ✅ Gọi init_browser() sau khi khởi tạo
+    await app.state.search_instance.init_browser()
     # # await app.state.google_instance.init_browser()   
-    # await app.state.search_instance._create_context()
+    await app.state.search_instance._create_context()
     # # await app.state.google_instance._create_contexts(domain="google")
 
     proxy_ports = list(range(9050, 9130, 2))  # 9050 → 9088
@@ -80,6 +80,11 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
             result_block = soup.find_all("article", class_='svelte-fmlk7p') 
         elif endpoint == "gprivate":
             result_block = soup.find_all("div", class_='gsc-webResult gsc-result') 
+        elif endpoint == "tiekoetter":
+            result_block = soup.find_all("div", class_='gsc-webResult gsc-result') 
+        elif endpoint == "yahoo":
+            result_block = soup.find_all("div", class_="dd algo algo-sr relsrch Sr")
+
         # if len(result_block)<1:
         #     result_block = soup.find_all("div", class_="ezO2md")
         if len(result_block)<1:
@@ -209,7 +214,13 @@ async def query_result(req: Request):
     # domain="google"
     # print("Query:", query)
     # result = await search_response(query, method="fingerprint", domain = domain)
-    endpoint = "startpage"
+    rand = random.randint(1,2)
+    if rand==1:
+        endpoint = "yahoo"
+    else:
+        endpoint = "mullvad leta"
+
+    logger.info(f"Chạy tìm kiếm với endpoint: {endpoint}")
     try:
         result = await batcher.predict((query, req, "requests", endpoint))
 

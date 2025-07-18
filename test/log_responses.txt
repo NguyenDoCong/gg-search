@@ -9,58 +9,1081 @@
         script: test/test.js
         output: -
 
-     scenarios: (100.00%) 1 scenario, 1 max VUs, 10m30s max duration (incl. graceful stop):
-              * default: 1 iterations shared among 1 VUs (maxDuration: 10m0s, gracefulStop: 30s)
+     scenarios: (100.00%) 1 scenario, 40 max VUs, 1m30s max duration (incl. graceful stop):
+              * default: 40 looping VUs for 1m0s (gracefulStop: 30s)
 
 
-running (00m01.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 1 VUs  00m01.0s/10m0s  0/1 shared iters
+running (0m01.0s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   2% ] 40 VUs  0m01.0s/1m0s
 
-running (00m02.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 1 VUs  00m02.0s/10m0s  0/1 shared iters
+running (0m02.0s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   3% ] 40 VUs  0m02.0s/1m0s
 
-running (00m03.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 1 VUs  00m03.0s/10m0s  0/1 shared iters
+running (0m03.0s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   5% ] 40 VUs  0m03.0s/1m0s
+time="2025-07-18T10:31:11Z" level=info msg="🔍 Keyword: xổ số miền nam ngày 15 tháng 7" source=console
+time="2025-07-18T10:31:11Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:11Z" level=info msg="📩 Body: {\"Trá»±c tiáº¿p xá»\u0095 sá»\u0091 Miá»\u0081n Nam NgÃ\u00a0y 17/07/2025 - Xá»\u0095 Sá»\u0091 Minh ChÃ\u00adnh | MinhChinh.com\":\"Thá»© 7: (1) TP. HCM (xshcm), (2) Long An (xsla), (3) BÃ¬nh PhÆ°á»\u009bc (xsbp), (4) Háº\u00adu Giang (xshg) Chá»" source=console
 
-running (00m04.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 1 VUs  00m04.0s/10m0s  0/1 shared iters
+running (0m04.0s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   7% ] 40 VUs  0m04.0s/1m0s
+time="2025-07-18T10:31:12Z" level=info msg="🔍 Keyword: anh đào hổ phách" source=console
+time="2025-07-18T10:31:12Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:12Z" level=info msg="📩 Body: {\"Anhanguera\":\"Ambiente virtual de aprendizagem.Esse site utiliza cookies para oferecer uma melhor experiência de navegação, analisar como você interage em nosso site, otimizar o desempenho e personal" source=console
+time="2025-07-18T10:31:12Z" level=info msg="🔍 Keyword: gonzalo garcía" source=console
+time="2025-07-18T10:31:12Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:12Z" level=info msg="📩 Body: {\"Gonzalo GarcÃ\u00ada (footballer, born 2004) - Wikipedia\":\"Gonzalo GarcÃ\u00ada Torres (born 24 March 2004) is a Spanish professional footballer who plays as a forward for La Liga club Real Madrid. GarcÃ\u00ada is" source=console
+time="2025-07-18T10:31:12Z" level=info msg="🔍 Keyword: cảnh sát giao thông" source=console
+time="2025-07-18T10:31:12Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:12Z" level=info msg="📩 Body: {\"Cá»¥c cáº£nh sÃ¡t giao thÃ´ng\":\"Cá»¥c Cáº£nh sÃ¡t giao thÃ´ng cÃ³ trÃ¡ch nhiá»\u0087m giÃºp Bá»\u0099 trÆ°á»\u009fng Bá»\u0099 CÃ´ng an tham mÆ°u vá»\u009bi Ä\u0090áº£ng, NhÃ\u00a0 nÆ°á»\u009bc cÃ¡c chá»§ trÆ°Æ¡ng, Ä\u0091Æ°á»\u009dng lá»\u0091i, chÃ\u00adnh" source=console
 
-running (00m05.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 1 VUs  00m05.0s/10m0s  0/1 shared iters
-time="2025-07-17T03:52:35Z" level=info msg="🔍 Keyword: btc" source=console
-time="2025-07-17T03:52:35Z" level=info msg="📦 Status: 500" source=console
-time="2025-07-17T03:52:35Z" level=info msg="📩 Body: {\"error\":\"cannot access local variable 'result_block' where it is not associated with a value\"}" source=console
+running (0m04.4s), 40/40 VUs, 0 complete and 0 interrupted iterations
+default   [   7% ] 40 VUs  0m04.4s/1m0s
+time="2025-07-18T10:31:12Z" level=info msg="🔍 Keyword: chang jung lin" source=console
+time="2025-07-18T10:31:12Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:12Z" level=info msg="📩 Body: {\"Taiwanese Pool ChampionChang Jung LinPasses Away\":\"4 days ago ·The global billiards community is in deep mourning following the sudden passing of Taiwanese pool starChang Jung Lin, who died at the a" source=console
+time="2025-07-18T10:31:12Z" level=info msg="🔍 Keyword: carlos alcaraz" source=console
+time="2025-07-18T10:31:12Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:12Z" level=info msg="📩 Body: {\"Carlos Alcaraz - Wikipedia\":\"Carlos Alcaraz Garfia (Spanish: [Ë\u0088kaÉ¾los alkaË\u0088É¾aÎ¸ Ë\u0088É£aÉ¾fja]; born 5 May 2003) is a Spanish professional tennis player. He has been ranked as the world No. 1 in me" source=console
 
-running (00m06.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
-default   [   0% ] 1 VUs  00m06.0s/10m0s  0/1 shared iters
+running (0m05.0s), 40/40 VUs, 1 complete and 0 interrupted iterations
+default   [   8% ] 40 VUs  0m05.0s/1m0s
+time="2025-07-18T10:31:13Z" level=info msg="🔍 Keyword: đại học sư phạm tphcm" source=console
+time="2025-07-18T10:31:13Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:13Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:13Z" level=info msg="🔍 Keyword: t1 vs geng" source=console
+time="2025-07-18T10:31:13Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:13Z" level=info msg="📩 Body: {\"Gen.G â\u0080\u0093 T1 - Live score | Sofascore\":\"Gen.G â\u0080\u0093 T1 match starts on 10 Jul 2025 at 00:00 UTC in Mid-Season Invitational Playoff â\u0080\u0093 LoL. On Sofascore you can find Gen.G vs T1 results from all of th" source=console
+time="2025-07-18T10:31:13Z" level=info msg="🔍 Keyword: malo gusto" source=console
+time="2025-07-18T10:31:13Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:13Z" level=info msg="📩 Body: {\"Malo Gusto - Wikipedia\":\"Malo Arthur Gusto (born 19 May 2003) is a French professional footballer who plays as a right-back for Premier League club Chelsea and the France national team. Malo Arthur " source=console
+time="2025-07-18T10:31:13Z" level=info msg="🔍 Keyword: đại học hà nội" source=console
+time="2025-07-18T10:31:13Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:13Z" level=info msg="📩 Body: {\"Trường Đại học Hà Nội\":\"Hệ thống xét tuyển trực tuyến của TrườngĐại học Hà Nộihỗ trợ thí sinh đăng ký tuyển sinh dễ dàng và thuận tiện.\",\"Giới thiệu Trường Đại học Hà Nội\":\"Với 11 ngành ngoại ngữ; 9" source=console
+
+running (0m06.0s), 40/40 VUs, 6 complete and 0 interrupted iterations
+default   [  10% ] 40 VUs  0m06.0s/1m0s
+time="2025-07-18T10:31:14Z" level=info msg="🔍 Keyword: t1 vs geng" source=console
+time="2025-07-18T10:31:14Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:14Z" level=info msg="📩 Body: {\"Gen.G takes down T1 to reach the MSI 2025 Grand Finals\":\"Jul 10, 2025 ·Gen.Gsecured the first spot at the MSI 2025 Grand Finals after defeatingT1by 3-2. Who is going to be the second finalist?\",\"Gen" source=console
+time="2025-07-18T10:31:14Z" level=info msg="🔍 Keyword: ketqua net" source=console
+time="2025-07-18T10:31:14Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:14Z" level=info msg="📩 Body: {\"Kết Quả Xổ Số Ngày Hôm Nay - KQXS Nhanh & Chuẩn\":\"KQXS - Xổ số kiến thiết hôm nay - Tường thuật trực tiếp kết quả xổ số ba miền nhanh chóng, chính xác nhất - Tổng hợp xổ số truyền thống, Vietlott hà" source=console
+time="2025-07-18T10:31:14Z" level=info msg="🔍 Keyword: chị đại học đường" source=console
+time="2025-07-18T10:31:14Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:14Z" level=info msg="📩 Body: {\"Chị đại học đường 2 - Bitch x Rich 2 - Phim tâm lý Hàn Quốc ...\":\"Jul 3, 2025 ·Nội dung phimChị đại học đường2 Bộ phim này, kể về hệ thống phân cấp từng vững chắc tại Trường trunghọcquốc tế Cheongda" source=console
+time="2025-07-18T10:31:14Z" level=info msg="🔍 Keyword: milly alcock" source=console
+time="2025-07-18T10:31:14Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:14Z" level=info msg="📩 Body: {\"Milly (@millyalcock) â\u0080¢ Instagram photos and videos\":\"2M Followers, 1,047 Following, 102 Posts - See Instagram photos and videos from Milly (@millyalcock)\",\"Milly Alcock - Wikipedia\":\"Amelia Alcock" source=console
+time="2025-07-18T10:31:14Z" level=info msg="🔍 Keyword: giá xăng dầu hôm" source=console
+time="2025-07-18T10:31:14Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:14Z" level=info msg="📩 Body: {\"GiÃ¡ xÄ\u0083ng dáº§u Ä\u0091á»\u0093ng loáº¡t lao dá»\u0091c, cÃ³ loáº¡i giáº£m tá»\u009bi hÆ¡n 1.200 Ä\u0091á»\u0093ng/lÃ\u00adt\":\"GiÃ¡ xÄ\u0083ng táº¡i ká»³ Ä\u0091iá»\u0081u hÃ\u00a0nh hÃ´m nay (3/7) Ä\u0091Æ°á»£c Ä\u0091iá»\u0081u chá»\u0089nh giáº£m máº¡nh. GiÃ¡ xÄ\u0083ng RON" source=console
+time="2025-07-18T10:31:14Z" level=info msg="🔍 Keyword: ketqua" source=console
+time="2025-07-18T10:31:14Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:14Z" level=info msg="📩 Body: {\"Kết Quả Xổ Số Ngày Hôm Nay - KQXS Nhanh & Chuẩn\":\"KQXS - Xổ số kiến thiết hôm nay - Tường thuật trực tiếp kết quả xổ số ba miền nhanh chóng, chính xác nhất - Tổng hợp xổ số truyền thống, Vietlott hà" source=console
+
+running (0m07.0s), 40/40 VUs, 10 complete and 0 interrupted iterations
+default   [  12% ] 40 VUs  0m07.0s/1m0s
+
+running (0m08.0s), 40/40 VUs, 16 complete and 0 interrupted iterations
+default   [  13% ] 40 VUs  0m08.0s/1m0s
+time="2025-07-18T10:31:16Z" level=info msg="🔍 Keyword: hub" source=console
+time="2025-07-18T10:31:16Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:16Z" level=info msg="📩 Body: {\"Insurance Brokers | HUB International\":\"HUB International is a leading North American insurance brokerage that provides employee benefits, business, and personal insurance products and services.\",\"H" source=console
+time="2025-07-18T10:31:17Z" level=info msg="🔍 Keyword: siêu cúp nam mỹ" source=console
+time="2025-07-18T10:31:17Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:17Z" level=info msg="📩 Body: {\"SiÃªu cÃºp Nam Má»¹ - Copa Sudamericana - Lá»\u008bch thi Ä\u0091áº¥u, báº£ng xáº¿p háº¡ng, káº¿t quáº£\":\"BÃ³ng Ä\u0091Ã¡ 24h SiÃªu cÃºp Nam Má»¹ - Copa Sudamericana: lá»\u008bch thi Ä\u0091áº¥u, báº£ng xáº¿p háº¡ng (BXH), " source=console
+
+running (0m09.0s), 40/40 VUs, 16 complete and 0 interrupted iterations
+default   [  15% ] 40 VUs  0m09.0s/1m0s
+time="2025-07-18T10:31:17Z" level=info msg="🔍 Keyword: enzo fernández" source=console
+time="2025-07-18T10:31:17Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:17Z" level=info msg="📩 Body: {\"EnzoFernandez| Profile | Official Site | Chelsea Football Club\":\"Enzo Fernandez joined Chelsea from BenficaattheendoftheJanuarytransferwindowin2023, signing a contract with the Blues until 2031. Tha" source=console
+
+running (0m10.0s), 40/40 VUs, 18 complete and 0 interrupted iterations
+default   [  17% ] 40 VUs  0m10.0s/1m0s
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: xsmb" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"XSMB - Kết quả xổ số Miền Bắc - XSTD - sxmb - kqxsmb\":\"XSMB: Kết quả xổ số Miền Bắc trực tiếp nhanh nhất lúc 18h15p từ trường quayXSMB. Kết quảXSMB- SXMB - KQXSMB - XSTD - xổ số kiến thiết Thủ Đô hô" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: bộ công an" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"Cá»\u0095ng thÃ´ng tin Ä\u0091iá»\u0087n tá»\u00ad Bá»\u0099 CÃ´ng an\":\"Chiá»\u0081u 17/7/2025, táº¡i HÃ\u00a0 Ná»\u0099i, Ä\u0091Ã£ diá»\u0085n ra Há»\u0099i nghá»\u008b cÃ´ng tÃ¡c Ä\u0091áº¥u tranh phÃ²ng, chá»\u0091ng xuáº¥t nháº\u00adp cáº£nh trÃ¡i phÃ©p. ThÆ°á»£ng tÆ°" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: tăng lương công chức 2026" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"Đề xuất tăng lương tối thiểu vùng 7,2% từ 1/1/2026\":\"10 hours ago ·Đề xuấttănglươngtối thiểu vùng 7,2% từ 1/1/2026(Chinhphu.vn) - Bộ Nội vụ đang dự thảo Nghị định của Chính phủ quy định mứclươngtối " source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: pag" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"Welcome | PAG\":\"PAG is a leading alternative investment firm focused on APAC with three core strategies: Credit & Markets, Private Equity, and Real Assets. We manage capital on behalf of nearly 300 " source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: apple tuyển dụng" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"Manage yourAppleAccount\":\"AnAppleAccount is the personal account you use to accessAppleservices like the App Store, iCloud, Messages, theAppleOnline Store, FaceTime, and more. It includes the inform" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: chung kết pháo hoa đà nẵng 2025" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: kqxsmb" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"XSMB - Káº¿t quáº£ xá»\u0095 sá»\u0091 Miá»\u0081n Báº¯c - XSTD - sxmb - kqxsmb\":\"XSMB: Káº¿t quáº£ xá»\u0095 sá»\u0091 Miá»\u0081n Báº¯c trá»±c tiáº¿p nhanh nht lÃºc 18h15p tá»« trÆ°á»\u009dng quay XSMB. Káº¿t quáº£ XSMB - SXMB - KQ" source=console
+
+running (0m11.0s), 40/40 VUs, 19 complete and 0 interrupted iterations
+default   [  18% ] 40 VUs  0m11.0s/1m0s
+time="2025-07-18T10:31:19Z" level=info msg="🔍 Keyword: bộ công an" source=console
+time="2025-07-18T10:31:19Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:19Z" level=info msg="📩 Body: {\"Eindrapport Evaluatie Wvs en Wvm - repository.wodc.nl\":\"Met dedadelijketenuitvoerlegging kan worden voorkomen dat een veroordeelde tot een (deels)voor- waardelijke vrijheidsstraf, die zich niet lang" source=console
+time="2025-07-18T10:31:16Z" level=info msg="🔍 Keyword: faker" source=console
+time="2025-07-18T10:31:16Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:16Z" level=info msg="📩 Body: {\"Who is Faker? The History of League of Legends “Final Boss”\":\"Oct 1, 2024 ·As a four-time League of Legends World Champion, Lee “Faker” Sang-hyeok is widely recognized as the greatest player in hist" source=console
+time="2025-07-18T10:31:16Z" level=info msg="🔍 Keyword: nsnd mỹ uyên" source=console
+time="2025-07-18T10:31:16Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:16Z" level=info msg="📩 Body: {\"NSND Mỹ Uyên là ai? Nữ diễn viên gây sốc khi đăng ảnh hôn môi ...\":\"6 days ago ·NSND Mỹ Uyên– tên tuổi gạo cội của làng điện ảnh Việt – bất ngờ trở thành tâm điểm chú ý sau khi chia sẻ hình ảnh hôn " source=console
+
+running (0m09.3s), 40/40 VUs, 26 complete and 0 interrupted iterations
+default   [  20% ] 40 VUs  0m12.0s/1m0s
+
+running (0m10.3s), 40/40 VUs, 29 complete and 0 interrupted iterations
+default   [  22% ] 40 VUs  0m13.0s/1m0s
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: xe máy điện" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"Há»\u0087 thá»\u0091ng Viá»\u0087t Thanh chuyÃªn phÃ¢n phá»\u0091i xe mÃ¡y Ä\u0091iá»\u0087n cao cáº¥p\":\"Xe Ä\u0091iá»\u0087n Viá»\u0087t Thanh chuyÃªn phÃ¢n phá»\u0091i xe mÃ¡y Ä\u0091iá»\u0087n cá»§a cÃ¡c thÆ°Æ¡ng hiá»\u0087u Yadea, Vinfast, DKBike, Espero... v" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: sinner" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"JannikSinner| Overview |ATP Tour| Tennis\":\"Jun 10, 2024 ·World No. 1 defeats home hope Fritz for US Open title. Official tennis player profile of JannikSinneron the ATP Tour. Featuring news, bio, ra" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: malo gusto" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"Malo Gusto - Wikipedia\":\"Malo Arthur Gusto (born 19 May 2003) is a French professional footballer who plays as a right-back for Premier League club Chelsea and the France national team. Malo Arthur " source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: hpg" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"HPG Brands\":\"The worldâ\u0080\u0099s premier Promotional Product hard good supplier. 10 leading brands, +15k logo-ready products, 1 united website.\",\"HPG | EHR Consulting Experts | Integrate. Optimize. Perfor" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: bongdalu" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"Hồ sơ Alex Grimaldo|Số liệu thống kê cầu thủ Alex Grimaldo - Bong...\":\"Bongdalu4.com cập nhật hồ sơ cầu thủ và số liệu thống kê cầu thủ tỉ mỉ.\",\"Alcoyano VS CF La Nucia 30/04/2023- TL châu Âu,TL châ" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: uef" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"Uniform Energy Factor (UEF) ratings\":\"You may have heard buzz around heat pump water heaters and their record-breaking UEFs, but what does that mean? Uniform Energy Factor, or UEF, is the U.S. Depar" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: kqxsmb" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"XSMB - Káº¿t quáº£ xá»\u0095 sá»\u0091 Miá»\u0081n Báº¯c - XSTD - sxmb - kqxsmb\":\"XSMB: Káº¿t quáº£ xá»\u0095 sá»\u0091 Miá»\u0081n Báº¯c trá»±c tiáº¿p nhanh nht lÃºc 18h15p tá»« trÆ°á»\u009dng quay XSMB. Káº¿t quáº£ XSMB - SXMB - KQ" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: diu dang mau nang tap 30" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"'Dá»\u008bu dÃ\u00a0ng mÃ\u00a0u náº¯ng' táº\u00adp 30: NghÄ©a sá»\u0091c náº·ng khi tháº¥y XuÃ¢n thÃ¢n máº\u00adt vá»\u009bi sáº¿p Phong\":\"Trong 'Dá»\u008bu dÃ\u00a0ng mÃ\u00a0u náº¯ng' táº\u00adp 30, NghÄ©a khÃ´ng tin vÃ\u00a0o máº¯t mÃ¬nh khi tháº¥y XuÃ¢n" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: garena" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"Garena Account Center\":\"TheGarenaAccount Center is the platform to manage yourGarenaaccount securely and efficiently.\",\"Garena ประเทศไทย - Connecting the dots\":\"GarenaEsports การแข่งขัน Esports ที่ย" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: flamengo đấu với são paulo" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"Flamengo vs São Paulo live score, H2H and lineups | Sofascore\":\"6 days ago ·FlamengoSãoPaulolive score (and video online live stream) starts on 12 Jul 2025 at 19:30 UTC time at Estádio do Maracanã s" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: liên quân" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"Trang chá»§ | LiÃªn QuÃ¢n Mobile\":\"Vá»\u009bi sá»± Ä\u0091áº§u tÆ° vÃ´ cÃ¹ng ká»¹ lÆ°á»¡ng, LiÃªn QuÃ¢n Mobile lÃ\u00a0 má»\u0099t trong nhá»¯ng tá»±a game trÃªn di Ä\u0091á»\u0099ng cÃ³ Ä\u0091á»\u0093 há»\u008da vÃ\u00a0 Ã¢m thanh cháº¥t lÆ°á»£ng" source=console
+time="2025-07-18T10:31:18Z" level=info msg="🔍 Keyword: ewc" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:18Z" level=info msg="📩 Body: {\"Reveal and Maintain Beautiful Skin | European Wax Center\":\"Featuring our iconic EWC SLOWÂ® products, all formulated with our signature narcissus bulb extract to help visibly reduce hair thickness be" source=console
+time="2025-07-18T10:31:19Z" level=info msg="🔍 Keyword: 24h bong da" source=console
+time="2025-07-18T10:31:19Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:19Z" level=info msg="📩 Body: {\"BÃ³ng Ä\u0091Ã¡ 24h - Tin tÆ°Ì\u0081c, lá»\u008bch thi Ä\u0091áº¥u, bxh, káº¿t quáº£ boÌ\u0081ng Ä\u0091aÌ\u0081 má»\u009bi nháº¥t\":\"BÃ³ng Ä\u0091Ã¡ 24H - Trá»±c tiáº¿p bÃ³ng Ä\u0091Ã¡ 24h HÃ´m Nay. Tin tá»©c bÃ³ng Ä\u0091Ã¡ sá»\u0091 24/7 má»\u009bi nháº¥t. Tin " source=console
+
+running (0m11.3s), 40/40 VUs, 29 complete and 0 interrupted iterations
+default   [  23% ] 40 VUs  0m14.0s/1m0s
+time="2025-07-18T10:31:19Z" level=info msg="🔍 Keyword: tuyên án tập đoàn phúc sơn" source=console
+time="2025-07-18T10:31:19Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:19Z" level=info msg="📩 Body: {\"Vụ Tập đoàn Phúc Sơn: Chi tiết mức án của bà Hoàng Thị Thúy ...\":\"Jul 11, 2025 ·TAND TP Hà Nội đangtuyênánNguyễn Văn Hậu (cựu chủ tịchTậpđoànPhúcSơn), bà Hoàng Thị Thúy Lan (cựu bí thư tỉnh VĩnhPhúc" source=console
+time="2025-07-18T10:31:19Z" level=info msg="🔍 Keyword: xs power" source=console
+time="2025-07-18T10:31:19Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:19Z" level=info msg="📩 Body: {\"XS Power\":\"With a wide array of sizes, our Powersports Series batteries are perfect for your motorcycle, UTV or ATV. ... Our most popular lineup, our 12V D-Series is a crowd favorite both for OEM re" source=console
+time="2025-07-18T10:31:20Z" level=info msg="🔍 Keyword: malmo ff" source=console
+time="2025-07-18T10:31:20Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:20Z" level=info msg="📩 Body: {\"Welcome to MalmÃ¶ FF - MalmÃ¶ FF\":\"By law, every Swedish football club needs to be owned by its members by at least 51%. In MalmÃ¶ FFâ\u0080\u0099s case the club has since its founding on the 24th February 19" source=console
+
+running (0m12.3s), 40/40 VUs, 42 complete and 0 interrupted iterations
+default   [  25% ] 40 VUs  0m15.0s/1m0s
+time="2025-07-18T10:31:20Z" level=info msg="🔍 Keyword: dự báo thời tiết miền bắc" source=console
+time="2025-07-18T10:31:20Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:20Z" level=info msg="📩 Body: {\"Thá»\u009di tiáº¿t HoÃ\u00a0n Kiáº¿m (Tp HÃ\u00a0 Ná»\u0099i)\":\"Web site nchmf.gov.vn - web site thÃ´ng tin dá»± bÃ¡o thá»\u009di tiáº¿t biá»\u0083n, Ä\u0091áº¥t liá»\u0081n 24h,48h,72h, sáº£n pháº©m mÃ´ hÃ¬nh, áº£nh Radar, áº£nh vá»\u0087 tin" source=console
+
+running (0m13.3s), 40/40 VUs, 45 complete and 0 interrupted iterations
+default   [  27% ] 40 VUs  0m16.0s/1m0s
+time="2025-07-18T10:31:21Z" level=info msg="🔍 Keyword: los angeles fc" source=console
+time="2025-07-18T10:31:21Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:21Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:21Z" level=info msg="🔍 Keyword: lịch cúp điện cần thơ" source=console
+time="2025-07-18T10:31:21Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:21Z" level=info msg="📩 Body: {\"Lá»\u008bch cÃºp Ä\u0091iá»\u0087n Cáº§n ThÆ¡ hÃ´m nay ngÃ\u00a0y mai vÃ\u00a0 tuáº§n ngÃ\u00a0y - LichCupDien.org\":\"Lá»\u008bch cÃºp Ä\u0091iá»\u0087n Cáº§n ThÆ¡ má»\u009bi nháº¥t hÃ´m nay ngÃ\u00a0y mai vÃ\u00a0 tuáº§n nÃ\u00a0y. Cáº\u00adp nháº\u00adt lá»\u008bch cáº¯t Ä\u0091iá»" source=console
+time="2025-07-18T10:31:21Z" level=info msg="🔍 Keyword: t1 vs al" source=console
+time="2025-07-18T10:31:21Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:21Z" level=info msg="📩 Body: {\"如何评价2025MSI败决AL vs T1以2:3收尾？ - 知乎\":\"t1不是那么容易被打败的，不然他怎么可能统治联盟这么久。 但是，虽然结果一样，AL比blg真的进步了不知道多少，AL坐到了棋盘上，被T1算死了步数输掉了。\",\"如何评价Faker与T1续约至2025年？ - 知乎\":\"Nov 28, 2022 ·不出所料，Faker与T1续约了；出人意料，这一下续了三年，合同年限到2025" source=console
+time="2025-07-18T10:31:21Z" level=info msg="🔍 Keyword: chelsea đấu với psg" source=console
+time="2025-07-18T10:31:21Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:21Z" level=info msg="📩 Body: {\"Video bÃ³ng Ä\u0091Ã¡ Chelsea - PSG: Ngá»¡ ngÃ\u00a0ng Palmer, lÃªn ngÃ´i rá»±c rá»¡ (CK FIFA Club World Cup)\":\"Táº¥t nhiÃªn vá»\u009bi chá»\u0089 10 ngÆ°á»\u009di trÃªn sÃ¢n, PSG cháº³ng thá»\u0083 nÃ\u00a0o lÃ\u00a0m nÃªn cuá»\u0099c ngÆ°á»£" source=console
+time="2025-07-18T10:31:22Z" level=info msg="🔍 Keyword: u-23 indonesia đấu với đội tuyển bóng đá u-23 quốc gia brunei" source=console
+time="2025-07-18T10:31:22Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:22Z" level=info msg="📩 Body: {\"Ä\u0090á»\u0099i tuyá»\u0083n bÃ³ng Ä\u0091Ã¡ U-23 quá»\u0091c gia Indonesia â\u0080\u0093 Wikipedia ...\":\"Ä\u0090á»\u0099i tuyá»\u0083n bÃ³ng Ä\u0091Ã¡ U-23 quá»\u0091c gia Indonesia, cÃ³ biá»\u0087t danh lÃ\u00a0 Garuda Muda, lÃ\u00a0 Ä\u0091á»\u0099i tuyá»\u0083n quá»\u0091c gia dÆ°á»\u009bi 23" source=console
+
+running (0m14.3s), 40/40 VUs, 46 complete and 0 interrupted iterations
+default   [  28% ] 40 VUs  0m17.0s/1m0s
+time="2025-07-18T10:31:22Z" level=info msg="🔍 Keyword: kudus" source=console
+time="2025-07-18T10:31:22Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:22Z" level=info msg="📩 Body: {\"Mohammed Kudus - Wikipedia\":\"Mohammed Kudus (born 2 August 2000) is a Ghanaian professional footballer who plays as an attacking midfielder or right winger for Premier League club Tottenham Hotspur " source=console
+time="2025-07-18T10:31:22Z" level=info msg="🔍 Keyword: jenny huynh" source=console
+time="2025-07-18T10:31:22Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:22Z" level=info msg="📩 Body: {\"UnderstandingJennySlang: Meaning and Usage - slangsphere.com\":\"Feb 25, 2025 ·In the context of slang, “Jenny” often refers toastereotypeofafun-loving,light-heartedgirlorwoman. The term can be traced" source=console
+time="2025-07-18T10:31:22Z" level=info msg="🔍 Keyword: ketqua net" source=console
+time="2025-07-18T10:31:22Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:22Z" level=info msg="📩 Body: {\"KETQUA.NET - ChuyÃªn trang xá»\u0095 sá»\u0091 hÃ\u00a0ng Ä\u0091áº§u Viá»\u0087t Nam\":\"KETQUA04.NET - TÆ°á»\u009dng thuáº\u00adt trá»±c tiáº¿p, soi cáº§u, thá»\u0091ng kÃª xá»\u0095 sá»\u0091 3 miá»\u0081n Báº¯c Trung Nam vÃ\u00a0 Vietlott nhanh nháº¥t, chÃ" source=console
+time="2025-07-18T10:31:23Z" level=info msg="🔍 Keyword: hit club" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📩 Body: {\"Hit Club\":\"Game đánh bài đổi thưởng nhiều người chơi nhất với những game bài hấp dẫn: Tiên lên, Phỏm, Poker, Mậu Binh, Tài Xỉu.... trên đa nền tảng android, IOS, PC\"}" source=console
+time="2025-07-18T10:31:23Z" level=info msg="🔍 Keyword: nguyễn thị tuyến" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📩 Body: {\"Phó bí thư Thành ủy Hà Nội Nguyễn Thị Tuyến làm chủ tịch Hội ...\":\"Nov 6, 2024 ·BàNguyễn Thị Tuyến,phó bí thư thường trực Thành ủy Hà Nội, được bầu giữ chức chủ tịch Hội Liên hiệp phụ nữ Việt Nam nh" source=console
+
+running (0m15.3s), 40/40 VUs, 51 complete and 0 interrupted iterations
+default   [  30% ] 40 VUs  0m18.0s/1m0s
+time="2025-07-18T10:31:23Z" level=info msg="🔍 Keyword: bóng đá hôm nay" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📩 Body: {\"Lá»\u008bch thi Ä\u0091áº¥u BÃ³ng Ä\u0090Ã¡ hÃ´m nay vÃ\u00a0 ngÃ\u00a0y mai má»\u009bi nháº¥t 24h qua\":\"Lá»\u008bch thi Ä\u0091áº¥u BÃ³ng Ä\u0090Ã¡ hÃ´m nay - Xem lá»\u008bch bÃ³ng Ä\u0091Ã¡ hÃ´m nay vÃ\u00a0 ngaÌ\u0080y mai má»\u009bi nháº¥t, Lá»\u008bch thi Ä\u0091áº¥u trÆ°Ì" source=console
+time="2025-07-18T10:31:23Z" level=info msg="🔍 Keyword: xổ số miền trung" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📩 Body: {\"XSMT - Káº¿t quáº£ Xá»\u0095 sá»\u0091 Miá»\u0081n Trung - SXMT hÃ´m nay\":\"- Ã\u0081p dá»¥ng chung cho 14 tá»\u0089nh thÃ\u00a0nh khu vá»±c miá»\u0081n Trung tá»« ngÃ\u00a0y 01-04-2019. ... + 09 giáº£i Phá»¥ Ä\u0091áº·c biá»\u0087t dÃ\u00a0nh cho nhá»¯n" source=console
+time="2025-07-18T10:31:23Z" level=info msg="🔍 Keyword: xstd" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📩 Body: {\"XSMB - Káº¿t quáº£ xá»\u0095 sá»\u0091 Miá»\u0081n Báº¯c - XSTD - sxmb - kqxsmb\":\"XSMB: Káº¿t quáº£ xá»\u0095 sá»\u0091 Miá»\u0081n Báº¯c trá»±c tiáº¿p nhanh nht lÃºc 18h15p tá»« trÆ°á»\u009dng quay XSMB. Káº¿t quáº£ XSMB - SXMB - KQ" source=console
+time="2025-07-18T10:31:23Z" level=info msg="🔍 Keyword: joão pedro" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📩 Body: {\"JoÃ£o Pedro (footballer, born 2001) - Wikipedia\":\"JoÃ£o Pedro Junqueira de Jesus (born 26 September 2001), also known as JoÃ£o Pedro, is a Brazilian professional footballer who plays as a forward fo" source=console
+time="2025-07-18T10:31:23Z" level=info msg="🔍 Keyword: new holland" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:23Z" level=info msg="📩 Body: {\"Welcome to our World | New Holland World Wide\":\"We cannot provide a description for this page right now\",\"New Holland Brewing - Brewery and Distillery in Holland, MI\":\"We find that the best moments " source=console
+time="2025-07-18T10:31:24Z" level=info msg="🔍 Keyword: tun phạm" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📩 Body: {\"Danh tÃ\u00adnh nam TikToker cÃ´ng khai Ä\u0091Ã³ng thuáº¿ gáº§n 500 triá»\u0087u/thÃ¡ng\":\"Tun Pháº¡m - TikToker cÃ³ 4 triá»\u0087u ngÆ°á»\u009di theo dÃµi - vá»«a khiáº¿n khÃ¡n giáº£ choÃ¡ng ngá»£p khi cÃ´ng khai Ä\u0091Ã³ng th" source=console
+
+running (0m16.3s), 40/40 VUs, 56 complete and 0 interrupted iterations
+default   [  32% ] 40 VUs  0m19.0s/1m0s
+time="2025-07-18T10:31:24Z" level=info msg="🔍 Keyword: fpt play" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:24Z" level=info msg="🔍 Keyword: liên quân" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📩 Body: {\"Trang chá»§ | LiÃªn QuÃ¢n Mobile\":\"Vá»\u009bi sá»± Ä\u0091áº§u tÆ° vÃ´ cÃ¹ng ká»¹ lÆ°á»¡ng, LiÃªn QuÃ¢n Mobile lÃ\u00a0 má»\u0099t trong nhá»¯ng tá»±a game trÃªn di Ä\u0091á»\u0099ng cÃ³ Ä\u0091á»\u0093 há»\u008da vÃ\u00a0 Ã¢m thanh cháº¥t lÆ°á»£ng" source=console
+time="2025-07-18T10:31:24Z" level=info msg="🔍 Keyword: forexfactory" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:24Z" level=info msg="🔍 Keyword: học viện báo chí và tuyên truyền" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📩 Body: {\"How Sessions are Used to Store Information in Link ...\":\"Jun 12, 2023 ·How Sessions are Used to Store Information in Link Directories: A Comprehensive Guide If you’ve ever created a link directory, " source=console
+time="2025-07-18T10:31:24Z" level=info msg="🔍 Keyword: delta force" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📩 Body: {\"Delta Force | Free Ultimate AAA Shooter | Available Now\":\"Delta Force brings the iconic sequel with massive 64-player PvP warfare, intense next-gen extraction, and the legendary Black Hawk Down camp" source=console
+time="2025-07-18T10:31:24Z" level=info msg="🔍 Keyword: 188bet" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:24Z" level=info msg="📩 Body: {\"188BET: Online Sportsbetting and Live Casino\":\"We cannot provide a description for this page right now\",\"188BET\":\"Cho nhá»¯ng ai chÆ°a biáº¿t, 188BET ná»\u0095i tiáº¿ng lÃ\u00a0 Ä\u0091á»\u008ba Ä\u0091iá»\u0083m cÃ¡ cÆ°á»£c onl" source=console
+
+running (0m17.3s), 40/40 VUs, 62 complete and 0 interrupted iterations
+default   [  33% ] 40 VUs  0m20.0s/1m0s
+time="2025-07-18T10:31:25Z" level=info msg="🔍 Keyword: bl" source=console
+time="2025-07-18T10:31:25Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:25Z" level=info msg="📩 Body: {\"BL is love, BL is life\":\"Boys' Love (BL) is by origin a genre of Japanese manga produced mainly by women for women that features romantic and sexual relationships between men. Nowadays, all manner o" source=console
+time="2025-07-18T10:31:25Z" level=info msg="🔍 Keyword: wtt" source=console
+time="2025-07-18T10:31:25Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:25Z" level=info msg="📩 Body: {\"World Table Tennis\":\"We cannot provide a description for this page right now\",\"World Table Tennis - YouTube\":\"Welcome to World Table Tennis! World Table Tennis (WTT) is the commercial and events com" source=console
+time="2025-07-18T10:31:25Z" level=info msg="🔍 Keyword: vnexpress" source=console
+time="2025-07-18T10:31:25Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:25Z" level=info msg="📩 Body: {\"Tin tức 24h tại Việt Nam & Thế giới mới nhất [HÔM NAY]\":\"Cập nhật tin tức 24/7: Thời sự, Giải trí, Thể thao...tại Việt Nam & Thế giới hàng ngày. Thông tin, hình ảnh, video clip HOT cập nhật nhanh & " source=console
+time="2025-07-18T10:31:25Z" level=info msg="🔍 Keyword: đại học sư phạm hà nội" source=console
+time="2025-07-18T10:31:25Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:25Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:25Z" level=info msg="🔍 Keyword: đại học hà nội" source=console
+time="2025-07-18T10:31:25Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:25Z" level=info msg="📩 Body: {\"TrÆ°á»\u009dng Ä\u0090áº¡i há»\u008dc HÃ\u00a0 Ná»\u0099i - HANU | https://hanu.edu.vn/\":\"Ä\u0090á»\u008ba chá»\u0089:Km 9, Ä\u0091Æ°á»\u009dng Nguyá»\u0085n TrÃ£i, quáº\u00adn Nam Tá»« LiÃªm, HÃ\u00a0 Ná»\u0099i, Viá»\u0087t Nam.\",\"TrÆ°á»\u009dng Ä\u0090áº¡i há»\u008dc Y HÃ\u00a0 Ná»\u0099i\":\"We " source=console
+time="2025-07-18T10:31:26Z" level=info msg="🔍 Keyword: giá tiêu hôm nay đắk lắk" source=console
+time="2025-07-18T10:31:26Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:26Z" level=info msg="📩 Body: {\"GiÃ¡ tiÃªu hÃ´m nay, tin thá»\u008b trÆ°á»\u009dng há»\u0093 tiÃªu má»\u009bi nháº¥t\":\"GiÃ¡ xuáº¥t kháº©u trung bÃ¬nh há»\u0093 tiÃªu Ä\u0091en trong thÃ¡ng 3-2025 Ä\u0091áº¡t 6.790 USD/táº¥n vÃ\u00a0 há»\u0093 tiÃªu tráº¯ng Ä\u0091áº¡t 8.802 USD/t" source=console
+
+running (0m18.3s), 40/40 VUs, 68 complete and 0 interrupted iterations
+default   [  35% ] 40 VUs  0m21.0s/1m0s
+time="2025-07-18T10:31:27Z" level=info msg="🔍 Keyword: xsmb" source=console
+time="2025-07-18T10:31:27Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:27Z" level=info msg="📩 Body: {\"XSMB - Kết quả xổ số Miền Bắc - XSTD - sxmb - kqxsmb\":\"XSMB: Kết quả xổ số Miền Bắc trực tiếp nhanh nhất lúc 18h15p từ trường quayXSMB. Kết quảXSMB- SXMB - KQXSMB - XSTD - xổ số kiến thiết Thủ Đô hô" source=console
+
+running (0m19.3s), 40/40 VUs, 74 complete and 0 interrupted iterations
+default   [  37% ] 40 VUs  0m22.0s/1m0s
+time="2025-07-18T10:31:27Z" level=info msg="🔍 Keyword: bão" source=console
+time="2025-07-18T10:31:27Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:27Z" level=info msg="📩 Body: {\"Bão Wipha hình thành và có thể mạnh lên cấp 11 giật cấp 14\":\"10 hours ago ·(Dân trí) -BãoWipha đã hình thành và đang hướng về khu vực Biển Đông. Theo nhận định của chuyên gia,bãoWipha có thể tăng cấ" source=console
+time="2025-07-18T10:31:27Z" level=info msg="🔍 Keyword: ketqua" source=console
+time="2025-07-18T10:31:27Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:27Z" level=info msg="📩 Body: {\"Káº¿t Quáº£ Xá»\u0095 Sá»\u0091 NgÃ\u00a0y HÃ´m Nay - KQXS Nhanh & Chuáº©n\":\"KQXS - Xá»\u0095 sá»\u0091 kiáº¿n thiáº¿t hÃ´m nay - TÆ°á»\u009dng thuáº\u00adt trá»±c tiáº¿p káº¿t quáº£ xá»\u0095 sá»\u0091 ba miá»\u0081n nhanh chÃ³ng, chÃ\u00adnh xÃ¡c nháº" source=console
+time="2025-07-18T10:31:27Z" level=info msg="🔍 Keyword: ngoại hạng anh" source=console
+time="2025-07-18T10:31:27Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:27Z" level=info msg="📩 Body: {\"Ngoáº¡i háº¡ng Anh(EPL) : Lá»\u008bch thi Ä\u0091áº¥u, Trá»±c tiáº¿p, Video bÃ\u00a0n tháº¯ng má»\u009bi nháº¥t\":\"BÃ³ng Ä\u0091Ã¡ Anh - Lá»\u008bch thi Ä\u0091áº¥u, báº£ng xáº¿p háº¡ng Ngoáº¡i Háº¡ng Anh EPL hÃ´m nay má»\u009bi nháº¥t. Xe" source=console
+time="2025-07-18T10:31:27Z" level=info msg="🔍 Keyword: giá xăng dầu hôm" source=console
+time="2025-07-18T10:31:27Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:27Z" level=info msg="📩 Body: {\"Introducing the SkinStore Awards 2017 - Skinstore US\":\"Why celebrate the SkinStore Awards? With over 300 premium beauty brands across skincare, hair, devices, cosmetics and many more on SkinStore, w" source=console
+
+running (0m20.3s), 40/40 VUs, 75 complete and 0 interrupted iterations
+default   [  38% ] 40 VUs  0m23.0s/1m0s
+time="2025-07-18T10:31:28Z" level=info msg="🔍 Keyword: phat nguoi" source=console
+time="2025-07-18T10:31:28Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:28Z" level=info msg="📩 Body: {\"Tra cứu phương tiện vi phạm giao thông qua hình ảnh\":\"Cục Cảnh sát giao thông có trách nhiệm giúp Bộ trưởng Bộ Công an tham mưu với Đảng, Nhà nước các chủ trương, đường lối, chính sách, pháp luật về" source=console
+time="2025-07-18T10:31:28Z" level=info msg="🔍 Keyword: chel" source=console
+time="2025-07-18T10:31:28Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:28Z" level=info msg="📩 Body: {\"Chel | The Road to El Dorado Wiki | Fandom\":\"Chel is the deuteragonist and Tulio's love interest in The Road to El Dorado. She is voiced by Rosie Perez. Chel is a young and beautiful indigenous woma" source=console
+time="2025-07-18T10:31:28Z" level=info msg="🔍 Keyword: tin tuc 24h" source=console
+time="2025-07-18T10:31:28Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:28Z" level=info msg="📩 Body: {\"Tin tá»©c bÃ³ng Ä\u0091Ã¡, thá»\u0083 thao, giáº£i trÃ\u00ad | Ä\u0090á»\u008dc tin tá»©c 24h má»\u009bi nháº¥t\":\"Tin tá»©c 24h vá»\u0081 bÃ³ng Ä\u0091Ã¡, thá»\u0083 thao, giáº£i trÃ\u00ad. Tin tá»©c online 24 giá»\u009d, tÃ¬nh hÃ¬nh Viá»\u0087t Nam(VN), thá" source=console
+time="2025-07-18T10:31:28Z" level=info msg="🔍 Keyword: sxtd" source=console
+time="2025-07-18T10:31:28Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:28Z" level=info msg="📩 Body: {\"XSTD - Káº¿t quáº£ Xá»\u0095 sá»\u0091 HÃ\u00a0 Ná»\u0099i - SXTD HÃ´m nay - KQXSTD\":\"XSTD - Cáº\u00adp nháº\u00adt káº¿t quáº£ Xá»\u0095 sá»\u0091 HÃ\u00a0 Ná»\u0099i hÃ´m nay Nhanh vÃ\u00a0 ChÃ\u00adnh XÃ¡c, tÆ°á»\u009dng thuáº\u00adt KQXSTD trá»±c tiáº¿p táº¡i trÆ°" source=console
+time="2025-07-18T10:31:29Z" level=info msg="🔍 Keyword: điểm thi tốt nghiệp thpt" source=console
+time="2025-07-18T10:31:29Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:29Z" level=info msg="📩 Body: {\"Cách tra cứu điểm thi tốt nghiệp THPT nhanh và nhiều tiện ích ...\":\"4 days ago ·KỳthitốtnghiệpTHPT2025 được tổ chức tại 2.493 điểmthivới tổng cộng 50.039 phòngthi, huy động khoảng 200.000 cán bộ, gi" source=console
+
+running (0m21.3s), 40/40 VUs, 79 complete and 0 interrupted iterations
+default   [  40% ] 40 VUs  0m24.0s/1m0s
+time="2025-07-18T10:31:29Z" level=info msg="🔍 Keyword: vtv1" source=console
+time="2025-07-18T10:31:29Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:29Z" level=info msg="📩 Body: {\"VTV1HD | Xem truyền hình trực tuyếnVTV1HD | TV360\":\"Vui lòng kiểm tra kết nối mạng và thử lại (E-001)VTV1HD | Xem trực tiếp kênh truyền hìnhVTV1HD trên TV360 với chất lượng Full HD.\",\"Xem truyền hìn" source=console
+time="2025-07-18T10:31:29Z" level=info msg="🔍 Keyword: xổ số miền nam ngày 15 tháng 7" source=console
+time="2025-07-18T10:31:29Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:29Z" level=info msg="📩 Body: {\"XSMN 15/7/2024 - Xổ số miền Nam ngày 15/07/2024\":\"Jul15, 2024 ·XSMN15/7/2024, Kết quảXổsốMiềnNamngày15/07/2024. KQ XSHCM: Giải 1: 79988, G8: 51, XSDT: Giải 1: 00858, G8: 67, XSCM: Giải 1: 80093, G8:" source=console
+time="2025-07-18T10:31:29Z" level=info msg="🔍 Keyword: hàn quốc đấu với nhật bản" source=console
+time="2025-07-18T10:31:29Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:29Z" level=info msg="📩 Body: {\"HybridModelReveals People Act Less Rationally In Complex ...\":\"Jul 8, 2025 ·Morespecifically, we identified key factors in the game matrix that shape game complexity: considerations of efficiency, t" source=console
+time="2025-07-18T10:31:29Z" level=info msg="🔍 Keyword: jump blackpink" source=console
+time="2025-07-18T10:31:29Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:29Z" level=info msg="📩 Body: {\"Jump (Blackpink song) - Wikipedia\":\"\\\"Jump\\\" (Korean: ë\u009b°ì\u0096´; RR: Ttwieo) is a song recorded by South Korean girl group Blackpink. It was released through YG Entertainment on July 11, 2025 and distr" source=console
+time="2025-07-18T10:31:30Z" level=info msg="🔍 Keyword: bong da so" source=console
+time="2025-07-18T10:31:30Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:30Z" level=info msg="📩 Body: {\"Bongdaso - Bóng đá số - Live Score\":\"Bongdaso - Bóng đá số - Live ScoreĐội bóng yêu thíchCầu thủ yêu thíchBài báo yêu thích\",\"Bongdaso - Bóng đá số - Giải ngoại hạng - Dữ liệu trận đấu - Newc...\":\"D" source=console
+time="2025-07-18T10:31:30Z" level=info msg="🔍 Keyword: u-23 malaysia đấu với đội tuyển bóng đá u-23 quốc gia philippines" source=console
+time="2025-07-18T10:31:30Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:30Z" level=info msg="📩 Body: {\"Ä\u0090á»\u0099i hÃ¬nh U23 Viá»\u0087t Nam Ä\u0091áº¥u U23 Malaysia sáº½ cÃ³ báº¥t ngá»\u009d?\":\"We cannot provide a description for this page right now\",\"Ä\u0090á»\u0099i tuyá»\u0083n bÃ³ng Ä\u0091Ã¡ U-23 quá»\u0091c gia Philippines â\u0080\u0093 Wikipedia " source=console
+
+running (0m22.3s), 40/40 VUs, 84 complete and 0 interrupted iterations
+default   [  42% ] 40 VUs  0m25.0s/1m0s
+time="2025-07-18T10:31:30Z" level=info msg="🔍 Keyword: forexfactory" source=console
+time="2025-07-18T10:31:30Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:30Z" level=info msg="📩 Body: {\"Forex Factory | Forex markets for the smart money.\":\"Forex Factory is where professional traders connect to the forex markets, and to each other.\",\"Step by Step Guide to Using the Forex Factory Webs" source=console
+time="2025-07-18T10:31:30Z" level=info msg="🔍 Keyword: tiền thưởng" source=console
+time="2025-07-18T10:31:30Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:30Z" level=info msg="📩 Body: {\"Providers – Headway\":\"Getting started Onboarding with Headway Setting up your profile in the provider portal Recredentialing with Headway Headway's accepted licenses by state Using Violet, PESI, or " source=console
+time="2025-07-18T10:31:31Z" level=info msg="🔍 Keyword: bong da 24h" source=console
+time="2025-07-18T10:31:31Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:31Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:31Z" level=info msg="🔍 Keyword: tun phạm" source=console
+time="2025-07-18T10:31:31Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:31Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (0m23.3s), 40/40 VUs, 90 complete and 0 interrupted iterations
+default   [  43% ] 40 VUs  0m26.0s/1m0s
+time="2025-07-18T10:31:31Z" level=info msg="🔍 Keyword: vô địch bóng đá nữ châu âu" source=console
+time="2025-07-18T10:31:31Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:31Z" level=info msg="📩 Body: {\"Giáº£i vÃ´ Ä\u0091á»\u008bch bÃ³ng Ä\u0091Ã¡ ná»¯ chÃ¢u Ã\u0082u â\u0080\u0093 Wikipedia tiáº¿ng ...\":\"Na Uy giÃ\u00a0nh danh hiá»\u0087u thá»© hai sau khi vÆ°á»£t qua Ã\u009d 1â\u0080\u00930. Hai nÄ\u0083m sau, Ä\u0090á»©c báº¯t Ä\u0091áº§u giai Ä\u0091oáº¡n thá»\u0091ng trá»\u008b" source=console
+time="2025-07-18T10:31:32Z" level=info msg="🔍 Keyword: weather" source=console
+time="2025-07-18T10:31:32Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:32Z" level=info msg="📩 Body: {\"Vancouver, British Columbia, Canada Weather Forecast ...\":\"Vancouver,British Columbia,Canada Weather Forecast, with current conditions, wind, air quality, and what to expect for the next 3 days.\",\"V" source=console
+time="2025-07-18T10:31:32Z" level=info msg="🔍 Keyword: tun phạm" source=console
+time="2025-07-18T10:31:32Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:32Z" level=info msg="📩 Body: {\"TikToker Tun Phạm và chuỗi mắt kính 'đường ai nấy đi'\":\"1 day ago ·TunPhạm- sở hữu kênh TikTok cá nhân với hơn 4,1 triệu tài khoản theo dõi, chính thức chia tay hãng mắt kính lớn dù từng có tin đồn " source=console
+
+running (0m24.3s), 40/40 VUs, 94 complete and 0 interrupted iterations
+default   [  45% ] 40 VUs  0m27.0s/1m0s
+time="2025-07-18T10:31:32Z" level=info msg="🔍 Keyword: 24" source=console
+time="2025-07-18T10:31:32Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:32Z" level=info msg="📩 Body: {}" source=console
+time="2025-07-18T10:31:32Z" level=info msg="🔍 Keyword: anh đào hổ phách" source=console
+time="2025-07-18T10:31:32Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:32Z" level=info msg="📩 Body: {\"Anhanguera\":\"Ambiente virtual de aprendizagem.Esse site utiliza cookies para oferecer uma melhor experiência de navegação, analisar como você interage em nosso site, otimizar o desempenho e personal" source=console
+time="2025-07-18T10:31:33Z" level=info msg="🔍 Keyword: vô địch bóng đá nữ châu âu" source=console
+time="2025-07-18T10:31:33Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:33Z" level=info msg="📩 Body: {\"Solution to \\\"A Forgetful Lung Cancer Patient With Hyponatremia\\\" -...\":\"Apr 10, 2007 ·A 70-year-old man with non-small-cell lung cancer presented to the clinic with fatigue and dizziness for 1 mont" source=console
+time="2025-07-18T10:31:33Z" level=info msg="🔍 Keyword: iga świątek" source=console
+time="2025-07-18T10:31:33Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:33Z" level=info msg="📩 Body: {\"Iga Swiatek | Wimbledon 2025, Tennis, Grand Slams, French ...\":\"3 days ago ·IgaŚwiątek(born May 31, 2001, Warsaw, Poland) is a professional tennis player from Poland who first came to the attention " source=console
+time="2025-07-18T10:31:33Z" level=info msg="🔍 Keyword: tin the thao" source=console
+time="2025-07-18T10:31:33Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:33Z" level=info msg="📩 Body: {\"yeuthethao.net.vn - Tin tức\":\"yeuthethao.net.vn -Tintức - Trang thôngtinThểThao, Bóng Đá, Quần Vợt, Đua Xe, Bóng Rổ, Golf và nhiều mônthểthaokhác.Tintức, Kết quả, Lịch thi đấu, Bảng xếp hạng, Tỷ lệ," source=console
+
+running (0m25.3s), 40/40 VUs, 97 complete and 0 interrupted iterations
+default   [  47% ] 40 VUs  0m28.0s/1m0s
+time="2025-07-18T10:31:33Z" level=info msg="🔍 Keyword: tin tuc 24h" source=console
+time="2025-07-18T10:31:33Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:33Z" level=info msg="📩 Body: {\"Tin tá»©c bÃ³ng Ä\u0091Ã¡, thá»\u0083 thao, giáº£i trÃ\u00ad | Ä\u0090á»\u008dc tin tá»©c 24h má»\u009bi nháº¥t\":\"Tin tá»©c 24h vá»\u0081 bÃ³ng Ä\u0091Ã¡, thá»\u0083 thao, giáº£i trÃ\u00ad. Tin tá»©c online 24 giá»\u009d, tÃ¬nh hÃ¬nh Viá»\u0087t Nam(VN), thá" source=console
+time="2025-07-18T10:31:33Z" level=info msg="🔍 Keyword: vinfast" source=console
+time="2025-07-18T10:31:33Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:33Z" level=info msg="📩 Body: {\"Vinfast Miami\":\"Welcome toVinFastMiami, your dealer of choice for the purchase, maintenance, & genuine parts and accessories for yourVinFastvehicle. Since we first opened our doors, we have proudly " source=console
+
+running (0m26.3s), 40/40 VUs, 102 complete and 0 interrupted iterations
+default   [  48% ] 40 VUs  0m29.0s/1m0s
+time="2025-07-18T10:31:34Z" level=info msg="🔍 Keyword: xổ số miền trung" source=console
+time="2025-07-18T10:31:34Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:34Z" level=info msg="📩 Body: {\"XSMT - Káº¿t quáº£ Xá»\u0095 sá»\u0091 Miá»\u0081n Trung - SXMT hÃ´m nay\":\"- Ã\u0081p dá»¥ng chung cho 14 tá»\u0089nh thÃ\u00a0nh khu vá»±c miá»\u0081n Trung tá»« ngÃ\u00a0y 01-04-2019. ... + 09 giáº£i Phá»¥ Ä\u0091áº·c biá»\u0087t dÃ\u00a0nh cho nhá»¯n" source=console
+time="2025-07-18T10:31:34Z" level=info msg="🔍 Keyword: giá xăng dầu hôm" source=console
+time="2025-07-18T10:31:34Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:34Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:34Z" level=info msg="🔍 Keyword: bao bong da" source=console
+time="2025-07-18T10:31:34Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:34Z" level=info msg="📩 Body: {\"BongDaComVn - Tin tức bóng đá, Lịch thi đấu, BXH\":\"Bongda.com.vn - cập nhật liên tục tin nhanh bóng đá, lịch thi đấu, kết quả, bảng xếp hạng tất cả các giải bóng đá, tin chuyển nhượng, hậu trường cầ" source=console
+time="2025-07-18T10:31:35Z" level=info msg="🔍 Keyword: kqxsmb" source=console
+time="2025-07-18T10:31:35Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:35Z" level=info msg="📩 Body: {\"XSMB - Káº¿t quáº£ xá»\u0095 sá»\u0091 Miá»\u0081n Báº¯c - XSTD - sxmb - kqxsmb\":\"XSMB: Káº¿t quáº£ xá»\u0095 sá»\u0091 Miá»\u0081n Báº¯c trá»±c tiáº¿p nhanh nht lÃºc 18h15p tá»« trÆ°á»\u009dng quay XSMB. Káº¿t quáº£ XSMB - SXMB - KQ" source=console
+
+running (0m27.3s), 40/40 VUs, 104 complete and 0 interrupted iterations
+default   [  50% ] 40 VUs  0m30.0s/1m0s
+time="2025-07-18T10:31:35Z" level=info msg="🔍 Keyword: xsmb 30" source=console
+time="2025-07-18T10:31:35Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:35Z" level=info msg="📩 Body: {\"XSMB- Kết quảxổ số Miền Bắc- XSTD - sxmb - kqxsmb\":\"Cơ cấu giải thưởngxổsố miền Bắc (còn gọi là xổ số truyền thống, xổ số Thủ Đô hay xổ số Hà Nội) Loại vé 10,000đ, áp dụng từ 1/7/2020\",\"XSMB| iShare" source=console
+time="2025-07-18T10:31:35Z" level=info msg="🔍 Keyword: bảng lương giáo viên" source=console
+time="2025-07-18T10:31:35Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:35Z" level=info msg="📩 Body: {\"ChÃ\u00adnh thá»©c báº£ng lÆ°Æ¡ng giÃ¡o viÃªn 2025 theo quy Ä\u0091á»\u008bnh má»\u009bi ...\":\"CÃ³ tÄ\u0083ng lÆ°Æ¡ng giÃ¡o viÃªn 2025 khÃ´ng? Báº£ng lÆ°Æ¡ng giÃ¡o viÃªn 2025 theo quy Ä\u0091á»\u008bnh má»\u009bi cÃ³ má»©c tháº¥p nháº¥t, " source=console
+time="2025-07-18T10:31:36Z" level=info msg="🔍 Keyword: wimbledon final" source=console
+time="2025-07-18T10:31:36Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:36Z" level=info msg="📩 Body: {\"Wimbledon2025 result: Sinner defeats Alaraz in four sets in ...\":\"4 days ago ·Jannik Sinner won his firstWimbledontitle on Sunday, defeating rival Carlos Alcaraz in four sets to capture his fourth G" source=console
+
+running (0m28.3s), 40/40 VUs, 108 complete and 0 interrupted iterations
+default   [  52% ] 40 VUs  0m31.0s/1m0s
+time="2025-07-18T10:31:36Z" level=info msg="🔍 Keyword: bongda" source=console
+time="2025-07-18T10:31:36Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:36Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:36Z" level=info msg="🔍 Keyword: z fold 7" source=console
+time="2025-07-18T10:31:36Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:36Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:36Z" level=info msg="🔍 Keyword: joão pedro" source=console
+time="2025-07-18T10:31:36Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:36Z" level=info msg="📩 Body: {\"João Pedro - Player profile25/26 | Transfermarkt\":\"Sep 26, 2001 ·JoãoPedro,23, from Brazil Chelsea FC, since 2025 Centre-Forward Market value: €50.00m * Sep 26, 2001 in Ribeirão Preto, Brazil\",\"Joao" source=console
+time="2025-07-18T10:31:36Z" level=info msg="🔍 Keyword: apple store" source=console
+time="2025-07-18T10:31:36Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:36Z" level=info msg="📩 Body: {\"Apple Store Online - Apple\":\"Shop the latest Apple products, accessories and offers. Compare models, get expert shopping help, plus flexible payment and delivery options.\",\"Apple Store - Find a Stor" source=console
+time="2025-07-18T10:31:37Z" level=info msg="🔍 Keyword: ca" source=console
+time="2025-07-18T10:31:37Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:37Z" level=info msg="📩 Body: {\"California State Portal | CA.gov\":\"CA.gov is the official website for the State of California. You can find and access California services, resources, and more.\",\"California - Wikipedia\":\"California" source=console
+
+running (0m29.3s), 40/40 VUs, 111 complete and 0 interrupted iterations
+default   [  53% ] 40 VUs  0m32.0s/1m0s
+time="2025-07-18T10:31:37Z" level=info msg="🔍 Keyword: xổ số miền trung" source=console
+time="2025-07-18T10:31:37Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:37Z" level=info msg="📩 Body: {\"Grocery stores / supermarkets in Denver (Littleton, Evans:...\":\"Nov 16, 2010 ·Originally Posted by cowboyxjon I just read in the Denver Post comments section that the King Soopers at Monaco and Evan" source=console
+time="2025-07-18T10:31:37Z" level=info msg="🔍 Keyword: nguyễn tân cương" source=console
+time="2025-07-18T10:31:37Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:37Z" level=info msg="📩 Body: {\"La Importancia del Ecoturismo comounaHerramienta de ...\":\"Resultados clave La Península de Osa es la última porción de la costa Pacífica de Costa Rica donde el ecoturismo es la actividad económica p" source=console
+time="2025-07-18T10:31:37Z" level=info msg="🔍 Keyword: f88" source=console
+time="2025-07-18T10:31:37Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:37Z" level=info msg="📩 Body: {\"2025 ICD-10-CM Diagnosis Code F88: Other disorders of psychological development\":\"ICD 10 code for Other disorders of psychological development. Get free rules, notes, crosswalks, synonyms, history f" source=console
+time="2025-07-18T10:31:37Z" level=info msg="🔍 Keyword: novak djokovic" source=console
+time="2025-07-18T10:31:37Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:37Z" level=info msg="📩 Body: {\"Novak Djokovic | Overview | ATP Tour | Tennis\":\"Jul 4, 2011 ·Official tennis player profile ofNovak Djokovicon the ATP Tour. Featuring news, bio, rankings, playing activity, coach, stats, win-loss, " source=console
+time="2025-07-18T10:31:37Z" level=info msg="🔍 Keyword: chelsea đấu với psg" source=console
+time="2025-07-18T10:31:37Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:37Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (0m30.3s), 40/40 VUs, 116 complete and 0 interrupted iterations
+default   [  55% ] 40 VUs  0m33.0s/1m0s
+time="2025-07-18T10:31:38Z" level=info msg="🔍 Keyword: robert sánchez" source=console
+time="2025-07-18T10:31:38Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:38Z" level=info msg="📩 Body: {\"Robert Sanchez: Wife, Family, Nationality, Ethnicity ...\":\"4 days ago ·RobertSanchez’s rise has been steady but impressive. From the youth leagues of Cartagena to the Premier League spotlight,Sánche" source=console
+time="2025-07-18T10:31:38Z" level=info msg="🔍 Keyword: giá xăng dầu hôm" source=console
+time="2025-07-18T10:31:38Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:38Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (0m31.3s), 40/40 VUs, 121 complete and 0 interrupted iterations
+default   [  57% ] 40 VUs  0m34.0s/1m0s
+time="2025-07-18T10:31:39Z" level=info msg="🔍 Keyword: twice" source=console
+time="2025-07-18T10:31:39Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:39Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:39Z" level=info msg="🔍 Keyword: xsmb 30" source=console
+time="2025-07-18T10:31:39Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:39Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:39Z" level=info msg="🔍 Keyword: t1 vs geng" source=console
+time="2025-07-18T10:31:39Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:39Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:39Z" level=info msg="🔍 Keyword: xổ số bạc liêu" source=console
+time="2025-07-18T10:31:39Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:39Z" level=info msg="📩 Body: {\"XSBL - Káº¿t quáº£ Xá»\u0095 sá»\u0091 Báº¡c LiÃªu - SXBL HÃ´m nay - KQXSBL\":\"XSBL - Káº¿t quáº£ Xá»\u0095 sá»\u0091 Báº¡c LiÃªu má»\u009f thÆ°á»\u009fng Thá»© 3 hÃ\u00a0ng tuáº§n, KQ SXBL gáº§n nháº¥t ngÃ\u00a0y 15-07-2025 Giáº£i G8: 20," source=console
+
+running (0m32.3s), 40/40 VUs, 123 complete and 0 interrupted iterations
+default   [  58% ] 40 VUs  0m35.0s/1m0s
+time="2025-07-18T10:31:40Z" level=info msg="🔍 Keyword: sxmn" source=console
+time="2025-07-18T10:31:40Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:40Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:40Z" level=info msg="🔍 Keyword: fabián ruiz peña" source=console
+time="2025-07-18T10:31:40Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:40Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:40Z" level=info msg="🔍 Keyword: u23 đông nam á" source=console
+time="2025-07-18T10:31:40Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:40Z" level=info msg="📩 Body: {\"Lá»\u008bch trá»±c tiáº¿p Giáº£i U23 Ä\u0090Ã´ng Nam Ã\u0081 2025: Ä\u0090á»\u0091i thá»§ cá»§a U23 Viá»\u0087t Nam ra sÃ¢n\":\"HÃ´m nay 16-7, Giáº£i U23 Ä\u0090Ã´ng Nam Ã\u0081 2025 sáº½ diá»\u0085n ra cÃ¡c tráº\u00adn Ä\u0091áº¥u Ä\u0091áº§u tiÃªn á»\u009f báº£ng" source=console
+time="2025-07-18T10:31:40Z" level=info msg="🔍 Keyword: xổ số miền trung" source=console
+time="2025-07-18T10:31:40Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:40Z" level=info msg="📩 Body: {\"XSMT - Káº¿t quáº£ Xá»\u0095 sá»\u0091 Miá»\u0081n Trung - SXMT hÃ´m nay\":\"- Ã\u0081p dá»¥ng chung cho 14 tá»\u0089nh thÃ\u00a0nh khu vá»±c miá»\u0081n Trung tá»« ngÃ\u00a0y 01-04-2019. ... + 09 giáº£i Phá»¥ Ä\u0091áº·c biá»\u0087t dÃ\u00a0nh cho nhá»¯n" source=console
+time="2025-07-18T10:31:41Z" level=info msg="🔍 Keyword: hpg" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📩 Body: {\"HPG Brands\":\"The worldâ\u0080\u0099s premier Promotional Product hard good supplier. 10 leading brands, +15k logo-ready products, 1 united website.\",\"HPG | EHR Consulting Experts | Integrate. Optimize. Perfor" source=console
+time="2025-07-18T10:31:41Z" level=info msg="🔍 Keyword: uef" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📩 Body: {\"Understanding Energy Efficiency in Water Heaters - Rheem ...\":\"UEFstands for Uniform Energy Factor, a new industry standard for measuring water heater performance and energy savings. Learn howUEFaff" source=console
+
+running (0m33.3s), 40/40 VUs, 127 complete and 0 interrupted iterations
+default   [  60% ] 40 VUs  0m36.0s/1m0s
+time="2025-07-18T10:31:41Z" level=info msg="🔍 Keyword: pachuca đấu với monterrey" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📩 Body: {\"Trá»±c tiáº¿p tá»\u0089 sá»\u0091 Pachuca, káº¿t quáº£, lá»\u008bch thi Ä\u0091áº¥u, Pachuca vs Monterrey live | BÃ³ng Ä\u0091Ã¡, Mexico\":\"Chá»\u0089 cáº§n click chuá»\u0099t vÃ\u00a0o ... Ä\u0091á»\u0099ng theo thá»\u009di gian thá»±c, tá»± cáº\u00adp nháº\u00ad" source=console
+time="2025-07-18T10:31:41Z" level=info msg="🔍 Keyword: vnexpress" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📩 Body: {\"BÃ¡o VnExpress - BÃ¡o tiáº¿ng Viá»\u0087t nhiá»\u0081u ngÆ°á»\u009di xem nháº¥t\":\"VnExpress tin tá»©c má»\u009bi nháº¥t - ThÃ´ng tin nhanh & chÃ\u00adnh xÃ¡c Ä\u0091Æ°á»£c cáº\u00adp nháº\u00adt hÃ\u00a0ng giá»\u009d. Ä\u0090á»\u008dc bÃ¡o tin tá»©c online V" source=console
+time="2025-07-18T10:31:41Z" level=info msg="🔍 Keyword: delta force" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📩 Body: {\"Delta Force | Free Ultimate AAA Shooter | Available Now\":\"Delta Force brings the iconic sequel with massive 64-player PvP warfare, intense next-gen extraction, and the legendary Black Hawk Down camp" source=console
+time="2025-07-18T10:31:41Z" level=info msg="🔍 Keyword: bongdaplus" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📩 Body: {\"BongDaComVn - Tin tức bóng đá, Lịch thi đấu, BXH\":\"Bongda.com.vn - cập nhật liên tục tin nhanh bóng đá, lịch thi đấu, kết quả, bảng xếp hạng tất cả các giải bóng đá, tin chuyển nhượng, hậu trường cầ" source=console
+time="2025-07-18T10:31:41Z" level=info msg="🔍 Keyword: vô địch quốc gia mexico" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:41Z" level=info msg="📩 Body: {\"Liga MX - Vô Địch Bóng Đá Quốc Gia Mexico\":\"Cập nhật lịch thi đấu Liga MX (Mexico) mới nhất! Thông tin đầy đủ về thời gian, đội bóng và kết quả từ giảivô địch quốc gia Mexico. Đừng bỏ lỡ những trận " source=console
+time="2025-07-18T10:31:42Z" level=info msg="🔍 Keyword: vô địch quốc gia mexico" source=console
+time="2025-07-18T10:31:42Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:42Z" level=info msg="📩 Body: {\"Liga MX - Vô Địch Bóng Đá Quốc Gia Mexico\":\"Cập nhật lịch thi đấu Liga MX (Mexico) mới nhất! Thông tin đầy đủ về thời gian, đội bóng và kết quả từ giảivô địch quốc gia Mexico. Đừng bỏ lỡ những trận " source=console
+
+running (0m34.3s), 40/40 VUs, 133 complete and 0 interrupted iterations
+default   [  62% ] 40 VUs  0m37.0s/1m0s
+time="2025-07-18T10:31:42Z" level=info msg="🔍 Keyword: grok" source=console
+time="2025-07-18T10:31:42Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:42Z" level=info msg="📩 Body: {\"Welcome | xAI\":\"We are thrilled to unveil Grok 3, our most advanced model yet, blending superior reasoning with extensive pretraining knowledge.\",\"grok.c\":\"We cannot provide a description for this p" source=console
+time="2025-07-18T10:31:42Z" level=info msg="🔍 Keyword: điểm thi tốt nghiệp thpt" source=console
+time="2025-07-18T10:31:42Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:42Z" level=info msg="📩 Body: {\"When Should YouSeeAn OphthalmologistFor EyePain?\":\"Aug 7, 2024 ·Generally, you should see anophthalmologistforeyepain when: Your ophthalmologist at Mid Ohio Eye will conduct a comprehensive eye exam" source=console
+
+running (0m35.3s), 40/40 VUs, 139 complete and 0 interrupted iterations
+default   [  63% ] 40 VUs  0m38.0s/1m0s
+time="2025-07-18T10:31:43Z" level=info msg="🔍 Keyword: ulsan hyundai đấu với daegu" source=console
+time="2025-07-18T10:31:43Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:43Z" level=info msg="📩 Body: {\"Trá»±c tiáº¿p tá»\u0089 sá»\u0091 Ulsan HD, káº¿t quáº£, lá»\u008bch thi Ä\u0091áº¥u, Dortmund vs Ulsan Hyundai live | BÃ³ng Ä\u0091Ã¡, HÃ\u00a0n Quá»\u0091c\":\"Chá»\u0089 cáº§n click chuá»\u0099t vÃ\u00a0o ... gian thá»±c, tá»± cáº\u00adp nháº\u00adt trá»±c " source=console
+time="2025-07-18T10:31:43Z" level=info msg="🔍 Keyword: kqbd" source=console
+time="2025-07-18T10:31:43Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:43Z" level=info msg="📩 Body: {\"Livesport: Bóng đá. Trực tiếp tỉ số, kết quả, bảng xếp hạng ...\":\"Trực tiếp bóng đá - các tỉ số, bảng xếp hạng, lịch thi đấu, số liệu thống kê và lưu trữ kết quả bóng đá. Livesport.com cung cấp dịch" source=console
+time="2025-07-18T10:31:43Z" level=info msg="🔍 Keyword: liên quân" source=console
+time="2025-07-18T10:31:43Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:43Z" level=info msg="📩 Body: {\"Trang chá»§ | LiÃªn QuÃ¢n Mobile\":\"Vá»\u009bi sá»± Ä\u0091áº§u tÆ° vÃ´ cÃ¹ng ká»¹ lÆ°á»¡ng, LiÃªn QuÃ¢n Mobile lÃ\u00a0 má»\u0099t trong nhá»¯ng tá»±a game trÃªn di Ä\u0091á»\u0099ng cÃ³ Ä\u0091á»\u0093 há»\u008da vÃ\u00a0 Ã¢m thanh cháº¥t lÆ°á»£ng" source=console
+time="2025-07-18T10:31:43Z" level=info msg="🔍 Keyword: vic" source=console
+time="2025-07-18T10:31:43Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:43Z" level=info msg="📩 Body: {\"V.I.C. - Wikipedia\":\"V.I.C. was born Victor Grimmy Owusu in 1987 in Corona, Queens to a mother from New York City and a father from Ghana. At ten, he wrote his first song, a drug awareness rap for h" source=console
+time="2025-07-18T10:31:44Z" level=info msg="🔍 Keyword: bao bong da" source=console
+time="2025-07-18T10:31:44Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:44Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:44Z" level=info msg="🔍 Keyword: triệu vy" source=console
+time="2025-07-18T10:31:44Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:44Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (0m36.3s), 40/40 VUs, 141 complete and 0 interrupted iterations
+default   [  65% ] 40 VUs  0m39.0s/1m0s
+time="2025-07-18T10:31:44Z" level=info msg="🔍 Keyword: kqxsmb" source=console
+time="2025-07-18T10:31:44Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:44Z" level=info msg="📩 Body: {\"XSMB - Káº¿t quáº£ xá»\u0095 sá»\u0091 Miá»\u0081n Báº¯c - XSTD - sxmb - kqxsmb\":\"XSMB: Káº¿t quáº£ xá»\u0095 sá»\u0091 Miá»\u0081n Báº¯c trá»±c tiáº¿p nhanh nht lÃºc 18h15p tá»« trÆ°á»\u009dng quay XSMB. Káº¿t quáº£ XSMB - SXMB - KQ" source=console
+time="2025-07-18T10:31:44Z" level=info msg="🔍 Keyword: keonhacai" source=console
+time="2025-07-18T10:31:44Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:44Z" level=info msg="📩 Body: {\"Tá»¶ Lá»\u0086 KÃ\u0088O NHÃ\u0080 CÃ\u0081I ð\u009f\u008e\u0096ï¸\u008f KEONHACAI TRá»°C TIáº¾P HÃ\u0094M NAY\":\"Tá»· Lá»\u0087 KÃ¨o NhÃ\u00a0 CÃ¡i - KeoNhaCai Chuáº©n XÃ¡c Má»\u009bi Nháº¥t HÃ´m Nay. ThÃ´ng tin Há»\u0087 Sá»\u0091 KÃ¨o CÆ°á»£c BÃ³ng Ä\u0090Ã¡ Ä\u0091Æ°á»£c cáº" source=console
+time="2025-07-18T10:31:45Z" level=info msg="🔍 Keyword: dịch vụ công quốc gia" source=console
+time="2025-07-18T10:31:45Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:45Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (0m37.3s), 40/40 VUs, 147 complete and 0 interrupted iterations
+default   [  67% ] 40 VUs  0m40.0s/1m0s
+time="2025-07-18T10:31:45Z" level=info msg="🔍 Keyword: vô địch quốc gia mexico" source=console
+time="2025-07-18T10:31:45Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:45Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:45Z" level=info msg="🔍 Keyword: jackpot vietlott" source=console
+time="2025-07-18T10:31:45Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:45Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:45Z" level=info msg="🔍 Keyword: 2q" source=console
+time="2025-07-18T10:31:45Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:45Z" level=info msg="📩 Body: {\"2Q - Wikipedia\":\"2Q or 2-Q may refer to: Â· The second quarter of a calendar year (April, May, June) or fiscal year Â· 2Q, IATA code for Air Cargo Carriers Â· F3D-2Q, a model of Douglas F3D Skyknigh" source=console
+time="2025-07-18T10:31:45Z" level=info msg="🔍 Keyword: hồng kông đấu với hàn quốc" source=console
+time="2025-07-18T10:31:45Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:45Z" level=info msg="📩 Body: {\"Há»\u0093ng KÃ´ng muá»\u0091n há»£p tÃ¡c sÃ¢u vá»\u009bi HÃ\u00a0n Quá»\u0091c Ä\u0091á»\u0083 kiá»\u0083m soÃ¡t crypto\":\"Bá»\u0099 trÆ°á»\u009fng TÃ\u00a0i chÃ\u00adnh Há»\u0093ng KÃ´ng Paul Chan Mo-po Ä\u0091Ã£ nháº¥n máº¡nh tiá»\u0081m nÄ\u0083ng há»£p tÃ¡c vá»\u009bi HÃ\u00a0n Quá»\u0091c" source=console
+time="2025-07-18T10:31:46Z" level=info msg="🔍 Keyword: btc" source=console
+time="2025-07-18T10:31:46Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:46Z" level=info msg="📩 Body: {\"Bitcoin Price in USD | Real Time Bitcoin Chart | KITCO CRYPTO\":\"2 days ago ·The Kitco Bitcoin price index provides the latest Bitcoin price in US Dollars using an average from the world's leading ex" source=console
+
+running (0m38.3s), 40/40 VUs, 150 complete and 0 interrupted iterations
+default   [  68% ] 40 VUs  0m41.0s/1m0s
+time="2025-07-18T10:31:46Z" level=info msg="🔍 Keyword: bongdalu" source=console
+time="2025-07-18T10:31:46Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:46Z" level=info msg="📩 Body: {\"bongdalu logo\":\"Cáº\u00adp nháº\u00adt tin tá»©c bÃ³ng Ä\u0091Ã¡ má»\u009bi nháº¥t, nháº\u00adn Ä\u0091á»\u008bnh bÃ³ng Ä\u0091Ã¡ hÃ´m nay vÃ\u00a0 lÃªn cÃ¡c bÃ\u00a0i tips bÃ³ng Ä\u0091Ã¡ cháº¥t lÆ°á»£ng cho má»\u008di ngÆ°á»\u009di theo dÃµi vÃ\u00a0 tham tháº£o.\",\"" source=console
+time="2025-07-18T10:31:46Z" level=info msg="🔍 Keyword: bongdaplus" source=console
+time="2025-07-18T10:31:46Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:46Z" level=info msg="📩 Body: {\"Bongdaplus | Nhận Định Bóng Đá, KQBD Lịch Thi Đấu, Tin Tức\":\"Bongdaplus| Nhận Định Bóng Đá, KQBD Lịch Thi Đấu, Tin TứcBongdapluslà nguồn thông tin bóng đá không thể thiếu, là người bạn đồng hành đán" source=console
+time="2025-07-18T10:31:47Z" level=info msg="🔍 Keyword: weather tomorrow" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📩 Body: {\"10-Day Weather Forecast for Philadelphia, PA - The Weather Channel | weather.com\":\"Be prepared with the most accurate 10-day forecast for Philadelphia, PA with highs, lows, chance of precipitation f" source=console
+time="2025-07-18T10:31:47Z" level=info msg="🔍 Keyword: nsnd mỹ uyên" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📩 Body: {\"NSND Mỹ Uyên là ai? Nữ diễn viên gây sốc khi đăng ảnh hôn môi ...\":\"6 days ago ·NSND Mỹ Uyên– tên tuổi gạo cội của làng điện ảnh Việt – bất ngờ trở thành tâm điểm chú ý sau khi chia sẻ hình ảnh hôn " source=console
+
+running (0m39.3s), 40/40 VUs, 155 complete and 0 interrupted iterations
+default   [  70% ] 40 VUs  0m42.0s/1m0s
+time="2025-07-18T10:31:47Z" level=info msg="🔍 Keyword: pag" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📩 Body: {\"Pag-IBIG Online Services\":\"Pay your loans and save withPag-IBIGvia our Virtual Pag-IBIG here. Enroll in our MP2 Savings to start saving and earning higher annual dividends here. Employers can now su" source=console
+
+running (0m40.3s), 40/40 VUs, 159 complete and 0 interrupted iterations
+default   [  72% ] 40 VUs  0m43.0s/1m0s
+time="2025-07-18T10:31:48Z" level=info msg="🔍 Keyword: sydney sweeney" source=console
+time="2025-07-18T10:31:48Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:48Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:48Z" level=info msg="🔍 Keyword: bongdaso" source=console
+time="2025-07-18T10:31:48Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:48Z" level=info msg="📩 Body: {\"IIS Windows Server\":\"We cannot provide a description for this page right now\",\"bongdaso | Alternative from Hanoi, VN\":\"Alternative music, lyrics, and videos from Hanoi, VN on ReverbNation\",\"bongdaso" source=console
+time="2025-07-18T10:31:48Z" level=info msg="🔍 Keyword: weather" source=console
+time="2025-07-18T10:31:48Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:48Z" level=info msg="📩 Body: {\"Warsaw, Masovia, Poland Weather Forecast | AccuWeather\":\"Warsaw, Masovia, PolandWeatherForecast, with current conditions, wind, air quality, and what to expect for the next 3 days.\",\"Warsaw Weather " source=console
+time="2025-07-18T10:31:48Z" level=info msg="🔍 Keyword: amanda anisimova" source=console
+time="2025-07-18T10:31:48Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:48Z" level=info msg="📩 Body: {\"Who is Amanda Anisimova? The Women's tennis sensation at ...\":\"Jul 10, 2025 ·Amanda Anisimovacelebrates after winning against Belarus’s Aryna Sabalenka during their women’s singles semi-final tennis" source=console
+time="2025-07-18T10:31:47Z" level=info msg="🔍 Keyword: s line lee soo hyuk" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📩 Body: {\"S Line - AsianWiki\":\"Han Ji-Wook (Lee Soo-Hyuk) is a detective with an attractive appearance and free spirit. He chases after the truth of the S Line. Kyu-Jin (Lee Da-Hee) is a high school teacher w" source=console
+time="2025-07-18T10:31:47Z" level=info msg="🔍 Keyword: pedro neto" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:47Z" level=info msg="🔍 Keyword: jackpot vietlott" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📩 Body: {\"Vietlott\":\"CÃ´ng ty Xá»\u0095 sá»\u0091 Ä\u0091iá»\u0087n toÃ¡n Viá»\u0087t Nam - Vietlott Cung cáº¥p cÃ¡c sáº£n pháº©m Xá»\u0095 sá»\u0091 tá»± chá»\u008dn sá»\u0091 Ä\u0091iá»\u0087n toÃ¡n, mang láº¡i CÆ¡ há»\u0099i tá»\u0091t hÆ¡n cho cá»\u0099ng Ä\u0091á»\u0093ng\",\"A Vietlo" source=console
+
+running (0m39.7s), 40/40 VUs, 160 complete and 0 interrupted iterations
+default   [  73% ] 40 VUs  0m44.0s/1m0s
+time="2025-07-18T10:31:47Z" level=info msg="🔍 Keyword: pedro neto" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📩 Body: {\"Pedro Neto - Wikipedia\":\"Pedro Lomba Neto (European Portuguese: [Ë\u0088peÃ°É¾u Ë\u0088nÉ\u009btu]; born 9 March 2000) is a Portuguese professional footballer who plays as a winger for Premier League club Chelsea " source=console
+time="2025-07-18T10:31:47Z" level=info msg="🔍 Keyword: xổ số miền nam ngày 10 tháng 7" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:47Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:48Z" level=info msg="🔍 Keyword: xăng e10" source=console
+time="2025-07-18T10:31:48Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:48Z" level=info msg="📩 Body: {\"Tarifaço: veja a lista de países taxados por Trump - CNN Brasil\":\"Apr 2, 2025 ·Tarifaço: veja a lista de países taxados por Trump Presidente dos EUA anunciou quanto será cobrado de cada país pelos p" source=console
+time="2025-07-18T10:31:48Z" level=info msg="🔍 Keyword: xoi" source=console
+time="2025-07-18T10:31:48Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:48Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (0m40.7s), 40/40 VUs, 167 complete and 0 interrupted iterations
+default   [  75% ] 40 VUs  0m45.0s/1m0s
+time="2025-07-18T10:31:49Z" level=info msg="🔍 Keyword: nguyễn tân cương" source=console
+time="2025-07-18T10:31:49Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:49Z" level=info msg="📩 Body: {\"Nguyá»\u0085n TÃ¢n CÆ°Æ¡ng | á»¦y viÃªn Trung Æ°Æ¡ng Ä\u0090áº£ng: KhÃ³a XI (dá»± khuyáº¿t)\":\"Nguyá»\u0085n TÃ¢n CÆ°Æ¡ng - á»¦y viÃªn Trung Æ°Æ¡ng Ä\u0090áº£ng: KhÃ³a XI (dá»± khuyáº¿t)\",\"Nguyá»\u0085n TÃ¢n CÆ°Æ¡ng\":\"Nguyá»" source=console
+time="2025-07-18T10:31:49Z" level=info msg="🔍 Keyword: orlando city đấu với montréal" source=console
+time="2025-07-18T10:31:49Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:49Z" level=info msg="📩 Body: {\"Orlando City vs CF Montreal - live score, predicted lineups and H2H stats\":\"Orlando City vs CF Montreal on Sat, Jul 12, 2025, 23:30 UTC. Check live results, H2H, match stats, lineups, player ratings" source=console
+time="2025-07-18T10:31:49Z" level=info msg="🔍 Keyword: xe máy điện" source=console
+time="2025-07-18T10:31:49Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:49Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (0m41.7s), 40/40 VUs, 171 complete and 0 interrupted iterations
+default   [  77% ] 40 VUs  0m46.0s/1m0s
+time="2025-07-18T10:31:49Z" level=info msg="🔍 Keyword: iga świątek" source=console
+time="2025-07-18T10:31:49Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:49Z" level=info msg="📩 Body: {\"Iga Swiatek | Wimbledon 2025, Tennis, Grand Slams, French ...\":\"3 days ago ·IgaŚwiątek(born May 31, 2001, Warsaw, Poland) is a professional tennis player from Poland who first came to the attention " source=console
+time="2025-07-18T10:31:50Z" level=info msg="🔍 Keyword: bongdalu" source=console
+time="2025-07-18T10:31:50Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:50Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (0m42.7s), 40/40 VUs, 174 complete and 0 interrupted iterations
+default   [  78% ] 40 VUs  0m47.0s/1m0s
+time="2025-07-18T10:31:50Z" level=info msg="🔍 Keyword: đàn cá gỗ" source=console
+time="2025-07-18T10:31:50Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:50Z" level=info msg="📩 Body: {\"Commoditytrading- Cloud 4Commodities\":\"How does Cloud4Commodities help yourtradingbusiness? EXPLORE OURSOLUTIONSHow does Cloud 4Commoditieshelp yourtradingbusiness? Explore oursolutionsTransparant M" source=console
+time="2025-07-18T10:31:50Z" level=info msg="🔍 Keyword: bongdaplus" source=console
+time="2025-07-18T10:31:50Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:50Z" level=info msg="📩 Body: {\"Táº¡p chÃ\u00ad BÃ³ng Ä\u0090Ã¡, BÃ¡o BÃ³ng Ä\u0090Ã¡, káº¿t quáº£, lá»\u008bch thi Ä\u0091áº¥u, video bÃ\u00a0n tháº¯ng, nháº\u00adn Ä\u0091á»\u008bnh, tá»· lá»\u0087 - Bongdaplus.vn\":\"Cáº\u00adp nháº\u00adt liÃªn tá»¥c 24h tin tá»©c, lá»\u008bch thi Ä\u0091áº¥u, TRá" source=console
+time="2025-07-18T10:31:51Z" level=info msg="🔍 Keyword: bybit" source=console
+time="2025-07-18T10:31:51Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:51Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:51Z" level=info msg="🔍 Keyword: rodrigo de paul" source=console
+time="2025-07-18T10:31:51Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:51Z" level=info msg="📩 Body: {\"Rodrigo De Paul to join Lionel Messi at Inter Miami | AP News\":\"1 day ago ·Argentine midfielderRodrigo De Paulhas agreed to contract terms with Inter Miami. A person familiar with the negotiations t" source=console
+
+running (0m43.7s), 40/40 VUs, 176 complete and 0 interrupted iterations
+default   [  80% ] 40 VUs  0m48.0s/1m0s
+time="2025-07-18T10:31:52Z" level=info msg="🔍 Keyword: tiền thưởng" source=console
+time="2025-07-18T10:31:52Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:52Z" level=info msg="📩 Body: {\"TIá»\u0080N THÆ¯á»\u009eNG - .: VGP News :. BÃ\u0081O Ä\u0090Iá»\u0086N Tá»¬ CHÃ\u008dNH PHá»¦ NÆ¯á»\u009aC CHXHCN VIá»\u0086T NAM\":\"tiá»\u0081n thÆ°á»\u009fng: Cháº¿ Ä\u0091á»\u0099 tiá»\u0081n thÆ°á»\u009fng Ä\u0091á»\u0091i vá»\u009bi CCVC Ä\u0091Æ°á»£c quy Ä\u0091á»\u008bnh tháº¿ nÃ\u00a0o?; CÃ³ Ã¡" source=console
+time="2025-07-18T10:31:52Z" level=info msg="🔍 Keyword: nguyễn tân cương" source=console
+time="2025-07-18T10:31:52Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:52Z" level=info msg="📩 Body: {\"Buyinga HouseAfterRetirement: Things to Consider |Chase\":\"Retiring is a great life accomplishment. Learn how tobuyaretirementhome and what you need tobuya home after retirement.\",\"Pros and Cons ofBu" source=console
+
+running (0m44.7s), 40/40 VUs, 180 complete and 0 interrupted iterations
+default   [  82% ] 40 VUs  0m49.0s/1m0s
+time="2025-07-18T10:31:52Z" level=info msg="🔍 Keyword: f88" source=console
+time="2025-07-18T10:31:52Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:52Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:52Z" level=info msg="🔍 Keyword: võ chí công" source=console
+time="2025-07-18T10:31:52Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:52Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:53Z" level=info msg="🔍 Keyword: bongdaso" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📩 Body: {\"Bongdaso\":\"Cập nhật tin tức bóng đá, thông tin giải đấu và kết quả trực tiếp.\",\"Bongdaso - Bóng đá số - Tin tức - Trang chủ\":\"Bongdaso- Bóng đá số - Tin tức - Trang chủTheo Hiệp hội Bệnh loạn sản sụ" source=console
+time="2025-07-18T10:31:53Z" level=info msg="🔍 Keyword: ketqua" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📩 Body: {\"Kết Quả Xổ Số Ngày Hôm Nay - KQXS Nhanh & Chuẩn\":\"KQXS - Xổ số kiến thiết hôm nay - Tường thuật trực tiếp kết quả xổ số ba miền nhanh chóng, chính xác nhất - Tổng hợp xổ số truyền thống, Vietlott hà" source=console
+time="2025-07-18T10:31:53Z" level=info msg="🔍 Keyword: kang seo ha" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📩 Body: {\"South Korean K-drama star Kang Seo Ha dies aged 31 after cancer battle | Daily Mail Online\":\"Her final project is expected to be released posthumously. She was reportedly battling stage 4 acute stom" source=console
+time="2025-07-18T10:31:53Z" level=info msg="🔍 Keyword: dự báo thời tiết tphcm" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📩 Body: {\"Thá»\u009di tiáº¿t hÃ\u00a0ng giá»\u009d á»\u009f ThÃ\u00a0nh phá»\u0091 Há»\u0093 ChÃ\u00ad Minh, Há»\u0093 ChÃ\u00ad Minh, Viá»\u0087t Nam | AccuWeather\":\"Hourly weather forecast in ThÃ\u00a0nh phá»\u0091 Há»\u0093 ChÃ\u00ad Minh, Há»\u0093 ChÃ\u00ad Minh, Viá»\u0087t Nam. Check curren" source=console
+time="2025-07-18T10:31:53Z" level=info msg="🔍 Keyword: s line lee soo hyuk" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📩 Body: {\"What does %s mean in a Python format string? - Stack Overflow\":\"Mar 1, 2022 ·%sindicates a conversion type of string when using Python'sstring formatting capabilities. More specifically, %sconverts " source=console
+time="2025-07-18T10:31:53Z" level=info msg="🔍 Keyword: hà lan đấu với pháp" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📩 Body: {}" source=console
+
+running (0m45.7s), 40/40 VUs, 182 complete and 0 interrupted iterations
+default   [  83% ] 40 VUs  0m50.0s/1m0s
+time="2025-07-18T10:31:53Z" level=info msg="🔍 Keyword: điểm chuẩn đại học bách khoa hà nội 2024" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📩 Body: {\"Đại học Bách khoa Hà Nội dự báo điểm chuẩn, cao nhất 27,8 ...\":\"10 hours ago ·Thí sinh nênchuẩnbị nguyện vọng xét tuyển phù hợp ngay hôm nay. Sáng nay 18.7,ĐạihọcBáchkhoaHàNộiđã thông báo ngưỡng điể" source=console
+time="2025-07-18T10:31:53Z" level=info msg="🔍 Keyword: preston đấu với liverpool" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:53Z" level=info msg="📩 Body: {\"Preston, Lancashire-Wikipedia\":\"Preston(/ ˈprɛstən / ⓘ) is a city a on the north bank of the River Ribble in Lancashire, England. The city is the administrative centre of the county of Lancashire an" source=console
+time="2025-07-18T10:31:54Z" level=info msg="🔍 Keyword: giá heo hơi hôm nay" source=console
+time="2025-07-18T10:31:54Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:54Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:54Z" level=info msg="🔍 Keyword: nhật bản đấu với trung quốc" source=console
+time="2025-07-18T10:31:54Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:54Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (0m46.7s), 40/40 VUs, 190 complete and 0 interrupted iterations
+default   [  85% ] 40 VUs  0m51.0s/1m0s
+time="2025-07-18T10:31:54Z" level=info msg="🔍 Keyword: ewc lol" source=console
+time="2025-07-18T10:31:54Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:54Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:54Z" level=info msg="🔍 Keyword: xsmb" source=console
+time="2025-07-18T10:31:54Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:54Z" level=info msg="📩 Body: {\"XSMB - Káº¿t quáº£ Xá»\u0095 sá»\u0091 miá»\u0081n Báº¯c - SXMB hÃ´m nay - KQXSMB\":\"XSMB - Xem Káº¿t quáº£ Xá»\u0095 sá»\u0091 miá»\u0081n Báº¯c hÃ´m nay Nhanh vÃ\u00a0 ChÃ\u00adnh xÃ¡c, tÆ°á»\u009dng thuáº\u00adt SXMB hÃ\u00a0ng ngÃ\u00a0y lÃºc 18h15p trá»±" source=console
+time="2025-07-18T10:31:54Z" level=info msg="🔍 Keyword: preston đấu với liverpool" source=console
+time="2025-07-18T10:31:54Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:54Z" level=info msg="📩 Body: {\"Táº¡i sao Florian Wirtz váº¯ng máº·t á»\u009f tráº\u00adn Ä\u0091áº¥u vá»\u009bi Preston North End?\":\"Tráº\u00adn Ä\u0091áº¥u vá»\u009bi Preston North End lÃ\u00a0 má»\u0099t trong bá»\u0091n tráº\u00adn giao há»¯u cá»§a Liverpool á»\u009f HÃ¨ 2025, vÃ\u00a0 lÃ\u00a0 " source=console
+time="2025-07-18T10:31:54Z" level=info msg="🔍 Keyword: vô địch quốc gia mexico" source=console
+time="2025-07-18T10:31:54Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:54Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (0m47.7s), 40/40 VUs, 194 complete and 0 interrupted iterations
+default   [  87% ] 40 VUs  0m52.0s/1m0s
+time="2025-07-18T10:31:56Z" level=info msg="🔍 Keyword: mu" source=console
+time="2025-07-18T10:31:56Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:56Z" level=info msg="📩 Body: {\"Micron Technology (MU) Stock Price & Overview\":\"3 days ago ·A detailed overview ofMicronTechnology,Inc. (MU) stock, including real-time price, chart, key statistics, news, and more.\",\"MUStock - Micr" source=console
+
+running (0m48.7s), 40/40 VUs, 198 complete and 0 interrupted iterations
+default   [  88% ] 40 VUs  0m53.0s/1m0s
+time="2025-07-18T10:31:56Z" level=info msg="🔍 Keyword: nicolas jackson" source=console
+time="2025-07-18T10:31:56Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:56Z" level=info msg="📩 Body: {\"Nicolas Jackson - Wikipedia\":\"Nicolas Jackson (born 20 June 2001) is a professional footballer who plays as a striker for Premier League club Chelsea and the Senegal national team. Jackson played fo" source=console
+time="2025-07-18T10:31:57Z" level=info msg="🔍 Keyword: milly alcock" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📩 Body: {\"Milly Alcock: Age, Height And Facts About The House of The Dragon...\":\"Milly Alcock is theactresswhoplaysyoungprincessRhaenyrainHouseoftheDragonon HBO. The series follows the Targaryen family 200 ye" source=console
+time="2025-07-18T10:31:57Z" level=info msg="🔍 Keyword: inter miami đấu với nashville" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📩 Body: {\"Nháº\u00adn Ä\u0091á»\u008bnh bÃ³ng Ä\u0091Ã¡ Nashville vs Inter Miami, 08h00 ngÃ\u00a0y 20/8: Chiáº¿c cÃºp Ä\u0091áº§u tiÃªn cho Messsi á»\u009f Inter Miami! - Bongdaplus.vn\":\"Ä\u0090Ã¢y lÃ\u00a0 tráº\u00adn Ä\u0091áº¥u mÃ\u00a0 Inter Miami Ä\u0091Æ°á»£c Ä\u0091Ã¡nh " source=console
+time="2025-07-18T10:31:57Z" level=info msg="🔍 Keyword: rodrigo de paul" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📩 Body: {\"Rodrigo De Paul - Wikipedia\":\"Rodrigo Javier De Paul (Spanish pronunciation: [roË\u0088Ã°É¾iÉ£o Ã°e pol]; born 24 May 1994) is an Argentine professional football player who plays primarily as a central m" source=console
+time="2025-07-18T10:31:57Z" level=info msg="🔍 Keyword: giá tiêu hôm nay đắk lắk" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📩 Body: {\"GiÃ¡ tiÃªu hÃ´m nay, tin thá»\u008b trÆ°á»\u009dng há»\u0093 tiÃªu má»\u009bi nháº¥t\":\"GiÃ¡ xuáº¥t kháº©u trung bÃ¬nh há»\u0093 tiÃªu Ä\u0091en trong thÃ¡ng 3-2025 Ä\u0091áº¡t 6.790 USD/táº¥n vÃ\u00a0 há»\u0093 tiÃªu tráº¯ng Ä\u0091áº¡t 8.802 USD/t" source=console
+time="2025-07-18T10:31:57Z" level=info msg="🔍 Keyword: kqxsmb" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📩 Body: {\"RIGOROUS| English meaning - Cambridge Dictionary\":\"RIGOROUSdefinition: 1. careful to look at or consider every part of something to make certain it is correct or safe…. Learn more.\",\"Rigorous- defin" source=console
+time="2025-07-18T10:31:57Z" level=info msg="🔍 Keyword: bongdaplus" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📩 Body: {\"Táº¡p chÃ\u00ad BÃ³ng Ä\u0090Ã¡, BÃ¡o BÃ³ng Ä\u0090Ã¡, káº¿t quáº£, lá»\u008bch thi Ä\u0091áº¥u, video bÃ\u00a0n tháº¯ng, nháº\u00adn Ä\u0091á»\u008bnh, tá»· lá»\u0087 - Bongdaplus.vn\":\"Cáº\u00adp nháº\u00adt liÃªn tá»¥c 24h tin tá»©c, lá»\u008bch thi Ä\u0091áº¥u, TRá" source=console
+time="2025-07-18T10:31:57Z" level=info msg="🔍 Keyword: faker" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📩 Body: {\"Faker - Leaguepedia | League of Legends Esports Wiki\":\"Lee \\\"Faker\\\" Sang-hyeok (Hangul: ì\u009d´ì\u0083\u0081í\u0098\u0081) is a League of Legends esports player, currently mid laner and part owner at T1.\",\"Faker (gamer) -" source=console
+time="2025-07-18T10:31:57Z" level=info msg="🔍 Keyword: xstd" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📩 Body: {\"XSTD - Xổ Số Thủ Đô - XSHN\":\"XSTD- XSHN - Xổ số Thủ Đô - Xổ số Miền Bắc - SXTD - Tường thuật kết quả xổ số hôm nay trực tiếp kết quảXSTDtừ trường quay nhanh và chính xác nhất. Thống kê kết quả xổ số" source=console
+
+running (0m49.7s), 40/40 VUs, 199 complete and 0 interrupted iterations
+default   [  90% ] 40 VUs  0m54.0s/1m0s
+time="2025-07-18T10:31:57Z" level=info msg="🔍 Keyword: tiền thưởng" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📩 Body: {\"Quy định về tiền thưởng cho người lao động\":\"Sep 18, 2019 ·Tiềnthưởnglà khoản tiền mà người sử dụng lao độngthưởngcho người lao động căn cứ vào kết quả sản xuất kinh doanh hằng năm và mức độ hoàn th" source=console
+time="2025-07-18T10:31:57Z" level=info msg="🔍 Keyword: liverpool" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📩 Body: {\"Liverpool FC â\u0080\u0094 Homepage\":\"The official Liverpool FC website. The only place to visit for all your LFC news, videos, history and match information. Full stats on LFC players, club products, officia" source=console
+time="2025-07-18T10:31:57Z" level=info msg="🔍 Keyword: crystal palace" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📩 Body: {\"Will Crystal Palace play in Europa League? Multi-club ...\":\"3 days ago ·Will CrystalPalaceplay in Europa League? As things stand, CrystalPalacewill not play in the 2025/26 Europa League due to UEFA " source=console
+time="2025-07-18T10:31:57Z" level=info msg="🔍 Keyword: xsnt" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:57Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:58Z" level=info msg="🔍 Keyword: sofia vergara" source=console
+time="2025-07-18T10:31:58Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:58Z" level=info msg="📩 Body: {\"Adulthood — Sofia Vergara\":\"Sofia VergaraHome BrandsPhoto Diary BackFashion HomeBrandsFashionPhoto DiarySofia VergaraBack to Photo Diary View Next Album info@sofiavergara.com\",\"Sofia Modeling — Sofi" source=console
+
+running (0m50.7s), 40/40 VUs, 208 complete and 0 interrupted iterations
+default   [  92% ] 40 VUs  0m55.0s/1m0s
+time="2025-07-18T10:31:58Z" level=info msg="🔍 Keyword: đại học hà nội" source=console
+time="2025-07-18T10:31:58Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:58Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:31:59Z" level=info msg="🔍 Keyword: đàn cá gỗ" source=console
+time="2025-07-18T10:31:59Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:59Z" level=info msg="📩 Body: {\"Review “Đàn Cá Gỗ”: Bộ phim giản dị nhưng lắng đọng | ELLE Man\":\"1 day ago ·Phim ngắn đầu tay “Đàn Cá Gỗ” của đạo diễn trẻ Nguyễn Phạm Thành Đạt, thu hút sự chú ý nhờ cách kể chuyện tối giản, giàu c" source=console
+time="2025-07-18T10:31:59Z" level=info msg="🔍 Keyword: sofia vergara" source=console
+time="2025-07-18T10:31:59Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:31:59Z" level=info msg="📩 Body: {\"SofÃ\u00ada Vergara - Wikipedia\":\"She is also known as a businesswoman, and brand ambassador. Vergara designs her own fashion line for Kmart and signed with both Pepsi and CoverGirl in 2011. Vergara laun" source=console
+
+running (0m51.7s), 40/40 VUs, 213 complete and 0 interrupted iterations
+default   [  93% ] 40 VUs  0m56.0s/1m0s
+time="2025-07-18T10:32:00Z" level=info msg="🔍 Keyword: pag" source=console
+time="2025-07-18T10:32:00Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:00Z" level=info msg="📩 Body: {\"Welcome | PAG\":\"PAGoffers three core strategies: Credit & Markets, Private Equity, and Real Assets. It manages over USD55 billion in assets and invests in Asia and beyond with a socially responsible" source=console
+time="2025-07-18T10:32:00Z" level=info msg="🔍 Keyword: 내일 날씨" source=console
+time="2025-07-18T10:32:00Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:00Z" level=info msg="📩 Body: {\"ê¸°ì\u0083\u0081ì²\u00ad ë\u0082\u00a0ì\u0094¨ë\u0088\u0084ë¦¬: í\u0099\u0088\":\"ë°\u0080ë¬¼Â·ì\u008d°ë¬¼ ì\u00a0\u0095ë³´ í\u0095´ì\u0099\u0080 ë\u008b¬ì\u009d´ ë\u009c¨ê³\u00a0ì§\u0080ë\u008a\u0094 ì\u008b\u009cê°\u0081 ê¸°í\u009b\u0084ì\u00a0\u0095ë³´í\u008f¬í\u0084¸ ê¸°ì\u0083\u0081ì\u009e\u0090ë£\u008cê°\u009cë°©í\u008f¬í\u0084¸ ê¸°ì\u0083\u0081ê¸°í\u009b\u0084ë¹\u0085ë\u008d°ì\u009d´í\u0084° ë\u008c\u0080ê¸°ì§\u0088ì\u0098\u0088Â·ê²½ë³´ ë\u0082\u00a0ì\u0094¨í\u0095´ì\u0084¤ (ì\u009c\u00a0í\u008a\u009cë¸" source=console
+time="2025-07-18T10:32:00Z" level=info msg="🔍 Keyword: tuyên án tập đoàn phúc sơn" source=console
+time="2025-07-18T10:32:00Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:00Z" level=info msg="📩 Body: {\"Vụ Tập đoàn Phúc Sơn: Chi tiết mức án của bà Hoàng Thị Thúy ...\":\"Jul 11, 2025 ·TAND TP Hà Nội đangtuyênánNguyễn Văn Hậu (cựu chủ tịchTậpđoànPhúcSơn), bà Hoàng Thị Thúy Lan (cựu bí thư tỉnh VĩnhPhúc" source=console
+time="2025-07-18T10:32:00Z" level=info msg="🔍 Keyword: bóng đá hôm nay" source=console
+time="2025-07-18T10:32:00Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:00Z" level=info msg="📩 Body: {\"Lịch Thi Đấu Bóng Đá Hôm Nay - Bongda.com.vn\":\"Lịch thi đấubóng đá hôm nay, ngày mai và tuần tới. Cập nhật giờ thi đấu, đội hình các giải Ngoại hạng Anh, C1, Laliga, Ligue 1, V-League...\",\"Lịch thi " source=console
+
+running (0m52.7s), 40/40 VUs, 216 complete and 0 interrupted iterations
+default   [  95% ] 40 VUs  0m57.0s/1m0s
+time="2025-07-18T10:32:01Z" level=info msg="🔍 Keyword: tin the thao" source=console
+time="2025-07-18T10:32:01Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:01Z" level=info msg="📩 Body: {\"什么是美国税号（TIN）？SSN、EIN、ITIN分别有什么区别？ - 知乎\":\"TIN 是上述多种税号（以及其它罕见税号）的统称。 例如说，如果你有机会注资入股一家公司，这家公司就要知道你的税号。 你可以选择以个人身份注资，也可以选择以你 100% 控股的一家公司的名义注资，选择非常多。\",\"如何查询纳税人识别号? - 知乎\":\"3 国家税务总局 或地方税务局“信用等级A类纳税人查询”系统 " source=console
+time="2025-07-18T10:32:01Z" level=info msg="🔍 Keyword: vtv1" source=console
+time="2025-07-18T10:32:01Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:01Z" level=info msg="📩 Body: {\"VTV1HD | Xem truyền hình trực tuyếnVTV1HD | TV360\":\"Vui lòng kiểm tra kết nối mạng và thử lại (E-001)VTV1HD | Xem trực tiếp kênh truyền hìnhVTV1HD trên TV360 với chất lượng Full HD.\",\"Xem truyền hìn" source=console
+
+running (0m53.7s), 40/40 VUs, 220 complete and 0 interrupted iterations
+default   [  97% ] 40 VUs  0m58.0s/1m0s
+time="2025-07-18T10:32:01Z" level=info msg="🔍 Keyword: t1 vs geng" source=console
+time="2025-07-18T10:32:01Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:01Z" level=info msg="📩 Body: {\"Gen.G â\u0080\u0093 T1 - Live score | Sofascore\":\"Gen.G â\u0080\u0093 T1 match starts on 13 Jul 2025 at 00:15 UTC in Mid-Season Invitational Playoffs â\u0080\u0093 LoL. On Sofascore you can find Gen.G vs T1 results from all of t" source=console
+time="2025-07-18T10:32:01Z" level=info msg="🔍 Keyword: garena" source=console
+time="2025-07-18T10:32:01Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:01Z" level=info msg="📩 Body: {\"Garena to publish Delta Force, a tactical first-person shooter...\":\"Nov 5, 2024 ·Garenaofficially announced today that it will publish Delta Force, a tactical first-person shooter (FPS) game, in Sou" source=console
+time="2025-07-18T10:32:02Z" level=info msg="🔍 Keyword: kqxsmb" source=console
+time="2025-07-18T10:32:02Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:02Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:32:02Z" level=info msg="🔍 Keyword: esports world cup 2025" source=console
+time="2025-07-18T10:32:02Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:02Z" level=info msg="📩 Body: {\"Home | Esports World Cup\":\"The cross-game initiative invites fans to predict outcomes, build fantasy rosters, and compete for prizes while advancing interactive fan participation at EWC 2025 ... The" source=console
+time="2025-07-18T10:32:02Z" level=info msg="🔍 Keyword: thaksin shinawatra" source=console
+time="2025-07-18T10:32:02Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:02Z" level=info msg="📩 Body: {\"Thaksin Shinawatra - Wikipedia\":\"Thaksin Shinawatra (Thai: à¸\u0097à¸±à¸\u0081à¸©à¸´à¸\u0093 à¸\u008aà¸´à¸\u0099à¸§à¸±à¸\u0095à¸£, RTGS: Thaksin Chinnawat [tÊ°Ã¡k.sÇ\u0090n tÉ\u0095Ê°Ä«n.nÄ\u0081.wÃ¡t] â\u0093\u0098; born 26 July 1949) is a Thai busines" source=console
+
+running (0m54.7s), 40/40 VUs, 222 complete and 0 interrupted iterations
+default   [  98% ] 40 VUs  0m59.0s/1m0s
+time="2025-07-18T10:32:02Z" level=info msg="🔍 Keyword: hub" source=console
+time="2025-07-18T10:32:02Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:02Z" level=info msg="📩 Body: {\"Insurance Brokers | HUB International\":\"HUB International is a leading North American insurance brokerage that provides employee benefits, business, and personal insurance products and services.\",\"H" source=console
+time="2025-07-18T10:32:03Z" level=info msg="🔍 Keyword: nhật bản đấu với trung quốc" source=console
+time="2025-07-18T10:32:03Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:03Z" level=info msg="📩 Body: {\"Followed(2018) - FilmAffinity\":\"Followedes una película dirigida por Antoine Le con John Savage, Blanca Blanco, Kelsey Griswold, Matthew Solomon .... Año: 2018. Título original:Followed. Sinopsis: P" source=console
+time="2025-07-18T10:32:03Z" level=info msg="🔍 Keyword: wtt" source=console
+time="2025-07-18T10:32:03Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:03Z" level=info msg="📩 Body: {\"World Table Tennis\":\"We cannot provide a description for this page right now\",\"World Table Tennis - YouTube\":\"Welcome to World Table Tennis! World Table Tennis (WTT) is the commercial and events com" source=console
+
+running (0m55.7s), 40/40 VUs, 227 complete and 0 interrupted iterations
+default   [ 100% ] 40 VUs  1m00.0s/1m0s
+time="2025-07-18T10:32:03Z" level=info msg="🔍 Keyword: vinfast" source=console
+time="2025-07-18T10:32:03Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:03Z" level=info msg="📩 Body: {\"The Leading New Electric Car Company | VinFast\":\"Join the future of driving with the leading new electric car company, VinFast. Explore cutting-edge vehicles, innovative tech, & commitment to sustai" source=console
+time="2025-07-18T10:32:04Z" level=info msg="🔍 Keyword: gonzalo garcía" source=console
+time="2025-07-18T10:32:04Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:04Z" level=info msg="📩 Body: {\"Who Is Gonzalo Garcia? Meet the Real Madrid Castilla Forward\":\"Feb 6, 2025 ·GonzaloGarcía is a 20-year-old Madrid native who plays for Real Madrid Castilla and scored the winner against Leganes in t" source=console
+time="2025-07-18T10:32:04Z" level=info msg="🔍 Keyword: weather tomorrow" source=console
+time="2025-07-18T10:32:04Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:04Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (0m56.7s), 37/40 VUs, 230 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+time="2025-07-18T10:32:04Z" level=info msg="🔍 Keyword: thiên an" source=console
+time="2025-07-18T10:32:04Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:04Z" level=info msg="📩 Body: {\"Luật sư nói lý do Jack khởi kiện Thiên An\":\"2 days ago ·Ngày 16.7, phía ca sĩ Jack tổ chức buổi gặp gỡ truyền thông tại TP.HCM để lên tiếng về loạt ồn ào đời tư thời gian qua. Bên cạnh đó, phía nam " source=console
+time="2025-07-18T10:32:05Z" level=info msg="🔍 Keyword: nsnd mỹ uyên" source=console
+time="2025-07-18T10:32:05Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:05Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:32:05Z" level=info msg="🔍 Keyword: mh17" source=console
+time="2025-07-18T10:32:05Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:05Z" level=info msg="📩 Body: {\"Russia Shot Down Flight MH17 Killing 298 People, Rules Top ...\":\"Jul 10, 2025 ·Europe's top human rights court found that Russia \\\"shot down\\\" Malaysia Airlines FlightMH17, killing all 283 passenger" source=console
+time="2025-07-18T10:32:05Z" level=info msg="🔍 Keyword: ldg" source=console
+time="2025-07-18T10:32:05Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:05Z" level=info msg="📩 Body: {\"ورود به سیستم Gmail\":\"ورود به سیستم Gmail نکته: اگر در رایانه\u200cای عمومی به سیستم وارد می\u200cشوید، حتماً پیش\u200cاز ترک رایانه از سیستم خارج شوید. با نحوه ورود به سیستم در دستگاهی که متعلق به شما نیست آشنا ش" source=console
+time="2025-07-18T10:32:05Z" level=info msg="🔍 Keyword: faker" source=console
+time="2025-07-18T10:32:05Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:05Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:32:05Z" level=info msg="🔍 Keyword: garena" source=console
+time="2025-07-18T10:32:05Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:05Z" level=info msg="📩 Body: {\"Garena\":\"We cannot provide a description for this page right now\",\"Garena Free Fire Max Redeem Codes today July 4: Here are 30 active rewards for you - The Economic Times\":\"Garena released new redee" source=console
+
+running (0m57.7s), 34/40 VUs, 233 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+time="2025-07-18T10:32:06Z" level=info msg="🔍 Keyword: garena" source=console
+time="2025-07-18T10:32:06Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:06Z" level=info msg="📩 Body: {\"Garena\":\"We cannot provide a description for this page right now\",\"Garena Free Fire Max Redeem Codes today July 4: Here are 30 active rewards for you - The Economic Times\":\"Garena released new redee" source=console
+time="2025-07-18T10:32:06Z" level=info msg="🔍 Keyword: vnexpress" source=console
+time="2025-07-18T10:32:06Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:06Z" level=info msg="📩 Body: {\"VnExpress International - Latest Vietnam news, business, sports,...\":\"VnExpressprovides latest Vietnam news, regional, business, financial, industries, travel news and views to policy makers, profes" source=console
+
+running (0m58.7s), 28/40 VUs, 239 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+time="2025-07-18T10:32:06Z" level=info msg="🔍 Keyword: xstd" source=console
+time="2025-07-18T10:32:06Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:06Z" level=info msg="📩 Body: {\"XSTD - Xổ số miền Bắc - XSHN - XSMB - SXMB - KQXSMB - SXTD\":\"XSTD- XSHN - KQXSMB - Tường thuật trực tiếp kết quả xổ số Miền Bắc hôm nay - Xổ số thủ đô Hà Nội lúc 18h10 - XSMB - SXMB. ️ Xem TT XSMB T" source=console
+time="2025-07-18T10:32:06Z" level=info msg="🔍 Keyword: pachuca đấu với monterrey" source=console
+time="2025-07-18T10:32:06Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:06Z" level=info msg="📩 Body: {\"Trá»±c tiáº¿p tá»\u0089 sá»\u0091 Pachuca, káº¿t quáº£, lá»\u008bch thi Ä\u0091áº¥u, Pachuca vs Monterrey live | BÃ³ng Ä\u0091Ã¡, Mexico\":\"Chá»\u0089 cáº§n click chuá»\u0099t vÃ\u00a0o ... Ä\u0091á»\u0099ng theo thá»\u009di gian thá»±c, tá»± cáº\u00adp nháº\u00ad" source=console
+time="2025-07-18T10:32:06Z" level=info msg="🔍 Keyword: bongdaplus" source=console
+time="2025-07-18T10:32:06Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:06Z" level=info msg="📩 Body: {\"BongDaComVn - Tin tức bóng đá, Lịch thi đấu, BXH\":\"Louis Saha chỉ ra sự thật phũ phàng về Jadon Sancho tại Man United Bất ngờ với double hattrick, Jens Raven nói gì sau trận thắng 8-0?\",\"Bongdaplus–" source=console
+time="2025-07-18T10:32:06Z" level=info msg="🔍 Keyword: thăng quân hàm đại tướng trịnh văn quyết" source=console
+time="2025-07-18T10:32:06Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:06Z" level=info msg="📩 Body: {\"ThÄ\u0083ng quÃ¢n hÃ\u00a0m Ä\u0090áº¡i tÆ°á»\u009bng cho Chá»§ nhiá»\u0087m Tá»\u0095ng cá»¥c ChÃ\u00adnh trá»\u008b Trá»\u008bnh VÄ\u0083n Quyáº¿t vÃ\u00a0 quÃ¢n hÃ\u00a0m ThÆ°á»£ng tÆ°á»\u009bng Ä\u0091á»\u0091i vá»\u009bi cÃ¡c Ä\u0091á»\u0093ng chÃ\u00ad sÄ© quan QÄ\u0090ND vÃ\u00a0 CAND\":\"CÃ¡c Ä\u0091á" source=console
+time="2025-07-18T10:32:07Z" level=info msg="🔍 Keyword: twitch" source=console
+time="2025-07-18T10:32:07Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:07Z" level=info msg="📩 Body: {}" source=console
+
+running (0m59.7s), 26/40 VUs, 241 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+time="2025-07-18T10:32:07Z" level=info msg="🔍 Keyword: flashscore" source=console
+time="2025-07-18T10:32:07Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:07Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:32:07Z" level=info msg="🔍 Keyword: xổ số vũng tàu" source=console
+time="2025-07-18T10:32:07Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:07Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:32:08Z" level=info msg="🔍 Keyword: ngoại hạng anh" source=console
+time="2025-07-18T10:32:08Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:08Z" level=info msg="📩 Body: {\"10 of theBestVanguardETFsto Buy for 2025 - U.S. News\":\"May 19, 2025 ·10 of theBestVanguardETFsto Buy for 2025Vanguard's lineup of 91ETFscan help investors build a complete portfolio with very low co" source=console
+
+running (1m00.7s), 21/40 VUs, 246 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+time="2025-07-18T10:32:08Z" level=info msg="🔍 Keyword: bongdaplus" source=console
+time="2025-07-18T10:32:08Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:08Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+time="2025-07-18T10:32:09Z" level=info msg="🔍 Keyword: vàng sjc giá vàng hôm nay" source=console
+time="2025-07-18T10:32:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:09Z" level=info msg="📩 Body: {\"PanamaCity, FLWeatherRadar|AccuWeather\":\"Track storms, and stay in-the-know and prepared for what's coming. Easy to useweatherradarat your fingertips!\",\"Live Doppler Radar-WJHG\":\"WJGH |WeatherRadar|" source=console
+time="2025-07-18T10:32:09Z" level=info msg="🔍 Keyword: nguyễn trường thắng" source=console
+time="2025-07-18T10:32:09Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:09Z" level=info msg="📩 Body: {\"Nguyá»\u0085n TrÆ°á»\u009dng Tháº¯ng\":\"Nguyá»\u0085n TrÆ°á»\u009dng Tháº¯ng (sinh nÄ\u0083m 1970) lÃ\u00a0 má»\u0099t tÆ°á»\u009bng lÄ©nh QuÃ¢n Ä\u0091á»\u0099i nhÃ¢n dÃ¢n Viá»\u0087t Nam, hÃ\u00a0m Trung tÆ°á»\u009bng. Ã\u0094ng hiá»\u0087n lÃ\u00a0 á»¦y viÃªn Ban Cháº¥p hÃ\u00a0nh" source=console
+
+running (1m01.7s), 18/40 VUs, 249 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+
+running (1m02.7s), 15/40 VUs, 252 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+time="2025-07-18T10:32:11Z" level=info msg="🔍 Keyword: so xo mien bac" source=console
+time="2025-07-18T10:32:11Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:11Z" level=info msg="📩 Body: {\"XSMB - SXMB - Kết Quả Xổ Số Miền Bắc Hôm Nay - KQXSMB\":\"1 day ago ·XSMB - SXMB - XSTD - Kết quảxổsốmiềnBắc hôm nay - KQXSMB - Tường thuật trực tiếp lúc 18h15 hàng ngày nhanh chóng, chính xác, cập nh" source=console
+time="2025-07-18T10:32:11Z" level=info msg="🔍 Keyword: hub" source=console
+time="2025-07-18T10:32:11Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:11Z" level=info msg="📩 Body: {\"What is a Hub? A Guide to Understanding Networking Devices\":\"Oct 29, 2024 ·Learn what ahubis, how it works, and its types and uses in computer networks. Comparehubswith switches and see examples ofh" source=console
+time="2025-07-18T10:32:11Z" level=info msg="🔍 Keyword: iga swiatek" source=console
+time="2025-07-18T10:32:11Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:11Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (1m03.7s), 15/40 VUs, 252 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+
+running (1m04.7s), 12/40 VUs, 255 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+time="2025-07-18T10:32:13Z" level=info msg="🔍 Keyword: 24h.com.vn" source=console
+time="2025-07-18T10:32:13Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:13Z" level=info msg="📩 Body: {\"Tin tức | Tin nhanh | Tin mới trong ngày cập nhật liên tục 24h\":\"Tin tuc trong ngày24hhôm nay - Cập nhật tin mới trong ngày, tin nhanh24hvề đời sống, pháp luật, xã hội, giao thông, thời sự trong nướ" source=console
+time="2025-07-18T10:32:13Z" level=info msg="🔍 Keyword: kqbd" source=console
+time="2025-07-18T10:32:13Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:13Z" level=info msg="📩 Body: {\"KQBD - Káº¿t quáº£ bÃ³ng Ä\u0091Ã¡ trá»±c tuyáº¿n - káº¿t quáº£ bÃ³ng Ä\u0091Ã¡ hÃ´m nay\":\"KQBD - trá»±c tiáº¿p káº¿t quáº£ bÃ³ng Ä\u0091Ã¡ hÃ´m nay chÃ\u00adnh xÃ¡c má»\u009bi nháº¥t.Xem ket qua bong da trá»±c tuyáº¿n nhan" source=console
+
+running (1m05.7s), 12/40 VUs, 255 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+
+running (1m06.7s), 10/40 VUs, 257 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+time="2025-07-18T10:32:15Z" level=info msg="🔍 Keyword: fpt telecom" source=console
+time="2025-07-18T10:32:15Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:15Z" level=info msg="📩 Body: {\"FPT Telecom | Internet Wifi - Truyền Hình - Camera | VietNam ...\":\"FPT Telecomlà đơn vị cung cấp các dịch vụ khác nhau như internet, truyền hình, camera, smart home, oncall. Xem chương trình khuyến " source=console
+time="2025-07-18T10:32:15Z" level=info msg="🔍 Keyword: vàng sjc giá vàng hôm nay" source=console
+time="2025-07-18T10:32:15Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:15Z" level=info msg="📩 Body: {\"OfficialMapQuest- Maps, Driving Directions, Live Traffic\":\"OfficialMapQuestwebsite, find driving directions, maps, live traffic updates and road conditions. Find nearby businesses, restaurants and h" source=console
+
+running (1m07.7s), 10/40 VUs, 257 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+
+running (1m08.7s), 08/40 VUs, 259 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+
+running (1m09.7s), 08/40 VUs, 259 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+time="2025-07-18T10:32:18Z" level=info msg="🔍 Keyword: ewc lol" source=console
+time="2025-07-18T10:32:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:18Z" level=info msg="📩 Body: {\"Esports World Cup 2025 - Leaguepedia | League of Legends Esports Wiki\":\"The 2025 Esports World Cup (EWC) is a global multi-esports event held in Riyadh, Saudi Arabia. This marks the 4th season of th" source=console
+time="2025-07-18T10:32:18Z" level=info msg="🔍 Keyword: donald trump" source=console
+time="2025-07-18T10:32:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:18Z" level=info msg="📩 Body: {\"President Donald J. Trump - The White House\":\"After a landslide election victory in 2024, PresidentDonaldJ.Trumpis returning to the White House to build upon his previous successes and use his manda" source=console
+time="2025-07-18T10:32:18Z" level=info msg="🔍 Keyword: rio ngumoha" source=console
+time="2025-07-18T10:32:18Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:18Z" level=info msg="📩 Body: {\"Rio Ngumoha- Player profile 25/26 | Transfermarkt\":\"Aug 29, 2008 ·RioNgumoha, 16, from England Liverpool FC U18, since 2024 Left Winger Market value: - * Aug 29, 2008 in London, England\",\"Rio Ngumoh" source=console
+
+running (1m10.7s), 08/40 VUs, 259 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+
+running (1m11.7s), 05/40 VUs, 262 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+
+running (1m10.2s), 05/40 VUs, 262 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+time="2025-07-18T10:32:19Z" level=info msg="🔍 Keyword: jackpot vietlott" source=console
+time="2025-07-18T10:32:19Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:19Z" level=info msg="📩 Body: {\"Order Lottery Tickets Online - Jackpot.com\":\"Order official lottery tickets online for Powerball, Mega Millions, and more top US lottery games. Safe, secure, and easy way to play your favorite games" source=console
+time="2025-07-18T10:32:19Z" level=info msg="🔍 Keyword: u-23 indonesia đấu với đội tuyển bóng đá u-23 quốc gia brunei" source=console
+time="2025-07-18T10:32:19Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:19Z" level=info msg="📩 Body: {\"How to Type Spanish Accents and Letters\":\"Expert articles and interactive video lessons on how to use the Spanish language. Learn about 'por' vs. 'para', Spanish pronunciation, typing Spanish accent" source=console
+time="2025-07-18T10:32:19Z" level=info msg="🔍 Keyword: xăng e10" source=console
+time="2025-07-18T10:32:19Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:19Z" level=info msg="📩 Body: {\"XÄ\u0083ng khÃ´ng chÃ¬, xÄ\u0083ng E5, xÄ\u0083ng E10 lÃ\u00a0 gÃ¬? Chá»\u0089 tiÃªu cháº¥t lÆ°á»£ng tháº¿ nÃ\u00a0o?\":\"Xin cho tÃ´i há»\u008fi cÃ¡c loáº¡i xÄ\u0083ng khÃ´ng chÃ¬, E5, E10 lÃ\u00a0 gÃ¬ vÃ\u00a0 cÃ¡c chá»\u0089 tiÃªu cháº¥t lÆ°á»£ng Ä\u0091Æ°á" source=console
+time="2025-07-18T10:32:19Z" level=info msg="🔍 Keyword: bong da so" source=console
+time="2025-07-18T10:32:19Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:19Z" level=info msg="📩 Body: {\"Bongdaso - BÃ³ng Ä\u0091Ã¡ sá»\u0091 - Dá»¯ liá»\u0087u\":\"Bongdaso - BÃ³ng Ä\u0091Ã¡ sá»\u0091 - Dá»¯ liá»\u0087u\",\"IIS Windows Server\":\"We cannot provide a description for this page right now\",\"Bongdaso â\u0080\u0093 BÃ³ng Ä\u0090Ã¡ Sá»\u0091 - Dá" source=console
+
+running (1m11.2s), 05/40 VUs, 262 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+
+running (1m12.2s), 01/40 VUs, 266 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
+time="2025-07-18T10:32:20Z" level=info msg="🔍 Keyword: đạt g" source=console
+time="2025-07-18T10:32:20Z" level=info msg="📦 Status: 200" source=console
+time="2025-07-18T10:32:20Z" level=info msg="📩 Body: {\"error\":\"Phản hồi từ hàm search không hợp lệ\",\"method\":\"requests\"}" source=console
+
+running (1m13.2s), 01/40 VUs, 266 complete and 0 interrupted iterations
+default ↓ [ 100% ] 40 VUs  1m0s
 
 
   █ TOTAL RESULTS 
 
-    checks_total.......................: 1       0.15852/s
-    checks_succeeded...................: 0.00%   0 out of 1
-    checks_failed......................: 100.00% 1 out of 1
+    checks_total.......................: 267     3.611995/s
+    checks_succeeded...................: 100.00% 267 out of 267
+    checks_failed......................: 0.00%   0 out of 267
 
-    ✗ status is 200
-      ↳  0% — ✓ 0 / ✗ 1
+    ✓ status is 200
 
     HTTP
-    http_req_duration......................: avg=5.3s min=5.3s med=5.3s max=5.3s p(90)=5.3s p(95)=5.3s
-    http_req_failed........................: 100.00% 1 out of 1
-    http_reqs..............................: 1       0.15852/s
+    http_req_duration.......................................................: avg=8.48s  min=99.22µs med=7.27s max=28.43s p(90)=15.06s p(95)=20s   
+      { expected_response:true }............................................: avg=8.48s  min=99.22µs med=7.27s max=28.43s p(90)=15.06s p(95)=20s   
+    http_req_failed.........................................................: 0.00%  0 out of 267
+    http_reqs...............................................................: 267    3.611995/s
 
     EXECUTION
-    iteration_duration.....................: avg=6.3s min=6.3s med=6.3s max=6.3s p(90)=6.3s p(95)=6.3s
-    iterations.............................: 1       0.15852/s
-    vus....................................: 1       min=1      max=1
-    vus_max................................: 1       min=1      max=1
+    iteration_duration......................................................: avg=10.12s min=2.62s   med=8.68s max=32.15s p(90)=17.53s p(95)=21.13s
+    iterations..............................................................: 267    3.611995/s
+    vus.....................................................................: 1      min=1        max=40
+    vus_max.................................................................: 40     min=40       max=40
 
     NETWORK
-    data_received..........................: 239 B   38 B/s
-    data_sent..............................: 159 B   25 B/s
+    data_received...........................................................: 216 kB 2.9 kB/s
+    data_sent...............................................................: 46 kB  619 B/s
 
 
 
 
-running (00m06.3s), 0/1 VUs, 1 complete and 0 interrupted iterations
-default ✓ [ 100% ] 1 VUs  00m06.3s/10m0s  1/1 shared iters
+running (1m13.9s), 00/40 VUs, 267 complete and 0 interrupted iterations
+default ✓ [ 100% ] 40 VUs  1m0s
