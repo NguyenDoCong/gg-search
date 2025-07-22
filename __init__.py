@@ -97,8 +97,8 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region,
         url = "https://search.aol.com/aol/search"
     elif endpoint == "mullvad leta":
         url = "https://leta.mullvad.net/search"
-    elif endpoint == "ecosia":
-        url = "https://www.ecosia.org/search"  
+    elif endpoint == "brave":
+        url = "https://search.brave.com/search"  
     elif endpoint == "duckduckgo":
         url = "https://duckduckgo.com/"
     elif endpoint == "yahoo":

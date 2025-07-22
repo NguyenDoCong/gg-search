@@ -106,7 +106,7 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
         # logger.info(f"resp.text {resp.text}...")  # Log first 200 characters of the response text
 
         soup = BeautifulSoup(resp.text, "html.parser")
-        # logger.info(f"soup: {soup}")
+        logger.info(f"soup: {soup}")
         if not soup:
             logger.error("Không thể phân tích cú pháp HTML")
             
@@ -124,6 +124,8 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
 
         elif endpoint == "yahoo":
             result_block = soup.find_all("div", class_="dd algo algo-sr relsrch Sr")
+        elif endpoint == "brave":
+            result_block = soup.find_all("div", class_="snippet svelte-1o29vmf")
 
         # if len(result_block)<1:
         #     result_block = soup.find_all("div", class_="ezO2md")
@@ -254,7 +256,7 @@ async def query_result(req: Request):
     # domain="google"
     # print("Query:", query)
     # result = await search_response(query, method="fingerprint", domain = domain)
-    rand = random.randint(1,4)
+    rand = random.randint(1,5)
     if rand==1:
         endpoint = "mullvad leta"
     elif rand==2:
@@ -263,8 +265,10 @@ async def query_result(req: Request):
         endpoint = "aol"
     elif rand==4:
         endpoint = "duckduckgo"
+    elif rand==5:
+        endpoint = "brave"
 
-    endpoint = "duckduckgo"
+    endpoint = "brave"
 
     logger.info(f"Chạy tìm kiếm với endpoint: {endpoint}")
     try:
