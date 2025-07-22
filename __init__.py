@@ -93,14 +93,14 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region,
             'SOCS': 'CAESHAgBEhIaAB',
         }):
     # logger.info(f"endpoint: {endpoint}")
-    if endpoint == "gprivate":
-        url = "https://gprivate.com/search/index.html"
+    if endpoint == "aol":
+        url = "https://search.aol.com/aol/search"
     elif endpoint == "mullvad leta":
         url = "https://leta.mullvad.net/search"
     elif endpoint == "ecosia":
         url = "https://www.ecosia.org/search"  
-    elif endpoint == "tiekoetter":
-        url = "https://searx.tiekoetter.com/search"
+    elif endpoint == "duckduckgo":
+        url = "https://duckduckgo.com/"
     elif endpoint == "yahoo":
         url = "https://search.yahoo.com/search"
 
@@ -168,6 +168,12 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
             resp = _req(term, num_results - start, lang, start, proxies, timeout, safe, ssl_verify, region, cookies = g_cookies, endpoint=endpoint)
             if resp.status_code == 200:
                 g_cookies = resp.cookies.get_dict()
+            else:
+                logger.error(f"URL: {resp.url}")
+                logger.error(f"Request failed with status code: {resp.status_code}")
+                logger.error(f"Response content: {resp.content}")
+                # logger.error(f"Response text: {resp.text[:200]}")
+                # logger.error(f"Response headers: {resp.headers}")
             with open("google.html", "w", encoding="utf-8") as f:
                 f.write(resp.text)
             # pprint.pp(resp.text)

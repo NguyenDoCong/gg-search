@@ -34,22 +34,31 @@ logger = logging.getLogger(__name__)
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # app.state.luxirty_instance = GoogleSearcher(use_proxy_fingerprint=True)
-    app.state.search_instance = GoogleSearcher(use_proxy_fingerprint=True)
+    # app.state.search_instance = GoogleSearcher(use_proxy_fingerprint=True)
     
     # ✅ Gọi init_browser() sau khi khởi tạo
-    await app.state.search_instance.init_browser()
+    # await app.state.search_instance.init_browser()
     # # await app.state.google_instance.init_browser()   
-    await app.state.search_instance._create_context()
+    # await app.state.search_instance._create_context()
     # # await app.state.google_instance._create_contexts(domain="google")
 
-    proxy_ports = list(range(9050, 9130, 2))  # 9050 → 9088
+    proxy_ports = [9050 + i * 2 for i in range(16)]  # Dùng chính xác 160 instance
     proxy_pool = ProxyPool()
 
-    if not proxy_pool.redis.exists("tor:proxy_list"):
+    # if not proxy_pool.redis.exists("tor:proxy_list"):
+    #     proxy_pool.init_proxies(proxy_ports)
+    #     logger.info(f"[INIT] ✅ Đã khởi tạo {len(proxy_ports)} proxy Tor vào Redis.")
+    # else:
+    #     logger.info("[INIT] ♻️ Proxy list đã tồn tại trong Redis.")
+
+    existing_count = proxy_pool.redis.llen("tor:proxy_list")
+
+    if existing_count != len(proxy_ports):
+        proxy_pool.redis.delete("tor:proxy_list")
         proxy_pool.init_proxies(proxy_ports)
-        logger.info(f"[INIT] ✅ Đã khởi tạo {len(proxy_ports)} proxy Tor vào Redis.")
+        logger.info(f"[INIT] 🔁 Proxy list reset: {len(proxy_ports)} proxies loaded.")
     else:
-        logger.info("[INIT] ♻️ Proxy list đã tồn tại trong Redis.")
+        logger.info(f"[INIT] ♻️ Proxy list đã tồn tại với {existing_count} proxies.")
     
     loop = asyncio.get_running_loop()
     task = asyncio.create_task(batcher.start(loop))
@@ -69,19 +78,50 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
         logger.info(f"[REQUESTS] Đang dùng proxy: {proxy}")
 
         resp = search(query, 5, proxy=proxy, endpoint=endpoint)
-        if not resp or not hasattr(resp, "text"):
-            logger.error("Phản hồi từ hàm search không hợp lệ")
-            return {"error": "Phản hồi từ hàm search không hợp lệ", "method": method}
+
+        if resp is None:
+            logger.error("❌ Không nhận được phản hồi từ hàm `search` (resp is None).")
+            logger.error(f"[{endpoint}] Phản hồi không hợp lệ với query: '{query}'")
+            return {
+                "error": "Không nhận được phản hồi từ công cụ tìm kiếm. Vui lòng kiểm tra kết nối mạng hoặc proxy.",
+                "method": method
+            }
+
+        if not hasattr(resp, "text"):
+            logger.error(f"❌ Phản hồi không chứa thuộc tính `text`: Kiểu dữ liệu nhận được: {type(resp)}")
+            logger.error(f"[{endpoint}] Phản hồi không hợp lệ với query: '{query}'")
+            return {
+                "error": f"Phản hồi không hợp lệ từ công cụ tìm kiếm ({type(resp)}).",
+                "method": method
+            }
+
+        if hasattr(resp, "status_code") and resp.status_code != 200:
+            logger.error(f"⚠️ HTTP status code trả về là {resp.status_code}")
+            logger.error(f"[{endpoint}] Phản hồi không hợp lệ với query: '{query}'")
+            return {
+                "error": f"Phản hồi HTTP không thành công. Mã lỗi: {resp.status_code}",
+                "method": method
+            }
+        
+        # logger.info(f"resp.text {resp.text}...")  # Log first 200 characters of the response text
+
         soup = BeautifulSoup(resp.text, "html.parser")
+        # logger.info(f"soup: {soup}")
         if not soup:
             logger.error("Không thể phân tích cú pháp HTML")
             
         if endpoint == "mullvad leta":
             result_block = soup.find_all("article", class_='svelte-fmlk7p') 
-        elif endpoint == "gprivate":
-            result_block = soup.find_all("div", class_='gsc-webResult gsc-result') 
-        elif endpoint == "tiekoetter":
-            result_block = soup.find_all("div", class_='gsc-webResult gsc-result') 
+        elif endpoint == "aol":
+            # result_block = soup.find_all("div", class_='dd algo algo-sr') 
+            # Chọn cả có và không có `fst`
+            result_block = soup.select("div.dd.algo.algo-sr.Sr, div.dd.algo.algo-sr.fst.Sr")
+
+        elif endpoint == "duckduckgo":
+            parent = soup.find("body")
+            result_block = parent.select("table:nth-of-type("+str(3)+")")
+            logger.info(f"result_block: {result_block}")
+
         elif endpoint == "yahoo":
             result_block = soup.find_all("div", class_="dd algo algo-sr relsrch Sr")
 
@@ -214,11 +254,17 @@ async def query_result(req: Request):
     # domain="google"
     # print("Query:", query)
     # result = await search_response(query, method="fingerprint", domain = domain)
-    rand = random.randint(1,2)
+    rand = random.randint(1,4)
     if rand==1:
-        endpoint = "yahoo"
-    else:
         endpoint = "mullvad leta"
+    elif rand==2:
+        endpoint = "yahoo"
+    elif rand==3:
+        endpoint = "aol"
+    elif rand==4:
+        endpoint = "duckduckgo"
+
+    endpoint = "duckduckgo"
 
     logger.info(f"Chạy tìm kiếm với endpoint: {endpoint}")
     try:

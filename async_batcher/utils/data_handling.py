@@ -42,12 +42,14 @@ async def process_result(result, method="requests", endpoint="luxirty"):
             if endpoint == "mullvad leta":
                 title = result.find("h3", class_="svelte-fmlk7p") 
                 
-            elif endpoint == "gprivate":
-                title = result.findAll('a', id=lambda x: x and x.startswith('linktitle')) 
+            elif endpoint == "aol":
+                title = result.find('a', class_="ac-algo fz-l ac-21th lh-24") 
 
             elif endpoint == "yahoo":
                 title = result.find("h3", class_="title fc-2015C2-imp pt-6 ivmt-6 mxw-100p")
 
+            elif endpoint == "duckduckgo":
+                title = result.find("a", class_="result-link")
 
             # title = result.find("span", class_="CVA68e qXLe6d fuLhoc ZWRArf")
 
@@ -61,10 +63,13 @@ async def process_result(result, method="requests", endpoint="luxirty"):
 
             if endpoint == "mullvad leta":
                 summary = result.find("p", class_="result__body") 
-            elif endpoint == "gprivate":       
-                summary = result.find("div", class_="gs-bidi-start-align gs-snippet") 
+            elif endpoint == "aol":       
+                summary = result.find("p", class_="lh-16") 
             elif endpoint == "yahoo":
                 summary = result.find("p", class_="fc-dustygray fz-14 lh-22 ls-02 mah-44 ov-h d-box fbox-ov fbox-lc2")
+            elif endpoint == "duckduckgo":
+
+                summary = result.find("td", class_="result-snippet")
        
             summary_text = summary.get_text(strip=True) if summary else "Không có tóm tắt"
 

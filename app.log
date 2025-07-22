@@ -1,1115 +1,515 @@
-2025-07-18 10:30:15,099 - WARNING - Không thể xác định IP mới từ proxy_port 9066
-2025-07-18 10:30:16,147 - INFO - Browser initialized successfully
-2025-07-18 10:30:16,148 - INFO - Port được cấp phát: 9064
-2025-07-18 10:30:16,148 - WARNING - rotate_ip được gọi khi current_control_port là None. Có thể gây lỗi.
-2025-07-18 10:30:17,516 - INFO - [INIT] ♻️ Proxy list đã tồn tại trong Redis.
-2025-07-18 10:30:17,516 - INFO - Setting the event loop.
-2025-07-18 10:31:08,051 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,051 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,051 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,052 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,052 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,052 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,052 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,053 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,053 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,053 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:31:08,053 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,053 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:08,054 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,054 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,054 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,054 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,054 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:31:08,054 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,055 - INFO - endpoint: yahoo
-2025-07-18 10:31:08,055 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:31:08,055 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,055 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:08,055 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:31:08,055 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,055 - INFO - endpoint: yahoo
-2025-07-18 10:31:08,055 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,055 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,056 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,056 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,056 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,056 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:31:08,057 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:08,057 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:31:08,057 - INFO - endpoint: yahoo
-2025-07-18 10:31:08,057 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:31:08,057 - INFO - endpoint: yahoo
-2025-07-18 10:31:08,057 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,057 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:31:08,058 - INFO - endpoint: yahoo
-2025-07-18 10:31:08,058 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:31:08,058 - INFO - endpoint: yahoo
-2025-07-18 10:31:08,058 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:31:08,058 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:31:08,058 - INFO - endpoint: yahoo
-2025-07-18 10:31:08,058 - INFO - endpoint: yahoo
-2025-07-18 10:31:08,058 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:31:08,059 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:31:08,059 - INFO - endpoint: yahoo
-2025-07-18 10:31:08,059 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:31:08,059 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:08,059 - INFO - endpoint: yahoo
-2025-07-18 10:31:08,059 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:31:08,059 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:31:08,059 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:31:08,059 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:08,059 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:08,059 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:08,060 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,060 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:08,060 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:31:08,060 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,061 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:08,061 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:08,063 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:31:08,063 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:31:08,063 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:08,063 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:10,504 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:10,506 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:31:10,506 - INFO - endpoint: yahoo
-2025-07-18 10:31:11,710 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:11,711 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:11,712 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:31:11,712 - INFO - endpoint: yahoo
-2025-07-18 10:31:12,308 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:12,308 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:12,308 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:12,310 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:31:12,310 - INFO - endpoint: yahoo
-2025-07-18 10:31:12,313 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:12,314 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:12,314 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:12,316 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:31:12,316 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:12,374 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:12,559 - INFO - Processing 4 results using method: requests
-2025-07-18 10:31:12,662 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:13,069 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='search.yahoo.com', port=443): Max retries exceeded with url: /search?q=%C4%91%E1%BA%A1i+h%E1%BB%8Dc+s%C6%B0+ph%E1%BA%A1m+tphcm (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7fe3fe3b6c00>, 'Connection to search.yahoo.com timed out. (connect timeout=5)'))
-2025-07-18 10:31:13,069 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:13,069 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:13,069 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:13,070 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:13,071 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:31:13,071 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:13,172 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:13,173 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:31:13,173 - INFO - endpoint: yahoo
-2025-07-18 10:31:13,217 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:13,301 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:13,377 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:13,378 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:31:13,378 - INFO - endpoint: yahoo
-2025-07-18 10:31:13,562 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:13,563 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:31:13,563 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:13,665 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:13,666 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:31:13,666 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:13,710 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:13,712 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:31:13,712 - INFO - endpoint: yahoo
-2025-07-18 10:31:13,907 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:13,908 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:13,910 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:31:13,910 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:14,127 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:14,204 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:14,220 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:14,221 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:31:14,221 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:14,305 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:14,306 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:31:14,307 - INFO - endpoint: yahoo
-2025-07-18 10:31:14,328 - INFO - Processing 1 results using method: requests
-2025-07-18 10:31:14,329 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:14,330 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:31:14,330 - INFO - endpoint: yahoo
-2025-07-18 10:31:14,460 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:14,461 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:14,461 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:14,462 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:31:14,462 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:14,920 - INFO - Processing 3 results using method: requests
-2025-07-18 10:31:15,130 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:15,131 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:31:15,131 - INFO - endpoint: yahoo
-2025-07-18 10:31:15,206 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:15,207 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:31:15,207 - INFO - endpoint: yahoo
-2025-07-18 10:31:15,923 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:15,923 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:15,924 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:31:15,924 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:16,045 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:16,045 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:16,047 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:31:16,047 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:17,008 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:17,199 - INFO - Processing 7 results using method: requests
-2025-07-18 10:31:17,200 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:17,201 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:31:17,201 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:17,549 - INFO - Processing 7 results using method: requests
-2025-07-18 10:31:17,551 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:31:17,551 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:17,811 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:17,812 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:31:17,812 - INFO - endpoint: yahoo
-2025-07-18 10:31:18,010 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:18,010 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:31:18,011 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:18,116 - INFO - Processing 3 results using method: requests
-2025-07-18 10:31:18,183 - INFO - Processing 3 results using method: requests
-2025-07-18 10:31:18,192 - INFO - Processing 16 results using method: requests
-2025-07-18 10:31:18,193 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:31:18,194 - INFO - endpoint: yahoo
-2025-07-18 10:31:18,199 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:18,365 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:18,385 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='search.yahoo.com', port=443): Max retries exceeded with url: /search?q=chung+k%E1%BA%BFt+ph%C3%A1o+hoa+%C4%91%C3%A0+n%E1%BA%B5ng+2025 (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f6173b99640>, 'Connection to search.yahoo.com timed out. (connect timeout=5)'))
-2025-07-18 10:31:18,385 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:18,443 - INFO - Processing 1 results using method: requests
-2025-07-18 10:31:18,444 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:31:18,444 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:18,651 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:18,652 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:31:18,652 - INFO - endpoint: yahoo
-2025-07-18 10:31:18,785 - INFO - Processing 11 results using method: requests
-2025-07-18 10:31:19,118 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:19,119 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:31:19,119 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:19,186 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:19,186 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:19,187 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:31:19,187 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:19,201 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:19,202 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:31:19,202 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:19,214 - INFO - Processing 5 results using method: requests
-2025-07-18 10:31:19,215 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:19,216 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:31:19,217 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:16,596 - INFO - Processing 1 results using method: requests
-2025-07-18 10:31:16,640 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:16,641 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:31:16,641 - INFO - endpoint: yahoo
-2025-07-18 10:31:16,660 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:16,661 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:31:16,662 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:16,819 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:17,061 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:17,062 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:31:17,062 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:17,598 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:17,599 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:31:17,599 - INFO - endpoint: yahoo
-2025-07-18 10:31:17,821 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:17,822 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:31:17,822 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:17,864 - ERROR - Lỗi khi gửi request: 500 Server Error: INKApi Error for url: https://search.yahoo.com/search?q=forexfactory
-2025-07-18 10:31:17,864 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:17,865 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:31:17,865 - INFO - endpoint: yahoo
-2025-07-18 10:31:18,433 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:18,434 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:18,436 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:31:18,436 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:18,559 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:18,559 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:18,561 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:31:18,561 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:18,589 - INFO - Processing 3 results using method: requests
-2025-07-18 10:31:18,590 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:18,592 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:31:18,592 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:18,665 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:18,667 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:31:18,667 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:18,710 - INFO - Processing 11 results using method: requests
-2025-07-18 10:31:18,711 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:18,712 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:31:18,712 - INFO - endpoint: yahoo
-2025-07-18 10:31:18,761 - INFO - Processing 18 results using method: requests
-2025-07-18 10:31:18,762 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:18,947 - INFO - Processing 16 results using method: requests
-2025-07-18 10:31:18,955 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:18,956 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:18,957 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:31:18,957 - INFO - endpoint: yahoo
-2025-07-18 10:31:19,059 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:19,059 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:19,060 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:31:19,060 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:19,496 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:19,763 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:19,764 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:31:19,764 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:19,764 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:19,764 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:19,765 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:31:19,765 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:19,949 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:19,950 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:31:19,950 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:20,022 - INFO - Processing 16 results using method: requests
-2025-07-18 10:31:20,439 - INFO - Processing 4 results using method: requests
-2025-07-18 10:31:20,441 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:31:20,441 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:20,484 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:20,498 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:20,498 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:20,499 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:31:20,499 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:21,024 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:21,025 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:31:21,025 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:21,399 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Max retries exceeded with url: /search?q=los+angeles+fc (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f448279c380>, 'Connection to leta.mullvad.net timed out. (connect timeout=5)'))
-2025-07-18 10:31:21,399 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:21,486 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:21,487 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:31:21,487 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:21,512 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:21,513 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:31:21,513 - INFO - endpoint: yahoo
-2025-07-18 10:31:21,690 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:21,773 - INFO - Processing 5 results using method: requests
-2025-07-18 10:31:21,774 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:31:21,774 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:21,884 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:21,885 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:21,886 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:31:21,886 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:22,217 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:22,217 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:22,217 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:22,219 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:31:22,220 - INFO - endpoint: yahoo
-2025-07-18 10:31:22,401 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:22,402 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:31:22,402 - INFO - endpoint: yahoo
-2025-07-18 10:31:22,571 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:22,571 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:22,572 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:31:22,573 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:22,692 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:22,693 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:31:22,693 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:22,717 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:22,717 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:22,719 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:31:22,719 - INFO - endpoint: yahoo
-2025-07-18 10:31:22,893 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:23,294 - INFO - Processing 1 results using method: requests
-2025-07-18 10:31:23,301 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:23,301 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:23,303 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:31:23,303 - INFO - endpoint: yahoo
-2025-07-18 10:31:23,594 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:23,667 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:23,670 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:31:23,670 - INFO - endpoint: yahoo
-2025-07-18 10:31:23,827 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:23,827 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:23,829 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:31:23,829 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:23,877 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:23,878 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:23,878 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:23,880 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:31:23,880 - INFO - endpoint: yahoo
-2025-07-18 10:31:23,896 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:23,897 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:31:23,897 - INFO - endpoint: yahoo
-2025-07-18 10:31:23,960 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:24,262 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:24,296 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:24,297 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:31:24,297 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:24,596 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:24,597 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:31:24,598 - INFO - endpoint: yahoo
-2025-07-18 10:31:24,610 - ERROR - Lỗi khi gửi request: 500 Server Error: INKApi Error for url: https://search.yahoo.com/search?q=fpt+play
-2025-07-18 10:31:24,610 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:24,611 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:24,612 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:31:24,612 - INFO - endpoint: yahoo
-2025-07-18 10:31:24,738 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:24,739 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:24,741 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:31:24,741 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:24,951 - INFO - Processing 18 results using method: requests
-2025-07-18 10:31:24,952 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:24,953 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:31:24,954 - INFO - endpoint: yahoo
-2025-07-18 10:31:24,962 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:24,964 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:31:24,964 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:25,180 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:25,182 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:31:25,182 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:25,264 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:25,265 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:31:25,265 - INFO - endpoint: yahoo
-2025-07-18 10:31:25,427 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:25,448 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Max retries exceeded with url: /search?q=%C4%91%E1%BA%A1i+h%E1%BB%8Dc+s%C6%B0+ph%E1%BA%A1m+h%C3%A0+n%E1%BB%99i (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f6f8144d760>, 'Connection to leta.mullvad.net timed out. (connect timeout=5)'))
-2025-07-18 10:31:25,448 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:25,448 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:25,450 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:31:25,450 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:25,904 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:25,905 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:25,906 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:31:25,906 - INFO - endpoint: yahoo
-2025-07-18 10:31:26,190 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:26,191 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:31:26,191 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:26,197 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:26,429 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:26,431 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:31:26,431 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:27,200 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:27,201 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:31:27,201 - INFO - endpoint: yahoo
-2025-07-18 10:31:27,259 - INFO - Processing 3 results using method: requests
-2025-07-18 10:31:27,260 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:27,262 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:31:27,262 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:27,456 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:27,457 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:31:27,457 - INFO - endpoint: yahoo
-2025-07-18 10:31:27,553 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:27,554 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:27,555 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:31:27,555 - INFO - endpoint: yahoo
-2025-07-18 10:31:27,619 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:27,896 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:27,896 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:27,898 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:31:27,898 - INFO - endpoint: yahoo
-2025-07-18 10:31:27,907 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:28,392 - INFO - Processing 3 results using method: requests
-2025-07-18 10:31:28,392 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:28,394 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:31:28,394 - INFO - endpoint: yahoo
-2025-07-18 10:31:28,443 - INFO - Processing 18 results using method: requests
-2025-07-18 10:31:28,622 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:28,623 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:31:28,623 - INFO - endpoint: yahoo
-2025-07-18 10:31:28,873 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:28,874 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:28,874 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:28,874 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:28,875 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:31:28,875 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:28,909 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:28,910 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:31:28,910 - INFO - endpoint: yahoo
-2025-07-18 10:31:29,124 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:29,125 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:29,127 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:31:29,127 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:29,411 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:29,446 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:29,446 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:29,447 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:31:29,447 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:29,558 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:29,558 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:29,560 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:31:29,560 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:29,686 - INFO - Processing 5 results using method: requests
-2025-07-18 10:31:29,686 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:29,687 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:31:29,687 - INFO - endpoint: yahoo
-2025-07-18 10:31:29,749 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Max retries exceeded with url: /search?q=bongda (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7fe3fe2e4dd0>, 'Connection to leta.mullvad.net timed out. (connect timeout=5)'))
-2025-07-18 10:31:29,749 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:29,750 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:31:29,750 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:29,900 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:30,148 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:30,149 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:30,150 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:31:30,150 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:30,416 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:30,418 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:31:30,418 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:30,500 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:30,500 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:30,502 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:31:30,502 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:30,904 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:30,906 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:31:30,906 - INFO - endpoint: yahoo
-2025-07-18 10:31:30,981 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:31,092 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:31,094 - ERROR - Lỗi khi gửi request: 500 Server Error: INKApi Error for url: https://search.yahoo.com/search?q=tun+ph%E1%BA%A1m
-2025-07-18 10:31:31,094 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:31,566 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:31,984 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:31,986 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:31:31,986 - INFO - endpoint: yahoo
-2025-07-18 10:31:32,073 - INFO - Processing 5 results using method: requests
-2025-07-18 10:31:32,094 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:32,095 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:31:32,096 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:32,096 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:32,097 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:31:32,097 - INFO - endpoint: yahoo
-2025-07-18 10:31:32,125 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:32,125 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:32,128 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:31:32,128 - INFO - endpoint: yahoo
-2025-07-18 10:31:32,512 - INFO - Processing 16 results using method: requests
-2025-07-18 10:31:32,514 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:31:32,514 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:32,569 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:32,570 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:31:32,570 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:32,800 - ERROR - Không tìm thấy kết quả trong HTML
-2025-07-18 10:31:32,800 - INFO - Processing 0 results using method: requests
-2025-07-18 10:31:32,802 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:31:32,802 - INFO - endpoint: yahoo
-2025-07-18 10:31:32,842 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:33,051 - INFO - Processing 4 results using method: requests
-2025-07-18 10:31:33,052 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:33,054 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:31:33,054 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:33,075 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:33,076 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:31:33,076 - INFO - endpoint: yahoo
-2025-07-18 10:31:33,278 - INFO - Processing 3 results using method: requests
-2025-07-18 10:31:33,278 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:33,280 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:31:33,280 - INFO - endpoint: yahoo
-2025-07-18 10:31:33,326 - INFO - Processing 18 results using method: requests
-2025-07-18 10:31:33,327 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:33,327 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:33,328 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:31:33,328 - INFO - endpoint: yahoo
-2025-07-18 10:31:33,656 - INFO - Processing 1 results using method: requests
-2025-07-18 10:31:33,657 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:33,659 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:31:33,659 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:33,847 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:33,847 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:31:33,848 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:34,499 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:34,500 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:34,502 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:31:34,502 - INFO - endpoint: yahoo
-2025-07-18 10:31:34,591 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Max retries exceeded with url: /search?q=gi%C3%A1+x%C4%83ng+d%E1%BA%A7u+h%C3%B4m (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7ff188e2f0e0>, 'Connection to leta.mullvad.net timed out. (connect timeout=5)'))
-2025-07-18 10:31:34,591 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:34,592 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:34,593 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:31:34,593 - INFO - endpoint: yahoo
-2025-07-18 10:31:34,847 - INFO - Processing 3 results using method: requests
-2025-07-18 10:31:35,006 - ERROR - Lỗi khi gửi request: 500 Server Error: INKApi Error for url: https://search.yahoo.com/search?q=sxmn
-2025-07-18 10:31:35,006 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:35,008 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:31:35,008 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:35,173 - INFO - Processing 11 results using method: requests
-2025-07-18 10:31:35,585 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:35,849 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:35,851 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:31:35,851 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:35,901 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:36,150 - INFO - Processing 5 results using method: requests
-2025-07-18 10:31:36,150 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:36,153 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:31:36,153 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:36,176 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:36,178 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:31:36,178 - INFO - endpoint: yahoo
-2025-07-18 10:31:36,480 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:36,480 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:36,481 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:36,482 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:36,482 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:36,484 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:31:36,484 - INFO - endpoint: yahoo
-2025-07-18 10:31:36,517 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:36,589 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:36,590 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:31:36,590 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:36,772 - INFO - Processing 18 results using method: requests
-2025-07-18 10:31:36,796 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:36,797 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:31:36,797 - INFO - endpoint: yahoo
-2025-07-18 10:31:36,904 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:36,906 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:31:36,906 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:37,061 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:37,365 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:37,480 - INFO - Processing 5 results using method: requests
-2025-07-18 10:31:37,480 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:37,481 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:37,482 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:31:37,482 - INFO - endpoint: yahoo
-2025-07-18 10:31:37,482 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:37,483 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:37,484 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:31:37,485 - INFO - endpoint: yahoo
-2025-07-18 10:31:37,495 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:37,496 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:37,497 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:31:37,497 - INFO - endpoint: yahoo
-2025-07-18 10:31:37,519 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:37,520 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:31:37,520 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:37,774 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:37,775 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:31:37,775 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:37,893 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:37,894 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:37,896 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:31:37,896 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:38,067 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:38,068 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:31:38,068 - INFO - endpoint: yahoo
-2025-07-18 10:31:38,315 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:38,315 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:38,318 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:31:38,318 - INFO - endpoint: yahoo
-2025-07-18 10:31:38,367 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:38,368 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:31:38,368 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:38,818 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:38,819 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:38,820 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:31:38,820 - INFO - endpoint: yahoo
-2025-07-18 10:31:39,132 - ERROR - Lỗi khi gửi request: 500 Server Error: INKApi Error for url: https://search.yahoo.com/search?q=bao+bong+da
-2025-07-18 10:31:39,132 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:39,133 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:31:39,133 - INFO - endpoint: yahoo
-2025-07-18 10:31:39,500 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:31:39,500 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:39,500 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:39,501 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:31:39,501 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:39,509 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='search.yahoo.com', port=443): Max retries exceeded with url: /search?q=xsmb+30 (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f611c7d5910>, 'Connection to search.yahoo.com timed out. (connect timeout=5)'))
-2025-07-18 10:31:39,509 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:39,509 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:39,511 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:31:39,511 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:39,965 - ERROR - Lỗi khi gửi request: 500 Server Error: INKApi Error for url: https://search.yahoo.com/search?q=t1+vs+geng
-2025-07-18 10:31:39,965 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:39,965 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:39,966 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:31:39,966 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:39,970 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:40,519 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:31:40,519 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:40,519 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:40,521 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:31:40,521 - INFO - endpoint: yahoo
-2025-07-18 10:31:40,843 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:40,852 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:40,972 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:40,973 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:31:40,973 - INFO - endpoint: yahoo
-2025-07-18 10:31:41,142 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:41,143 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:41,144 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:31:41,144 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:41,300 - INFO - Processing 4 results using method: requests
-2025-07-18 10:31:41,480 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:41,482 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:41,483 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:31:41,483 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:41,517 - INFO - Processing 4 results using method: requests
-2025-07-18 10:31:41,518 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:41,520 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:31:41,521 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:41,642 - INFO - Processing 4 results using method: requests
-2025-07-18 10:31:41,643 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:31:41,643 - INFO - endpoint: yahoo
-2025-07-18 10:31:41,789 - INFO - Processing 1 results using method: requests
-2025-07-18 10:31:41,790 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:41,791 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:31:41,791 - INFO - endpoint: yahoo
-2025-07-18 10:31:41,847 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:41,848 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:31:41,849 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:41,855 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:41,856 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:31:41,856 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:42,225 - INFO - Processing 1 results using method: requests
-2025-07-18 10:31:42,225 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:42,226 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:31:42,227 - INFO - endpoint: yahoo
-2025-07-18 10:31:42,305 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:42,306 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:31:42,306 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:42,367 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:42,724 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:43,333 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:43,370 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:43,371 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:31:43,371 - INFO - endpoint: yahoo
-2025-07-18 10:31:43,657 - INFO - Processing 4 results using method: requests
-2025-07-18 10:31:43,657 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:43,659 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:31:43,659 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:43,727 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:43,728 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:31:43,728 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:43,748 - INFO - Processing 16 results using method: requests
-2025-07-18 10:31:43,749 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:43,751 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:31:43,751 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:43,986 - INFO - Processing 17 results using method: requests
-2025-07-18 10:31:43,987 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:43,988 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:31:43,988 - INFO - endpoint: yahoo
-2025-07-18 10:31:44,143 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='search.yahoo.com', port=443): Max retries exceeded with url: /search?q=tri%E1%BB%87u+vy (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f42b03af1a0>, 'Connection to search.yahoo.com timed out. (connect timeout=5)'))
-2025-07-18 10:31:44,143 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:44,144 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:44,145 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:31:44,145 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:44,335 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:44,336 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:31:44,336 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:44,721 - INFO - Processing 11 results using method: requests
-2025-07-18 10:31:44,734 - INFO - Processing 15 results using method: requests
-2025-07-18 10:31:44,735 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:44,737 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:31:44,737 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:45,033 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:31:45,033 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:45,033 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:45,034 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:31:45,034 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:45,187 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:45,188 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:31:45,188 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:45,375 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:31:45,375 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:45,627 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:31:45,628 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:45,628 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:45,629 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:31:45,629 - INFO - endpoint: yahoo
-2025-07-18 10:31:45,702 - INFO - Processing 17 results using method: requests
-2025-07-18 10:31:45,724 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:45,725 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:31:45,725 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:45,839 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:45,840 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:45,840 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:45,840 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:45,841 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:31:45,841 - INFO - endpoint: yahoo
-2025-07-18 10:31:46,293 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:46,378 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:46,379 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:31:46,379 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:46,569 - INFO - Processing 17 results using method: requests
-2025-07-18 10:31:46,706 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:46,707 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:31:46,707 - INFO - endpoint: yahoo
-2025-07-18 10:31:46,711 - INFO - Processing 3 results using method: requests
-2025-07-18 10:31:46,712 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:46,714 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:31:46,714 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:47,007 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:47,008 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:47,010 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:31:47,010 - INFO - endpoint: yahoo
-2025-07-18 10:31:47,245 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:47,246 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:47,248 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:31:47,248 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:47,297 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:47,298 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:31:47,298 - INFO - endpoint: yahoo
-2025-07-18 10:31:47,572 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:47,572 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:31:47,573 - INFO - endpoint: yahoo
-2025-07-18 10:31:47,870 - INFO - Processing 7 results using method: requests
-2025-07-18 10:31:48,445 - ERROR - Lỗi khi gửi request: 500 Server Error: INKApi Error for url: https://search.yahoo.com/search?q=sydney+sweeney
-2025-07-18 10:31:48,445 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:48,446 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:48,447 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:31:48,447 - INFO - endpoint: yahoo
-2025-07-18 10:31:48,725 - INFO - Processing 13 results using method: requests
-2025-07-18 10:31:48,771 - INFO - Processing 5 results using method: requests
-2025-07-18 10:31:48,772 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:48,774 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:31:48,774 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:48,856 - INFO - Processing 4 results using method: requests
-2025-07-18 10:31:48,856 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:48,858 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:48,860 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:31:48,860 - INFO - endpoint: yahoo
-2025-07-18 10:31:48,873 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:48,874 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:31:48,874 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:47,524 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:47,539 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Max retries exceeded with url: /search?q=pedro+neto (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f42b0334980>, 'Connection to leta.mullvad.net timed out. (connect timeout=5)'))
-2025-07-18 10:31:47,539 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:47,540 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:47,540 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:47,541 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:31:47,541 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:47,569 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:47,787 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:47,933 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:31:47,933 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:47,934 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:47,935 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:31:47,935 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:48,114 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:48,116 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:31:48,116 - INFO - endpoint: yahoo
-2025-07-18 10:31:48,527 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:48,528 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:31:48,528 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:48,565 - INFO - Processing 5 results using method: requests
-2025-07-18 10:31:48,572 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:48,573 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:31:48,573 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:48,664 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:31:48,664 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:48,664 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:48,666 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:31:48,666 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:48,789 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:48,790 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:31:48,790 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:49,018 - INFO - Processing 19 results using method: requests
-2025-07-18 10:31:49,018 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:49,020 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:31:49,020 - INFO - endpoint: yahoo
-2025-07-18 10:31:49,046 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:49,047 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:49,049 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:31:49,049 - INFO - endpoint: yahoo
-2025-07-18 10:31:49,198 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:49,199 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:31:49,199 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:49,300 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:31:49,300 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:49,301 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:49,302 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:31:49,302 - INFO - endpoint: yahoo
-2025-07-18 10:31:49,537 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:49,538 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:31:49,538 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:49,567 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:49,568 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:31:49,568 - INFO - endpoint: yahoo
-2025-07-18 10:31:49,779 - INFO - Processing 3 results using method: requests
-2025-07-18 10:31:49,780 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:49,782 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:31:49,782 - INFO - endpoint: yahoo
-2025-07-18 10:31:50,197 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:50,832 - INFO - Processing 5 results using method: requests
-2025-07-18 10:31:50,832 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:50,834 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:31:50,834 - INFO - endpoint: yahoo
-2025-07-18 10:31:50,837 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:50,838 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:50,839 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:31:50,839 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:51,187 - ERROR - Lỗi khi gửi request: 500 Server Error: INKApi Error for url: https://search.yahoo.com/search?q=bybit
-2025-07-18 10:31:51,187 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:51,199 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:51,200 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:31:51,200 - INFO - endpoint: yahoo
-2025-07-18 10:31:51,229 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:51,399 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:51,400 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:31:51,400 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:51,549 - INFO - Processing 18 results using method: requests
-2025-07-18 10:31:51,550 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:31:51,550 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:52,121 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:52,190 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:52,191 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:31:52,191 - INFO - endpoint: yahoo
-2025-07-18 10:31:52,232 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:52,233 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:31:52,233 - INFO - endpoint: yahoo
-2025-07-18 10:31:52,632 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:52,943 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Max retries exceeded with url: /search?q=f88 (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f6ba3dbaa80>, 'Connection to leta.mullvad.net timed out. (connect timeout=5)'))
-2025-07-18 10:31:52,943 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:52,943 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:52,944 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:31:52,944 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:52,965 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:52,966 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:31:52,966 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:52,969 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:31:52,969 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:53,057 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:53,058 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:53,058 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:53,060 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:31:53,060 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:53,123 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:53,125 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:31:53,125 - INFO - endpoint: yahoo
-2025-07-18 10:31:53,287 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:53,288 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:53,289 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:31:53,289 - INFO - endpoint: yahoo
-2025-07-18 10:31:53,583 - ERROR - Không tìm thấy kết quả trong HTML
-2025-07-18 10:31:53,583 - INFO - Processing 0 results using method: requests
-2025-07-18 10:31:53,584 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:53,585 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:31:53,585 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:53,634 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:53,635 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:31:53,635 - INFO - endpoint: yahoo
-2025-07-18 10:31:53,802 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:53,802 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:53,803 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:31:53,803 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:53,926 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:53,927 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:53,928 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:31:53,928 - INFO - endpoint: yahoo
-2025-07-18 10:31:53,971 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:53,972 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:31:53,972 - INFO - endpoint: yahoo
-2025-07-18 10:31:54,201 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:31:54,201 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:54,414 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:31:54,414 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:54,854 - INFO - Processing 15 results using method: requests
-2025-07-18 10:31:54,855 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:54,856 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:31:54,856 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:54,871 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:54,872 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:54,873 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:31:54,873 - INFO - endpoint: yahoo
-2025-07-18 10:31:54,964 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:54,965 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:54,966 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:31:54,966 - INFO - endpoint: yahoo
-2025-07-18 10:31:55,203 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:55,204 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:31:55,204 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:55,415 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:55,417 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:31:55,417 - INFO - endpoint: yahoo
-2025-07-18 10:31:56,013 - INFO - Processing 7 results using method: requests
-2025-07-18 10:31:56,717 - INFO - Processing 18 results using method: requests
-2025-07-18 10:31:56,717 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:56,719 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:31:56,719 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:57,016 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:57,017 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:31:57,017 - INFO - endpoint: yahoo
-2025-07-18 10:31:57,172 - INFO - Processing 7 results using method: requests
-2025-07-18 10:31:57,279 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:57,280 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:57,282 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:31:57,283 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:57,310 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:57,311 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:57,312 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:31:57,313 - INFO - endpoint: yahoo
-2025-07-18 10:31:57,432 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:57,432 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:57,435 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:31:57,435 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:57,550 - INFO - Processing 5 results using method: requests
-2025-07-18 10:31:57,785 - INFO - Processing 4 results using method: requests
-2025-07-18 10:31:57,912 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:57,913 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:57,913 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:57,915 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:31:57,916 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:57,946 - INFO - Processing 3 results using method: requests
-2025-07-18 10:31:57,951 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Max retries exceeded with url: /search?q=xsnt (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f6ba3dd4f50>, 'Connection to leta.mullvad.net timed out. (connect timeout=5)'))
-2025-07-18 10:31:57,951 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:57,951 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:57,953 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:31:57,953 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:58,176 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:58,177 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:31:58,178 - INFO - endpoint: yahoo
-2025-07-18 10:31:58,553 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:58,554 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:31:58,554 - INFO - endpoint: yahoo
-2025-07-18 10:31:58,593 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:31:58,593 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:58,594 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:31:58,594 - INFO - endpoint: yahoo
-2025-07-18 10:31:58,619 - INFO - Processing 8 results using method: requests
-2025-07-18 10:31:58,789 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:58,790 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:31:58,790 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:58,935 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='search.yahoo.com', port=443): Max retries exceeded with url: /search?q=%C4%91%E1%BA%A1i+h%E1%BB%8Dc+h%C3%A0+n%E1%BB%99i (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7ff23b5d27b0>, 'Connection to search.yahoo.com timed out. (connect timeout=5)'))
-2025-07-18 10:31:58,935 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:31:58,936 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:58,937 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:31:58,937 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:58,949 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:58,950 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:31:58,951 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:59,114 - INFO - Processing 2 results using method: requests
-2025-07-18 10:31:59,115 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:31:59,117 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:31:59,117 - INFO - endpoint: mullvad leta
-2025-07-18 10:31:59,565 - INFO - Processing 20 results using method: requests
-2025-07-18 10:31:59,566 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:59,567 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:31:59,568 - INFO - endpoint: yahoo
-2025-07-18 10:31:59,621 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:31:59,622 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:31:59,622 - INFO - endpoint: yahoo
-2025-07-18 10:32:00,105 - INFO - Processing 2 results using method: requests
-2025-07-18 10:32:00,105 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:00,107 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:32:00,107 - INFO - endpoint: yahoo
-2025-07-18 10:32:00,282 - INFO - Processing 7 results using method: requests
-2025-07-18 10:32:00,304 - INFO - Processing 1 results using method: requests
-2025-07-18 10:32:00,532 - INFO - Processing 3 results using method: requests
-2025-07-18 10:32:00,533 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:32:00,535 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:32:00,535 - INFO - endpoint: mullvad leta
-2025-07-18 10:32:01,284 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:32:01,286 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:32:01,286 - INFO - endpoint: mullvad leta
-2025-07-18 10:32:01,306 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:01,307 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:32:01,307 - INFO - endpoint: yahoo
-2025-07-18 10:32:01,384 - INFO - Processing 8 results using method: requests
-2025-07-18 10:32:01,515 - INFO - Processing 8 results using method: requests
-2025-07-18 10:32:01,516 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:01,518 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:32:01,518 - INFO - endpoint: yahoo
-2025-07-18 10:32:01,906 - INFO - Processing 20 results using method: requests
-2025-07-18 10:32:01,907 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:32:01,907 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:01,908 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:01,909 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:32:01,909 - INFO - endpoint: mullvad leta
-2025-07-18 10:32:01,933 - INFO - Processing 8 results using method: requests
-2025-07-18 10:32:02,138 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:32:02,141 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:02,142 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:32:02,142 - INFO - endpoint: yahoo
-2025-07-18 10:32:02,387 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:02,388 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:32:02,388 - INFO - endpoint: yahoo
-2025-07-18 10:32:02,608 - INFO - Processing 18 results using method: requests
-2025-07-18 10:32:02,683 - INFO - Processing 20 results using method: requests
-2025-07-18 10:32:02,683 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:32:02,685 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:32:02,685 - INFO - endpoint: mullvad leta
-2025-07-18 10:32:02,922 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Max retries exceeded with url: /search?q=flashscore (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7fde5c9ee3c0>, 'Connection to leta.mullvad.net timed out. (connect timeout=5)'))
-2025-07-18 10:32:02,923 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:32:02,924 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:32:02,924 - INFO - endpoint: yahoo
-2025-07-18 10:32:02,936 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:32:02,938 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-18 10:32:02,938 - INFO - endpoint: mullvad leta
-2025-07-18 10:32:02,979 - INFO - Processing 20 results using method: requests
-2025-07-18 10:32:02,980 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:02,982 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-18 10:32:02,982 - INFO - endpoint: yahoo
-2025-07-18 10:32:03,078 - INFO - Processing 5 results using method: requests
-2025-07-18 10:32:03,079 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:03,081 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-18 10:32:03,081 - INFO - endpoint: yahoo
-2025-07-18 10:32:03,127 - INFO - Processing 19 results using method: requests
-2025-07-18 10:32:03,127 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:03,128 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:03,129 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-18 10:32:03,129 - INFO - endpoint: yahoo
-2025-07-18 10:32:03,610 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:03,611 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-18 10:32:03,612 - INFO - endpoint: yahoo
-2025-07-18 10:32:03,846 - INFO - Processing 19 results using method: requests
-2025-07-18 10:32:03,847 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:32:03,848 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-18 10:32:03,849 - INFO - endpoint: mullvad leta
-2025-07-18 10:32:04,065 - INFO - Processing 1 results using method: requests
-2025-07-18 10:32:04,369 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:32:04,369 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:32:04,786 - INFO - Processing 1 results using method: requests
-2025-07-18 10:32:05,442 - INFO - Processing 3 results using method: requests
-2025-07-18 10:32:05,442 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:05,443 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:05,443 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:32:05,443 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:32:05,445 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-18 10:32:05,445 - INFO - endpoint: yahoo
-2025-07-18 10:32:05,567 - INFO - Processing 8 results using method: requests
-2025-07-18 10:32:05,568 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:32:05,569 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-18 10:32:05,569 - INFO - endpoint: mullvad leta
-2025-07-18 10:32:05,666 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:32:05,667 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:05,668 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-18 10:32:05,668 - INFO - endpoint: yahoo
-2025-07-18 10:32:05,670 - INFO - Processing 19 results using method: requests
-2025-07-18 10:32:05,671 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:32:05,672 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-18 10:32:05,672 - INFO - endpoint: mullvad leta
-2025-07-18 10:32:06,255 - INFO - Processing 19 results using method: requests
-2025-07-18 10:32:06,440 - INFO - Processing 18 results using method: requests
-2025-07-18 10:32:06,441 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-18 10:32:06,441 - INFO - endpoint: yahoo
-2025-07-18 10:32:06,637 - INFO - Processing 8 results using method: requests
-2025-07-18 10:32:06,723 - INFO - Processing 5 results using method: requests
-2025-07-18 10:32:06,810 - INFO - Processing 19 results using method: requests
-2025-07-18 10:32:06,905 - INFO - Processing 8 results using method: requests
-2025-07-18 10:32:06,938 - INFO - Processing 19 results using method: requests
-2025-07-18 10:32:06,939 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:06,941 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-18 10:32:06,941 - INFO - endpoint: yahoo
-2025-07-18 10:32:07,686 - ERROR - Không tìm thấy kết quả trong HTML
-2025-07-18 10:32:07,686 - INFO - Processing 0 results using method: requests
-2025-07-18 10:32:07,931 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='search.yahoo.com', port=443): Max retries exceeded with url: /search?q=x%E1%BB%95+s%E1%BB%91+v%C5%A9ng+t%C3%A0u (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7fde5c6ebc50>, 'Connection to search.yahoo.com timed out. (connect timeout=5)'))
-2025-07-18 10:32:07,931 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:32:07,932 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:32:07,933 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-18 10:32:07,933 - INFO - endpoint: mullvad leta
-2025-07-18 10:32:08,536 - INFO - Processing 8 results using method: requests
-2025-07-18 10:32:08,536 - INFO - Chạy tìm kiếm với endpoint: yahoo
-2025-07-18 10:32:08,538 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-18 10:32:08,538 - INFO - endpoint: yahoo
-2025-07-18 10:32:08,994 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:32:08,994 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:32:09,152 - INFO - Processing 8 results using method: requests
-2025-07-18 10:32:09,647 - INFO - Processing 18 results using method: requests
-2025-07-18 10:32:09,673 - INFO - Processing 8 results using method: requests
-2025-07-18 10:32:09,674 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-18 10:32:09,674 - INFO - endpoint: yahoo
-2025-07-18 10:32:10,725 - INFO - Processing 2 results using method: requests
-2025-07-18 10:32:10,727 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-18 10:32:10,727 - INFO - endpoint: yahoo
-2025-07-18 10:32:11,168 - INFO - Processing 4 results using method: requests
-2025-07-18 10:32:11,191 - INFO - Processing 1 results using method: requests
-2025-07-18 10:32:11,463 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Read timed out. (read timeout=5)
-2025-07-18 10:32:11,463 - ERROR - Phản hồi từ hàm search không hợp lệ
-2025-07-18 10:32:12,007 - INFO - Processing 1 results using method: requests
-2025-07-18 10:32:12,008 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-18 10:32:12,009 - INFO - endpoint: yahoo
-2025-07-18 10:32:13,416 - INFO - Processing 5 results using method: requests
-2025-07-18 10:32:13,509 - INFO - Processing 11 results using method: requests
-2025-07-18 10:32:13,530 - INFO - Processing 8 results using method: requests
-2025-07-18 10:32:13,531 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-18 10:32:13,531 - INFO - endpoint: mullvad leta
-2025-07-18 10:32:15,219 - INFO - Processing 8 results using method: requests
-2025-07-18 10:32:17,717 - INFO - Processing 20 results using method: requests
-2025-07-18 10:32:17,719 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-18 10:32:17,719 - INFO - endpoint: mullvad leta
-2025-07-18 10:32:18,438 - INFO - Processing 5 results using method: requests
-2025-07-18 10:32:18,439 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-18 10:32:18,441 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-18 10:32:18,441 - INFO - endpoint: mullvad leta
-2025-07-18 10:32:19,152 - INFO - Processing 18 results using method: requests
-2025-07-18 10:32:20,962 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='leta.mullvad.net', port=443): Max retries exceeded with url: /search?q=%C4%91%E1%BA%A1t+g (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f6f812899a0>, 'Connection to leta.mullvad.net timed out. (connect timeout=5)'))
-2025-07-18 10:32:20,962 - ERROR - Phản hồi từ hàm search không hợp lệ
+2025-07-22 08:23:52,594 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 16 proxies.
+2025-07-22 08:23:52,594 - INFO - Setting the event loop.
+2025-07-22 08:23:55,835 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-22 08:23:55,836 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
+2025-07-22 08:23:55,836 - INFO - endpoint: duckduckgo
+2025-07-22 08:24:03,135 - INFO - result_block: None
+2025-07-22 08:24:03,135 - ERROR - Lỗi từ batcher.predict: TypeError - object of type 'NoneType' has no len()
+2025-07-22 08:24:32,032 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 16 proxies.
+2025-07-22 08:24:32,032 - INFO - Setting the event loop.
+2025-07-22 08:24:35,590 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-22 08:24:35,591 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
+2025-07-22 08:24:35,592 - INFO - endpoint: duckduckgo
+2025-07-22 08:24:45,681 - INFO - result_block: [<table border="0">
+<!-- Web results are present -->
+<tr>
+<td valign="top">1. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPedro_Neto&amp;rut=eda8f3aa972cf83ea3f0edca38682b59ccc8ed3f47539e3701bfad8e3fe73c16" rel="nofollow">Pedro Neto - Wikipedia</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+<b>Pedro</b> Lomba <b>Neto</b> (European Portuguese: [ˈpeðɾu ˈnɛtu]; born 9 March 2000) is a Portuguese professional footballer who plays as a winger for Premier League club Chelsea and the Portugal national team.
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">en.wikipedia.org/wiki/Pedro_Neto</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">2. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.transfermarkt.com%2Fpedro%2Dneto%2Fprofil%2Fspieler%2F487465&amp;rut=0f8402f9b350312a8a0cd691d265a191eacdfb1c9cf0c600a282f0f2d4371590" rel="nofollow">Pedro Neto - Player profile 25/26 | Transfermarkt</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+<b>Pedro</b> <b>Neto</b>, 25, from Portugal Chelsea FC, since 2024 Right Winger Market value: €50.00m * Mar 9, 2000 in Viana do Castelo, Portugal
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">www.transfermarkt.com/pedro-neto/profil/spieler/487465</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">3. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.espn.com%2Fsoccer%2Fplayer%2F_%2Fid%2F256115%2Fpedro%2Dneto&amp;rut=d16fbaf7f17e7bfd9081ec8c7446b841ed0f1f51e9617ab2c531ab96ef7148d9" rel="nofollow">Pedro Neto - Chelsea Forward - ESPN</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      View the profile of Chelsea Forward <b>Pedro</b> <b>Neto</b> on ESPN. Get the latest news, live stats and game highlights.
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">www.espn.com/soccer/player/_/id/256115/pedro-neto</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">4. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.chelseafc.com%2Fen%2Fteams%2Fprofile%2Fpedro%2Dneto&amp;rut=6ee27215a1efd30758ecec3dd3574875ece9246c1606567a62063cb1be33abd4" rel="nofollow">Pedro Neto | Profile | Official Site | Chelsea Football Club</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      Portugal international <b>Pedro</b> <b>Neto</b> moved from Wolverhampton Wanderers to Chelsea on 11 August 2024. He signed a seven-year contract.
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">www.chelseafc.com/en/teams/profile/pedro-neto</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">5. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Ffootystats.org%2Fplayers%2Fportugal%2Fpedro%2Dneto&amp;rut=5ea95f32666561d58fbe97beca2720f0c4b593904b500cfc5d61e4d2cfca6436" rel="nofollow">Pedro Neto Stats - Goals, xG, Assists &amp; Career Stats | FootyStats</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      Find out <b>Pedro</b> <b>Neto's</b> career and season stats for Chelsea and Portugal, including goals, assists, xG, shots, dribbles, cards and fouls. Compare his performance with other Premier League players and see his percentile rankings.
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">footystats.org/players/portugal/pedro-neto</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">6. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fapnews.com%2Farticle%2Fchelsea%2Dneto%2Dwolves%2Dportugal%2D60bd06031e2dea0f441e2cebff794507&amp;rut=66b0721748adbf34140d8b45c6f05a9f7beda6e31d548def8ef14f12588de063" rel="nofollow">Chelsea signs Portugal international Pedro Neto from Wolves on a 7-year ...</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      Chelsea has signed <b>Pedro</b> <b>Neto</b> from Wolverhampton on a seven-year contract. The Portugal international joins Enzo Maresca's team ahead of Chelsea's Premier League opener against Manchester City next weekend.
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">apnews.com/article/chelsea-neto-wolves-portugal-60bd06031e2dea0f441e2cebff794507</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">7. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fbreakingthelines.com%2Fplayer%2Danalysis%2Fpedro%2Dneto%2Dwhat%2Ddoes%2Dhe%2Dbring%2Dto%2Dchelseas%2Dattack%2F&amp;rut=de3aad99e89775f71cbca1581dc20b22b2d5e6744e34509fe63b50308ea6ba2d" rel="nofollow">Pedro Neto: What Does He Bring to Chelsea's Attack?</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+<b>Pedro</b> <b>Neto</b> is a 23-year-old Portuguese attacker who joined Chelsea from Wolves for €60 million in 2024. He is a relentless winger, known for his dribbling, agility, and creativity, who can play on both sides and in central areas.
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">breakingthelines.com/player-analysis/pedro-neto-what-does-he-bring-to-chelseas-attack/</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">8. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.foxsports.com%2Fsoccer%2Fpedro%2Dneto%2D2%2Dplayer&amp;rut=5191f32d577a84bb1d0a1e61466dcf2d1d101e16cb0f813d6ed5b5b361c2d3b7" rel="nofollow">Pedro Neto - Soccer News, Rumors, &amp; Updates | FOX Sports</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      Get the latest Soccer news on <b>Pedro</b> <b>Neto</b>. Stay up to date with player news, rumors, updates, analysis, social feeds, and more at FOX Sports.
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">www.foxsports.com/soccer/pedro-neto-2-player</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">9. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.football.london%2Fchelsea%2Dfc%2Fpedro%2Dneto%2Dfirst%2Dwords%2D54m%2D29719882&amp;rut=a7b57ca47d6eac5ba63708909bbce53d43e8141f2e7ac51f0d85f5c5cec2f671" rel="nofollow">Pedro Neto first words as £54m Chelsea player as club announce tenth ...</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+<b>Pedro</b> <b>Neto</b> has spoken for the first time since Chelsea confirmed his £54million move from Wolves. The 24-year-old, who was introduced to the Chelsea supporters at half-time during their final pre-season friendly against Inter Milan, has joined the Blues on a seven-year contract and will begin ...
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">www.football.london/chelsea-fc/pedro-neto-first-words-54m-29719882</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">10. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fsports.yahoo.com%2Fpedro%2Dneto%2Dset%2Dsign%2D6%2D124400417.html&amp;rut=f751c7632af372db267da0a7a346cd02736a1691d4daa8f4194e0b228f3d4dfb" rel="nofollow">Pedro Neto set to sign 6-year contract with Chelsea</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      Reports emerged yesterday from France that <b>Pedro</b> <b>Neto</b> (24) was set to sign for Chelsea from Wolverhampton Wanderers. More details from that deal have been further revealed by French journalist ...
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">sports.yahoo.com/pedro-neto-set-sign-6-124400417.html</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<p> </p>
+<tr>
+<td colspan="2">
+<form action="/lite/" class="next_form" method="post">
+<!-- <a rel="next" href="/lite/?q=pedro+neto&amp;t=A&amp;v=l&amp;l=us-en&amp;p=&amp;s=10&amp;ex=-1&amp;o=json&amp;ct=NL&amp;sp=0&amp;vqd=4-289152727257702740659452339713314163692&amp;bing_market=en-US&amp;host_region=eun&amp;dp=soa2x-RQ0FKsg5JkL2zUE-cQzVmoRAX7s0L4T2Xz0TF-9Ld3J5o6mdiNk4FZt4HnCBO5jFoX1FJtIjiKeeQMuzJmETPbm6AuJVN0DSEPq-98pS4XnbfLx4DZgqiC-b-3.1IGcTI4mcuLIKrJ2Ejw6bg&amp;dc=11&amp;api=%2Fd.js">Next Page &gt;</a> //-->
+<input class="navbutton" type="submit" value="Next Page &gt;"/>
+<input name="q" type="hidden" value="pedro neto"/>
+<input name="s" type="hidden" value="10"/>
+<input name="nextParams" type="hidden" value=""/>
+<input name="v" type="hidden" value="l"/>
+<input name="o" type="hidden" value="json"/>
+<input name="dc" type="hidden" value="11"/>
+<input name="api" type="hidden" value="d.js"/>
+<input name="vqd" type="hidden" value="4-289152727257702740659452339713314163692"/>
+              
+          
+          
+          
+          <input name="kl" type="hidden" value="wt-wt"/>
+</form>
+</td>
+</tr>
+</table>]
+2025-07-22 08:24:45,681 - INFO - Processing 1 results using method: requests
+2025-07-22 08:28:36,448 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 16 proxies.
+2025-07-22 08:28:36,448 - INFO - Setting the event loop.
+2025-07-22 08:28:39,489 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-22 08:28:39,490 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
+2025-07-22 08:28:39,490 - INFO - endpoint: duckduckgo
+2025-07-22 08:28:44,499 - ERROR - Lỗi khi gửi request: SOCKSHTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /?q=f88 (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f4bf8071400>, 'Connection to duckduckgo.com timed out. (connect timeout=5)'))
+2025-07-22 08:28:44,499 - ERROR - ❌ Không nhận được phản hồi từ hàm `search` (resp is None).
+2025-07-22 08:28:44,499 - ERROR - [duckduckgo] Phản hồi không hợp lệ với query: 'f88'
+2025-07-22 08:28:59,636 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-22 08:28:59,637 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
+2025-07-22 08:28:59,637 - INFO - endpoint: duckduckgo
+2025-07-22 08:29:06,607 - INFO - result_block: [<table border="0">
+<!-- Web results are present -->
+<tr>
+<td valign="top">1. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.minhngoc.net.vn%2Fket%2Dqua%2Dxo%2Dso%2Fmien%2Dnam%2Fbac%2Dlieu.html&amp;rut=60b33662b89352733f6a35f3948ace8ed862c6ba1eb6dda88b5eee660e837ba5" rel="nofollow">Kết quả xổ số Bạc Liêu - Minh Ngọc™</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+<b>X</b>ổ <b>số</b> <b>Bạc</b> <b>Liêu</b>: XSBL - Trang kết quả <b>xổ</b> <b>số</b> kiến thiết <b>Bạc</b> <b>Liêu</b> - <b>X</b>ổ <b>số</b> Miền Nam, kqxs <b>bac</b> <b>lieu</b>, ket qua xsbl, xs <b>bac</b> <b>lieu</b>, xsmn, <b>X</b>ổ <b>S</b>ố Minh Ngọc™
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">www.minhngoc.net.vn/ket-qua-xo-so/mien-nam/bac-lieu.html</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">2. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fxoso.com.vn%2Fxo%2Dso%2Dbac%2Dlieu%2Fxsbl%2Dp1.html&amp;rut=52957a62c484fc4f02e4eed1a166b2c5407aea15e30c6e9b6e3da1f61a531e90" rel="nofollow">XSBL - Kết quả Xổ số Bạc Liêu - SXBL Hôm nay - KQXSBL</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      XSBL - Kết quả <b>X</b>ổ <b>số</b> <b>Bạc</b> <b>Liêu</b> mở thưởng Thứ 3 hàng tuần, KQ SXBL gần nhất ngày 15-07-2025 Giải G8: 20, G7: 094, G6: 9442 - 9888 - 7512, ... click để Xem KQ SXBL trực tiếp lúc 16h15
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">xoso.com.vn/xo-so-bac-lieu/xsbl-p1.html</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">3. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fbaomoi.com%2Fket%2Dqua%2Dxo%2Dso%2Dbac%2Dlieu%2Dhom%2Dnay%2D22%2D7%2D2025%2Dxsbl%2D22%2D7%2Dc52801231.epi&amp;rut=56116b962bde03bcd66cc05bc804c0306cc4fb9456e63240be66559650831c92" rel="nofollow">Kết quả xổ số Bạc Liêu hôm nay 22/7/2025 - XSBL 22/7</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      XSBL 22/7. Kết quả <b>xổ</b> <b>số</b> <b>Bạc</b> <b>Liêu</b> hôm nay 22/7/2025 được quay thưởng vào lúc 16h15 bởi Công ty <b>X</b>ổ <b>số</b> kiến thiết <b>Bạc</b> <b>Liêu</b>. Kết quả các giải thưởng của XSBL 22/7/2025 sẽ được công bố lần lượt từ giải nhất cho đến giải tám, cuối cùng là giải đặc biệt.
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">baomoi.com/ket-qua-xo-so-bac-lieu-hom-nay-22-7-2025-xsbl-22-7-c52801231.epi</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">4. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fxsbaclieu.com%2F&amp;rut=76946d797426e5b92863bbd33cae7634201a2291f6f8213890d85239e2b533d8" rel="nofollow">Xsbaclieu - Kết Quả Xổ Số Bạc Liêu - Xsbl - Sxbl</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      XSBACLIEU là trang web cập nhật kết quả <b>xổ</b> <b>số</b> <b>Bạc</b> <b>Liêu</b>, quay <b>số</b> hằng tuần và phụ của Công ty TNHH MTV <b>X</b>ổ <b>số</b> kiến thiết <b>Bạc</b> <b>Liêu</b>. Xem cách xác định trúng, cơ cấu giải thưởng, thời gian mở quay <b>số</b> và tin tức liên quan.
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">xsbaclieu.com</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">5. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fthethaovanhoa.vn%2Fxsbl%2D22%2D7%2Dket%2Dqua%2Dxo%2Dso%2Dbac%2Dlieu%2Dhom%2Dnay%2D22%2D7%2D2025%2Dtruc%2Dtiep%2Dxo%2Dso%2Dhom%2Dnay%2Dngay%2D22%2Dthang%2D7%2D20250722062051589.htm&amp;rut=6085605261441cefea679c933b33954a101930040b8ed8d511b3c459cc6d848d" rel="nofollow">XSBL - Kết quả xổ số Bạc Liêu hôm nay ngày 22/7/2025 (cập nhật)</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      XSBL 22/7: <b>X</b>ổ <b>số</b> <b>Bạc</b> <b>Liêu</b> được phát hành bởi Công ty <b>xổ</b> <b>số</b> kiến thiết <b>Bạc</b> <b>Liêu</b>, quay thưởng vào lúc 16h10 phút ngày thứ Ba hàng tuần. Trực tiếp kết quả XSMN nhanh nhất trên Thethaovanhoa.vn.
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">thethaovanhoa.vn/xsbl-22-7-ket-qua-xo-so-bac-lieu-hom-nay-22-7-2025-truc-tiep-xo-so-hom-nay-ngay-22-thang-7-20250722062051589.htm</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">6. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fxsmn247.me%2Fxsbl%2Dsxbl%2Dket%2Dqua%2Dxo%2Dso%2Dbac%2Dlieu.html&amp;rut=bc68bbafcefebeb7b9f587ec8851138c4e024d586afa597b6bbcb325d3853910" rel="nofollow">XSBL - SXBL - Xổ số Bạc Liêu - KQXSBL - XSBLIEU hôm nay</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      XSBL - SXBL - Kết quả <b>xổ</b> <b>số</b> <b>Bạc</b> <b>Liêu</b> hôm nay trực tiếp siêu nhanh từ trường quay <b>xổ</b> <b>số</b> kiến thiết <b>Bạc</b> <b>Liêu</b> - KQXSBL - XSBLIEU - XSMH - KQSXBL, XSKT BL, SX <b>Bac</b> <b>Lieu</b>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">xsmn247.me/xsbl-sxbl-ket-qua-xo-so-bac-lieu.html</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">7. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.kqxs.vn%2Fmien%2Dnam%2Fxo%2Dso%2Dbac%2Dlieu&amp;rut=741e479c8123f01fd3c5a603369a8ba13a08831c25609a5721bfc44200f5bf53" rel="nofollow">Xổ Số Bạc Liêu - XSBL mới nhất, chính xác nhất! - KQXS</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      - <b>X</b>ổ <b>số</b> Kiến thiết <b>Bạc</b> <b>Liêu</b> mở thưởng vào thứ 3 hàng tuần, thời gian mở thưởng là 16h10p. - <b>X</b>ổ <b>số</b> <b>Bạc</b> <b>Liêu</b> được tường thuật trên trang web www.kqxs.vn.
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">www.kqxs.vn/mien-nam/xo-so-bac-lieu</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">8. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fxoso.net.vn%2Fxsbl%2Dxo%2Dso%2Dbac%2Dlieu.html&amp;rut=346de4456ec7c3732fc99e2715dafe8a6ad5185bff3274ba9fd2bc2910d1bcc6" rel="nofollow">XSBL - Xổ số Bạc Liêu - Kết quả SXBL Hôm Nay - KQXSBL</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+      XSBL - Tường thuật Kết quả <b>X</b>ổ <b>số</b> <b>Bạc</b> <b>Liêu</b> hôm nay Trực tiếp tại trường quay, cập nhật KQ XSBL nhanh, chính xác , Thống kê CAU SXBL hàng ngày
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">xoso.net.vn/xsbl-xo-so-bac-lieu.html</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">9. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.xoso.net%2Fket%2Dqua%2Dxo%2Dso%2Fmien%2Dnam%2Fbac%2Dlieu.html&amp;rut=f6eec4f8516c2ff338cf6e29db67fc8eec11945874956f0de26dfeaefb1b2acc" rel="nofollow">KẾT QUẢ XỔ SỐ Bạc Liêu - Xổ Số Minh Ngọc Việt Nam</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+<b>X</b>ổ <b>số</b> <b>Bạc</b> <b>Liêu</b>: XSBL - Trang kết quả <b>xổ</b> <b>số</b> kiến thiết <b>Bạc</b> <b>Liêu</b> - <b>X</b>ổ <b>số</b> Miền Nam, kqxs <b>bac</b> <b>lieu</b>, ket qua xsbl, xs <b>bac</b> <b>lieu</b>, xsmn, <b>X</b>Ổ <b>S</b>Ố MINH NGỌC VIỆT NAM
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">www.xoso.net/ket-qua-xo-so/mien-nam/bac-lieu.html</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td valign="top">10. </td>
+<td>
+<a class="result-link" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fbnews.vn%2Fxsbl%2D22%2D7%2Dket%2Dqua%2Dxo%2Dso%2Dbac%2Dlieu%2Dhom%2Dnay%2D22%2D7%2D2025%2Dxsbl%2Dngay%2D22%2D7%2F380558.html&amp;rut=200df7519936322b5434f317b330fe110fd2e334cfbcc391b99ca0efc72b16ff" rel="nofollow">XSBL 22/7. Kết quả xổ số Bạc Liêu hôm nay 22/7/2025. XSBL ngày 22/7</a>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td class="result-snippet">
+<b>X</b>ổ <b>số</b> hôm nay - KQXSBL ngày 22/7 được quay thưởng bắt đầu từ giải tám cho đến giải nhất, cuối cùng là công bố kết quả giải đặc biệt.
+    </td>
+</tr>
+<tr>
+<td>   </td>
+<td>
+<span class="link-text">bnews.vn/xsbl-22-7-ket-qua-xo-so-bac-lieu-hom-nay-22-7-2025-xsbl-ngay-22-7/380558.html</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<p> </p>
+<tr>
+<td colspan="2">
+<form action="/lite/" class="next_form" method="post">
+<!-- <a rel="next" href="/lite/?q=x%E1%BB%95+s%E1%BB%91+b%E1%BA%A1c+li%C3%AAu&amp;v=l&amp;l=wt-wt&amp;p=&amp;s=12&amp;ex=-1&amp;o=json&amp;ct=SC&amp;sp=0&amp;vqd=4-220113876277551684446846203577745165096&amp;bing_market=en-US&amp;host_region=euw&amp;dp=IFRFvtY6xcx9jfIyfY7Qh6IopGuCz51laixHfMFKupFj7y8cPDVVLBdkZFEgfaCP9UfdS7UILX8tuHRLB0EvAVteGcNzAjYrcOQfqDSLjCfP3parxbyzqBgTtNepO7mvdnfPH7OmIq08b0oSzorCWQ.CU6tItKYgGtRgMnVsp_wIg&amp;dc=11&amp;api=%2Fd.js">Next Page &gt;</a> //-->
+<input class="navbutton" type="submit" value="Next Page &gt;"/>
+<input name="q" type="hidden" value="xổ số bạc liêu"/>
+<input name="s" type="hidden" value="12"/>
+<input name="nextParams" type="hidden" value=""/>
+<input name="v" type="hidden" value="l"/>
+<input name="o" type="hidden" value="json"/>
+<input name="dc" type="hidden" value="11"/>
+<input name="api" type="hidden" value="d.js"/>
+<input name="vqd" type="hidden" value="4-220113876277551684446846203577745165096"/>
+              
+          
+          
+          
+          <input name="kl" type="hidden" value="wt-wt"/>
+</form>
+</td>
+</tr>
+</table>]
+2025-07-22 08:29:06,607 - INFO - Processing 1 results using method: requests
