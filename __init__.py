@@ -78,7 +78,7 @@ async def asearch(term, num_results=3, lang="vi", proxy=None, advanced=True, sle
     fetched_results = 0  # Keep track of the total fetched results
     # fetched_links = set() # to keep track of links that are already seen previously
     try:
-        logger.info(f"endpoint: {endpoint}")
+        # logger.info(f"endpoint: {endpoint}")
         resp = await _async_req(term, num_results - start, lang, start, proxies, timeout, safe, ssl_verify, region, endpoint=endpoint)
         with open("google.html", "w", encoding="utf-8") as f:
             f.write(resp)
@@ -103,6 +103,8 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region,
         url = "https://duckduckgo.com/"
     elif endpoint == "yahoo":
         url = "https://search.yahoo.com/search"
+    elif endpoint == "bing":
+        url = "https://www.bing.com/search"
 
         # escaped_term = term.replace(" ", "+")
 
@@ -114,6 +116,7 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region,
         },
         params={
             "q": term,
+            "pq":"vn"
             # "categories": "",
             # "language": "vi-VN",
             # "time_range": "",
@@ -139,7 +142,7 @@ class SearchResult:
         return f"SearchResult(url={self.url}, title={self.title}, description={self.description})"
 
 
-def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_interval=0, timeout=5, safe="active", ssl_verify=None, region=None, start_num=0, unique=True, endpoint="luxirty"):
+def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_interval=0, timeout=20, safe="active", ssl_verify=None, region=None, start_num=0, unique=True, endpoint="luxirty"):
     """Search the Google search engine"""
 
     # Proxy setup
@@ -153,7 +156,7 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
     fetched_results = 0  # Keep track of the total fetched results
     # fetched_links = set() # to keep track of links that are already seen previously
     try:
-        logger.info(f"endpoint: {endpoint}")
+        # logger.info(f"endpoint: {endpoint}")
         resp = _req(term, num_results - start, lang, start, proxies, timeout, safe, ssl_verify, region, endpoint=endpoint)
     except Exception as e:
         print(f"Lỗi khi gửi request: {e}")
@@ -174,9 +177,8 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
                 logger.error(f"Response content: {resp.content}")
                 # logger.error(f"Response text: {resp.text[:200]}")
                 # logger.error(f"Response headers: {resp.headers}")
-            with open("google.html", "w", encoding="utf-8") as f:
-                f.write(resp.text)
-            # pprint.pp(resp.text)
+            # with open("google.html", "w", encoding="utf-8") as f:
+            #     f.write(resp.text)
             # logger.info(f"Response text: {resp.text}...")  # Log first 200 characters
             return resp
         except Exception as e:

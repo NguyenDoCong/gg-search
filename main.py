@@ -42,7 +42,7 @@ async def lifespan(app: FastAPI):
     # await app.state.search_instance._create_context()
     # # await app.state.google_instance._create_contexts(domain="google")
 
-    proxy_ports = [9050 + i * 2 for i in range(16)]  # Dùng chính xác 160 instance
+    proxy_ports = [9050 + i * 2 for i in range(80)]  # Dùng chính xác 160 instance
     proxy_pool = ProxyPool()
 
     # if not proxy_pool.redis.exists("tor:proxy_list"):
@@ -77,7 +77,7 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
     if method=='requests':
         logger.info(f"[REQUESTS] Đang dùng proxy: {proxy}")
 
-        resp = search(query, 5, proxy=proxy, endpoint=endpoint)
+        resp = search(query, 3, proxy=proxy, endpoint=endpoint)
 
         if resp is None:
             logger.error("❌ Không nhận được phản hồi từ hàm `search` (resp is None).")
@@ -106,31 +106,25 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
         # logger.info(f"resp.text {resp.text}...")  # Log first 200 characters of the response text
 
         soup = BeautifulSoup(resp.text, "html.parser")
-        logger.info(f"soup: {soup}")
+        # logger.info(f"soup: {soup}")
         if not soup:
             logger.error("Không thể phân tích cú pháp HTML")
             
         if endpoint == "mullvad leta":
             result_block = soup.find_all("article", class_='svelte-fmlk7p') 
         elif endpoint == "aol":
-            # result_block = soup.find_all("div", class_='dd algo algo-sr') 
-            # Chọn cả có và không có `fst`
             result_block = soup.select("div.dd.algo.algo-sr.Sr, div.dd.algo.algo-sr.fst.Sr")
-
         elif endpoint == "duckduckgo":
             parent = soup.find("body")
             result_block = parent.select("table:nth-of-type("+str(3)+")")
-            logger.info(f"result_block: {result_block}")
-
         elif endpoint == "yahoo":
             result_block = soup.find_all("div", class_="dd algo algo-sr relsrch Sr")
         elif endpoint == "brave":
             result_block = soup.find_all("div", class_="snippet svelte-1o29vmf")
+        elif endpoint == "bing":
+            result_block = soup.find_all("li", class_="b_algo")
 
-        # if len(result_block)<1:
-        #     result_block = soup.find_all("div", class_="ezO2md")
         if len(result_block)<1:
-            # print("Không tìm thấy kết quả trong HTML")
             logger.error("Không tìm thấy kết quả trong HTML")
         
     else:
@@ -226,11 +220,11 @@ async def batch_search_fn(batch_inputs: List[Tuple[str, Request, str, str]]) -> 
 @dataclass
 class Config:
 	port: int = 8080
-	max_batch_size: int = 20
+	max_batch_size: int = 80
 
 config = Config(
     port=8080,
-    max_batch_size=20
+    max_batch_size=80
 )
  
 # --------------Batcher Setup--------------
@@ -256,19 +250,19 @@ async def query_result(req: Request):
     # domain="google"
     # print("Query:", query)
     # result = await search_response(query, method="fingerprint", domain = domain)
-    rand = random.randint(1,5)
+    rand = random.randint(1,15)
     if rand==1:
-        endpoint = "mullvad leta"
+        endpoint = "brave"
     elif rand==2:
         endpoint = "yahoo"
     elif rand==3:
         endpoint = "aol"
-    elif rand==4:
+    elif rand<=7:
         endpoint = "duckduckgo"
-    elif rand==5:
-        endpoint = "brave"
-
-    endpoint = "brave"
+    elif rand<=11:
+        endpoint = "mullvad leta"
+    elif rand<=15:
+        endpoint = "bing"
 
     logger.info(f"Chạy tìm kiếm với endpoint: {endpoint}")
     try:

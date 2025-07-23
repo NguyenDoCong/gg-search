@@ -54,6 +54,9 @@ async def process_result(result, method="requests", endpoint="luxirty"):
             elif endpoint == "brave":
                 title = result.find("div", class_="title svelte-7ipt5e")
 
+            elif endpoint == "bing":
+                title = result.find("h2")
+
             # title = result.find("span", class_="CVA68e qXLe6d fuLhoc ZWRArf")
 
             if title:
@@ -74,6 +77,8 @@ async def process_result(result, method="requests", endpoint="luxirty"):
                 summary = result.find("td", class_="result-snippet")
             elif endpoint == "brave":
                 summary = result.find("div", class_="snippet-content t-secondary svelte-9wfmiw")
+            elif endpoint == "bing":
+                summary = result.find("div", class_="b_caption")
        
             summary_text = summary.get_text(strip=True) if summary else "Không có tóm tắt"
 

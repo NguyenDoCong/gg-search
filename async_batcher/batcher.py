@@ -16,8 +16,8 @@ class Batcher:
 		self, 
 		batch_search_fn: Callable[[List[Any]], List[Any]], 
 		event_loop: Optional[AbstractEventLoop] = None, 
-		max_batch_size: int = 140,
-		max_queue_size: int = 280
+		max_batch_size: int = 80,
+		max_queue_size: int = 160
 	) -> None:
 		self.batch_search_fn = batch_search_fn
 		self.event_loop = event_loop

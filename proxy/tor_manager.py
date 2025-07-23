@@ -7,7 +7,7 @@ from stem.control import Controller
 from stem import Signal
 import aiofiles
 
-NUM_INSTANCES = 16
+NUM_INSTANCES = 80
 BASE_PORT = 9050
 BASE_DIR = Path.home() / "multi_tor"
 TOR_BIN = "tor"
