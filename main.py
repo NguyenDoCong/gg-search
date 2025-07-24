@@ -115,19 +115,24 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
         if not soup:
             logger.error("Không thể phân tích cú pháp HTML")
             
-        if endpoint == "mullvad leta":
-            result_block = soup.find_all("article", class_='svelte-fmlk7p') 
-        elif endpoint == "aol":
-            result_block = soup.select("div.dd.algo.algo-sr.Sr, div.dd.algo.algo-sr.fst.Sr")
-        elif endpoint == "duckduckgo":
-            parent = soup.find("body")
-            result_block = parent.select("table:nth-of-type("+str(3)+")")
-        elif endpoint == "yahoo":
-            result_block = soup.find_all("div", class_="dd algo algo-sr relsrch Sr")
-        elif endpoint == "brave":
-            result_block = soup.find_all("div", class_="snippet svelte-1o29vmf")
-        elif endpoint == "bing":
-            result_block = soup.find_all("li", class_="b_algo")
+        try:
+            if endpoint == "mullvad leta":
+                result_block = soup.find_all("article", class_='svelte-fmlk7p') 
+            elif endpoint == "aol":
+                result_block = soup.select("div.dd.algo.algo-sr.Sr, div.dd.algo.algo-sr.fst.Sr")
+            elif endpoint == "duckduckgo":
+                parent = soup.find("body")
+                result_block = parent.select("table:nth-of-type("+str(3)+")")
+            elif endpoint == "yahoo":
+                result_block = soup.find_all("div", class_="dd algo algo-sr relsrch Sr")
+            elif endpoint == "brave":
+                result_block = soup.find_all("div", class_="snippet svelte-1o29vmf")
+            elif endpoint == "bing":
+                result_block = soup.find_all("li", class_="b_algo")
+        except Exception as e:
+            logger.error(f"❌ Lỗi khi tìm kiếm kết quả {endpoint} - {query}: {e}")
+            with open("google.html", "w", encoding="utf-8") as f:
+                f.write(resp.text)
 
         if len(result_block)<1:
             logger.error(f"Không tìm thấy kết quả trong HTML. Endpoint: {endpoint}, Query: {query}")

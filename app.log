@@ -1,1386 +1,1076 @@
-2025-07-24 04:52:10,783 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:10,790 - INFO - Setting the event loop.
-2025-07-24 04:52:10,792 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:10,806 - INFO - Setting the event loop.
-2025-07-24 04:52:10,861 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:10,862 - INFO - Setting the event loop.
-2025-07-24 04:52:10,896 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:10,896 - INFO - Setting the event loop.
-2025-07-24 04:52:10,916 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:10,916 - INFO - Setting the event loop.
-2025-07-24 04:52:03,231 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,232 - INFO - Setting the event loop.
-2025-07-24 04:52:03,243 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,243 - INFO - Setting the event loop.
-2025-07-24 04:52:03,289 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,290 - INFO - Setting the event loop.
-2025-07-24 04:52:03,327 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,328 - INFO - Setting the event loop.
-2025-07-24 04:52:03,347 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,347 - INFO - Setting the event loop.
-2025-07-24 04:52:03,358 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,359 - INFO - Setting the event loop.
-2025-07-24 04:52:03,382 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,382 - INFO - Setting the event loop.
-2025-07-24 04:52:03,446 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,447 - INFO - Setting the event loop.
-2025-07-24 04:52:03,447 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,448 - INFO - Setting the event loop.
-2025-07-24 04:52:03,591 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,591 - INFO - Setting the event loop.
-2025-07-24 04:52:03,601 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,602 - INFO - Setting the event loop.
-2025-07-24 04:52:03,612 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,613 - INFO - Setting the event loop.
-2025-07-24 04:52:03,707 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,707 - INFO - Setting the event loop.
-2025-07-24 04:52:03,721 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,722 - INFO - Setting the event loop.
-2025-07-24 04:52:03,728 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,729 - INFO - Setting the event loop.
-2025-07-24 04:52:03,732 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,732 - INFO - Setting the event loop.
-2025-07-24 04:52:03,812 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,812 - INFO - Setting the event loop.
-2025-07-24 04:52:03,830 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,830 - INFO - Setting the event loop.
-2025-07-24 04:52:03,855 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,855 - INFO - Setting the event loop.
-2025-07-24 04:52:03,867 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,868 - INFO - Setting the event loop.
-2025-07-24 04:52:03,931 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,932 - INFO - Setting the event loop.
-2025-07-24 04:52:03,977 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:03,977 - INFO - Setting the event loop.
-2025-07-24 04:52:04,005 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,005 - INFO - Setting the event loop.
-2025-07-24 04:52:04,061 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,061 - INFO - Setting the event loop.
-2025-07-24 04:52:04,066 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,068 - INFO - Setting the event loop.
-2025-07-24 04:52:04,072 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,072 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,072 - INFO - Setting the event loop.
-2025-07-24 04:52:04,072 - INFO - Setting the event loop.
-2025-07-24 04:52:04,098 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,099 - INFO - Setting the event loop.
-2025-07-24 04:52:04,117 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,117 - INFO - Setting the event loop.
-2025-07-24 04:52:04,134 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,134 - INFO - Setting the event loop.
-2025-07-24 04:52:04,146 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,147 - INFO - Setting the event loop.
-2025-07-24 04:52:04,220 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,220 - INFO - Setting the event loop.
-2025-07-24 04:52:04,236 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,236 - INFO - Setting the event loop.
-2025-07-24 04:52:04,289 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,290 - INFO - Setting the event loop.
-2025-07-24 04:52:04,311 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,312 - INFO - Setting the event loop.
-2025-07-24 04:52:04,316 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,316 - INFO - Setting the event loop.
-2025-07-24 04:52:04,321 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,322 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,322 - INFO - Setting the event loop.
-2025-07-24 04:52:04,322 - INFO - Setting the event loop.
-2025-07-24 04:52:04,324 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,325 - INFO - Setting the event loop.
-2025-07-24 04:52:04,337 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,337 - INFO - Setting the event loop.
-2025-07-24 04:52:04,402 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,403 - INFO - Setting the event loop.
-2025-07-24 04:52:04,414 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,416 - INFO - Setting the event loop.
-2025-07-24 04:52:04,423 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,424 - INFO - Setting the event loop.
-2025-07-24 04:52:04,437 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,440 - INFO - Setting the event loop.
-2025-07-24 04:52:04,501 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,501 - INFO - Setting the event loop.
-2025-07-24 04:52:04,511 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,512 - INFO - Setting the event loop.
-2025-07-24 04:52:04,531 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,532 - INFO - Setting the event loop.
-2025-07-24 04:52:04,534 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,534 - INFO - Setting the event loop.
-2025-07-24 04:52:04,540 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,541 - INFO - Setting the event loop.
-2025-07-24 04:52:04,548 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,549 - INFO - Setting the event loop.
-2025-07-24 04:52:04,552 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,553 - INFO - Setting the event loop.
-2025-07-24 04:52:04,568 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,569 - INFO - Setting the event loop.
-2025-07-24 04:52:04,580 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,582 - INFO - Setting the event loop.
-2025-07-24 04:52:04,594 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,594 - INFO - Setting the event loop.
-2025-07-24 04:52:04,614 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,615 - INFO - Setting the event loop.
-2025-07-24 04:52:04,627 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,629 - INFO - Setting the event loop.
-2025-07-24 04:52:04,636 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,636 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,636 - INFO - Setting the event loop.
-2025-07-24 04:52:04,636 - INFO - Setting the event loop.
-2025-07-24 04:52:04,639 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,639 - INFO - Setting the event loop.
-2025-07-24 04:52:04,645 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,646 - INFO - Setting the event loop.
-2025-07-24 04:52:04,667 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,668 - INFO - Setting the event loop.
-2025-07-24 04:52:04,682 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,683 - INFO - Setting the event loop.
-2025-07-24 04:52:04,728 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,729 - INFO - Setting the event loop.
-2025-07-24 04:52:04,730 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,730 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,730 - INFO - Setting the event loop.
-2025-07-24 04:52:04,730 - INFO - Setting the event loop.
-2025-07-24 04:52:04,758 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,758 - INFO - Setting the event loop.
-2025-07-24 04:52:04,783 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,783 - INFO - Setting the event loop.
-2025-07-24 04:52:04,795 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,796 - INFO - Setting the event loop.
-2025-07-24 04:52:04,813 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,814 - INFO - Setting the event loop.
-2025-07-24 04:52:04,855 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,855 - INFO - Setting the event loop.
-2025-07-24 04:52:04,868 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,868 - INFO - Setting the event loop.
-2025-07-24 04:52:04,894 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,894 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:04,894 - INFO - Setting the event loop.
-2025-07-24 04:52:04,894 - INFO - Setting the event loop.
-2025-07-24 04:52:05,125 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:05,125 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
-2025-07-24 04:52:05,125 - INFO - Setting the event loop.
-2025-07-24 04:52:05,125 - INFO - Setting the event loop.
-2025-07-24 04:52:20,152 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,153 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,152 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,153 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,154 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,154 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,154 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,152 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,152 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,155 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,155 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,152 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,155 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,155 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,155 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,155 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,155 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,156 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,156 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,156 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,152 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,156 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,156 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,156 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,156 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,157 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,152 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,152 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,158 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,159 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,159 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,152 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,152 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,159 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,159 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,160 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,160 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,152 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,161 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,153 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,161 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-24 04:52:20,153 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,153 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,161 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,161 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-24 04:52:20,162 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-24 04:52:20,162 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,162 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-24 04:52:20,162 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-24 04:52:20,162 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-24 04:52:20,162 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-24 04:52:20,162 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-24 04:52:20,162 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-24 04:52:20,162 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-24 04:52:20,162 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,162 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,162 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-24 04:52:20,163 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,153 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,163 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-24 04:52:20,164 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-24 04:52:20,164 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-24 04:52:20,153 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,164 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
-2025-07-24 04:52:20,164 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
-2025-07-24 04:52:20,165 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
-2025-07-24 04:52:20,165 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
-2025-07-24 04:52:20,165 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
-2025-07-24 04:52:20,153 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,165 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-24 04:52:20,166 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
-2025-07-24 04:52:20,166 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-24 04:52:20,166 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
-2025-07-24 04:52:20,166 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
-2025-07-24 04:52:20,166 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
-2025-07-24 04:52:20,166 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
-2025-07-24 04:52:20,167 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-24 04:52:20,167 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
-2025-07-24 04:52:20,167 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
-2025-07-24 04:52:20,168 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
-2025-07-24 04:52:20,168 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
-2025-07-24 04:52:20,168 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
-2025-07-24 04:52:20,168 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
-2025-07-24 04:52:20,169 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
-2025-07-24 04:52:20,170 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
-2025-07-24 04:52:20,170 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-24 04:52:20,172 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
-2025-07-24 04:52:20,172 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-24 04:52:20,172 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
-2025-07-24 04:52:20,172 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-24 04:52:20,172 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
-2025-07-24 04:52:20,174 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
-2025-07-24 04:52:20,175 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
-2025-07-24 04:52:20,230 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,230 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,230 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,230 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,230 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,230 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,230 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,231 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,231 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,231 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,231 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,231 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,231 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,231 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,231 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,231 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,231 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,232 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,232 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:20,232 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,232 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:20,232 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:20,233 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
-2025-07-24 04:52:20,233 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
-2025-07-24 04:52:20,233 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
-2025-07-24 04:52:20,234 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
-2025-07-24 04:52:20,234 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
-2025-07-24 04:52:20,234 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
-2025-07-24 04:52:20,234 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
-2025-07-24 04:52:20,234 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
-2025-07-24 04:52:20,234 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
-2025-07-24 04:52:20,234 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
-2025-07-24 04:52:20,234 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
-2025-07-24 04:52:20,234 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
-2025-07-24 04:52:20,235 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
-2025-07-24 04:52:20,235 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
-2025-07-24 04:52:20,235 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
-2025-07-24 04:52:23,229 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:23,232 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
-2025-07-24 04:52:23,561 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:23,561 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:23,562 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
-2025-07-24 04:52:23,562 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
-2025-07-24 04:52:23,591 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
-2025-07-24 04:52:23,683 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
-2025-07-24 04:52:23,704 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
-2025-07-24 04:52:23,730 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:23,731 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
-2025-07-24 04:52:23,889 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:23,890 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
-2025-07-24 04:52:23,987 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
-2025-07-24 04:52:24,060 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:24,061 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
-2025-07-24 04:52:24,168 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:24,170 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
-2025-07-24 04:52:24,199 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:24,200 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
-2025-07-24 04:52:24,312 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:24,313 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
-2025-07-24 04:52:24,335 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
-2025-07-24 04:52:24,390 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:24,391 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
-2025-07-24 04:52:24,420 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:24,421 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
-2025-07-24 04:52:24,490 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:24,491 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
-2025-07-24 04:52:24,611 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:24,612 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
-2025-07-24 04:52:24,724 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:24,725 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
-2025-07-24 04:52:24,736 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:24,737 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
-2025-07-24 04:52:24,797 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:24,798 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
-2025-07-24 04:52:24,928 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:24,930 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
-2025-07-24 04:52:25,087 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:25,088 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-24 04:52:25,095 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:25,096 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-24 04:52:25,168 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-24 04:52:25,240 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:25,241 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-24 04:52:25,741 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:25,742 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-24 04:52:25,795 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:25,796 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-24 04:52:25,889 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:25,890 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-24 04:52:26,106 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:26,107 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-24 04:52:26,567 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-24 04:52:26,616 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:26,617 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-24 04:52:26,909 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:26,910 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-24 04:52:27,048 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:27,048 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:27,051 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-24 04:52:27,087 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-24 04:52:27,157 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:27,158 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-24 04:52:27,376 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:27,377 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-24 04:52:27,500 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-24 04:52:27,835 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:27,836 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-24 04:52:28,097 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:28,098 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-24 04:52:28,229 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:28,231 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-24 04:52:28,237 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-24 04:52:28,267 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:28,269 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
-2025-07-24 04:52:28,314 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:28,316 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
-2025-07-24 04:52:28,390 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:28,391 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
-2025-07-24 04:52:28,457 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:28,459 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
-2025-07-24 04:52:35,858 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:35,859 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
-2025-07-24 04:52:36,008 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:36,008 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:36,009 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
-2025-07-24 04:52:28,258 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
-2025-07-24 04:52:28,337 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:28,337 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
-2025-07-24 04:52:28,414 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:28,415 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
-2025-07-24 04:52:28,548 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:28,550 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
-2025-07-24 04:52:28,570 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:28,571 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
-2025-07-24 04:52:28,592 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:28,593 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
-2025-07-24 04:52:28,778 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:28,779 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
-2025-07-24 04:52:28,856 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:28,858 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
-2025-07-24 04:52:28,958 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:28,958 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:28,959 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
-2025-07-24 04:52:28,959 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
-2025-07-24 04:52:29,003 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
-2025-07-24 04:52:29,014 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:29,015 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
-2025-07-24 04:52:29,024 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
-2025-07-24 04:52:29,070 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:29,071 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
-2025-07-24 04:52:29,076 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:29,077 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
-2025-07-24 04:52:29,158 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:29,159 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
-2025-07-24 04:52:29,169 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:29,171 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
-2025-07-24 04:52:29,226 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:29,227 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
-2025-07-24 04:52:29,353 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:29,354 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
-2025-07-24 04:52:29,443 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:29,444 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
-2025-07-24 04:52:29,794 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
-2025-07-24 04:52:29,945 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:29,946 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
-2025-07-24 04:52:30,012 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:30,013 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
-2025-07-24 04:52:30,075 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:30,076 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
-2025-07-24 04:52:30,096 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:30,098 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
-2025-07-24 04:52:30,152 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:30,153 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
-2025-07-24 04:52:30,246 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:30,247 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:30,248 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
-2025-07-24 04:52:30,562 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:30,563 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
-2025-07-24 04:52:31,013 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
-2025-07-24 04:52:31,103 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:31,104 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
-2025-07-24 04:52:31,135 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:31,135 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:31,136 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
-2025-07-24 04:52:31,381 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:31,381 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:31,383 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
-2025-07-24 04:52:31,504 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:31,505 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
-2025-07-24 04:52:31,514 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:31,515 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
-2025-07-24 04:52:31,555 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:31,557 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
-2025-07-24 04:52:31,908 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:31,909 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:31,910 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
-2025-07-24 04:52:32,037 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:32,038 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
-2025-07-24 04:52:32,098 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:32,098 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
-2025-07-24 04:52:32,149 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:32,150 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
-2025-07-24 04:52:32,311 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:32,311 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:32,312 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
-2025-07-24 04:52:32,318 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:32,319 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
-2025-07-24 04:52:32,342 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:32,343 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
-2025-07-24 04:52:32,538 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:32,539 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
-2025-07-24 04:52:32,566 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:32,567 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
-2025-07-24 04:52:32,604 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:32,605 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
-2025-07-24 04:52:32,608 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:32,609 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
-2025-07-24 04:52:32,652 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:32,652 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:32,653 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
-2025-07-24 04:52:32,841 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:32,842 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
-2025-07-24 04:52:32,865 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:32,866 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
-2025-07-24 04:52:32,919 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:32,921 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
-2025-07-24 04:52:32,946 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:32,947 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
-2025-07-24 04:52:32,974 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:32,974 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
-2025-07-24 04:52:33,083 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:33,085 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
-2025-07-24 04:52:33,301 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:33,302 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
-2025-07-24 04:52:33,329 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-24 04:52:33,433 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:33,435 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-24 04:52:41,021 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:41,022 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-24 04:52:33,318 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:33,319 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-24 04:52:33,466 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:33,467 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-24 04:52:33,525 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:33,527 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-24 04:52:33,611 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:33,612 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-24 04:52:33,702 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:33,703 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-24 04:52:33,746 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:33,747 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-24 04:52:34,256 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:34,257 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-24 04:52:34,480 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:34,481 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-24 04:52:34,678 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:34,680 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-24 04:52:34,694 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:34,694 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:34,695 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-24 04:52:34,943 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:34,944 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-24 04:52:34,955 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:34,956 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-24 04:52:35,027 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:35,029 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-24 04:52:35,095 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:35,096 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-24 04:52:35,277 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:35,278 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-24 04:52:35,375 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:35,377 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-24 04:52:35,410 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:35,411 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-24 04:52:35,493 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:35,493 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:35,495 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
-2025-07-24 04:52:35,615 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:35,616 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
-2025-07-24 04:52:35,644 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:35,645 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
-2025-07-24 04:52:35,658 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
-2025-07-24 04:52:35,735 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:35,736 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
-2025-07-24 04:52:35,805 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:35,806 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
-2025-07-24 04:52:35,862 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:35,863 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
-2025-07-24 04:52:35,893 - ERROR - Không tìm thấy kết quả trong HTML. Endpoint: mullvad leta, Query: 24
-2025-07-24 04:52:35,893 - ERROR - Không có kết quả hợp lệ sau khi lọc.
-2025-07-24 04:52:35,917 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
-2025-07-24 04:52:35,937 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:35,938 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
-2025-07-24 04:52:35,948 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:35,949 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
-2025-07-24 04:52:36,340 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
-2025-07-24 04:52:36,606 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
-2025-07-24 04:52:36,723 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:36,724 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
-2025-07-24 04:52:36,837 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:36,839 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
-2025-07-24 04:52:36,873 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:36,875 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
-2025-07-24 04:52:36,904 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:36,905 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
-2025-07-24 04:52:36,916 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
-2025-07-24 04:52:36,982 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:36,983 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
-2025-07-24 04:52:37,003 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:37,004 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:37,004 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
-2025-07-24 04:52:37,012 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:37,014 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
-2025-07-24 04:52:37,017 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:37,018 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
-2025-07-24 04:52:37,160 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:37,162 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
-2025-07-24 04:52:37,339 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:37,340 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
-2025-07-24 04:52:37,395 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:37,397 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
-2025-07-24 04:52:37,548 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:37,549 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
-2025-07-24 04:52:37,556 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:37,557 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
-2025-07-24 04:52:37,985 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:37,986 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
-2025-07-24 04:52:38,260 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:38,263 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
-2025-07-24 04:52:38,294 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:38,295 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
-2025-07-24 04:52:38,428 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:38,429 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
-2025-07-24 04:52:45,880 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
-2025-07-24 04:52:45,889 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:45,890 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
-2025-07-24 04:52:38,287 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:38,288 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
-2025-07-24 04:52:38,408 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:38,410 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
-2025-07-24 04:52:38,596 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:38,597 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
-2025-07-24 04:52:38,609 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:38,610 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
-2025-07-24 04:52:38,799 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:38,800 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
-2025-07-24 04:52:38,844 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:38,845 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
-2025-07-24 04:52:39,161 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:39,162 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
-2025-07-24 04:52:39,250 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:39,250 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:39,252 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
-2025-07-24 04:52:39,402 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:39,403 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
-2025-07-24 04:52:39,512 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:39,513 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
-2025-07-24 04:52:39,560 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:39,561 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
-2025-07-24 04:52:39,642 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:39,643 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
-2025-07-24 04:52:39,707 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:39,708 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
-2025-07-24 04:52:39,767 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:39,769 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
-2025-07-24 04:52:39,995 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:39,996 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
-2025-07-24 04:52:40,122 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:40,124 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
-2025-07-24 04:52:40,276 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:40,277 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
-2025-07-24 04:52:40,286 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:40,286 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:40,287 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
-2025-07-24 04:52:40,302 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:40,303 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
-2025-07-24 04:52:40,484 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:40,485 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
-2025-07-24 04:52:40,976 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:40,977 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
-2025-07-24 04:52:40,989 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:40,990 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
-2025-07-24 04:52:41,029 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:41,030 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:41,030 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
-2025-07-24 04:52:41,043 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:41,045 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
-2025-07-24 04:52:41,083 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:41,084 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
-2025-07-24 04:52:41,113 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:41,114 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
-2025-07-24 04:52:41,137 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:41,138 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
-2025-07-24 04:52:41,332 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:41,333 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
-2025-07-24 04:52:41,442 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:41,442 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:41,444 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-24 04:52:41,483 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:41,484 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-24 04:52:41,670 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:41,672 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-24 04:52:41,695 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:41,696 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-24 04:52:41,719 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:41,720 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-24 04:52:41,770 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:41,771 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-24 04:52:41,972 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:41,973 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-24 04:52:42,176 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:42,177 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-24 04:52:42,183 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:42,184 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-24 04:52:42,514 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:42,515 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-24 04:52:42,672 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-24 04:52:42,708 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:42,710 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-24 04:52:42,750 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:42,751 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-24 04:52:42,979 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:42,980 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-24 04:52:43,096 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:43,097 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-24 04:52:43,162 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:43,164 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-24 04:52:43,310 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:43,311 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-24 04:52:43,456 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:43,458 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-24 04:52:43,498 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:43,499 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-24 04:52:43,299 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:43,300 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-24 04:52:43,352 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:43,353 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
-2025-07-24 04:52:43,558 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
-2025-07-24 04:52:43,593 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:43,594 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
-2025-07-24 04:52:43,758 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
-2025-07-24 04:52:44,093 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:44,094 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
-2025-07-24 04:52:44,121 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:44,122 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
-2025-07-24 04:52:44,175 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:44,177 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
-2025-07-24 04:52:44,269 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:44,270 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
-2025-07-24 04:52:44,358 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
-2025-07-24 04:52:44,511 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:44,511 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:44,512 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:44,512 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:44,513 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
-2025-07-24 04:52:44,533 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:44,534 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
-2025-07-24 04:52:44,585 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:44,586 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
-2025-07-24 04:52:44,688 - ERROR - Không tìm thấy kết quả trong HTML. Endpoint: mullvad leta, Query: 24
-2025-07-24 04:52:44,688 - ERROR - Không có kết quả hợp lệ sau khi lọc.
-2025-07-24 04:52:45,098 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:45,100 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
-2025-07-24 04:52:45,111 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:45,113 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
-2025-07-24 04:52:45,198 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:45,200 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
-2025-07-24 04:52:45,298 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:45,299 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
-2025-07-24 04:52:45,448 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:45,449 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
-2025-07-24 04:52:45,540 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:45,541 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
-2025-07-24 04:52:45,550 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:45,552 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
-2025-07-24 04:52:45,573 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:45,574 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
-2025-07-24 04:52:45,692 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:45,693 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
-2025-07-24 04:52:45,808 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:45,809 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
-2025-07-24 04:52:45,889 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:45,890 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
-2025-07-24 04:52:45,988 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:45,989 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
-2025-07-24 04:52:46,563 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:46,564 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
-2025-07-24 04:52:46,591 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:46,592 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
-2025-07-24 04:52:46,693 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:46,694 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
-2025-07-24 04:52:46,816 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:46,818 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
-2025-07-24 04:52:46,850 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:46,851 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
-2025-07-24 04:52:47,028 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:47,029 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
-2025-07-24 04:52:47,072 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:47,074 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
-2025-07-24 04:52:47,142 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
-2025-07-24 04:52:47,267 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:47,269 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
-2025-07-24 04:52:47,289 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
-2025-07-24 04:52:47,323 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:47,324 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:47,324 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
-2025-07-24 04:52:47,325 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
-2025-07-24 04:52:47,346 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:47,347 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
-2025-07-24 04:52:47,358 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:47,358 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:47,359 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
-2025-07-24 04:52:47,400 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:47,401 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
-2025-07-24 04:52:47,453 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:47,455 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
-2025-07-24 04:52:47,484 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:47,485 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
-2025-07-24 04:52:47,491 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:47,492 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
-2025-07-24 04:52:47,520 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:47,521 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
-2025-07-24 04:52:47,605 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
-2025-07-24 04:52:47,840 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:47,841 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
-2025-07-24 04:52:48,103 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:48,104 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
-2025-07-24 04:52:48,447 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:48,449 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
-2025-07-24 04:52:48,557 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:48,558 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
-2025-07-24 04:52:55,841 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:55,842 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
-2025-07-24 04:52:55,901 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:55,901 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:55,903 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
-2025-07-24 04:52:55,933 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:55,935 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
-2025-07-24 04:52:56,045 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:56,046 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
-2025-07-24 04:52:48,328 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:48,329 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
-2025-07-24 04:52:48,357 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:48,359 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
-2025-07-24 04:52:48,504 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:48,507 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
-2025-07-24 04:52:48,561 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:48,563 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
-2025-07-24 04:52:48,661 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:48,662 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
-2025-07-24 04:52:48,783 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:48,784 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
-2025-07-24 04:52:48,985 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:48,987 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
-2025-07-24 04:52:49,048 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:49,049 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
-2025-07-24 04:52:49,085 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:49,086 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-24 04:52:49,248 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:49,249 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-24 04:52:49,374 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:49,376 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-24 04:52:49,441 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:49,442 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-24 04:52:49,534 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:49,535 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-24 04:52:49,774 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:49,776 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-24 04:52:49,995 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:49,996 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-24 04:52:50,044 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:50,046 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-24 04:52:50,188 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:50,190 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-24 04:52:50,662 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:50,663 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-24 04:52:50,802 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:50,803 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-24 04:52:50,820 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:50,821 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-24 04:52:50,844 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:50,845 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-24 04:52:51,000 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:51,001 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-24 04:52:51,115 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:51,116 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:51,117 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-24 04:52:51,118 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-24 04:52:51,137 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:51,138 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-24 04:52:51,151 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:51,153 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-24 04:52:51,179 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:51,180 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-24 04:52:51,439 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:51,440 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-24 04:52:51,490 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:51,491 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
-2025-07-24 04:52:51,562 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:51,563 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
-2025-07-24 04:52:51,570 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:51,572 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
-2025-07-24 04:52:51,579 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:51,580 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
-2025-07-24 04:52:51,647 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:51,649 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
-2025-07-24 04:52:51,776 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
-2025-07-24 04:52:51,792 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:51,794 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
-2025-07-24 04:52:52,040 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:52,041 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
-2025-07-24 04:52:52,150 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:52,151 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
-2025-07-24 04:52:52,164 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:52,166 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
-2025-07-24 04:52:52,570 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:52,571 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
-2025-07-24 04:52:52,726 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:52,726 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
-2025-07-24 04:52:52,851 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:52,851 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:52,852 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
-2025-07-24 04:52:52,887 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:52,889 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
-2025-07-24 04:52:53,192 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
-2025-07-24 04:52:53,241 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:53,242 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
-2025-07-24 04:52:53,300 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:53,302 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
-2025-07-24 04:52:53,403 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:53,404 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
-2025-07-24 04:52:53,425 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:53,426 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
-2025-07-24 04:53:01,003 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:01,004 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
-2025-07-24 04:53:01,024 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:01,025 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
-2025-07-24 04:53:01,047 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:01,048 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
-2025-07-24 04:52:53,418 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:53,420 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:53,420 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
-2025-07-24 04:52:53,421 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
-2025-07-24 04:52:53,443 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:53,444 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
-2025-07-24 04:52:53,588 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:53,589 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
-2025-07-24 04:52:53,597 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:53,598 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
-2025-07-24 04:52:53,704 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:53,704 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:53,705 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
-2025-07-24 04:52:53,705 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
-2025-07-24 04:52:53,803 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:53,804 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
-2025-07-24 04:52:54,042 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:54,046 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
-2025-07-24 04:52:54,091 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:54,093 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
-2025-07-24 04:52:54,235 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:54,236 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
-2025-07-24 04:52:54,253 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:54,254 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
-2025-07-24 04:52:54,259 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:54,261 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
-2025-07-24 04:52:54,347 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:54,349 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
-2025-07-24 04:52:54,372 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:54,372 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:54,374 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
-2025-07-24 04:52:54,525 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:54,526 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
-2025-07-24 04:52:54,629 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:54,630 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
-2025-07-24 04:52:54,638 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:54,639 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
-2025-07-24 04:52:54,666 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:54,667 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
-2025-07-24 04:52:54,817 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:54,818 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
-2025-07-24 04:52:54,919 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:54,920 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
-2025-07-24 04:52:54,983 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:54,984 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
-2025-07-24 04:52:54,999 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
-2025-07-24 04:52:55,007 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:55,008 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
-2025-07-24 04:52:55,021 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:55,022 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
-2025-07-24 04:52:55,109 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:55,110 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
-2025-07-24 04:52:55,191 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:55,192 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
-2025-07-24 04:52:55,247 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:55,249 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
-2025-07-24 04:52:55,342 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:55,343 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
-2025-07-24 04:52:55,349 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:55,349 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
-2025-07-24 04:52:55,493 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:55,494 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
-2025-07-24 04:52:55,623 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:55,624 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
-2025-07-24 04:52:55,955 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:55,956 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
-2025-07-24 04:52:56,008 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:56,009 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
-2025-07-24 04:52:56,221 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
-2025-07-24 04:52:56,263 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:56,264 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
-2025-07-24 04:52:56,269 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:56,270 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
-2025-07-24 04:52:56,308 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:56,309 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
-2025-07-24 04:52:56,419 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:56,421 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-24 04:52:56,452 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-24 04:52:56,643 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:56,644 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-24 04:52:56,662 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:56,662 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:56,663 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-24 04:52:56,730 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:56,731 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-24 04:52:56,921 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:56,922 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-24 04:52:57,005 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:57,007 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-24 04:52:57,428 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:57,429 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-24 04:52:57,686 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:57,687 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:57,688 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-24 04:52:57,709 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:57,710 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-24 04:52:57,738 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:57,740 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-24 04:52:57,764 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-24 04:52:57,847 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:57,848 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-24 04:52:57,865 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:57,867 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-24 04:52:57,911 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:57,912 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-24 04:52:58,016 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:58,017 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-24 04:52:58,248 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:58,249 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-24 04:52:58,371 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:58,372 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-24 04:52:58,387 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:58,389 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-24 04:52:58,466 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:58,468 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-24 04:52:58,480 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:58,481 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
-2025-07-24 04:52:58,533 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:58,534 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
-2025-07-24 04:53:05,864 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:05,866 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
-2025-07-24 04:53:05,908 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:05,910 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
-2025-07-24 04:52:58,443 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:58,444 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
-2025-07-24 04:52:58,462 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:58,463 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
-2025-07-24 04:52:58,554 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:58,556 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
-2025-07-24 04:52:58,905 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:58,906 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
-2025-07-24 04:52:58,958 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:58,960 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
-2025-07-24 04:52:58,985 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:58,986 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
-2025-07-24 04:52:59,306 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:59,306 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
-2025-07-24 04:52:59,321 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:52:59,323 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
-2025-07-24 04:52:59,386 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:59,387 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
-2025-07-24 04:52:59,602 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:59,603 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
-2025-07-24 04:52:59,615 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:59,616 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
-2025-07-24 04:52:59,847 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:52:59,849 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
-2025-07-24 04:52:59,903 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
-2025-07-24 04:52:59,926 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:52:59,926 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
-2025-07-24 04:53:00,054 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:00,055 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
-2025-07-24 04:53:00,307 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:00,308 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
-2025-07-24 04:53:00,428 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:00,429 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
-2025-07-24 04:53:00,704 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:00,704 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:00,706 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
-2025-07-24 04:53:00,720 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:00,721 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
-2025-07-24 04:53:00,853 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:00,855 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
-2025-07-24 04:53:00,987 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:00,988 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
-2025-07-24 04:53:01,142 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:01,143 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
-2025-07-24 04:53:01,152 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:01,153 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
-2025-07-24 04:53:01,212 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:01,213 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
-2025-07-24 04:53:01,268 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:01,269 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
-2025-07-24 04:53:01,300 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:01,302 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
-2025-07-24 04:53:01,474 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:01,475 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
-2025-07-24 04:53:01,538 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:01,539 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
-2025-07-24 04:53:01,638 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:01,640 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
-2025-07-24 04:53:01,685 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:01,686 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
-2025-07-24 04:53:01,722 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:01,722 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
-2025-07-24 04:53:01,732 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:01,734 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
-2025-07-24 04:53:01,772 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:01,774 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
-2025-07-24 04:53:01,833 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:01,834 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
-2025-07-24 04:53:01,902 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:01,905 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
-2025-07-24 04:53:02,072 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:02,073 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
-2025-07-24 04:53:02,096 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:02,097 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
-2025-07-24 04:53:02,212 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:02,213 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
-2025-07-24 04:53:02,319 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:02,321 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
-2025-07-24 04:53:02,443 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:02,445 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
-2025-07-24 04:53:03,010 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:03,011 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
-2025-07-24 04:53:03,186 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:03,187 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
-2025-07-24 04:53:03,519 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
-2025-07-24 04:53:03,577 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:10,854 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
-2025-07-24 04:53:10,863 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:10,864 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
-2025-07-24 04:53:10,899 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:10,900 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:10,900 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
-2025-07-24 04:53:03,341 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:03,342 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
-2025-07-24 04:53:03,352 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:03,353 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
-2025-07-24 04:53:03,424 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:03,424 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:03,424 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:03,425 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
-2025-07-24 04:53:03,425 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
-2025-07-24 04:53:03,565 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:03,566 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
-2025-07-24 04:53:03,761 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:03,762 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
-2025-07-24 04:53:03,943 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:03,944 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
-2025-07-24 04:53:03,992 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
-2025-07-24 04:53:04,133 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:04,134 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
-2025-07-24 04:53:04,172 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:04,173 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
-2025-07-24 04:53:04,247 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:04,248 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-24 04:53:04,456 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:04,457 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-24 04:53:04,530 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:04,531 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-24 04:53:04,624 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:04,625 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-24 04:53:04,788 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:04,791 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-24 04:53:04,855 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:04,855 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:04,856 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-24 04:53:04,857 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-24 04:53:04,895 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:04,896 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-24 04:53:05,114 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:05,116 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-24 04:53:05,177 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:05,178 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-24 04:53:05,212 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:05,213 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-24 04:53:05,215 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:05,216 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-24 04:53:05,255 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:05,256 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-24 04:53:05,364 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:05,365 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-24 04:53:05,432 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:05,433 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-24 04:53:05,697 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:05,699 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-24 04:53:05,876 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:05,878 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-24 04:53:05,962 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:05,963 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-24 04:53:05,969 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:05,974 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-24 04:53:06,004 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:06,004 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:06,006 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-24 04:53:06,281 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:06,282 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
-2025-07-24 04:53:06,283 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:06,284 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
-2025-07-24 04:53:06,362 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:06,364 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
-2025-07-24 04:53:06,532 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:06,533 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
-2025-07-24 04:53:06,536 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:06,537 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
-2025-07-24 04:53:06,590 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:06,592 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
-2025-07-24 04:53:06,596 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
-2025-07-24 04:53:06,649 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
-2025-07-24 04:53:06,657 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:06,660 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
-2025-07-24 04:53:06,745 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:06,746 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
-2025-07-24 04:53:06,818 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:06,820 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
-2025-07-24 04:53:06,959 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:06,961 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
-2025-07-24 04:53:07,062 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:07,063 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
-2025-07-24 04:53:07,067 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:07,068 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
-2025-07-24 04:53:07,184 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:07,184 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:07,185 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
-2025-07-24 04:53:07,436 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:07,438 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
-2025-07-24 04:53:07,598 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:07,599 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
-2025-07-24 04:53:07,680 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:07,682 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
-2025-07-24 04:53:07,688 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:07,689 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
-2025-07-24 04:53:07,841 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:07,842 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
-2025-07-24 04:53:07,884 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:07,885 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
-2025-07-24 04:53:08,048 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:08,049 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
-2025-07-24 04:53:08,082 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:08,083 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
-2025-07-24 04:53:08,166 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:08,167 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
-2025-07-24 04:53:08,186 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:08,187 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
-2025-07-24 04:53:08,194 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:08,195 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
-2025-07-24 04:53:08,277 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:08,279 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
-2025-07-24 04:53:08,307 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:08,308 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
-2025-07-24 04:53:08,474 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:08,479 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
-2025-07-24 04:53:08,534 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:08,536 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
-2025-07-24 04:53:15,885 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:15,886 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
-2025-07-24 04:53:16,051 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:16,052 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
-2025-07-24 04:53:16,075 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:16,077 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
-2025-07-24 04:53:08,355 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:08,357 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
-2025-07-24 04:53:08,565 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:08,566 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
-2025-07-24 04:53:08,634 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:08,636 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
-2025-07-24 04:53:08,844 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:08,845 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
-2025-07-24 04:53:08,935 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:08,936 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
-2025-07-24 04:53:09,038 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:09,040 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
-2025-07-24 04:53:09,593 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:09,594 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
-2025-07-24 04:53:09,628 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:09,629 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
-2025-07-24 04:53:09,662 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
-2025-07-24 04:53:09,829 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:09,830 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
-2025-07-24 04:53:09,867 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:09,868 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
-2025-07-24 04:53:09,914 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:09,915 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
-2025-07-24 04:53:09,996 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
-2025-07-24 04:53:10,025 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:10,025 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:10,026 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
-2025-07-24 04:53:10,143 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:10,144 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
-2025-07-24 04:53:10,168 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
-2025-07-24 04:53:10,191 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:10,192 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
-2025-07-24 04:53:10,239 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:10,241 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
-2025-07-24 04:53:10,330 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:10,331 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
-2025-07-24 04:53:10,438 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:10,439 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
-2025-07-24 04:53:10,681 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:10,682 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
-2025-07-24 04:53:10,705 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:10,707 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
-2025-07-24 04:53:10,723 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:10,723 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:10,725 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
-2025-07-24 04:53:10,974 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:10,976 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
-2025-07-24 04:53:11,135 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:11,136 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
-2025-07-24 04:53:11,349 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:11,350 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
-2025-07-24 04:53:11,450 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:11,452 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
-2025-07-24 04:53:11,802 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:11,803 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
-2025-07-24 04:53:11,927 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:11,928 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
-2025-07-24 04:53:12,084 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:12,084 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:12,085 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
-2025-07-24 04:53:12,085 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
-2025-07-24 04:53:12,391 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:12,392 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
-2025-07-24 04:53:12,467 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:12,468 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
-2025-07-24 04:53:12,475 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:12,477 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
-2025-07-24 04:53:12,520 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:12,522 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
-2025-07-24 04:53:12,787 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:12,787 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:12,789 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
-2025-07-24 04:53:12,991 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:12,992 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
-2025-07-24 04:53:13,060 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:13,062 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
-2025-07-24 04:53:13,114 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:13,115 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
-2025-07-24 04:53:13,123 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:13,124 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
-2025-07-24 04:53:13,138 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:13,139 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
-2025-07-24 04:53:13,179 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:13,180 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
-2025-07-24 04:53:13,233 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:13,234 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
-2025-07-24 04:53:13,297 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:13,298 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
-2025-07-24 04:53:13,330 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:13,331 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
-2025-07-24 04:53:13,419 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:13,420 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
-2025-07-24 04:53:13,487 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:13,488 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
-2025-07-24 04:53:13,444 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:13,445 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
-2025-07-24 04:53:13,451 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:13,452 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
-2025-07-24 04:53:13,504 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:13,505 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
-2025-07-24 04:53:13,603 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:13,604 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
-2025-07-24 04:53:13,656 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:13,658 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
-2025-07-24 04:53:13,691 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:13,692 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
-2025-07-24 04:53:13,730 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:13,731 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
-2025-07-24 04:53:13,759 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:13,761 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
-2025-07-24 04:53:13,762 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:13,763 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
-2025-07-24 04:53:13,805 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:13,806 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
-2025-07-24 04:53:13,881 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:13,882 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
-2025-07-24 04:53:13,967 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:13,968 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
-2025-07-24 04:53:14,021 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:14,022 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
-2025-07-24 04:53:14,114 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:14,115 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
-2025-07-24 04:53:14,116 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:14,117 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
-2025-07-24 04:53:14,667 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:14,669 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
-2025-07-24 04:53:14,673 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:14,675 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
-2025-07-24 04:53:15,249 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
-2025-07-24 04:53:15,506 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:15,508 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
-2025-07-24 04:53:16,167 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:16,168 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
-2025-07-24 04:53:16,171 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:16,172 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
-2025-07-24 04:53:17,526 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:17,528 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
-2025-07-24 04:53:17,791 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:17,792 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
-2025-07-24 04:53:18,050 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
-2025-07-24 04:53:18,379 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:18,381 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
-2025-07-24 04:53:18,344 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:18,344 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
-2025-07-24 04:53:18,345 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
-2025-07-24 04:53:19,560 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:19,562 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
-2025-07-24 04:53:19,625 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
-2025-07-24 04:53:19,626 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
-2025-07-24 04:53:20,796 - INFO - Chạy tìm kiếm với endpoint: bing
-2025-07-24 04:53:20,798 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
-2025-07-24 04:53:21,542 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
-2025-07-24 04:53:24,704 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
+2025-07-24 06:39:36,262 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,263 - INFO - Setting the event loop.
+2025-07-24 06:39:36,278 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,278 - INFO - Setting the event loop.
+2025-07-24 06:39:36,291 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,292 - INFO - Setting the event loop.
+2025-07-24 06:39:36,328 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,328 - INFO - Setting the event loop.
+2025-07-24 06:39:36,332 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,338 - INFO - Setting the event loop.
+2025-07-24 06:39:36,357 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,358 - INFO - Setting the event loop.
+2025-07-24 06:39:36,458 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,458 - INFO - Setting the event loop.
+2025-07-24 06:39:36,460 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,461 - INFO - Setting the event loop.
+2025-07-24 06:39:36,495 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,496 - INFO - Setting the event loop.
+2025-07-24 06:39:36,517 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,518 - INFO - Setting the event loop.
+2025-07-24 06:39:36,518 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,518 - INFO - Setting the event loop.
+2025-07-24 06:39:36,537 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,538 - INFO - Setting the event loop.
+2025-07-24 06:39:36,569 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,569 - INFO - Setting the event loop.
+2025-07-24 06:39:36,606 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,606 - INFO - Setting the event loop.
+2025-07-24 06:39:36,627 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,628 - INFO - Setting the event loop.
+2025-07-24 06:39:36,633 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,638 - INFO - Setting the event loop.
+2025-07-24 06:39:36,671 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,672 - INFO - Setting the event loop.
+2025-07-24 06:39:36,748 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,748 - INFO - Setting the event loop.
+2025-07-24 06:39:36,771 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,775 - INFO - Setting the event loop.
+2025-07-24 06:39:36,810 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,810 - INFO - Setting the event loop.
+2025-07-24 06:39:36,861 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,861 - INFO - Setting the event loop.
+2025-07-24 06:39:36,878 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,878 - INFO - Setting the event loop.
+2025-07-24 06:39:36,897 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,898 - INFO - Setting the event loop.
+2025-07-24 06:39:36,978 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:36,979 - INFO - Setting the event loop.
+2025-07-24 06:39:37,064 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,064 - INFO - Setting the event loop.
+2025-07-24 06:39:37,148 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,149 - INFO - Setting the event loop.
+2025-07-24 06:39:37,157 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,158 - INFO - Setting the event loop.
+2025-07-24 06:39:37,188 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,188 - INFO - Setting the event loop.
+2025-07-24 06:39:37,208 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,208 - INFO - Setting the event loop.
+2025-07-24 06:39:37,249 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,250 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,250 - INFO - Setting the event loop.
+2025-07-24 06:39:37,250 - INFO - Setting the event loop.
+2025-07-24 06:39:37,283 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,284 - INFO - Setting the event loop.
+2025-07-24 06:39:37,290 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,290 - INFO - Setting the event loop.
+2025-07-24 06:39:37,303 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,303 - INFO - Setting the event loop.
+2025-07-24 06:39:37,320 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,320 - INFO - Setting the event loop.
+2025-07-24 06:39:37,362 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,363 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,363 - INFO - Setting the event loop.
+2025-07-24 06:39:37,363 - INFO - Setting the event loop.
+2025-07-24 06:39:37,438 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,439 - INFO - Setting the event loop.
+2025-07-24 06:39:37,468 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,468 - INFO - Setting the event loop.
+2025-07-24 06:39:37,507 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,507 - INFO - Setting the event loop.
+2025-07-24 06:39:37,507 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,508 - INFO - Setting the event loop.
+2025-07-24 06:39:37,521 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,521 - INFO - Setting the event loop.
+2025-07-24 06:39:37,521 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,522 - INFO - Setting the event loop.
+2025-07-24 06:39:37,536 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,538 - INFO - Setting the event loop.
+2025-07-24 06:39:37,618 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,618 - INFO - Setting the event loop.
+2025-07-24 06:39:37,638 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,639 - INFO - Setting the event loop.
+2025-07-24 06:39:37,653 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,653 - INFO - Setting the event loop.
+2025-07-24 06:39:37,657 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,658 - INFO - Setting the event loop.
+2025-07-24 06:39:37,673 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,674 - INFO - Setting the event loop.
+2025-07-24 06:39:37,701 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,702 - INFO - Setting the event loop.
+2025-07-24 06:39:37,706 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,706 - INFO - Setting the event loop.
+2025-07-24 06:39:37,724 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,724 - INFO - Setting the event loop.
+2025-07-24 06:39:37,740 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,740 - INFO - Setting the event loop.
+2025-07-24 06:39:37,743 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,743 - INFO - Setting the event loop.
+2025-07-24 06:39:37,763 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,763 - INFO - Setting the event loop.
+2025-07-24 06:39:37,768 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,769 - INFO - Setting the event loop.
+2025-07-24 06:39:37,798 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,799 - INFO - Setting the event loop.
+2025-07-24 06:39:37,815 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,816 - INFO - Setting the event loop.
+2025-07-24 06:39:37,822 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,823 - INFO - Setting the event loop.
+2025-07-24 06:39:37,826 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,827 - INFO - Setting the event loop.
+2025-07-24 06:39:37,843 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,844 - INFO - Setting the event loop.
+2025-07-24 06:39:37,848 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,848 - INFO - Setting the event loop.
+2025-07-24 06:39:37,850 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,850 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,850 - INFO - Setting the event loop.
+2025-07-24 06:39:37,850 - INFO - Setting the event loop.
+2025-07-24 06:39:37,870 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,871 - INFO - Setting the event loop.
+2025-07-24 06:39:37,882 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,883 - INFO - Setting the event loop.
+2025-07-24 06:39:37,885 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,885 - INFO - Setting the event loop.
+2025-07-24 06:39:37,892 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,893 - INFO - Setting the event loop.
+2025-07-24 06:39:37,897 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,898 - INFO - Setting the event loop.
+2025-07-24 06:39:37,926 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,927 - INFO - Setting the event loop.
+2025-07-24 06:39:37,939 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,939 - INFO - Setting the event loop.
+2025-07-24 06:39:37,954 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:37,954 - INFO - Setting the event loop.
+2025-07-24 06:39:45,837 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:45,837 - INFO - Setting the event loop.
+2025-07-24 06:39:45,843 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:45,843 - INFO - Setting the event loop.
+2025-07-24 06:39:45,851 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:45,851 - INFO - Setting the event loop.
+2025-07-24 06:39:45,856 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:45,857 - INFO - Setting the event loop.
+2025-07-24 06:39:45,864 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:45,864 - INFO - Setting the event loop.
+2025-07-24 06:39:45,880 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:45,880 - INFO - Setting the event loop.
+2025-07-24 06:39:45,884 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:45,884 - INFO - Setting the event loop.
+2025-07-24 06:39:45,887 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 06:39:45,888 - INFO - Setting the event loop.
+2025-07-24 06:40:28,994 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:28,994 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:28,994 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:28,994 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:28,994 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:28,994 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:28,994 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:28,994 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:28,995 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:28,995 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:28,995 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:28,995 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:28,995 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:28,995 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:28,995 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:28,995 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:28,996 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:28,996 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:28,996 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:28,996 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:28,996 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:28,996 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:28,997 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:28,997 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
+2025-07-24 06:40:28,997 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
+2025-07-24 06:40:28,997 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
+2025-07-24 06:40:28,998 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:28,998 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:28,998 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
+2025-07-24 06:40:28,998 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
+2025-07-24 06:40:28,999 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:28,999 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
+2025-07-24 06:40:28,999 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:28,999 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
+2025-07-24 06:40:28,999 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:28,999 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:28,999 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
+2025-07-24 06:40:28,999 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
+2025-07-24 06:40:28,999 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:29,000 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
+2025-07-24 06:40:29,000 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:29,000 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:29,000 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:29,000 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
+2025-07-24 06:40:29,001 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:29,001 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:29,001 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:29,002 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
+2025-07-24 06:40:29,002 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
+2025-07-24 06:40:29,002 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
+2025-07-24 06:40:29,002 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
+2025-07-24 06:40:29,002 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
+2025-07-24 06:40:29,002 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
+2025-07-24 06:40:29,002 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:29,003 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
+2025-07-24 06:40:29,003 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
+2025-07-24 06:40:29,004 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:29,004 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
+2025-07-24 06:40:29,005 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
+2025-07-24 06:40:29,006 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:29,003 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
+2025-07-24 06:40:29,006 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
+2025-07-24 06:40:29,007 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
+2025-07-24 06:40:29,007 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:29,008 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
+2025-07-24 06:40:29,008 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:29,010 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
+2025-07-24 06:40:29,011 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
+2025-07-24 06:40:29,057 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:29,057 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:29,057 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:29,058 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:29,058 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:29,058 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:29,058 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:29,059 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:29,059 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:29,059 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
+2025-07-24 06:40:29,059 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:29,059 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:29,059 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:29,059 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:29,060 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:29,060 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:29,060 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:29,060 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
+2025-07-24 06:40:29,060 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:29,060 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:29,060 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
+2025-07-24 06:40:29,060 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:29,060 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:29,061 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
+2025-07-24 06:40:29,062 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
+2025-07-24 06:40:29,063 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
+2025-07-24 06:40:29,063 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
+2025-07-24 06:40:29,063 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
+2025-07-24 06:40:29,063 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
+2025-07-24 06:40:29,063 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
+2025-07-24 06:40:31,949 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
+2025-07-24 06:40:32,066 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:32,067 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
+2025-07-24 06:40:32,198 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:32,199 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
+2025-07-24 06:40:32,235 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
+2025-07-24 06:40:32,261 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
+2025-07-24 06:40:32,336 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
+2025-07-24 06:40:32,417 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
+2025-07-24 06:40:32,464 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:32,465 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:32,467 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
+2025-07-24 06:40:32,504 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
+2025-07-24 06:40:32,678 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:32,679 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
+2025-07-24 06:40:32,684 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:32,685 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
+2025-07-24 06:40:32,909 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:32,911 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
+2025-07-24 06:40:32,939 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:32,941 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
+2025-07-24 06:40:33,005 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:33,006 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
+2025-07-24 06:40:40,940 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:40,941 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
+2025-07-24 06:40:33,007 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:33,009 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
+2025-07-24 06:40:33,131 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:33,132 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
+2025-07-24 06:40:33,292 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:33,293 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
+2025-07-24 06:40:33,348 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:33,349 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
+2025-07-24 06:40:33,756 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:33,757 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
+2025-07-24 06:40:34,533 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
+2025-07-24 06:40:34,679 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:34,680 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
+2025-07-24 06:40:34,928 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
+2025-07-24 06:40:35,220 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:35,221 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:35,223 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
+2025-07-24 06:40:35,438 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
+2025-07-24 06:40:35,682 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:35,684 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
+2025-07-24 06:40:35,688 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
+2025-07-24 06:40:35,714 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:35,716 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
+2025-07-24 06:40:35,722 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:35,723 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
+2025-07-24 06:40:35,846 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:35,846 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:35,847 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
+2025-07-24 06:40:36,352 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:36,354 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
+2025-07-24 06:40:36,537 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:36,538 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
+2025-07-24 06:40:36,681 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:36,682 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
+2025-07-24 06:40:36,844 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:36,845 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
+2025-07-24 06:40:36,926 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:36,927 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
+2025-07-24 06:40:37,027 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:37,029 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
+2025-07-24 06:40:37,037 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:37,038 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
+2025-07-24 06:40:37,044 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:37,045 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
+2025-07-24 06:40:37,112 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
+2025-07-24 06:40:37,187 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:37,188 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
+2025-07-24 06:40:37,254 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:37,255 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
+2025-07-24 06:40:37,298 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:37,299 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
+2025-07-24 06:40:37,310 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
+2025-07-24 06:40:38,009 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:38,011 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
+2025-07-24 06:40:38,036 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:38,037 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
+2025-07-24 06:40:46,027 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:46,028 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
+2025-07-24 06:40:46,073 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
+2025-07-24 06:40:46,103 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:46,104 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
+2025-07-24 06:40:38,063 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:38,064 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
+2025-07-24 06:40:38,186 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:38,187 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
+2025-07-24 06:40:38,385 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
+2025-07-24 06:40:38,421 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:38,422 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
+2025-07-24 06:40:38,553 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:38,555 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
+2025-07-24 06:40:38,599 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:38,599 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
+2025-07-24 06:40:38,661 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:38,663 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
+2025-07-24 06:40:38,681 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:38,682 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
+2025-07-24 06:40:39,459 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:39,461 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
+2025-07-24 06:40:39,634 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:39,635 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
+2025-07-24 06:40:40,118 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:40,120 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
+2025-07-24 06:40:40,222 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:40,223 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
+2025-07-24 06:40:40,227 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:40,229 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
+2025-07-24 06:40:40,650 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
+2025-07-24 06:40:40,949 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:40,950 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
+2025-07-24 06:40:41,006 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:41,007 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
+2025-07-24 06:40:41,103 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
+2025-07-24 06:40:41,186 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:41,187 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
+2025-07-24 06:40:41,364 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:41,365 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
+2025-07-24 06:40:41,371 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:41,373 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
+2025-07-24 06:40:41,531 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:41,533 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
+2025-07-24 06:40:41,631 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:41,633 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
+2025-07-24 06:40:41,762 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:41,763 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
+2025-07-24 06:40:41,828 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
+2025-07-24 06:40:42,019 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:42,021 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
+2025-07-24 06:40:42,085 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:42,086 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
+2025-07-24 06:40:42,178 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:42,180 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
+2025-07-24 06:40:42,655 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
+2025-07-24 06:40:51,011 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:51,012 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
+2025-07-24 06:40:51,178 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:51,179 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:51,180 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
+2025-07-24 06:40:43,121 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:43,124 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
+2025-07-24 06:40:43,525 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
+2025-07-24 06:40:43,607 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:43,608 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
+2025-07-24 06:40:43,634 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:43,636 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
+2025-07-24 06:40:43,747 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:43,748 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
+2025-07-24 06:40:43,796 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:43,798 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
+2025-07-24 06:40:44,454 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:44,455 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
+2025-07-24 06:40:44,581 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:44,584 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
+2025-07-24 06:40:44,596 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:44,598 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
+2025-07-24 06:40:44,600 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:44,602 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
+2025-07-24 06:40:44,691 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:44,692 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
+2025-07-24 06:40:44,693 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:44,694 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
+2025-07-24 06:40:44,822 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:44,823 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
+2025-07-24 06:40:44,916 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:44,917 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
+2025-07-24 06:40:44,969 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:44,970 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
+2025-07-24 06:40:44,986 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:44,987 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
+2025-07-24 06:40:45,289 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:45,289 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:45,290 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
+2025-07-24 06:40:45,457 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:45,459 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
+2025-07-24 06:40:45,475 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:45,477 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
+2025-07-24 06:40:45,492 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:45,494 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
+2025-07-24 06:40:45,591 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:45,591 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:45,591 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:45,592 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:45,593 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
+2025-07-24 06:40:45,731 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:45,732 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
+2025-07-24 06:40:46,022 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:46,024 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
+2025-07-24 06:40:46,043 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:46,045 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
+2025-07-24 06:40:46,081 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:46,082 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:46,083 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
+2025-07-24 06:40:46,134 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
+2025-07-24 06:40:46,455 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:46,456 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:46,457 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
+2025-07-24 06:40:46,537 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:46,538 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
+2025-07-24 06:40:46,913 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
+2025-07-24 06:40:47,060 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:47,061 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
+2025-07-24 06:40:47,364 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:47,366 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
+2025-07-24 06:40:47,588 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:47,590 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
+2025-07-24 06:40:47,610 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:47,610 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
+2025-07-24 06:40:47,987 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:47,989 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
+2025-07-24 06:40:56,053 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:56,054 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:56,055 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
+2025-07-24 06:40:56,220 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
+2025-07-24 06:40:47,981 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:47,981 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
+2025-07-24 06:40:48,148 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:48,149 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
+2025-07-24 06:40:48,195 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:48,196 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
+2025-07-24 06:40:48,306 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:48,308 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
+2025-07-24 06:40:48,486 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:48,487 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
+2025-07-24 06:40:48,513 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:48,514 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
+2025-07-24 06:40:48,721 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:48,722 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
+2025-07-24 06:40:48,813 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:48,815 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
+2025-07-24 06:40:48,962 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:48,963 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
+2025-07-24 06:40:49,077 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
+2025-07-24 06:40:49,233 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:49,235 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
+2025-07-24 06:40:49,302 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:49,303 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
+2025-07-24 06:40:49,411 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
+2025-07-24 06:40:49,647 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:49,648 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
+2025-07-24 06:40:50,172 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:50,174 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
+2025-07-24 06:40:50,329 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:50,331 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
+2025-07-24 06:40:50,357 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
+2025-07-24 06:40:50,746 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
+2025-07-24 06:40:50,760 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:50,762 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
+2025-07-24 06:40:50,835 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
+2025-07-24 06:40:50,950 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:50,951 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
+2025-07-24 06:40:50,994 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:50,995 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
+2025-07-24 06:40:51,309 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:51,310 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
+2025-07-24 06:40:51,370 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:51,371 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
+2025-07-24 06:40:51,718 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:51,720 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
+2025-07-24 06:40:51,728 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:51,729 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
+2025-07-24 06:40:51,754 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:51,755 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
+2025-07-24 06:40:51,855 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:51,856 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
+2025-07-24 06:40:51,893 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:51,895 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
+2025-07-24 06:40:51,963 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:51,964 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
+2025-07-24 06:40:52,447 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:52,448 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
+2025-07-24 06:40:52,565 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:52,566 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
+2025-07-24 06:40:52,865 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:52,867 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
+2025-07-24 06:41:01,113 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:01,115 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
+2025-07-24 06:41:01,185 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
+2025-07-24 06:41:01,233 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:01,234 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
+2025-07-24 06:40:53,032 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:53,032 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:53,032 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:53,034 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
+2025-07-24 06:40:53,249 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:53,252 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
+2025-07-24 06:40:53,382 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
+2025-07-24 06:40:53,397 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:53,400 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
+2025-07-24 06:40:53,468 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:53,469 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
+2025-07-24 06:40:53,689 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
+2025-07-24 06:40:53,727 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:53,729 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
+2025-07-24 06:40:53,890 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:53,891 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
+2025-07-24 06:40:53,963 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:53,963 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:53,964 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
+2025-07-24 06:40:54,173 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:54,174 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
+2025-07-24 06:40:54,415 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:54,417 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
+2025-07-24 06:40:54,504 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:54,506 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
+2025-07-24 06:40:54,866 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:54,868 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
+2025-07-24 06:40:54,872 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:54,874 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
+2025-07-24 06:40:54,918 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:54,920 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
+2025-07-24 06:40:55,090 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:55,092 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
+2025-07-24 06:40:55,109 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:55,111 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
+2025-07-24 06:40:55,458 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:55,460 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
+2025-07-24 06:40:55,474 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:55,476 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
+2025-07-24 06:40:55,975 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:55,976 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
+2025-07-24 06:40:56,001 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:56,001 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:56,003 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
+2025-07-24 06:40:56,041 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
+2025-07-24 06:40:56,127 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:56,129 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
+2025-07-24 06:40:56,455 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:56,458 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
+2025-07-24 06:40:56,569 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:56,569 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:56,573 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
+2025-07-24 06:40:56,596 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
+2025-07-24 06:40:56,649 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:56,650 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
+2025-07-24 06:40:56,670 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:56,671 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
+2025-07-24 06:40:56,682 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
+2025-07-24 06:40:56,858 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:56,859 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
+2025-07-24 06:40:56,898 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:56,899 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
+2025-07-24 06:40:56,958 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:56,958 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:56,959 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
+2025-07-24 06:40:56,994 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:56,995 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
+2025-07-24 06:40:57,048 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:57,049 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
+2025-07-24 06:40:57,127 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:57,128 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
+2025-07-24 06:40:57,157 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:57,159 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
+2025-07-24 06:40:57,771 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:57,772 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
+2025-07-24 06:41:06,203 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:06,205 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
+2025-07-24 06:40:58,035 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:58,036 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
+2025-07-24 06:40:58,272 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
+2025-07-24 06:40:58,661 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
+2025-07-24 06:40:58,795 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:40:58,796 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
+2025-07-24 06:40:59,019 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:59,021 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
+2025-07-24 06:40:59,424 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:59,425 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
+2025-07-24 06:40:59,464 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:59,466 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
+2025-07-24 06:40:59,667 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:59,669 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
+2025-07-24 06:40:59,866 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
+2025-07-24 06:40:59,914 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:40:59,916 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
+2025-07-24 06:40:59,981 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:40:59,982 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
+2025-07-24 06:41:00,099 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:00,101 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
+2025-07-24 06:41:00,114 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:00,115 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
+2025-07-24 06:41:00,436 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:00,437 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:00,439 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
+2025-07-24 06:41:00,508 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:00,509 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
+2025-07-24 06:41:00,513 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:00,514 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
+2025-07-24 06:41:00,709 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:00,712 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
+2025-07-24 06:41:00,816 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:00,818 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
+2025-07-24 06:41:01,192 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:01,194 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
+2025-07-24 06:41:01,508 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:01,508 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:01,508 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:01,509 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:01,509 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:01,512 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
+2025-07-24 06:41:01,702 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:01,703 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
+2025-07-24 06:41:01,742 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:01,742 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:01,742 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:01,743 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
+2025-07-24 06:41:01,747 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:01,748 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
+2025-07-24 06:41:02,103 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:02,104 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
+2025-07-24 06:41:02,275 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:02,276 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
+2025-07-24 06:41:02,497 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:02,498 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
+2025-07-24 06:41:02,563 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:02,565 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
+2025-07-24 06:41:03,064 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:03,065 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
+2025-07-24 06:41:03,098 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:03,100 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
+2025-07-24 06:41:11,081 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:11,083 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
+2025-07-24 06:41:11,117 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
+2025-07-24 06:41:11,120 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
+2025-07-24 06:41:03,098 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:03,098 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
+2025-07-24 06:41:03,131 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
+2025-07-24 06:41:03,187 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:03,188 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
+2025-07-24 06:41:03,378 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:03,378 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:03,379 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
+2025-07-24 06:41:03,703 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:03,704 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
+2025-07-24 06:41:03,882 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:03,884 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
+2025-07-24 06:41:04,126 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:04,128 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
+2025-07-24 06:41:04,175 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
+2025-07-24 06:41:04,284 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:04,285 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
+2025-07-24 06:41:04,320 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:04,321 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
+2025-07-24 06:41:04,573 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:04,574 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
+2025-07-24 06:41:04,694 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:04,695 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
+2025-07-24 06:41:04,865 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:04,866 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
+2025-07-24 06:41:04,918 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:04,920 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
+2025-07-24 06:41:04,960 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:04,962 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
+2025-07-24 06:41:05,175 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
+2025-07-24 06:41:05,191 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:05,192 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
+2025-07-24 06:41:05,371 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:05,373 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
+2025-07-24 06:41:05,575 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:05,576 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
+2025-07-24 06:41:05,596 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
+2025-07-24 06:41:05,661 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:05,662 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
+2025-07-24 06:41:06,032 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:06,033 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
+2025-07-24 06:41:06,172 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
+2025-07-24 06:41:06,346 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:06,347 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:06,348 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
+2025-07-24 06:41:06,349 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
+2025-07-24 06:41:06,548 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:06,550 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
+2025-07-24 06:41:06,655 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:06,657 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
+2025-07-24 06:41:06,668 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:06,670 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
+2025-07-24 06:41:06,843 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:06,844 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
+2025-07-24 06:41:06,877 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:06,878 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
+2025-07-24 06:41:07,085 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:07,086 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
+2025-07-24 06:41:07,091 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:07,092 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
+2025-07-24 06:41:07,312 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
+2025-07-24 06:41:07,365 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:07,367 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
+2025-07-24 06:41:07,654 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
+2025-07-24 06:41:07,711 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:07,711 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
+2025-07-24 06:41:08,018 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
+2025-07-24 06:41:08,212 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:08,213 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
+2025-07-24 06:41:08,246 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:08,247 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
+2025-07-24 06:41:08,331 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:08,332 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
+2025-07-24 06:41:08,332 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:08,333 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
+2025-07-24 06:41:08,396 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:08,397 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
+2025-07-24 06:41:08,428 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:08,430 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
+2025-07-24 06:41:08,446 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:08,447 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
+2025-07-24 06:41:08,573 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:08,573 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:08,575 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
+2025-07-24 06:41:08,590 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:08,591 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
+2025-07-24 06:41:08,596 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:08,596 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:08,598 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
+2025-07-24 06:41:09,025 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:09,026 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
+2025-07-24 06:41:09,097 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:09,097 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:09,097 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:09,097 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:09,097 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:09,097 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:09,099 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
+2025-07-24 06:41:09,198 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:09,200 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
+2025-07-24 06:41:09,237 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:09,238 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
+2025-07-24 06:41:09,323 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:09,324 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
+2025-07-24 06:41:09,510 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:09,511 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
+2025-07-24 06:41:09,573 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:09,574 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
+2025-07-24 06:41:09,879 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:09,880 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
+2025-07-24 06:41:09,991 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:09,994 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
+2025-07-24 06:41:10,163 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:10,165 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
+2025-07-24 06:41:10,269 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:10,269 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
+2025-07-24 06:41:10,359 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:10,361 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
+2025-07-24 06:41:10,499 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:10,501 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
+2025-07-24 06:41:10,640 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
+2025-07-24 06:41:10,702 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
+2025-07-24 06:41:10,982 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:10,983 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
+2025-07-24 06:41:11,147 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:11,148 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
+2025-07-24 06:41:11,175 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
+2025-07-24 06:41:11,696 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:11,697 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
+2025-07-24 06:41:11,825 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:11,826 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
+2025-07-24 06:41:12,147 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:12,148 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
+2025-07-24 06:41:12,319 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:12,320 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
+2025-07-24 06:41:12,324 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
+2025-07-24 06:41:12,356 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:12,358 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
+2025-07-24 06:41:12,509 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:12,511 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
+2025-07-24 06:41:12,586 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:12,587 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
+2025-07-24 06:41:12,628 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:12,630 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
+2025-07-24 06:41:13,054 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:13,055 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
+2025-07-24 06:41:13,228 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
+2025-07-24 06:41:13,275 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:13,276 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
+2025-07-24 06:41:13,313 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:13,314 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
+2025-07-24 06:41:13,498 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:13,499 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:13,499 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
+2025-07-24 06:41:13,570 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:13,570 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
+2025-07-24 06:41:13,793 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:13,794 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
+2025-07-24 06:41:13,889 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:13,891 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
+2025-07-24 06:41:13,963 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:13,964 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
+2025-07-24 06:41:14,290 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
+2025-07-24 06:41:14,322 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:14,323 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
+2025-07-24 06:41:14,434 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:14,435 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
+2025-07-24 06:41:14,830 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:14,832 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
+2025-07-24 06:41:15,040 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:15,041 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
+2025-07-24 06:41:15,112 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:15,113 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
+2025-07-24 06:41:15,151 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
+2025-07-24 06:41:15,428 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:15,428 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:15,430 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
+2025-07-24 06:41:15,668 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:15,668 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:15,670 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
+2025-07-24 06:41:15,846 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:15,847 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
+2025-07-24 06:41:15,984 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:15,985 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
+2025-07-24 06:41:15,987 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:15,988 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
+2025-07-24 06:41:16,004 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:16,005 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:16,005 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:16,005 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:16,007 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
+2025-07-24 06:41:16,101 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:16,103 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
+2025-07-24 06:41:16,160 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:16,162 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
+2025-07-24 06:41:16,183 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:16,184 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
+2025-07-24 06:41:16,378 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:16,379 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
+2025-07-24 06:41:16,464 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:16,465 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
+2025-07-24 06:41:16,619 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:16,620 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
+2025-07-24 06:41:16,857 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:16,859 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
+2025-07-24 06:41:17,059 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:17,061 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
+2025-07-24 06:41:17,187 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:17,187 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:17,189 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
+2025-07-24 06:41:17,223 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:17,224 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
+2025-07-24 06:41:17,299 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:17,301 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
+2025-07-24 06:41:17,395 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:17,397 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
+2025-07-24 06:41:17,441 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:17,442 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
+2025-07-24 06:41:17,509 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:17,510 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
+2025-07-24 06:41:17,546 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:17,547 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
+2025-07-24 06:41:17,703 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:17,704 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
+2025-07-24 06:41:26,033 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:26,034 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
+2025-07-24 06:41:26,162 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:26,163 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:26,163 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:26,164 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
+2025-07-24 06:41:26,223 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
+2025-07-24 06:41:18,388 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
+2025-07-24 06:41:18,452 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:18,454 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
+2025-07-24 06:41:18,454 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:18,456 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
+2025-07-24 06:41:18,587 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:18,588 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
+2025-07-24 06:41:18,593 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:18,594 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
+2025-07-24 06:41:18,929 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:18,931 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078
+2025-07-24 06:41:19,025 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
+2025-07-24 06:41:19,032 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:19,033 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
+2025-07-24 06:41:19,197 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:19,199 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
+2025-07-24 06:41:19,616 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:19,618 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
+2025-07-24 06:41:19,622 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:19,623 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
+2025-07-24 06:41:20,058 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:20,060 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
+2025-07-24 06:41:20,184 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:20,185 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
+2025-07-24 06:41:20,207 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
+2025-07-24 06:41:20,291 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:20,292 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
+2025-07-24 06:41:20,387 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:20,387 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:20,387 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:20,388 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
+2025-07-24 06:41:20,620 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
+2025-07-24 06:41:21,067 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
+2025-07-24 06:41:21,129 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
+2025-07-24 06:41:21,153 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:21,154 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
+2025-07-24 06:41:21,194 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:21,196 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
+2025-07-24 06:41:21,401 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:21,403 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
+2025-07-24 06:41:21,434 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:21,435 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
+2025-07-24 06:41:21,515 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:21,517 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
+2025-07-24 06:41:21,556 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:21,557 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9116
+2025-07-24 06:41:21,587 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:21,588 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
+2025-07-24 06:41:21,961 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
+2025-07-24 06:41:22,259 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:22,260 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
+2025-07-24 06:41:22,390 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:22,391 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9124
+2025-07-24 06:41:22,399 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:22,400 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
+2025-07-24 06:41:22,407 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:22,408 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
+2025-07-24 06:41:22,724 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:22,725 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
+2025-07-24 06:41:31,167 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:31,169 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9132
+2025-07-24 06:41:31,187 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:31,189 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
+2025-07-24 06:41:31,224 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:31,224 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:31,226 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
+2025-07-24 06:41:23,040 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:23,041 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
+2025-07-24 06:41:23,247 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:23,247 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:23,249 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9140
+2025-07-24 06:41:23,467 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:23,469 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
+2025-07-24 06:41:23,483 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
+2025-07-24 06:41:23,873 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:23,874 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
+2025-07-24 06:41:24,082 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:24,083 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9148
+2025-07-24 06:41:24,101 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:24,101 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:24,102 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
+2025-07-24 06:41:24,125 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
+2025-07-24 06:41:24,224 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:24,225 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
+2025-07-24 06:41:24,302 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:24,303 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9156
+2025-07-24 06:41:24,411 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:24,411 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
+2025-07-24 06:41:24,714 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
+2025-07-24 06:41:25,154 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:25,155 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
+2025-07-24 06:41:25,163 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:25,163 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9164
+2025-07-24 06:41:25,332 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:25,333 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
+2025-07-24 06:41:25,426 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:25,427 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
+2025-07-24 06:41:25,489 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:25,490 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
+2025-07-24 06:41:25,594 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:25,595 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9172
+2025-07-24 06:41:25,664 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:25,666 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
+2025-07-24 06:41:25,728 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:25,729 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
+2025-07-24 06:41:25,892 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:25,893 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
+2025-07-24 06:41:26,105 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
+2025-07-24 06:41:26,131 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:26,133 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
+2025-07-24 06:41:26,199 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:26,201 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
+2025-07-24 06:41:26,403 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
+2025-07-24 06:41:26,740 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:26,741 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
+2025-07-24 06:41:26,936 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:26,938 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9190
+2025-07-24 06:41:27,212 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:27,214 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
+2025-07-24 06:41:36,221 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:36,221 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:36,221 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:36,221 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:36,221 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:36,224 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
+2025-07-24 06:41:36,238 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
+2025-07-24 06:41:28,022 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9198
+2025-07-24 06:41:28,314 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
+2025-07-24 06:41:28,695 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:28,696 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
+2025-07-24 06:41:28,750 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:28,750 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:28,753 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
+2025-07-24 06:41:29,235 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9206
+2025-07-24 06:41:29,324 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:29,325 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
+2025-07-24 06:41:29,374 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:29,376 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9050
+2025-07-24 06:41:29,792 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:29,793 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
+2025-07-24 06:41:30,847 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:30,849 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9054
+2025-07-24 06:41:30,980 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:30,981 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
+2025-07-24 06:41:41,185 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:41,186 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9058
+2025-07-24 06:41:34,327 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
+2025-07-24 06:41:34,396 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:34,396 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:34,396 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 06:41:34,396 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 06:41:34,399 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9062
+2025-07-24 06:41:34,844 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
+2025-07-24 06:41:35,086 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-24 06:41:35,088 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9066
+2025-07-24 06:41:37,341 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
+2025-07-24 06:41:38,844 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9070
+2025-07-24 06:41:40,364 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
+2025-07-24 06:41:44,131 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9074
+2025-07-24 06:41:45,370 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
+2025-07-24 06:41:48,623 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9078

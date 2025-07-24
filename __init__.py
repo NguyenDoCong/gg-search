@@ -183,7 +183,7 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
             # logger.info(f"Response text: {resp.text}...")  # Log first 200 characters
             return resp
         except Exception as e:
-            # print(f"Lỗi khi gửi request: {e}")
+            logger.info(f"Lỗi khi gửi request: {e}")
             return None
         
 if __name__ == "__main__":
