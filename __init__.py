@@ -92,11 +92,16 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region,
             'CONSENT': 'PENDING+987', # Bypasses the consent page
             'SOCS': 'CAESHAgBEhIaAB',
         }):
+    
+    params = {
+    "q": term
+    }
     # logger.info(f"endpoint: {endpoint}")
     if endpoint == "aol":
         url = "https://search.aol.com/aol/search"
     elif endpoint == "mullvad leta":
         url = "https://leta.mullvad.net/search"
+        params["engine"] = "google"
     elif endpoint == "brave":
         url = "https://search.brave.com/search"  
     elif endpoint == "duckduckgo":
@@ -105,6 +110,7 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region,
         url = "https://search.yahoo.com/search"
     elif endpoint == "bing":
         url = "https://www.bing.com/search"
+        params["pq"] = "vn"
 
         # escaped_term = term.replace(" ", "+")
 
@@ -114,15 +120,7 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region,
             "User-Agent": get_useragent(),
             "Accept": "*/*"
         },
-        params={
-            "q": term,
-            "pq":"vn"
-            # "categories": "",
-            # "language": "vi-VN",
-            # "time_range": "",
-            # "safesearch": 0,
-            # "theme": "simple"
-        },
+        params=params,
         proxies=proxies,
         timeout=timeout,
         verify=ssl_verify,
@@ -142,7 +140,7 @@ class SearchResult:
         return f"SearchResult(url={self.url}, title={self.title}, description={self.description})"
 
 
-def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_interval=0, timeout=20, safe="active", ssl_verify=None, region=None, start_num=0, unique=True, endpoint="luxirty"):
+def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_interval=0, timeout=30, safe="active", ssl_verify=None, region=None, start_num=0, unique=True, endpoint="luxirty"):
     """Search the Google search engine"""
 
     # Proxy setup
@@ -158,8 +156,11 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
     try:
         # logger.info(f"endpoint: {endpoint}")
         resp = _req(term, num_results - start, lang, start, proxies, timeout, safe, ssl_verify, region, endpoint=endpoint)
+        if resp is None:
+            logger.error(f"❌ Không nhận được phản hồi từ hàm `_req` (resp is None). Endpoint: {endpoint}, Query: {term}")
+            return None
     except Exception as e:
-        print(f"Lỗi khi gửi request: {e}")
+        # print(f"Lỗi khi gửi request: {e}")
         logger.error(f"Lỗi khi gửi request: {e}")
         return None
 
@@ -182,7 +183,7 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
             # logger.info(f"Response text: {resp.text}...")  # Log first 200 characters
             return resp
         except Exception as e:
-            print(f"Lỗi khi gửi request: {e}")
+            # print(f"Lỗi khi gửi request: {e}")
             return None
         
 if __name__ == "__main__":

@@ -69,10 +69,18 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 
 # @cached(ttl=86400)  # Cache kết quả trong 1 giờ (3600 giây)
-async def search_response(query, request: Request, method="fingerprint", endpoint="luxirty"):
+async def search_response(query, request: Request, method="fingerprint", endpoint="luxirty", retries=0):
     # global luxirty_instance, google_instance, search_count
     proxy_pool = ProxyPool()
     proxy = proxy_pool.get_next_proxy()
+    
+    max_retries = 3
+    if retries >= max_retries:
+        logger.error(f"❌ Đã đạt số lần thử tối đa ({max_retries}) cho truy vấn: {query}")
+        return {
+            "error": f"Đã đạt số lần thử tối đa ({max_retries}) cho truy vấn: {query}",
+            "method": method
+        }
     
     if method=='requests':
         logger.info(f"[REQUESTS] Đang dùng proxy: {proxy}")
@@ -80,24 +88,21 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
         resp = search(query, 3, proxy=proxy, endpoint=endpoint)
 
         if resp is None:
-            logger.error("❌ Không nhận được phản hồi từ hàm `search` (resp is None).")
-            logger.error(f"[{endpoint}] Phản hồi không hợp lệ với query: '{query}'")
+            # logger.error(f"❌ Không nhận được phản hồi từ hàm `search` (resp is None). Endpoint: {endpoint}, Query: {query}")
             return {
                 "error": "Không nhận được phản hồi từ công cụ tìm kiếm. Vui lòng kiểm tra kết nối mạng hoặc proxy.",
                 "method": method
             }
 
         if not hasattr(resp, "text"):
-            logger.error(f"❌ Phản hồi không chứa thuộc tính `text`: Kiểu dữ liệu nhận được: {type(resp)}")
-            logger.error(f"[{endpoint}] Phản hồi không hợp lệ với query: '{query}'")
+            logger.error(f"❌ Phản hồi không chứa thuộc tính `text`: Kiểu dữ liệu nhận được: {type(resp)}. Endpoint: {endpoint}, Query: {query}")
             return {
                 "error": f"Phản hồi không hợp lệ từ công cụ tìm kiếm ({type(resp)}).",
                 "method": method
             }
 
         if hasattr(resp, "status_code") and resp.status_code != 200:
-            logger.error(f"⚠️ HTTP status code trả về là {resp.status_code}")
-            logger.error(f"[{endpoint}] Phản hồi không hợp lệ với query: '{query}'")
+            logger.error(f"⚠️ HTTP status code trả về là {resp.status_code}. Endpoint: {endpoint}, Query: {query}")
             return {
                 "error": f"Phản hồi HTTP không thành công. Mã lỗi: {resp.status_code}",
                 "method": method
@@ -125,7 +130,7 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
             result_block = soup.find_all("li", class_="b_algo")
 
         if len(result_block)<1:
-            logger.error("Không tìm thấy kết quả trong HTML")
+            logger.error(f"Không tìm thấy kết quả trong HTML. Endpoint: {endpoint}, Query: {query}")
         
     else:
         # rand = random.randint(0,1)
@@ -176,7 +181,7 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
             logger.error("Không tìm thấy kết quả trong HTML")
             return {"error": "Không tìm thấy kết quả trong HTML"}
     # method = "fingerprint"
-    logger.info(f"Processing {len(result_block)} results using method: {method}")
+    # logger.info(f"Processing {len(result_block)} results using method: {method}")
 
     tasks = [process_result(result, method=method, endpoint=endpoint) for result in result_block[:3]]
     # print(tasks)
@@ -203,6 +208,9 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
     # Gộp lại thành dict
     result = {title: content for title, content in valid_results}
     
+    if len(result) == 0:
+        logger.error("Không có kết quả hợp lệ sau khi lọc.")
+        search_response(query, request, method, endpoint, retries + 1)
     # result = {title: content for title, content in results if title and content}
     # print(result)
     return result
@@ -250,18 +258,12 @@ async def query_result(req: Request):
     # domain="google"
     # print("Query:", query)
     # result = await search_response(query, method="fingerprint", domain = domain)
-    rand = random.randint(1,15)
+    rand = random.randint(1,3)
     if rand==1:
-        endpoint = "brave"
-    elif rand==2:
-        endpoint = "yahoo"
-    elif rand==3:
-        endpoint = "aol"
-    elif rand<=7:
         endpoint = "duckduckgo"
-    elif rand<=11:
+    elif rand==2:
         endpoint = "mullvad leta"
-    elif rand<=15:
+    elif rand==3:
         endpoint = "bing"
 
     logger.info(f"Chạy tìm kiếm với endpoint: {endpoint}")
