@@ -254,8 +254,10 @@ async def root():
 
 @app.post("/search")
 async def query_result(req: Request):
-    body = await req.json()
-    query = body.get("query")
+    # body = await req.json()
+    # query = body.get("query")
+    query = req.query_params.get("query")
+
     print("📥 Query nhận được:", query)
         
     # domain="luxirty"
