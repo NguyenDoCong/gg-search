@@ -1256,3 +1256,168 @@
 2025-07-24 07:18:23,655 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9082
 2025-07-24 07:18:40,691 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
 2025-07-24 07:18:40,703 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
+2025-07-24 09:14:57,356 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:14:57,356 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:14:57,356 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:14:57,356 - INFO - Setting the event loop.
+2025-07-24 09:14:57,356 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:14:57,356 - INFO - Setting the event loop.
+2025-07-24 09:14:57,356 - INFO - Setting the event loop.
+2025-07-24 09:14:57,356 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:14:57,356 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:14:57,356 - INFO - Setting the event loop.
+2025-07-24 09:14:57,356 - INFO - Setting the event loop.
+2025-07-24 09:14:57,357 - INFO - Setting the event loop.
+2025-07-24 09:14:57,358 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:14:57,358 - INFO - Setting the event loop.
+2025-07-24 09:14:57,364 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:14:57,364 - INFO - Setting the event loop.
+2025-07-24 09:18:39,152 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 09:18:39,159 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9086
+2025-07-24 09:24:16,888 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 09:24:16,891 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
+2025-07-24 09:41:39,626 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:41:39,627 - INFO - Setting the event loop.
+2025-07-24 09:41:39,627 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:41:39,627 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:41:39,627 - INFO - Setting the event loop.
+2025-07-24 09:41:39,627 - INFO - Setting the event loop.
+2025-07-24 09:41:39,643 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:41:39,643 - INFO - Setting the event loop.
+2025-07-24 09:41:39,643 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:41:39,644 - INFO - Setting the event loop.
+2025-07-24 09:41:39,649 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:41:39,649 - INFO - Setting the event loop.
+2025-07-24 09:41:39,658 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:41:39,658 - INFO - Setting the event loop.
+2025-07-24 09:41:39,663 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:41:39,663 - INFO - Setting the event loop.
+2025-07-24 09:44:01,057 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 09:44:01,065 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9090
+2025-07-24 09:49:52,249 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:49:52,249 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:49:52,250 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:49:52,250 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:49:52,251 - INFO - Setting the event loop.
+2025-07-24 09:49:52,251 - INFO - Setting the event loop.
+2025-07-24 09:49:52,251 - INFO - Setting the event loop.
+2025-07-24 09:49:52,250 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:49:52,250 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:49:52,251 - INFO - Setting the event loop.
+2025-07-24 09:49:52,250 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:49:52,250 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:49:52,252 - INFO - Setting the event loop.
+2025-07-24 09:49:52,252 - INFO - Setting the event loop.
+2025-07-24 09:49:52,252 - INFO - Setting the event loop.
+2025-07-24 09:49:52,252 - INFO - Setting the event loop.
+2025-07-24 09:50:28,466 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 09:50:28,470 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
+2025-07-24 09:51:24,392 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:51:24,392 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:51:24,393 - INFO - Setting the event loop.
+2025-07-24 09:51:24,392 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:51:24,393 - INFO - Setting the event loop.
+2025-07-24 09:51:24,393 - INFO - Setting the event loop.
+2025-07-24 09:51:24,393 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:51:24,393 - INFO - Setting the event loop.
+2025-07-24 09:51:24,396 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:51:24,397 - INFO - Setting the event loop.
+2025-07-24 09:51:24,400 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:51:24,400 - INFO - Setting the event loop.
+2025-07-24 09:51:24,409 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:51:24,409 - INFO - Setting the event loop.
+2025-07-24 09:51:24,410 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 09:51:24,410 - INFO - Setting the event loop.
+2025-07-24 09:51:20,995 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 09:51:20,996 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
+2025-07-24 10:05:53,062 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:05:53,062 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:05:53,062 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:05:53,062 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:05:53,062 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:05:53,062 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:05:53,062 - INFO - Setting the event loop.
+2025-07-24 10:05:53,062 - INFO - Setting the event loop.
+2025-07-24 10:05:53,062 - INFO - Setting the event loop.
+2025-07-24 10:05:53,062 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:05:53,062 - INFO - Setting the event loop.
+2025-07-24 10:05:53,062 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:05:53,062 - INFO - Setting the event loop.
+2025-07-24 10:05:53,062 - INFO - Setting the event loop.
+2025-07-24 10:05:53,062 - INFO - Setting the event loop.
+2025-07-24 10:05:53,063 - INFO - Setting the event loop.
+2025-07-24 10:06:05,178 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 10:06:05,179 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
+2025-07-24 10:06:36,063 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 10:06:36,078 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
+2025-07-24 10:08:41,525 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:08:41,525 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:08:41,525 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:08:41,525 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:08:41,526 - INFO - Setting the event loop.
+2025-07-24 10:08:41,526 - INFO - Setting the event loop.
+2025-07-24 10:08:41,526 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:08:41,526 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:08:41,526 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:08:41,526 - INFO - Setting the event loop.
+2025-07-24 10:08:41,526 - INFO - Setting the event loop.
+2025-07-24 10:08:41,526 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:08:41,526 - INFO - Setting the event loop.
+2025-07-24 10:08:41,526 - INFO - Setting the event loop.
+2025-07-24 10:08:41,526 - INFO - Setting the event loop.
+2025-07-24 10:08:41,526 - INFO - Setting the event loop.
+2025-07-24 10:09:04,903 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:09:04,903 - INFO - Setting the event loop.
+2025-07-24 10:09:04,918 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:09:04,919 - INFO - Setting the event loop.
+2025-07-24 10:09:04,944 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:09:04,944 - INFO - Setting the event loop.
+2025-07-24 10:09:04,951 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:09:04,951 - INFO - Setting the event loop.
+2025-07-24 10:09:04,959 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:09:04,959 - INFO - Setting the event loop.
+2025-07-24 10:09:04,978 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:09:04,978 - INFO - Setting the event loop.
+2025-07-24 10:09:04,978 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:09:04,978 - INFO - Setting the event loop.
+2025-07-24 10:09:04,986 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:09:04,986 - INFO - Setting the event loop.
+2025-07-24 10:09:17,347 - INFO - Chạy tìm kiếm với endpoint: None
+2025-07-24 10:09:17,349 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
+2025-07-24 10:09:17,349 - ERROR - Lỗi khi gửi request: cannot access local variable 'url' where it is not associated with a value
+2025-07-24 10:10:29,483 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:10:29,483 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:10:29,483 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:10:29,483 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:10:29,483 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:10:29,484 - INFO - Setting the event loop.
+2025-07-24 10:10:29,483 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:10:29,484 - INFO - Setting the event loop.
+2025-07-24 10:10:29,483 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:10:29,483 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:10:29,484 - INFO - Setting the event loop.
+2025-07-24 10:10:29,484 - INFO - Setting the event loop.
+2025-07-24 10:10:29,484 - INFO - Setting the event loop.
+2025-07-24 10:10:29,484 - INFO - Setting the event loop.
+2025-07-24 10:10:29,484 - INFO - Setting the event loop.
+2025-07-24 10:10:29,485 - INFO - Setting the event loop.
+2025-07-24 10:10:33,412 - INFO - Chạy tìm kiếm với endpoint: mullvad leta
+2025-07-24 10:10:33,413 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
+2025-07-24 10:17:30,226 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:17:30,226 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:17:30,227 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:17:30,227 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:17:30,227 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:17:30,227 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:17:30,227 - INFO - Setting the event loop.
+2025-07-24 10:17:30,227 - INFO - Setting the event loop.
+2025-07-24 10:17:30,227 - INFO - Setting the event loop.
+2025-07-24 10:17:30,227 - INFO - Setting the event loop.
+2025-07-24 10:17:30,227 - INFO - Setting the event loop.
+2025-07-24 10:17:30,227 - INFO - Setting the event loop.
+2025-07-24 10:17:30,227 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:17:30,227 - INFO - Setting the event loop.
+2025-07-24 10:17:30,228 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-24 10:17:30,228 - INFO - Setting the event loop.
+2025-07-24 10:17:37,863 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-24 10:17:37,864 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104

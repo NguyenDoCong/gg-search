@@ -126,6 +126,7 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region,
         verify=ssl_verify,
         cookies = cookies
     )
+    resp.encoding = "utf-8"
     resp.raise_for_status()
     return resp
 
@@ -178,8 +179,8 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
                 logger.error(f"Response content: {resp.content}")
                 # logger.error(f"Response text: {resp.text[:200]}")
                 # logger.error(f"Response headers: {resp.headers}")
-            # with open("google.html", "w", encoding="utf-8") as f:
-            #     f.write(resp.text)
+                # with open("google.html", "w", encoding="utf-8") as f:
+                #     f.write(resp.text)
             # logger.info(f"Response text: {resp.text}...")  # Log first 200 characters
             return resp
         except Exception as e:

@@ -68,7 +68,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
-# @cached(ttl=86400)  # Cache kết quả trong 1 giờ (3600 giây)
+@cached(ttl=86400)  # Cache kết quả trong 1 giờ (3600 giây)
 async def search_response(query, request: Request, method="fingerprint", endpoint="luxirty", retries=0):
     # global luxirty_instance, google_instance, search_count
     proxy_pool = ProxyPool()
@@ -256,8 +256,11 @@ async def root():
 async def query_result(req: Request):
     # body = await req.json()
     # query = body.get("query")
-    query = req.query_params.get("query")
+    endpoint = ""
 
+    query = req.query_params.get("query")
+    endpoint = req.query_params.get("endpoint")
+    
     print("📥 Query nhận được:", query)
         
     # domain="luxirty"
@@ -265,13 +268,14 @@ async def query_result(req: Request):
     # domain="google"
     # print("Query:", query)
     # result = await search_response(query, method="fingerprint", domain = domain)
-    rand = random.randint(1,3)
-    if rand==1:
-        endpoint = "duckduckgo"
-    elif rand==2:
-        endpoint = "mullvad leta"
-    elif rand==3:
-        endpoint = "bing"
+    if endpoint == "" or endpoint is None:
+        rand = random.randint(1,3)
+        if rand==1:
+            endpoint = "duckduckgo"
+        elif rand==2:
+            endpoint = "mullvad leta"
+        elif rand==3:
+            endpoint = "bing"
 
     logger.info(f"Chạy tìm kiếm với endpoint: {endpoint}")
     try:
