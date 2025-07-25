@@ -1,6 +1,9 @@
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urlparse, parse_qs, unquote, urlencode, urlunparse
 from search import GoogleSearcher
 import logging
+from requests import get
+from bs4 import BeautifulSoup
+import re
 
 logging.basicConfig(
     level=logging.INFO,
@@ -22,9 +25,16 @@ async def process_result(result, method="requests", endpoint="luxirty"):
 
         if method=="requests":
 
+            a = result.find("a", href=True)
+
             # link = result.a.get('href')
-            # if not link:
-            #     return None, None
+            link = a.get('href')
+
+            logger.info(f"Link found: {link}")
+            if not link:
+                return None, None
+            
+            # print(f"link: {link}")
 
             # # Phân tích cú pháp URL
             # parsed_url = urlparse(link)
@@ -33,11 +43,13 @@ async def process_result(result, method="requests", endpoint="luxirty"):
             # # Lấy giá trị thực sự của URL
             # real_url = query_params.get('q', [None])[0]
 
-            # if not real_url:
-            #     return None, None
+            real_url = unquote(link)
 
-            # print("---------------------------")
-            # print(link)
+            if not real_url:
+                return None, None
+
+            print("---------------------------")
+            print(link)
             
             if endpoint == "mullvad leta":
                 title = result.find("h3", class_="svelte-fmlk7p") 
@@ -50,6 +62,11 @@ async def process_result(result, method="requests", endpoint="luxirty"):
 
             elif endpoint == "duckduckgo":
                 title = result.find("a", class_="result-link")
+                real_url = unquote(link[25:-1])
+
+                real_url = re.sub(r"&.*", "", real_url)
+
+                print(f"real_url: {real_url}")
 
             elif endpoint == "brave":
                 title = result.find("div", class_="title svelte-7ipt5e")
@@ -124,10 +141,17 @@ async def process_result(result, method="requests", endpoint="luxirty"):
 
         #     # print(summary_text)        
 
-        # content = await searcher.get_content(real_url)
         content = ""
+
+        if endpoint != "mullvad leta":
+            # Chỉ lấy phần đầu của nội dung
+            resp = get(real_url)
+            soup = BeautifulSoup(resp.text, "html.parser")
+
+            content = soup.get_text(separator="\n", strip=True)
+            content = content[:1000]
 
         return title_text, summary_text + content    
     except Exception as e:
-        logger.exception("Lỗi trong process_result:")
+        logger.exception(f"Lỗi trong process_result: {e}")
         return None, None

@@ -68,13 +68,13 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
-@cached(ttl=86400)  # Cache kết quả trong 1 giờ (3600 giây)
+# @cached(ttl=86400)  # Cache kết quả trong 1 giờ (3600 giây)
 async def search_response(query, request: Request, method="fingerprint", endpoint="luxirty", retries=0):
     # global luxirty_instance, google_instance, search_count
     proxy_pool = ProxyPool()
     proxy = proxy_pool.get_next_proxy()
     
-    max_retries = 3
+    max_retries = 1
     if retries >= max_retries:
         logger.error(f"❌ Đã đạt số lần thử tối đa ({max_retries}) cho truy vấn: {query}")
         return {
@@ -129,6 +129,7 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
                 result_block = soup.find_all("div", class_="snippet svelte-1o29vmf")
             elif endpoint == "bing":
                 result_block = soup.find_all("li", class_="b_algo")
+                # logger.info(f"result_block: {result_block}")
         except Exception as e:
             logger.error(f"❌ Lỗi khi tìm kiếm kết quả {endpoint} - {query}: {e}")
             with open("google.html", "w", encoding="utf-8") as f:
@@ -215,7 +216,7 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
     
     if len(result) == 0:
         logger.error("Không có kết quả hợp lệ sau khi lọc.")
-        search_response(query, request, method, endpoint, retries + 1)
+        await search_response(query, request, method, endpoint, retries + 1)
     # result = {title: content for title, content in results if title and content}
     # print(result)
     return result
@@ -276,6 +277,8 @@ async def query_result(req: Request):
             endpoint = "mullvad leta"
         elif rand==3:
             endpoint = "bing"
+        
+        endpoint = "bing"
 
     logger.info(f"Chạy tìm kiếm với endpoint: {endpoint}")
     try:

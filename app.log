@@ -1421,3 +1421,1087 @@
 2025-07-24 10:17:30,228 - INFO - Setting the event loop.
 2025-07-24 10:17:37,863 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
 2025-07-24 10:17:37,864 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9104
+2025-07-25 04:14:46,501 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 04:14:46,502 - INFO - Setting the event loop.
+2025-07-25 04:17:56,845 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 04:17:56,854 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
+2025-07-25 04:41:24,564 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 04:41:24,565 - INFO - Setting the event loop.
+2025-07-25 04:41:54,054 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 04:41:54,057 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
+2025-07-25 04:41:59,489 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 04:43:28,608 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 04:43:28,609 - INFO - Setting the event loop.
+2025-07-25 04:43:47,615 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 04:43:47,617 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
+2025-07-25 04:43:53,919 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 04:43:53,920 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9112
+2025-07-25 04:44:01,003 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 04:44:01,005 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9114
+2025-07-25 04:44:07,889 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 04:44:07,890 - ERROR - ❌ Đã đạt số lần thử tối đa (3) cho truy vấn: tỷ giá yên nhật
+2025-07-25 04:51:43,671 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 04:51:43,672 - INFO - Setting the event loop.
+2025-07-25 04:51:47,631 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 04:51:47,633 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9118
+2025-07-25 04:51:54,041 - ERROR - Lỗi trong process_result: Invalid URL 'https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953': No scheme supplied. Perhaps you meant https://https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953?
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 134, in process_result
+    resp = await get(real_url)
+                 ^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953': No scheme supplied. Perhaps you meant https://https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953?
+2025-07-25 04:51:54,045 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 04:51:54,047 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9120
+2025-07-25 04:52:02,193 - ERROR - Lỗi trong process_result: Invalid URL 'https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953': No scheme supplied. Perhaps you meant https://https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953?
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 134, in process_result
+    resp = await get(real_url)
+                 ^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953': No scheme supplied. Perhaps you meant https://https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953?
+2025-07-25 04:52:02,193 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 04:52:02,194 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9122
+2025-07-25 04:52:09,258 - ERROR - Lỗi trong process_result: Invalid URL 'https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953': No scheme supplied. Perhaps you meant https://https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953?
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 134, in process_result
+    resp = await get(real_url)
+                 ^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953': No scheme supplied. Perhaps you meant https://https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953?
+2025-07-25 04:52:09,259 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 04:52:09,260 - ERROR - ❌ Đã đạt số lần thử tối đa (3) cho truy vấn: tỷ giá yên nhật
+2025-07-25 04:54:31,046 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 04:54:31,048 - INFO - Setting the event loop.
+2025-07-25 04:54:46,113 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 04:54:46,113 - INFO - Setting the event loop.
+2025-07-25 04:55:13,385 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 04:55:13,385 - INFO - Setting the event loop.
+2025-07-25 04:55:18,724 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 04:55:18,725 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9126
+2025-07-25 04:55:27,780 - ERROR - Lỗi trong process_result: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 40, in process_result
+    real_url = real_url[25:-1]
+               ~~~~~~~~^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-07-25 04:55:27,781 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 04:55:27,782 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9128
+2025-07-25 04:55:34,109 - ERROR - Lỗi trong process_result: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 40, in process_result
+    real_url = real_url[25:-1]
+               ~~~~~~~~^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-07-25 04:55:34,109 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 04:55:34,110 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9130
+2025-07-25 04:55:44,849 - ERROR - Lỗi trong process_result: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 40, in process_result
+    real_url = real_url[25:-1]
+               ~~~~~~~~^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-07-25 04:55:44,850 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 04:55:44,851 - ERROR - ❌ Đã đạt số lần thử tối đa (3) cho truy vấn: tỷ giá yên nhật
+2025-07-25 04:59:39,583 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 04:59:39,583 - INFO - Setting the event loop.
+2025-07-25 04:59:43,413 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 04:59:43,414 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9134
+2025-07-25 04:59:59,257 - ERROR - Lỗi trong process_result: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 42, in process_result
+    real_url = real_url[25:-1]
+               ~~~~~~~~^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-07-25 04:59:59,258 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 04:59:59,260 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9136
+2025-07-25 05:00:05,769 - ERROR - Lỗi trong process_result: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 42, in process_result
+    real_url = real_url[25:-1]
+               ~~~~~~~~^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-07-25 05:00:05,769 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 05:00:05,770 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9138
+2025-07-25 05:00:11,956 - ERROR - Lỗi trong process_result: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 42, in process_result
+    real_url = real_url[25:-1]
+               ~~~~~~~~^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-07-25 05:00:11,957 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 05:00:11,958 - ERROR - ❌ Đã đạt số lần thử tối đa (3) cho truy vấn: tỷ giá yên nhật
+2025-07-25 06:16:37,348 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 06:16:37,348 - INFO - Setting the event loop.
+2025-07-25 06:16:42,314 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 06:16:42,317 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9142
+2025-07-25 06:16:48,501 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 06:16:48,502 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9144
+2025-07-25 06:16:55,121 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 06:16:55,122 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9146
+2025-07-25 06:17:05,526 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 06:17:05,527 - ERROR - ❌ Đã đạt số lần thử tối đa (3) cho truy vấn: tỷ giá yên nhật
+2025-07-25 06:17:08,298 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 06:17:08,298 - INFO - Setting the event loop.
+2025-07-25 06:17:11,547 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 06:17:11,549 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9150
+2025-07-25 06:17:19,421 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 06:17:19,422 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9152
+2025-07-25 06:17:26,253 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 06:17:26,254 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9154
+2025-07-25 06:17:36,258 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 06:17:36,259 - ERROR - ❌ Đã đạt số lần thử tối đa (3) cho truy vấn: tỷ giá yên nhật
+2025-07-25 06:18:10,876 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 06:18:10,876 - INFO - Setting the event loop.
+2025-07-25 06:18:15,494 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 06:18:15,495 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9158
+2025-07-25 06:18:21,814 - ERROR - Lỗi trong process_result: Invalid URL 'https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953': No scheme supplied. Perhaps you meant https://https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953?
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 139, in process_result
+    resp = await get(real_url)
+                 ^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953': No scheme supplied. Perhaps you meant https://https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953?
+2025-07-25 06:18:21,819 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 06:18:21,820 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9160
+2025-07-25 06:18:30,564 - ERROR - Lỗi trong process_result: Invalid URL 'https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953': No scheme supplied. Perhaps you meant https://https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953?
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 139, in process_result
+    resp = await get(real_url)
+                 ^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953': No scheme supplied. Perhaps you meant https://https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953?
+2025-07-25 06:18:30,565 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 06:18:30,566 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9162
+2025-07-25 06:18:38,893 - ERROR - Lỗi trong process_result: Invalid URL 'https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953': No scheme supplied. Perhaps you meant https://https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953?
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 139, in process_result
+    resp = await get(real_url)
+                 ^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953': No scheme supplied. Perhaps you meant https://https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea953?
+2025-07-25 06:18:38,894 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 06:18:38,895 - ERROR - ❌ Đã đạt số lần thử tối đa (3) cho truy vấn: tỷ giá yên nhật
+2025-07-25 06:19:45,077 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 06:19:45,077 - INFO - Setting the event loop.
+2025-07-25 06:19:47,502 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 06:19:47,503 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9166
+2025-07-25 06:19:55,384 - ERROR - Lỗi trong process_result: object Response can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 139, in process_result
+    resp = await get(real_url)
+           ^^^^^^^^^^^^^^^^^^^
+TypeError: object Response can't be used in 'await' expression
+2025-07-25 06:19:55,384 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 06:19:55,385 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9168
+2025-07-25 06:20:02,406 - ERROR - Lỗi trong process_result: object Response can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 139, in process_result
+    resp = await get(real_url)
+           ^^^^^^^^^^^^^^^^^^^
+TypeError: object Response can't be used in 'await' expression
+2025-07-25 06:20:02,407 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 06:20:02,407 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9170
+2025-07-25 06:20:13,512 - ERROR - Lỗi trong process_result: object Response can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 139, in process_result
+    resp = await get(real_url)
+           ^^^^^^^^^^^^^^^^^^^
+TypeError: object Response can't be used in 'await' expression
+2025-07-25 06:20:13,512 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 06:20:13,513 - ERROR - ❌ Đã đạt số lần thử tối đa (3) cho truy vấn: tỷ giá yên nhật
+2025-07-25 06:21:09,933 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 06:21:09,933 - INFO - Setting the event loop.
+2025-07-25 06:21:13,410 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 06:21:13,412 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9174
+2025-07-25 06:32:01,598 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 06:32:01,599 - INFO - Setting the event loop.
+2025-07-25 06:32:05,643 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 06:32:05,645 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9176
+2025-07-25 06:33:30,220 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 06:33:30,220 - INFO - Setting the event loop.
+2025-07-25 06:33:34,909 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 06:33:34,910 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9178
+2025-07-25 06:40:35,383 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 06:40:35,383 - INFO - Setting the event loop.
+2025-07-25 06:40:38,579 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 06:40:38,580 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9180
+2025-07-25 06:41:13,101 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 06:41:13,101 - INFO - Setting the event loop.
+2025-07-25 06:41:17,135 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 06:41:17,136 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9182
+2025-07-25 07:43:12,324 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 07:43:12,325 - INFO - Setting the event loop.
+2025-07-25 07:43:19,272 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 07:43:19,275 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9184
+2025-07-25 07:43:26,915 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 07:43:26,917 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9186
+2025-07-25 07:43:28,909 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 07:43:28,913 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9188
+2025-07-25 07:43:33,581 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 07:43:33,582 - ERROR - ❌ Đã đạt số lần thử tối đa (3) cho truy vấn: tỷ giá yên nhật
+2025-07-25 07:46:07,345 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 07:46:07,345 - INFO - Setting the event loop.
+2025-07-25 07:46:10,453 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 07:46:10,455 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9192
+2025-07-25 07:46:15,452 - ERROR - Lỗi trong process_result: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 30, in process_result
+    link = link.a.get('href')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-07-25 07:46:15,454 - ERROR - Lỗi trong process_result: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 30, in process_result
+    link = link.a.get('href')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-07-25 07:46:15,454 - ERROR - Lỗi trong process_result: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 30, in process_result
+    link = link.a.get('href')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-07-25 07:46:15,454 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 07:46:15,456 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9194
+2025-07-25 07:46:19,604 - ERROR - Lỗi trong process_result: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 30, in process_result
+    link = link.a.get('href')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-07-25 07:46:19,604 - ERROR - Lỗi trong process_result: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 30, in process_result
+    link = link.a.get('href')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-07-25 07:46:19,604 - ERROR - Lỗi trong process_result: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 30, in process_result
+    link = link.a.get('href')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-07-25 07:46:19,605 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 07:46:19,605 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9196
+2025-07-25 07:46:23,921 - ERROR - Lỗi trong process_result: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 30, in process_result
+    link = link.a.get('href')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-07-25 07:46:23,922 - ERROR - Lỗi trong process_result: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 30, in process_result
+    link = link.a.get('href')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-07-25 07:46:23,922 - ERROR - Lỗi trong process_result: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 30, in process_result
+    link = link.a.get('href')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-07-25 07:46:23,922 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 07:46:23,924 - ERROR - ❌ Đã đạt số lần thử tối đa (3) cho truy vấn: tỷ giá yên nhật
+2025-07-25 07:47:16,633 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 07:47:16,633 - INFO - Setting the event loop.
+2025-07-25 07:47:19,238 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 07:47:19,241 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9200
+2025-07-25 07:47:23,598 - ERROR - Lỗi trong process_result: can't multiply sequence by non-int of type 'str'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 37, in process_result
+    parsed_url = urlparse(link)
+                 ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 394, in urlparse
+    url, scheme, _coerce_result = _coerce_args(url, scheme)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 133, in _coerce_args
+    return _decode_args(args) + (_encode_result,)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in _decode_args
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in <genexpr>
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2443, in decode
+    piece = self._indent_string(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2528, in _indent_string
+    space_before = formatter.indent * indent_level
+                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+2025-07-25 07:47:23,601 - ERROR - Lỗi trong process_result: can't multiply sequence by non-int of type 'str'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 37, in process_result
+    parsed_url = urlparse(link)
+                 ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 394, in urlparse
+    url, scheme, _coerce_result = _coerce_args(url, scheme)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 133, in _coerce_args
+    return _decode_args(args) + (_encode_result,)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in _decode_args
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in <genexpr>
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2443, in decode
+    piece = self._indent_string(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2528, in _indent_string
+    space_before = formatter.indent * indent_level
+                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+2025-07-25 07:47:23,602 - ERROR - Lỗi trong process_result: can't multiply sequence by non-int of type 'str'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 37, in process_result
+    parsed_url = urlparse(link)
+                 ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 394, in urlparse
+    url, scheme, _coerce_result = _coerce_args(url, scheme)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 133, in _coerce_args
+    return _decode_args(args) + (_encode_result,)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in _decode_args
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in <genexpr>
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2443, in decode
+    piece = self._indent_string(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2528, in _indent_string
+    space_before = formatter.indent * indent_level
+                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+2025-07-25 07:47:23,602 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 07:47:23,603 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9202
+2025-07-25 07:47:27,404 - ERROR - Lỗi trong process_result: can't multiply sequence by non-int of type 'str'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 37, in process_result
+    parsed_url = urlparse(link)
+                 ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 394, in urlparse
+    url, scheme, _coerce_result = _coerce_args(url, scheme)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 133, in _coerce_args
+    return _decode_args(args) + (_encode_result,)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in _decode_args
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in <genexpr>
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2443, in decode
+    piece = self._indent_string(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2528, in _indent_string
+    space_before = formatter.indent * indent_level
+                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+2025-07-25 07:47:27,405 - ERROR - Lỗi trong process_result: can't multiply sequence by non-int of type 'str'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 37, in process_result
+    parsed_url = urlparse(link)
+                 ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 394, in urlparse
+    url, scheme, _coerce_result = _coerce_args(url, scheme)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 133, in _coerce_args
+    return _decode_args(args) + (_encode_result,)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in _decode_args
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in <genexpr>
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2443, in decode
+    piece = self._indent_string(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2528, in _indent_string
+    space_before = formatter.indent * indent_level
+                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+2025-07-25 07:47:27,405 - ERROR - Lỗi trong process_result: can't multiply sequence by non-int of type 'str'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 37, in process_result
+    parsed_url = urlparse(link)
+                 ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 394, in urlparse
+    url, scheme, _coerce_result = _coerce_args(url, scheme)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 133, in _coerce_args
+    return _decode_args(args) + (_encode_result,)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in _decode_args
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in <genexpr>
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2443, in decode
+    piece = self._indent_string(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2528, in _indent_string
+    space_before = formatter.indent * indent_level
+                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+2025-07-25 07:47:27,405 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 07:47:27,407 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9204
+2025-07-25 07:47:31,369 - ERROR - Lỗi trong process_result: can't multiply sequence by non-int of type 'str'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 37, in process_result
+    parsed_url = urlparse(link)
+                 ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 394, in urlparse
+    url, scheme, _coerce_result = _coerce_args(url, scheme)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 133, in _coerce_args
+    return _decode_args(args) + (_encode_result,)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in _decode_args
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in <genexpr>
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2443, in decode
+    piece = self._indent_string(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2528, in _indent_string
+    space_before = formatter.indent * indent_level
+                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+2025-07-25 07:47:31,370 - ERROR - Lỗi trong process_result: can't multiply sequence by non-int of type 'str'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 37, in process_result
+    parsed_url = urlparse(link)
+                 ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 394, in urlparse
+    url, scheme, _coerce_result = _coerce_args(url, scheme)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 133, in _coerce_args
+    return _decode_args(args) + (_encode_result,)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in _decode_args
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in <genexpr>
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2443, in decode
+    piece = self._indent_string(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2528, in _indent_string
+    space_before = formatter.indent * indent_level
+                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+2025-07-25 07:47:31,370 - ERROR - Lỗi trong process_result: can't multiply sequence by non-int of type 'str'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 37, in process_result
+    parsed_url = urlparse(link)
+                 ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 394, in urlparse
+    url, scheme, _coerce_result = _coerce_args(url, scheme)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 133, in _coerce_args
+    return _decode_args(args) + (_encode_result,)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in _decode_args
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in <genexpr>
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2443, in decode
+    piece = self._indent_string(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2528, in _indent_string
+    space_before = formatter.indent * indent_level
+                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+2025-07-25 07:47:31,370 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 07:47:31,372 - ERROR - ❌ Đã đạt số lần thử tối đa (3) cho truy vấn: tỷ giá yên nhật
+2025-07-25 07:56:14,533 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 07:56:14,533 - INFO - Setting the event loop.
+2025-07-25 07:56:17,104 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 07:56:17,105 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9208
+2025-07-25 07:56:20,520 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 07:56:20,521 - ERROR - ❌ Đã đạt số lần thử tối đa (1) cho truy vấn: tỷ giá yên nhật
+2025-07-25 07:56:54,271 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 07:56:54,272 - INFO - Setting the event loop.
+2025-07-25 07:56:57,547 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 07:56:57,548 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9052
+2025-07-25 07:57:00,578 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 07:57:00,579 - ERROR - ❌ Đã đạt số lần thử tối đa (1) cho truy vấn: tỷ giá yên nhật
+2025-07-25 08:05:54,177 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:05:54,179 - INFO - Setting the event loop.
+2025-07-25 08:05:56,890 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:05:56,892 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9056
+2025-07-25 08:06:02,170 - ERROR - Lỗi trong process_result: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 28, in process_result
+    links = result.findall("a", href=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-07-25 08:06:02,171 - ERROR - Lỗi trong process_result: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 28, in process_result
+    links = result.findall("a", href=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-07-25 08:06:02,172 - ERROR - Lỗi trong process_result: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 28, in process_result
+    links = result.findall("a", href=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-07-25 08:06:02,172 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 08:06:02,173 - ERROR - ❌ Đã đạt số lần thử tối đa (1) cho truy vấn: tỷ giá yên nhật
+2025-07-25 08:06:32,141 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:06:32,141 - INFO - Setting the event loop.
+2025-07-25 08:06:34,594 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:06:34,595 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9060
+2025-07-25 08:06:42,401 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 08:06:42,402 - ERROR - ❌ Đã đạt số lần thử tối đa (1) cho truy vấn: tỷ giá yên nhật
+2025-07-25 08:07:26,720 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:07:26,720 - INFO - Setting the event loop.
+2025-07-25 08:07:29,697 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:07:29,698 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9064
+2025-07-25 08:07:33,089 - ERROR - Lỗi trong process_result: can't multiply sequence by non-int of type 'str'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 41, in process_result
+    parsed_url = urlparse(link)
+                 ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 394, in urlparse
+    url, scheme, _coerce_result = _coerce_args(url, scheme)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 133, in _coerce_args
+    return _decode_args(args) + (_encode_result,)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in _decode_args
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in <genexpr>
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2443, in decode
+    piece = self._indent_string(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2528, in _indent_string
+    space_before = formatter.indent * indent_level
+                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+2025-07-25 08:07:33,093 - ERROR - Lỗi trong process_result: can't multiply sequence by non-int of type 'str'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 41, in process_result
+    parsed_url = urlparse(link)
+                 ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 394, in urlparse
+    url, scheme, _coerce_result = _coerce_args(url, scheme)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 133, in _coerce_args
+    return _decode_args(args) + (_encode_result,)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in _decode_args
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in <genexpr>
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2443, in decode
+    piece = self._indent_string(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2528, in _indent_string
+    space_before = formatter.indent * indent_level
+                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+2025-07-25 08:07:33,094 - ERROR - Lỗi trong process_result: can't multiply sequence by non-int of type 'str'
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 41, in process_result
+    parsed_url = urlparse(link)
+                 ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 394, in urlparse
+    url, scheme, _coerce_result = _coerce_args(url, scheme)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 133, in _coerce_args
+    return _decode_args(args) + (_encode_result,)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in _decode_args
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 117, in <genexpr>
+    return tuple(x.decode(encoding, errors) if x else '' for x in args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2443, in decode
+    piece = self._indent_string(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/bs4/element.py", line 2528, in _indent_string
+    space_before = formatter.indent * indent_level
+                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+2025-07-25 08:07:33,096 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 08:07:33,097 - ERROR - ❌ Đã đạt số lần thử tối đa (1) cho truy vấn: tỷ giá yên nhật
+2025-07-25 08:10:50,268 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:10:50,268 - INFO - Setting the event loop.
+2025-07-25 08:10:53,178 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:10:53,179 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9068
+2025-07-25 08:10:58,225 - INFO - result_block: [<li class="b_algo" data-id="" iid="SERP.5316"><link href="https://r.bing.com/rs/5Y/qx/cc,nc/AhixOwxSZP2d2zHKCbSvR_4Uw5M.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/pv/cc,nc/oTbJmO--yR2EiSCtdwg7fyDgY78.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/pF/cc,nc/x16RQ4LzgXIBf4Jm7-YpOofp3YA.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/6j/cir3,cc,nc/hQ2EdkktsfdR0XLYEPrO5-5eNaM.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/4b/cir3,cc,nc/cyFPlpjUwp6j5rUAxb6JyXhINMs.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/3G/cc,nc/PJQp2noYIetxoj5ORGEppf8tvw4.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/4T/cir3,cc,nc/r_kvVLbdyDa9MWhrfVdreM_VIm8.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/9X/cir3,cc,nc/W0v43_WKuWkaLe532_IujkxjWvs.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/3Y/cir3,cc,nc/Lfws-kiEF_wvc-yCv6VbOXlHPbc.css?or=w" rel="stylesheet" type="text/css"/><link href="/rp/HR6EOv-MPnoSToImfYAf4HLOTsE.gz.css" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/ju/cc,nc/NDEKUhvFRPyPdE3gEGggL3E_lrA.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/k2/cc,nc/flPGEaAyQ1_jDDQ3uKT3lN_s-RY.css?or=w" rel="stylesheet" type="text/css"/><div class="b_tpcn"><a aria-label="youtube.com" class="tilk" h="ID=SERP,5123.1" href="https://www.youtube.com/" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Globaal webpictogram" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">youtube.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.youtube.com</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5123.2" href="https://www.youtube.com/">YouTube</a></h2><div class="b_caption"><p class="b_lineclamp2">Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5317"><div class="b_tpcn"><a aria-label="youtube.com" class="tilk" h="ID=SERP,5136.1" href="https://www.youtube.com/youtube" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Globaal webpictogram" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=91&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">youtube.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.youtube.com › youtube</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5136.2" href="https://www.youtube.com/youtube">YouTube - YouTube</a></h2><div class="b_caption"><p class="b_lineclamp2">YouTube's Official Channel helps you discover what's new &amp; trending globally. Watch must-see videos, from music to culture to Internet phenomena</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5318"><div class="b_tpcn"><a aria-label="youtube.com" class="tilk" h="ID=SERP,5150.1" href="https://www.youtube.com/youtubebrasil" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Globaal webpictogram" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=92&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">youtube.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.youtube.com › youtubebrasil</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5150.2" href="https://www.youtube.com/youtubebrasil">YouTube Brasil - YouTube</a></h2><div class="b_caption"><p class="b_lineclamp2">Confira recursos, dicas e novidades sobre o YouTube! Te deixamos por dentro das atualizações mais importantes da plataforma e também compartilhamos as melhores práticas para quem …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5319"><div class="b_tpcn"><a aria-label="youtube.com" class="tilk" h="ID=SERP,5163.1" href="https://www.youtube.com/@__--_--_-----" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Globaal webpictogram" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=93&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">youtube.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.youtube.com › @__--_--_-----</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5163.2" href="https://www.youtube.com/@__--_--_-----">YouTube</a></h2><div class="b_caption"><p class="b_lineclamp2">Share your videos with friends, family, and the world</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5320"><div class="b_tpcn"><a aria-label="youtube.com" class="tilk" h="ID=SERP,5177.1" href="https://www.youtube.com/feed/homepage" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Globaal webpictogram" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=94&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">youtube.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.youtube.com › feed › homepage</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5177.2" href="https://www.youtube.com/feed/homepage">YouTube</a></h2><div class="b_caption"><p class="b_lineclamp2">About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy &amp; Safety How YouTube works Test new features NFL Sunday Ticket © 2025 Google LLC</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5321"><div class="b_tpcn"><a aria-label="youtube.com" class="tilk" h="ID=SERP,5192.1" href="https://www.youtube.com/channel/UCF0pVplsI8R5kcAqgtoRqoA" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Globaal webpictogram" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=95&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">youtube.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.youtube.com › channel</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5192.2" href="https://www.youtube.com/channel/UCF0pVplsI8R5kcAqgtoRqoA">Trending - YouTube</a></h2><div class="b_caption"><p class="b_lineclamp2">Provided to YouTube by Universal Music Group What Did I Miss? · Drake What Did I Miss? ℗ 2025 OVO, under exclusive license to Republic Records, a division of UMG Recordings, Inc. …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5322"><div class="b_tpcn"><a aria-label="youtube.com" class="tilk" h="ID=SERP,5205.1" href="https://www.youtube.com/@sign_IN" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Globaal webpictogram" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=96&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">youtube.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.youtube.com › @sign_IN</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5205.2" href="https://www.youtube.com/@sign_IN">SIGN IN - YouTube</a></h2><div class="b_caption"><p class="b_lineclamp2">Share your videos with friends, family, and the world</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5323"><div class="b_tpcn"><a aria-label="youtube.com" class="tilk" h="ID=SERP,5219.1" href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Globaal webpictogram" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=97&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">youtube.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.youtube.com › channel</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5219.2" href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ">The Music Channel - YouTube</a></h2><div class="b_caption"><p class="b_lineclamp2">Visit the YouTube Music Channel to find today’s top talent, featured artists, and playlists. Subscribe to see the latest in the music world.This channel was ...</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5324"><div class="b_tpcn"><a aria-label="youtube.com" class="tilk" h="ID=SERP,5233.1" href="https://www.youtube.com/premium" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Globaal webpictogram" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=98&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">youtube.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.youtube.com › premium</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5233.2" href="https://www.youtube.com/premium">YouTube Premium - YouTube</a></h2><div class="b_caption"><p class="b_lineclamp2">With YouTube Premium, enjoy ad-free access, downloads, and background play on YouTube and YouTube Music.</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5325"><div class="b_tpcn"><a aria-label="youtube.com" class="tilk" h="ID=SERP,5246.1" href="https://www.youtube.com/youtubenederland" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Globaal webpictogram" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=99&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">youtube.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.youtube.com › youtubenederland</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5246.2" href="https://www.youtube.com/youtubenederland">YouTube Nederland - YouTube</a></h2><div class="b_caption"><p class="b_lineclamp2">Share your videos with friends, family, and the world</p></div></li>]
+2025-07-25 08:10:58,226 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 08:10:58,227 - ERROR - ❌ Đã đạt số lần thử tối đa (1) cho truy vấn: tỷ giá yên nhật
+2025-07-25 08:12:13,624 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:12:13,624 - INFO - Setting the event loop.
+2025-07-25 08:12:16,355 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:12:16,356 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9072
+2025-07-25 08:12:22,545 - INFO - result_block: [<li class="b_algo" data-id="" iid="SERP.5370"><link href="https://r.bing.com/rs/3n/6d/cir3,cc,nc/EBZhueeMlCfX0xaT0mDXVjqUpW8.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/GA/cc,nc/tKwd1PCTOLq3kDpcJjgOQUeZIfM.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/qx/cc,nc/AhixOwxSZP2d2zHKCbSvR_4Uw5M.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/pv/cc,nc/oTbJmO--yR2EiSCtdwg7fyDgY78.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/pA/cc,nc/aWFzZHsDjgftegivVa_dSXPhfDQ.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/6j/cir3,cc,nc/hQ2EdkktsfdR0XLYEPrO5-5eNaM.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/4b/cir3,cc,nc/cyFPlpjUwp6j5rUAxb6JyXhINMs.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/3G/cc,nc/PJQp2noYIetxoj5ORGEppf8tvw4.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/4T/cir3,cc,nc/r_kvVLbdyDa9MWhrfVdreM_VIm8.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/9X/cir3,cc,nc/W0v43_WKuWkaLe532_IujkxjWvs.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/3Y/cir3,cc,nc/Lfws-kiEF_wvc-yCv6VbOXlHPbc.css?or=w" rel="stylesheet" type="text/css"/><link href="/rp/HR6EOv-MPnoSToImfYAf4HLOTsE.gz.css" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/ju/cc,nc/NDEKUhvFRPyPdE3gEGggL3E_lrA.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/k2/cc,nc/flPGEaAyQ1_jDDQ3uKT3lN_s-RY.css?or=w" rel="stylesheet" type="text/css"/><div class="b_tpcn"><a aria-label="roblox.com" class="tilk" h="ID=SERP,5128.1" href="https://devforum.roblox.com/t/about-the-roblosecurity-cookie/2305393" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">roblox.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://devforum.roblox.com › about-the-roblosecurity-cookie</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5128.2" href="https://devforum.roblox.com/t/about-the-roblosecurity-cookie/2305393">About the .ROBLOSECURITY cookie - DevForum | Roblox</a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">21 apr. 2023</span> · You should keep this safe. Cookie security It is not all fun and games. This .ROBLOSECURITY cookie can be hacked. When a hacker gets your cookie, they can sign in …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5371"><div class="b_tpcn"><a aria-label="stackoverflow.com" class="tilk" h="ID=SERP,5144.1" href="https://stackoverflow.com/questions/74202159/any-way-to-get-my-roblosecurity-cookie-from-browser-dev-console" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=91&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">stackoverflow.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://stackoverflow.com › questions › any-way-to-get-my-roblosecurity …</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5144.2" href="https://stackoverflow.com/questions/74202159/any-way-to-get-my-roblosecurity-cookie-from-browser-dev-console">Any way to get my .ROBLOSECURITY Cookie from Browser Dev …</a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">26 okt. 2022</span> · Is there any way to see my .ROBLOSECURITY in the dev console with any javascript code? I've tried localStorage.getItem('.ROBLOSECURITY') but, the Cookie is not …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5372"><div class="b_tpcn"><a aria-label="roblox.com" class="tilk" h="ID=SERP,5164.1" href="https://devforum.roblox.com/t/how-to-get-roblosecurity-cookie-in-python/2929338" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=92&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">roblox.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://devforum.roblox.com › how-to-get-roblosecurity-cookie-in-python</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5164.2" href="https://devforum.roblox.com/t/how-to-get-roblosecurity-cookie-in-python/2929338">How to get .ROBLOSECURITY cookie in python? - DevForum | Roblox</a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">15 apr. 2024</span> · As far as I know, this is in lua, you cannot make requests to roblox from within the game using lua, but you can from outside the game using other programming languages such …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5373"><div class="b_tpcn"><a aria-label="roblox.com" class="tilk" h="ID=SERP,5179.1" href="https://devforum.roblox.com/t/how-to-generate-a-roblosecurity-token-from-quick-login/3147931" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=93&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">roblox.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://devforum.roblox.com › how-to-generate-a-roblosecurity-token-fro…</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5179.2" href="https://devforum.roblox.com/t/how-to-generate-a-roblosecurity-token-from-quick-login/3147931">How to generate a .ROBLOSECURITY token from Quick Login</a></h2><div class="b_caption"><p class="b_lineclamp2">Introduction Roblox’s Quick Login is a protocol for quickly logging into Roblox on unauthenticated sessions on sessions that are authenticated. This protocol is easy to implement in a third-party …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5374"><div class="b_tpcn"><a aria-label="roblox.com" class="tilk" h="ID=SERP,5199.1" href="https://devforum.roblox.com/t/how-to-use-the-roblox-web-api-endpoints/1829973" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=94&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">roblox.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://devforum.roblox.com › how-to-use-the-roblox-web-api-endpoints</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5199.2" href="https://devforum.roblox.com/t/how-to-use-the-roblox-web-api-endpoints/1829973">How to use the Roblox web API endpoints!</a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">15 aug. 2024</span> · You only need to authenticate some requests (mainly POST, DELETE and PATCH requests) however some GET requests also require authentication. Below you can view how …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5375"><div class="b_tpcn"><a aria-label="roblox.com" class="tilk" h="ID=SERP,5219.1" href="https://devforum.roblox.com/t/how-do-i-get-the-roblosecurity-cookie-in-mobile/2314651" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=95&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">roblox.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://devforum.roblox.com › how-do-i-get-the-roblosecurity-cookie-in-…</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5219.2" href="https://devforum.roblox.com/t/how-do-i-get-the-roblosecurity-cookie-in-mobile/2314651">How do I get the .ROBLOSECURITY cookie in mobile? - DevForum</a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">13 maj 2023</span> · What is the issue? I can’t use Inspect Application on Mobile and it’s difficult to get the cookie in mobile and I need the cookie (it will be in replit secret feature so you guys doesn’t …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5376"><div class="b_tpcn"><a aria-label="roblox.com" class="tilk" h="ID=SERP,5240.1" href="https://devforum.roblox.com/t/cookie-logging-explained/473457" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=96&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">roblox.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://devforum.roblox.com › cookie-logging-explained</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5240.2" href="https://devforum.roblox.com/t/cookie-logging-explained/473457">Cookie logging explained - Resources / Community Resources</a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">3 mars 2020</span> · Cookie logging I’m sure you’ve heard of it. But how are the most common cases done? how would you prevent getting cookie logged? Well to get knowledge on that you’re in …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5377"><div class="b_tpcn"><a aria-label="roblox.com" class="tilk" h="ID=SERP,5260.1" href="https://devforum.roblox.com/t/how-to-make-roblox-bot-cookies-not-expire/430670" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=97&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">roblox.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://devforum.roblox.com › how-to-make-roblox-bot-cookies-not-expire</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5260.2" href="https://devforum.roblox.com/t/how-to-make-roblox-bot-cookies-not-expire/430670">How to make roblox bot cookies not expire? - DevForum | Roblox</a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">6 feb. 2021</span> · No way jose, I am pretty sure there is absolutely no way to get ANY cookie not to expire ( unless you own the site ). I recommend reading this to help you out with how cookies …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5378"><div class="b_tpcn"><a aria-label="roblox.com" class="tilk" h="ID=SERP,5280.1" href="https://devforum.roblox.com/t/cookie-logging-explained/473457?page=5" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=98&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">roblox.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://devforum.roblox.com › cookie-logging-explained</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5280.2" href="https://devforum.roblox.com/t/cookie-logging-explained/473457?page=5">Cookie logging explained - Page 5 - Community Resources - Roblox</a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">3 juni 2021</span> · Few questions Can you get cookie logged for the roblox app? (On PC and Mobile) Lets say I use chrome for roblox but I click on a scam link on microsoft edge could I get cookie …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5379"><div class="b_tpcn"><a aria-label="roblox.com" class="tilk" h="ID=SERP,5301.1" href="https://devforum.roblox.com/t/how-to-keep-your-account-secure/984601" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=99&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">roblox.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://devforum.roblox.com › how-to-keep-your-account-secure</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5301.2" href="https://devforum.roblox.com/t/how-to-keep-your-account-secure/984601">How to Keep Your Account SECURE! - Bulletin Board - Roblox</a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">15 jan. 2021</span> · Today I’m going to be discussing about how you can keep your account secure, at different levels, general account safety, do’s and don’t do’s, and more. Before we start, you …</p></div></li>]
+2025-07-25 08:12:22,546 - INFO - Processing result with method: <li class="b_algo" data-id="" iid="SERP.5370"><link href="https://r.bing.com/rs/3n/6d/cir3,cc,nc/EBZhueeMlCfX0xaT0mDXVjqUpW8.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/GA/cc,nc/tKwd1PCTOLq3kDpcJjgOQUeZIfM.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/qx/cc,nc/AhixOwxSZP2d2zHKCbSvR_4Uw5M.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/pv/cc,nc/oTbJmO--yR2EiSCtdwg7fyDgY78.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/pA/cc,nc/aWFzZHsDjgftegivVa_dSXPhfDQ.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/6j/cir3,cc,nc/hQ2EdkktsfdR0XLYEPrO5-5eNaM.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/4b/cir3,cc,nc/cyFPlpjUwp6j5rUAxb6JyXhINMs.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/3G/cc,nc/PJQp2noYIetxoj5ORGEppf8tvw4.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/4T/cir3,cc,nc/r_kvVLbdyDa9MWhrfVdreM_VIm8.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/9X/cir3,cc,nc/W0v43_WKuWkaLe532_IujkxjWvs.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/3Y/cir3,cc,nc/Lfws-kiEF_wvc-yCv6VbOXlHPbc.css?or=w" rel="stylesheet" type="text/css"/><link href="/rp/HR6EOv-MPnoSToImfYAf4HLOTsE.gz.css" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/ju/cc,nc/NDEKUhvFRPyPdE3gEGggL3E_lrA.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/k2/cc,nc/flPGEaAyQ1_jDDQ3uKT3lN_s-RY.css?or=w" rel="stylesheet" type="text/css"/><div class="b_tpcn"><a aria-label="roblox.com" class="tilk" h="ID=SERP,5128.1" href="https://devforum.roblox.com/t/about-the-roblosecurity-cookie/2305393" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">roblox.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://devforum.roblox.com › about-the-roblosecurity-cookie</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5128.2" href="https://devforum.roblox.com/t/about-the-roblosecurity-cookie/2305393">About the .ROBLOSECURITY cookie - DevForum | Roblox</a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">21 apr. 2023</span> · You should keep this safe. Cookie security It is not all fun and games. This .ROBLOSECURITY cookie can be hacked. When a hacker gets your cookie, they can sign in …</p></div></li>
+2025-07-25 08:12:22,546 - INFO - Processing result with method: <li class="b_algo" data-id="" iid="SERP.5371"><div class="b_tpcn"><a aria-label="stackoverflow.com" class="tilk" h="ID=SERP,5144.1" href="https://stackoverflow.com/questions/74202159/any-way-to-get-my-roblosecurity-cookie-from-browser-dev-console" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=91&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">stackoverflow.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://stackoverflow.com › questions › any-way-to-get-my-roblosecurity …</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5144.2" href="https://stackoverflow.com/questions/74202159/any-way-to-get-my-roblosecurity-cookie-from-browser-dev-console">Any way to get my .ROBLOSECURITY Cookie from Browser Dev …</a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">26 okt. 2022</span> · Is there any way to see my .ROBLOSECURITY in the dev console with any javascript code? I've tried localStorage.getItem('.ROBLOSECURITY') but, the Cookie is not …</p></div></li>
+2025-07-25 08:12:22,547 - INFO - Processing result with method: <li class="b_algo" data-id="" iid="SERP.5372"><div class="b_tpcn"><a aria-label="roblox.com" class="tilk" h="ID=SERP,5164.1" href="https://devforum.roblox.com/t/how-to-get-roblosecurity-cookie-in-python/2929338" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Ikon för global webb" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=92&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">roblox.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://devforum.roblox.com › how-to-get-roblosecurity-cookie-in-python</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5164.2" href="https://devforum.roblox.com/t/how-to-get-roblosecurity-cookie-in-python/2929338">How to get .ROBLOSECURITY cookie in python? - DevForum | Roblox</a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">15 apr. 2024</span> · As far as I know, this is in lua, you cannot make requests to roblox from within the game using lua, but you can from outside the game using other programming languages such …</p></div></li>
+2025-07-25 08:12:22,547 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 08:12:22,548 - ERROR - ❌ Đã đạt số lần thử tối đa (1) cho truy vấn: tỷ giá yên nhật
+2025-07-25 08:24:03,638 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:24:03,641 - INFO - Setting the event loop.
+2025-07-25 08:24:06,280 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:24:06,282 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9076
+2025-07-25 08:24:12,080 - INFO - result_block: [<li class="b_algo" data-id="" iid="SERP.5338"><link href="https://r.bing.com/rs/3n/6d/cir3,cc,nc/EBZhueeMlCfX0xaT0mDXVjqUpW8.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/GA/cc,nc/tKwd1PCTOLq3kDpcJjgOQUeZIfM.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/JU/cc,nc/97OxUUcAFAjaMjqVl5XmvgmnFKA.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/qx/cc,nc/AhixOwxSZP2d2zHKCbSvR_4Uw5M.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/pv/cc,nc/oTbJmO--yR2EiSCtdwg7fyDgY78.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/pF/cc,nc/x16RQ4LzgXIBf4Jm7-YpOofp3YA.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/6j/cir3,cc,nc/hQ2EdkktsfdR0XLYEPrO5-5eNaM.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/4b/cir3,cc,nc/cyFPlpjUwp6j5rUAxb6JyXhINMs.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/3G/cc,nc/PJQp2noYIetxoj5ORGEppf8tvw4.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/4T/cir3,cc,nc/r_kvVLbdyDa9MWhrfVdreM_VIm8.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/7P/cir3,cc,nc/3ax4a48ZV0ZNhymAoZ-qB15SdF4.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/3Y/cir3,cc,nc/Lfws-kiEF_wvc-yCv6VbOXlHPbc.css?or=w" rel="stylesheet" type="text/css"/><link href="/rp/HR6EOv-MPnoSToImfYAf4HLOTsE.gz.css" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/ju/cc,nc/NDEKUhvFRPyPdE3gEGggL3E_lrA.css?or=w" rel="stylesheet" type="text/css"/><link href="https://r.bing.com/rs/5Y/k2/cc,nc/flPGEaAyQ1_jDDQ3uKT3lN_s-RY.css?or=w" rel="stylesheet" type="text/css"/><div class="b_tpcn"><a aria-label="google.fr" class="tilk" h="ID=SERP,5125.1" href="https://www.google.fr/intl/fr/earth/index.html" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Global web icon" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;r=0&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">google.fr</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.<strong>google</strong>.fr › intl › fr › <strong>earth</strong> › index.html</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5125.2" href="https://www.google.fr/intl/fr/earth/index.html"><strong>Google Earth</strong></a></h2><div class="b_caption"><p class="b_lineclamp2">Retrouvez le meilleur de Google Earth, avec en plus de nouveaux moyens d'explorer, d'apprendre et de partager. Découvrez dès à présent les nouveautés qui vous attendent.</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5339"><div class="b_tpcn"><a aria-label="google.fr" class="tilk" h="ID=SERP,5141.1" href="https://earth.google.fr/intl/earth/versions/" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Global web icon" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=91&amp;pcl=fffffa&amp;r=0&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">google.fr</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://<strong>earth</strong>.<strong>google</strong>.fr › intl › <strong>earth</strong> › versions</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5141.2" href="https://earth.google.fr/intl/earth/versions/"><strong>Earth</strong> Versions – <strong>Google Earth</strong></a></h2><div class="b_caption"><p class="b_lineclamp2">With Google Earth for Chrome, fly anywhere in seconds and explore hundreds of 3D cities right in your browser. Roll the dice to discover someplace new, take a guided tour with Voyager, and …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5340"><div class="b_tpcn"><a aria-label="google.com" class="tilk" h="ID=SERP,5157.1" href="https://www.google.com/intl/fr/earth/about/versions/download-thank-you/" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Global web icon" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=92&amp;pcl=fffffa&amp;r=0&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">google.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.<strong>google</strong>.com › intl › fr › <strong>earth</strong> › about › versions › download-t…</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5157.2" href="https://www.google.com/intl/fr/earth/about/versions/download-thank-you/">Télécharger - Merci – <strong>Google Earth</strong></a></h2><div class="b_caption"><p class="b_lineclamp2">Google Earth pour Chrome vous permet d'accéder à n'importe quel endroit de la planète en quelques secondes et d'explorer des centaines de villes en 3D depuis votre navigateur.</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5341"><div class="b_tpcn"><a aria-label="google.com" class="tilk" h="ID=SERP,5172.1" href="https://support.google.com/earth/answer/21955?hl=fr-419" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Global web icon" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=93&amp;pcl=fffffa&amp;r=0&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">google.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://support.<strong>google</strong>.com › <strong>earth</strong> › answer</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5172.2" href="https://support.google.com/earth/answer/21955?hl=fr-419">Installer et désinstaller <strong>Google Earth</strong> Pro - Aide <strong>Google Earth</strong></a></h2><div class="b_caption"><p class="b_lineclamp2">Si vous ne parvenez pas à vous connecter à Google Earth Pro et si un pare-feu logiciel est installé sur votre ordinateur, il est probable que Google Earth Pro ne puisse pas accéder à …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5342"><div class="b_tpcn"><a aria-label="clubic.com" class="tilk" h="ID=SERP,5189.1" href="https://www.clubic.com/telecharger-fiche14783-google-earth.html" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Global web icon" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=94&amp;pcl=fffffa&amp;r=0&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">clubic.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.<strong>clubic</strong>.com</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5189.2" href="https://www.clubic.com/telecharger-fiche14783-google-earth.html"><strong>Google Earth</strong> (Gratuit) : explorez la planète terre depuis ... - <strong>Clubic</strong></a></h2><div class="b_caption"><p class="b_lineclamp2"><span class="news_dt">17 Jul 2025</span> · Google Earth se présente comme le logiciel incontournable à télécharger pour explorer la Terre, le fond des océans et les quatre coins de l'espace.</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5343"><div class="b_tpcn"><a aria-label="01net.com" class="tilk" h="ID=SERP,5205.1" href="https://www.01net.com/telecharger/loisirs/astronomie_et_espace/google-earth.html" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Global web icon" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=95&amp;pcl=fffffa&amp;r=0&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">01net.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.01net.com › ... › loisirs › astronomie_et_espace › <strong>google-ea</strong>…</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5205.2" href="https://www.01net.com/telecharger/loisirs/astronomie_et_espace/google-earth.html">Télécharger <strong>Google Earth</strong> pour Windows, Mac, Web, iOS, …</a></h2><div class="b_caption"><p class="b_lineclamp2">Ce service de navigation présent sur Google Earth depuis 2007 offre un panorama à 360° de lieux placés sur des voies publiques.</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5344"><div class="b_tpcn"><a aria-label="google.com" class="tilk" h="ID=SERP,5221.1" href="https://support.google.com/earth/?hl=fr" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Global web icon" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=96&amp;pcl=fffffa&amp;r=0&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">google.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://support.<strong>google</strong>.com › <strong>earth</strong></cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5221.2" href="https://support.google.com/earth/?hl=fr">Aide <strong>Google Earth</strong></a></h2><div class="b_caption"><p class="b_lineclamp2">Centre d'aide officiel de Google Earth où vous pourrez apprendre comment parcourir le monde en 3d et explorer différents types d'imagerie géographique. Trouvez des informations sur des …</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5345"><div class="b_tpcn"><a aria-label="google.com" class="tilk" h="ID=SERP,5237.1" href="https://www.google.com/intl/fr/earth/about/versions/" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Global web icon" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=97&amp;pcl=fffffa&amp;r=0&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">google.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.<strong>google</strong>.com › intl › fr › <strong>earth</strong> › about › versions</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5237.2" href="https://www.google.com/intl/fr/earth/about/versions/">Versions de <strong>Google Earth</strong> – <strong>Google Earth</strong></a></h2><div class="b_caption"><p class="b_lineclamp2">Google Earth Pro sur ordinateur permet aux utilisateurs de bénéficier de fonctionnalités avancées. Importez et exportez des données SIG, et voyagez dans le temps grâce aux images d'archive.</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5346"><div class="b_tpcn"><a aria-label="google.fr" class="tilk" h="ID=SERP,5253.1" href="https://www.google.fr/intl/fr_ALL/earth/education/tools/google-earth/" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Global web icon" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=98&amp;pcl=fffffa&amp;r=0&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">google.fr</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.<strong>google</strong>.fr › intl › fr_ALL › <strong>earth</strong> › education › tools › <strong>google-</strong>…</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5253.2" href="https://www.google.fr/intl/fr_ALL/earth/education/tools/google-earth/"><strong>Google Earth</strong> – <strong>Google Earth</strong> Education</a></h2><div class="b_caption"><p class="b_lineclamp2">Découvrez toutes les fonctionnalités de Google Earth, et à quel point il est facile d'intégrer l'outil dans vos objectifs pédagogiques et vos plans de cours.</p></div></li>, <li class="b_algo" data-id="" iid="SERP.5347"><div class="b_tpcn"><a aria-label="google.fr" class="tilk" h="ID=SERP,5268.1" href="https://www.google.fr/earth/about/download/gep/agree.html" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Global web icon" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=99&amp;pcl=fffffa&amp;r=0&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">google.fr</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://www.<strong>google</strong>.fr › <strong>earth</strong> › about › download › gep › agree.html</cite></div></div></div></a></div><h2 class=""><a h="ID=SERP,5268.2" href="https://www.google.fr/earth/about/download/gep/agree.html"><strong>Google Earth</strong></a></h2><div class="b_caption"><p class="b_lineclamp2">Google Earth ... Google Earth</p></div></li>]
+2025-07-25 08:24:12,082 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 08:24:12,083 - ERROR - ❌ Đã đạt số lần thử tối đa (1) cho truy vấn: tỷ giá yên nhật
+2025-07-25 08:26:47,045 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:26:47,045 - INFO - Setting the event loop.
+2025-07-25 08:26:49,643 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:26:49,645 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9080
+2025-07-25 08:27:00,993 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 08:27:00,994 - ERROR - ❌ Đã đạt số lần thử tối đa (1) cho truy vấn: tỷ giá yên nhật
+2025-07-25 08:38:30,574 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:38:30,575 - INFO - Setting the event loop.
+2025-07-25 08:38:31,363 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:38:31,364 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9084
+2025-07-25 08:38:35,755 - INFO - Processing link: <a aria-label="whatsapp.com" class="tilk" h="ID=SERP,5126.1" href="https://web.whatsapp.com/" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Symbol für globales Web" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=90&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">whatsapp.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://<strong>web</strong>.<strong>whatsapp</strong>.com</cite></div></div></div></a>
+2025-07-25 08:38:35,755 - INFO - Processing link: <a aria-label="whatsapp.com" class="tilk" h="ID=SERP,5142.1" href="https://faq.whatsapp.com/668538004658079" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Symbol für globales Web" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=91&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">whatsapp.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://faq.<strong>whatsapp</strong>.com</cite></div></div></div></a>
+2025-07-25 08:38:35,755 - INFO - Processing link: <a aria-label="whatsapp.com" class="tilk" h="ID=SERP,5159.1" href="https://blog.whatsapp.com/whats-app-web" redirecturl=""><div class="tpic"><div class="wr_fav" data-priority="2"><div class="cico siteicon" style="width:32px;height:32px;"><div class="rms_iac" data-alt="Symbol für globales Web" data-class="rms_img" data-height="32" data-src="//th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&amp;h=32&amp;qlt=92&amp;pcl=fffffa&amp;o=6&amp;pid=1.2" data-width="32" style="height:32px;line-height:32px;width:32px;"></div></div></div></div><div class="tptxt"><div class="tptt">whatsapp.com</div><div class="tpmeta"><div class="b_attribution" tabindex="0"><cite>https://blog.<strong>whatsapp</strong>.com › <strong>whats-app-web</strong></cite></div></div></div></a>
+2025-07-25 08:38:35,755 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 08:38:35,756 - ERROR - ❌ Đã đạt số lần thử tối đa (1) cho truy vấn: tỷ giá yên nhật
+2025-07-25 08:40:47,334 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:40:47,335 - INFO - Setting the event loop.
+2025-07-25 08:40:49,892 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:40:49,893 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9088
+2025-07-25 08:40:55,032 - INFO - Link found: https://www.zhihu.com/question/20715061
+2025-07-25 08:40:55,033 - INFO - Link found: https://www.zhihu.com/question/331826509
+2025-07-25 08:40:55,033 - INFO - Link found: https://www.zhihu.com/question/65567108
+2025-07-25 08:40:55,033 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 08:40:55,034 - ERROR - ❌ Đã đạt số lần thử tối đa (1) cho truy vấn: tỷ giá yên nhật
+2025-07-25 08:41:33,346 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:41:33,347 - INFO - Setting the event loop.
+2025-07-25 08:41:35,800 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:41:35,802 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9092
+2025-07-25 08:41:42,772 - INFO - Link found: https://mail.google.com/mail?hl=en
+2025-07-25 08:41:43,940 - INFO - Link found: https://accounts.google.com/servicelogin?service=mail
+2025-07-25 08:41:44,692 - INFO - Link found: https://accounts.google.com/Login
+2025-07-25 08:49:52,054 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:49:52,056 - INFO - Setting the event loop.
+2025-07-25 08:49:55,623 - INFO - Chạy tìm kiếm với endpoint: duckduckgo
+2025-07-25 08:49:55,624 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9094
+2025-07-25 08:50:00,653 - INFO - Link found: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwise.com%2Fvn%2Fcurrency%2Dconverter%2Fjpy%2Dto%2Dvnd%2Drate&rut=d50b245a169eebc674dc9016a3f9e2ec5868817256dbab81df7e23be2cea9533
+2025-07-25 08:52:07,504 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:52:07,505 - INFO - Setting the event loop.
+2025-07-25 08:52:14,445 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:52:14,446 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9096
+2025-07-25 08:52:21,295 - INFO - Link found: https://www.fansnetwork.co.uk/football/queensparkrangers/forum/315906/jimmy-dunne
+2025-07-25 08:52:22,507 - INFO - Link found: https://www.fansnetwork.co.uk/football/queensparkrangers/forum/322312/w*nkions-league-thread
+2025-07-25 08:52:23,663 - INFO - Link found: https://www.fansnetwork.co.uk/football/queensparkrangers/forum/321974/absolute-proud-to-be-a-ranger-tonight....
+2025-07-25 08:53:42,745 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:53:42,747 - INFO - Setting the event loop.
+2025-07-25 08:53:46,271 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:53:46,273 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9098
+2025-07-25 08:53:50,648 - INFO - Link found: https://www.sparkasse-leipzig.de/de/home.html
+2025-07-25 08:53:52,776 - INFO - Link found: https://www.sparkasse-leipzig.de/de/home/service/online-mobile-banking.html
+2025-07-25 08:53:54,105 - INFO - Link found: https://www.sparkasse-leipzig.de/fi/home/login-online-banking.html
+2025-07-25 08:55:58,292 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 08:55:58,292 - INFO - Setting the event loop.
+2025-07-25 08:56:01,185 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 08:56:01,186 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9100
+2025-07-25 08:56:04,287 - INFO - Link found: https://www.yelp.com/search?cflt=restaurants&find_loc=CA%2C+CA+90002
+2025-07-25 08:56:04,516 - INFO - Link found: https://www.opentable.com/
+2025-07-25 09:11:30,375 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 09:11:30,376 - INFO - Setting the event loop.
+2025-07-25 09:12:17,869 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 09:12:17,874 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9102
+2025-07-25 09:12:23,496 - INFO - Link found: https://www.reddit.com/r/ProtonMail/comments/wpwpkd/protonmailcom_or_protonme/
+2025-07-25 09:12:23,602 - ERROR - Lỗi trong process_result: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Traceback (most recent call last):
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
+    conn.connect()
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+                ^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/retry.py", line 552, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
+    conn.connect()
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+                ^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 148, in process_result
+    resp = get(real_url)
+           ^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-07-25 09:12:23,616 - INFO - Link found: https://www.reddit.com/r/ProtonMail/comments/1df9e5t/is_it_really_worth_going_from_gmail_to_proton/
+2025-07-25 09:12:23,666 - ERROR - Lỗi trong process_result: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Traceback (most recent call last):
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
+    conn.connect()
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+                ^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/retry.py", line 552, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
+    conn.connect()
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+                ^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 148, in process_result
+    resp = get(real_url)
+           ^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-07-25 09:12:23,668 - INFO - Link found: https://www.reddit.com/r/ProtonMail/comments/1dli7b5/difference_between_protonmailcom_and_protonme/
+2025-07-25 09:12:23,717 - ERROR - Lỗi trong process_result: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Traceback (most recent call last):
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
+    conn.connect()
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+                ^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/retry.py", line 552, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
+    conn.connect()
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+                ^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/docon/projects/gg-search-git/googlesearch/googlesearch/async_batcher/utils/data_handling.py", line 148, in process_result
+    resp = get(real_url)
+           ^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/docon/.pyenv/versions/gg-search-env/lib/python3.12/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-07-25 09:12:23,718 - ERROR - Không có kết quả hợp lệ sau khi lọc.
+2025-07-25 09:12:23,719 - ERROR - ❌ Đã đạt số lần thử tối đa (1) cho truy vấn: tỷ giá yên nhật
+2025-07-25 09:14:44,188 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 09:14:44,188 - INFO - Setting the event loop.
+2025-07-25 09:14:46,928 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 09:14:46,929 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9106
+2025-07-25 09:14:52,263 - INFO - Link found: https://tosohbioscience.com/
+2025-07-25 09:14:55,533 - INFO - Link found: https://www.separations.eu.tosohbioscience.com/news/news-releases/2024/tosoh-bioscience-separation-purification-expands-european-headquarters-in-griesheim-germany
+2025-07-25 09:14:57,755 - INFO - Link found: https://go.tosohbioscience.com/about-tosoh
+2025-07-25 09:21:13,251 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 09:21:13,251 - INFO - Setting the event loop.
+2025-07-25 09:21:26,439 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 09:21:26,441 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9108
+2025-07-25 09:21:32,770 - INFO - Link found: https://github.com/chatgpt-chinese/ChatGPT_Chinese_Guide
+2025-07-25 09:21:33,637 - INFO - Link found: https://github.com/chatgpt-chinese-gpt/chatgpt-mirrors
+2025-07-25 09:21:34,505 - INFO - Link found: https://github.com/chatgpt-zh/chinese-chatgpt-guide
+2025-07-25 09:24:43,959 - INFO - [INIT] ♻️ Proxy list đã tồn tại với 80 proxies.
+2025-07-25 09:24:43,961 - INFO - Setting the event loop.
+2025-07-25 09:24:47,026 - INFO - Chạy tìm kiếm với endpoint: bing
+2025-07-25 09:24:47,028 - INFO - [REQUESTS] Đang dùng proxy: socks5h://127.0.0.1:9110
+2025-07-25 09:24:51,546 - INFO - Link found: https://wise.com/vn/currency-converter/jpy-to-vnd-rate
+2025-07-25 09:24:52,726 - INFO - Link found: https://tygia.com.vn/ngoai-hoi/jpy-vnd/
+2025-07-25 09:24:52,895 - INFO - Link found: https://www.exchange-rates.org/vn/chuyen-doi/jpy-vnd

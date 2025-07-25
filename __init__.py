@@ -96,6 +96,11 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region,
     params = {
     "q": term
     }
+
+    headers={
+            "User-Agent": get_useragent(),
+            "Accept": "*/*"
+        }
     # logger.info(f"endpoint: {endpoint}")
     if endpoint == "aol":
         url = "https://search.aol.com/aol/search"
@@ -110,16 +115,15 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region,
         url = "https://search.yahoo.com/search"
     elif endpoint == "bing":
         url = "https://www.bing.com/search"
-        params["pq"] = "vn"
+        params["setlang"] = "vi"
+        params["cc"] = "VN"
+        headers["Accept-Language"] = "vi-VN,vi;q=0.9"
 
         # escaped_term = term.replace(" ", "+")
 
     resp = get(
         url=url,
-        headers={
-            "User-Agent": get_useragent(),
-            "Accept": "*/*"
-        },
+        headers=headers,
         params=params,
         proxies=proxies,
         timeout=timeout,
@@ -179,8 +183,8 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
                 logger.error(f"Response content: {resp.content}")
                 # logger.error(f"Response text: {resp.text[:200]}")
                 # logger.error(f"Response headers: {resp.headers}")
-                # with open("google.html", "w", encoding="utf-8") as f:
-                #     f.write(resp.text)
+            with open("google.html", "w", encoding="utf-8") as f:
+                f.write(resp.text)
             # logger.info(f"Response text: {resp.text}...")  # Log first 200 characters
             return resp
         except Exception as e:
