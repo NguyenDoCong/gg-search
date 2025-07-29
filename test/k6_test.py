@@ -2,14 +2,14 @@ import subprocess
 import json
 
 keywords = []
-with open("test/keywords.txt", "r", encoding="utf-8") as file:
+with open("test/filtered_keywords.txt", "r", encoding="utf-8") as file:
     keywords = [line.strip() for line in file if line.strip()]
 
 # ✅ Tham số truyền vào
 url = "http://127.0.0.1:8000/search"
 vus =80
 duration = '60s'
-# iterations = 1
+iterations = 1
 
 # ✅ Chuyển danh sách từ khóa sang JS array
 js_keywords = json.dumps(keywords)

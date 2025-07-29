@@ -23,12 +23,13 @@ async def create_torrc_instance(i):
     data_dir.mkdir(parents=True, exist_ok=True)
 
     torrc_path = instance_dir / "torrc"
-    torrc_content = f"""SocksPort {socks_port}
-    ControlPort {control_port}
-    DataDirectory {data_dir}
-    CookieAuthentication 1
-    CookieAuthFileGroupReadable 1
-    """
+    torrc_content = f"""\
+        SocksPort {socks_port}
+        ControlPort {control_port}
+        DataDirectory {data_dir}
+        CookieAuthentication 1
+        CookieAuthFileGroupReadable 1
+        """
 
     torrc_path.write_text(torrc_content, encoding="utf-8")
     print(f"✅ Created torrc {torrc_path}")
@@ -153,9 +154,9 @@ if __name__ == "__main__":
 
         try:
             await wait_until_all_bootstrapped(log_paths)
-            # tasks = [test_tor_instance(i) for i in range(NUM_INSTANCES)]
+            tasks = [test_tor_instance(i) for i in range(NUM_INSTANCES)]
 
-            # await asyncio.gather(*tasks, return_exceptions=True)
+            await asyncio.gather(*tasks, return_exceptions=True)
 
         finally:
             # cleanup(processes)

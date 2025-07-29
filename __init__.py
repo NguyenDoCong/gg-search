@@ -7,6 +7,8 @@ from user_agents import get_useragent
 from requests_html import AsyncHTMLSession
 import re
 import logging
+import chardet
+import random
 
 logging.basicConfig(
     level=logging.INFO,
@@ -99,8 +101,10 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region,
 
     headers={
             "User-Agent": get_useragent(),
-            "Accept": "*/*"
+            "Accept": "*/*",
+            # "Content-Type": "text/html; charset=utf-8"
         }
+    # headers["Accept-Charset"] = "utf-8"
     # logger.info(f"endpoint: {endpoint}")
     if endpoint == "aol":
         url = "https://search.aol.com/aol/search"
@@ -114,10 +118,13 @@ def _req(term, results, lang, start, proxies, timeout, safe, ssl_verify, region,
     elif endpoint == "yahoo":
         url = "https://search.yahoo.com/search"
     elif endpoint == "bing":
-        url = "https://www.bing.com/search"
-        params["setlang"] = "vi"
+        url = "https://www.bing.com.vn/search"
+        params["setlang"] = "vi-VN"
         params["cc"] = "VN"
+        params["mkt"] = "vi-VN"
         headers["Accept-Language"] = "vi-VN,vi;q=0.9"
+    elif endpoint == "google": 
+        url = "https://www.google.com/search" 
 
         # escaped_term = term.replace(" ", "+")
 
@@ -145,9 +152,11 @@ class SearchResult:
         return f"SearchResult(url={self.url}, title={self.title}, description={self.description})"
 
 
-def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_interval=0, timeout=30, safe="active", ssl_verify=None, region=None, start_num=0, unique=True, endpoint="luxirty"):
+def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_interval=0, timeout=30, safe="active", ssl_verify=None, region=None, start_num=0, unique=True, endpoint="luxirty", retries=0):
     """Search the Google search engine"""
-
+    if retries > 2:
+        logger.error(f"❌ Đã thử {retries} lần nhưng vẫn không thành công. Kết thúc tìm kiếm.")
+        return None
     # Proxy setup
     # proxies = {"https": proxy, "http": proxy} if proxy and (proxy.startswith("https") or proxy.startswith("http") or proxy.startswith("socks5")) else None
     proxies = {
@@ -167,6 +176,10 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
     except Exception as e:
         # print(f"Lỗi khi gửi request: {e}")
         logger.error(f"Lỗi khi gửi request: {e}")
+        endpoints = ["duckduckgo", "mullvad leta", "bing"].remove(endpoint)
+        endpoint  = random.choice(endpoints)
+        logger.info(f"🔄 Thử lại với endpoint khác: {endpoint}")
+        search(term, num_results, lang, proxy, advanced, sleep_interval, timeout, safe, ssl_verify, region, start_num, unique, endpoint=endpoint, retries=retries+1)
         return None
 
     if resp.status_code == 200:
@@ -183,13 +196,22 @@ def search(term, num_results=3, lang="vi", proxy=None, advanced=True, sleep_inte
                 logger.error(f"Response content: {resp.content}")
                 # logger.error(f"Response text: {resp.text[:200]}")
                 # logger.error(f"Response headers: {resp.headers}")
-            with open("google.html", "w", encoding="utf-8") as f:
-                f.write(resp.text)
+            # with open("google.html", "w", encoding="utf-8") as f:
+            #     # detected = chardet.detect(resp.content)
+            #     # encoding = detected['encoding'] or 'utf-8'
+            #     # html_content = resp.content.decode(encoding, errors='ignore')
+            #     # f.write(html_content)
+            #     f.write(resp.text)
             # logger.info(f"Response text: {resp.text}...")  # Log first 200 characters
             return resp
         except Exception as e:
-            logger.info(f"Lỗi khi gửi request: {e}")
-            return None
+            logger.info(f"Lỗi khi lấy kết quả: {e}")
+            endpoints = ["duckduckgo", "mullvad leta", "bing"].remove(endpoint)
+            endpoint  = random.choice(endpoints)
+            logger.info(f"🔄 Thử lại với endpoint khác: {endpoint}")
+            search(term, num_results, lang, proxy, advanced, sleep_interval, timeout, safe, ssl_verify, region, start_num, unique, endpoint=endpoint, retries=retries+1)
+            
+            # return None
         
 if __name__ == "__main__":
     for i in range(2):

@@ -21,17 +21,18 @@ async def process_result(result, method="requests", endpoint="luxirty"):
     
     try:
         title_text = "Không có tiêu đề"
+        title = "Không có tiêu đề"
         summary_text = "Không có tóm tắt"
 
         if method=="requests":
 
             a = result.find("a", href=True)
 
-            # link = result.a.get('href')
             link = a.get('href')
 
-            logger.info(f"Link found: {link}")
+            # logger.info(f"Link found: {link}")
             if not link:
+                logger.error("Không tìm thấy link trong kết quả.")
                 return None, None
             
             # print(f"link: {link}")
@@ -46,6 +47,7 @@ async def process_result(result, method="requests", endpoint="luxirty"):
             real_url = unquote(link)
 
             if not real_url:
+                logger.error("Không tìm thấy URL thực sự.")
                 return None, None
 
             print("---------------------------")
@@ -73,8 +75,8 @@ async def process_result(result, method="requests", endpoint="luxirty"):
 
             elif endpoint == "bing":
                 title = result.find("h2")
-
-            # title = result.find("span", class_="CVA68e qXLe6d fuLhoc ZWRArf")
+            elif endpoint == "google":
+                title = result.find("span", class_="CVA68e qXLe6d fuLhoc ZWRArf")
 
             if title:
                 title_text = title.get_text(strip=True)
@@ -96,6 +98,8 @@ async def process_result(result, method="requests", endpoint="luxirty"):
                 summary = result.find("div", class_="snippet-content t-secondary svelte-9wfmiw")
             elif endpoint == "bing":
                 summary = result.find("div", class_="b_caption")
+            elif endpoint == "google":
+                summary = result.find("span", class_="qXLe6d FrIlee")
        
             summary_text = summary.get_text(strip=True) if summary else "Không có tóm tắt"
 
@@ -143,15 +147,19 @@ async def process_result(result, method="requests", endpoint="luxirty"):
 
         content = ""
 
-        if endpoint != "mullvad leta":
-            # Chỉ lấy phần đầu của nội dung
-            resp = get(real_url)
-            soup = BeautifulSoup(resp.text, "html.parser")
+        # if endpoint != "mullvad leta" and endpoint != "google":
+        #     # Chỉ lấy phần đầu của nội dung
+        #     try: 
+        #         resp = get(real_url, timeout=(5, 10))
+        #         soup = BeautifulSoup(resp.text, "html.parser")
 
-            content = soup.get_text(separator="\n", strip=True)
-            content = content[:1000]
+        #         content = soup.get_text(separator="\n", strip=True)
+        #         content = content[:1000]
+        #     except Exception as e:
+        #         logger.error(f"Lỗi khi lấy nội dung từ {real_url}: {e}")
+        #         content = "Không thể lấy nội dung"
 
         return title_text, summary_text + content    
     except Exception as e:
-        logger.exception(f"Lỗi trong process_result: {e}")
+        logger.error(f"Lỗi trong process_result: {e}")
         return None, None

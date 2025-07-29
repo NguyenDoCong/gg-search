@@ -20,6 +20,7 @@ from proxy.proxy_pool import ProxyPool
 import re
 import json
 import logging
+import chardet
 
 logging.basicConfig(
     level=logging.INFO,
@@ -76,13 +77,15 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
     
     max_retries = 1
     if retries >= max_retries:
-        logger.error(f"❌ Đã đạt số lần thử tối đa ({max_retries}) cho truy vấn: {query}")
+        logger.error(f"❌ Đã đạt số lần thử tối đa ({max_retries}) cho truy vấn: {query} với endpoint {endpoint}")
         return {
             "error": f"Đã đạt số lần thử tối đa ({max_retries}) cho truy vấn: {query}",
             "method": method
         }
     
     if method=='requests':
+        if endpoint == "bing" or endpoint == "google":
+            proxy = None
         logger.info(f"[REQUESTS] Đang dùng proxy: {proxy}")
 
         resp = search(query, 3, proxy=proxy, endpoint=endpoint)
@@ -109,8 +112,15 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
             }
         
         # logger.info(f"resp.text {resp.text}...")  # Log first 200 characters of the response text
+        if endpoint == "google":
+            detected = chardet.detect(resp.content)
+            encoding = detected['encoding'] or 'utf-8'
+            html_content = resp.content.decode(encoding, errors='ignore')
+        else:
+            html_content = resp.text
 
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = BeautifulSoup(html_content, "html.parser")
+
         # logger.info(f"soup: {soup}")
         if not soup:
             logger.error("Không thể phân tích cú pháp HTML")
@@ -129,6 +139,8 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
                 result_block = soup.find_all("div", class_="snippet svelte-1o29vmf")
             elif endpoint == "bing":
                 result_block = soup.find_all("li", class_="b_algo")
+            elif endpoint == "google":
+                result_block = soup.find_all("div", class_="ezO2md")
                 # logger.info(f"result_block: {result_block}")
         except Exception as e:
             logger.error(f"❌ Lỗi khi tìm kiếm kết quả {endpoint} - {query}: {e}")
@@ -189,7 +201,7 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
     # method = "fingerprint"
     # logger.info(f"Processing {len(result_block)} results using method: {method}")
 
-    tasks = [process_result(result, method=method, endpoint=endpoint) for result in result_block[:3]]
+    tasks = [process_result(result, method=method, endpoint=endpoint) for result in result_block]
     # print(tasks)
     try:
         results = await asyncio.gather(*tasks, return_exceptions=True)
@@ -215,7 +227,22 @@ async def search_response(query, request: Request, method="fingerprint", endpoin
     result = {title: content for title, content in valid_results}
     
     if len(result) == 0:
+        import os
+        from datetime import datetime
         logger.error("Không có kết quả hợp lệ sau khi lọc.")
+        output_dir = "./google-search-html"
+        os.makedirs(output_dir, exist_ok=True)
+        timestamp = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
+        sanitized_query = re.sub(r'[^a-zA-Z0-9]', '_', query)[:50]
+        output_path = f"{output_dir}/{sanitized_query}-{timestamp}.html"
+        
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(resp.text)
+        # with open("google.html", "w", encoding="utf-8") as f:
+        #     f.write(resp.text)
+
         await search_response(query, request, method, endpoint, retries + 1)
     # result = {title: content for title, content in results if title and content}
     # print(result)
@@ -261,6 +288,15 @@ async def query_result(req: Request):
 
     query = req.query_params.get("query")
     endpoint = req.query_params.get("endpoint")
+
+    # If not in query params, try to get from JSON body
+    if not query:
+        try:
+            body = await req.json()
+            query = body.get("query")
+            endpoint = body.get("endpoint", endpoint)
+        except Exception:
+            query = None
     
     print("📥 Query nhận được:", query)
         
@@ -277,10 +313,12 @@ async def query_result(req: Request):
             endpoint = "mullvad leta"
         elif rand==3:
             endpoint = "bing"
-        
-        endpoint = "bing"
+        # elif rand==4:
+        #     endpoint = "google"
 
-    logger.info(f"Chạy tìm kiếm với endpoint: {endpoint}")
+        # endpoint = "google"
+        
+    logger.info(f"Chạy tìm kiếm với endpoint: {endpoint} và query: {query}")
     try:
         result = await batcher.predict((query, req, "requests", endpoint))
 
